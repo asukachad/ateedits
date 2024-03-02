@@ -1,0 +1,16 @@
+# County Title
+title=c_galeana
+
+# Settlements
+max_settlements=3
+
+b_galeana_NL=castle
+b_doctor_arroyo_NL=city
+b_aramberri_NL=temple
+
+# Misc
+culture=bravo
+religion=sacred_heart
+terrain=highlands
+
+#History

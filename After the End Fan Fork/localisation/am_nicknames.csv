@@ -1,0 +1,185 @@
+###ÄNSI
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+nick_the_voyager;the Voyager;;;;;;;;;;;;x
+nick_the_charming;the Charming;;;;;;;;;;;;x
+nick_the_beauty;the Beauty;;;;;;;;;;;;x
+nick_the_beast;the Beast;;;;;;;;;;;;x
+nick_the_tramp;the Tramp;;;;;;;;;;;;x
+nick_the_little_mermaid;the Mermaid;;;;;;;;;;;;x
+nick_the_sea_cow;the Sea Cow;;;;;;;;;;;;x
+nick_the_sea_cow;the Sea Cow;;;;;;;;;;;;x
+nick_the_voyageur;the Voyageur;;;;;;;;;;;;x
+nick_the_chain_breaker;the Chain Breaker;;;;;;;;;;;;x
+nick_the_windigo;the Windigo;;;;;;;;;;;;x
+nick_redwood;Redwood;;;;;;;;;;;;x
+nick_the_general_of_gaia;the General of Gaia;;;;;;;;;;;;x
+nick_the_kingpin;the Kingpin;;;;;;;;;;;;x
+nick_the_brilliant;the Brilliant;;;;;;;;;;;;x
+nick_grass_devil;Devil-in-the-Grass;;;;;;;;;;;;x
+nick_lackland;Lackland;;;;;;;;;;;;x
+nick_the_jaguar;the Jaguar;;;;;;;;;;;;x
+nick_the_reborn;the Reborn;;;;;;;;;;;;x
+nick_bones;Bones;;;;;;;;;;;;;x
+nick_crossbones;Crossbones;;;;;;;;;;;;;x
+nick_lastname;[Root.GetOnlyDynastyName];;;;;;;;;;;;;x
+nick_one_eye;One-Eye;;;;;;;;;;;;;x
+nick_scarface;Scarface;;;;;;;;;;;;;x
+nick_stepping_razor;Stepping Razor;;;;;;;;;;;;;x
+nick_the_bear;the Bear;;;;;;;;;;;;;x
+nick_the_beggar;the Beggar;;;;;;;;;;;;;x
+nick_the_belle;the Belle;;;;;;;;;;;;;x
+nick_the_bloody;the Bloody;;;;;;;;;;;;;x
+nick_the_buffalo;the Buffalo;;;;;;;;;;;;;x
+nick_the_butcher;the Butcher;;;;;;;;;;;;;x
+nick_the_calamity;the Calamity;;;;;;;;;;;;;x
+nick_the_collector;the Collector;;;;;;;;;;;;;x
+nick_the_defiler;the Defiler;;;;;;;;;;;;;x
+nick_the_doctor;the Doc;;;;;;;;;;;;;x
+nick_the_dread;the Dread;;;;;;;;;;;;;x
+nick_the_enlightened;the Enlightened;;;;;;;;;;;;;x
+nick_the_gator;the Gator;;;;;;;;;;;;;x
+nick_the_golden;the Golden;;;;;;;;;;;;;x
+nick_the_grim;the Grim;;;;;;;;;;;;;x
+nick_the_hook;the Hook;;;;;;;;;;;;;x
+nick_the_horselord;the Horselord;;;;;;;;;;;;;x
+nick_the_kid;the Kid;;;;;;;;;;;;;x
+nick_the_charger;the Charger;;;;;;;;;;;;;x
+nick_appletree;Appletree;;;;;;;;;;;;;x
+nick_bright;Bright;;;;;;;;;;;;;x
+nick_the_kingfish;the Kingfish;;;;;;;;;;;;;x
+nick_the_lash_of_evilgod;the Lash of [Root.Religion.GetRandomEvilGodName];;;;;;;;;;;;;x
+nick_the_lorekeeper;the Lorekeeper;;;;;;;;;;;;;x
+nick_the_mason;the Mason;;;;;;;;;;;;;x
+nick_the_master_of_texas;the Master of Texas;;;;;;;;;;;;;x
+nick_the_mechanic;the Mechanic;;;;;;;;;;;;;x
+nick_the_misborn;the Misborn;;;;;;;;;;;;;x
+nick_the_mysterious;the Mysterious;;;;;;;;;;;;;x
+nick_the_navigator;the Navigator;;;;;;;;;;;;;x
+nick_the_patriot;the Patriot;;;;;;;;;;;;;x
+nick_the_pure;the Pure;;;;;;;;;;;;;x
+nick_the_raven;the Raven;;;;;;;;;;;;;x
+nick_the_revealer;the Revealer;;;;;;;;;;;;;x
+nick_the_savvy;the Savvy;;;;;;;;;;;;;x
+nick_the_senseless;the Senseless;;;;;;;;;;;;;x
+nick_the_shadow;the Shadow;;;;;;;;;;;;;x
+nick_the_speaker;the Speaker;;;;;;;;;;;;;x
+nick_the_steeldriver;the Steel-Driver;;;;;;;;;;;;;x
+nick_the_stranger;the Stranger;;;;;;;;;;;;;x
+nick_the_wayfinder;the Wayfinder;;;;;;;;;;;;;x
+nick_the_wild;the Wild;;;;;;;;;;;;;x
+nick_thunderbird;Thunderbird;;;;;;;;;;;;;x
+nick_the_prophet;the Prophet;;;;;;;;;;;;;x
+nick_the_kingmaker;the Kingmaker;;;;;;;;;;;;;x
+nick_the_bat;the Bat;;;;;;;;;;;;;x
+nick_the_speedy;the Speedy;;;;;;;;;;;;;x
+nick_the_peacemaker;the Peacemaker;;;;;;;;;;;;;x
+nick_the_shaggy;the Shaggy;;;;;;;;;;;;;x
+nick_the_surfer;the Surfer;;;;;;;;;;;;;x
+nick_stonewall;Stonewall;;;;;;;;;;;;;x
+nick_the_dart_hurler;the Dart Hurler;;;;;;;;;;;;x
+nick_the_hummingbird;the Hummingbird;;;;;;;;;;;;x
+nick_the_wind_jewel;the Wind Jewel;;;;;;;;;;;;x
+nick_of_the_dawn_star;of the Dawn Star;;;;;;;;;;;;x
+nick_the_smoking_mirror;the Smoking Mirror;;;;;;;;;;;;x
+nick_of_the_near_and_nigh;of the Near and Nigh;;;;;;;;;;;;x
+nick_the_flayed_one;the Flayed One;;;;;;;;;;;;x
+nick_the_night_drinker;the Night Drinker;;;;;;;;;;;;x
+nick_the_mortal;the Mortal;;;;;;;;;;;;x
+nick_the_firebringer;the Firebringer;;;;;;;;;;;;x
+nick_the_thunderhand;the Thunderhand;;;;;;;;;;;;x
+nick_the_marksman;the Marksman;;;;;;;;;;;;x
+nick_the_shrewd;the Shrewd;;;;;;;;;;;;x
+nick_the_calculator;the Calculator;;;;;;;;;;;;x
+nick_the_chronicler;the Chronicler;;;;;;;;;;;;x
+nick_the_poet;the Poet;;;;;;;;;;;;x
+nick_the_stylish;the Stylish;;;;;;;;;;;;x
+nick_the_timekeeper;the Timekeeper;;;;;;;;;;;;x
+nick_the_astronomer;the Astronomer;;;;;;;;;;;;x
+nick_the_farseer;the Far-Seer;;;;;;;;;;;;x
+nick_the_healer;the Healer;;;;;;;;;;;;x
+nick_the_learned;the Learned;;;;;;;;;;;;x
+nick_the_barmecide;The Barmecide;;;;;;;;;;;;;x
+nick_the_porter;The Porter;;;;;;;;;;;;;x
+nick_the_sailor;The Sailor;;;;;;;;;;;;;x
+nick_al_askari;al-Askari;;;;;;;;;;;;;x
+nick_al_sadiq;al-Sadiq;;;;;;;;;;;;;x
+nick_ghazi;Ghazi;;;;;;;;;;;;;x
+nick_yilidrim;Yildirim;;;;;;;;;;;;;x
+nick_pendragon;Mab Darogan;Mab Darogan;;;;;;;;;;;;x
+nick_boudica;Buddug;Buddug;;;;;;;;;;;;x
+nick_the_wolf_acr;the Wolf;le Loup;der Wolf;;el Lobo;;;;;;;;;;x
+nick_the_wali;the Wali;;;;;;;;;;;;;x
+nick_the_radiant;the Radiant;;;;;;;;;;;;;x
+nick_the_ranger;the Ranger;;;;;;;;;;;;;x
+nick_gallavanter;Gallavanter;;;;;;;;;;;;;x
+nick_the_rat;the Rat;;;;;;;;;;;;;x
+nick_the_explorer;the Explorer;;;;;;;;;;;;;x
+nick_rabble_rouser;the Rabble Rouser;;;;;;;;;;;;;x
+nick_the_bowed;the Bowed;;;;;;;;;;;;;x
+nick_the_rebel;the Rebel;;;;;;;;;;;;;x
+nick_the_soldier;the Soldier;;;;;;;;;;;;;x
+nick_the_pastor;the Pastor;;;;;;;;;;;;;x
+nick_the_grizzly;the Grizzly;;;;;;;;;;;;;x
+nick_the_white_horse;the White Horse;;;;;;;;;;;;;x
+nick_silverstar;Silverstar;;;;;;;;;;;;;x
+nick_the_last_judge;The Last Judge;;;;;;;;;;;;;x
+nick_the_deadass;the Deadass;;;;;;;;;;;;;x
+nick_the_starry_knight;the Starry Knight;;;;;;;;;;;;;x
+nick_the_vestal;the Vestal;;;;;;;;;;;;;x
+nick_faceless_archer;Faceless Archer;;;;;;;;;;;;;x
+nick_the_blade;the Blade;;;;;;;;;;;;;x
+nick_the_phoenix;the Phoenix;;;;;;;;;;;;;x
+nick_the_exiled;the Exiled;;;;;;;;;;;;;x
+nick_the_conquering_duke;the Conquering Duke;;;;;;;;;;;;;x
+nick_the_mountain_king;the Mountain King;;;;;;;;;;;;;x
+nick_gravesender;Gravesender;;;;;;;;;;;;;x
+nick_abholos;Abholos;;;;;;;;;;;;;x
+nick_soul_robber;Soul-Robber;;;;;;;;;;;;;x
+nick_tank;Tank;;;;;;;;;;;;;x
+nick_delta_devil;Delta Devil;;;;;;;;;;;;;x
+nick_scalawag;Scalawag;;;;;;;;;;;;;x
+nick_the_vandal;the Vandal;;;;;;;;;;;;;x
+nick_the_cougar;the Cougar;;;;;;;;;;;;;x
+nick_fire_and_brimstone;Fire and Brimstone;;;;;;;;;;;;;x
+nick_triumvir_of_beecee;Triumvir of Beecee;;;;;;;;;;;;;x
+nick_the_devil_dog;the Devil Dog;;;;;;;;;;;;;x
+nick_the_heartbreaker;the Heartbreaker;;;;;;;;;;;;;x
+nick_the_nice;the Nice;;;;;;;;;;;;;x
+nick_the_suspicious;the Suspicious;;;;;;;;;;;;;x
+nick_the_star;the Star;;;;;;;;;;;;;x
+nick_the_witch;the Witch;;;;;;;;;;;;;x
+nick_the_weaver;the Weaver;;;;;;;;;;;;;x
+nick_the_crab;the Crab;;;;;;;;;;;;;x
+nick_the_double_crossed;the Double-Crossed;;;;;;;;;;;;;x
+nick_the_innovative;the Innovative;;;;;;;;;;;;;x
+nick_the_compiler;the Compiler;;;;;;;;;;;;;x
+nick_the_sponge;the Sponge;;;;;;;;;;;;;x
+nick_the_squid;the Squid;;;;;;;;;;;;;x
+nick_the_nail;the Nail;;;;;;;;;;;;;x
+nick_the_bohemian;the Bohemian;;;;;;;;;;;;;x
+nick_the_caesar;the Caesar;;;;;;;;;;;;;x
+nick_the_pharaoh;the Pharaoh;;;;;;;;;;;;;x
+nick_the_circus_clown;the Circus Clown;;;;;;;;;;;;;x
+nick_the_venetian;the Venetian;;;;;;;;;;;;;x
+nick_the_fabulous;the Fabulous;;;;;;;;;;;;;x
+nick_the_gio;the Gio;;;;;;;;;;;;;x
+nick_the_gambler;the Gambler;;;;;;;;;;;;;x
+nick_the_railbird;the Railbird;;;;;;;;;;;;;x
+nick_the_snake_eyed;the Snake-Eyed;;;;;;;;;;;;;x
+nick_omnistar;Omnistar;;;;;;;;;;;;;x
+nick_the_sickly;the Sickly;;;;;;;;;;;;;x
+nick_the_regent;the Regent;;;;;;;;;;;;;x
+nick_pickaxe;Pickaxe;;;;;;;;;;;;;x
+nick_the_artist;the Artist;;;;;;;;;;;;;x
+nick_steward_of_our_lady;Steward of our Lady;;;;;;;;;;;;;x
+nick_knight_of_bayou;Knight of Bayou;;;;;;;;;;;;;x
+nick_the_mastiff;the Mastiff;;;;;;;;;;;;;x
+nick_of_the_cross;of the Cross;;;;;;;;;;;;;x
+nick_good_day;Good Day;;;;;;;;;;;;;x
+nick_the_superb;the Superb;;;;;;;;;;;;;x
+nick_halfsword;Halfsword;;;;;;;;;;;;;x
+nick_el_soberbio;El Soberbio;;;;;;;;;;;;;x
+nick_the_weird;the Weird;;;;;;;;;;;;;x
+nick_silverplate;Silverplate;;;;;;;;;;;;;x
+nick_the_big;the Big;;;;;;;;;;;;;x
+nick_the_demon_core;Son of the Demon-Core;;;;;;;;;;;;;x

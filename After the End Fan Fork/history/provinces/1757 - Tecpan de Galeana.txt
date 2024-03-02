@@ -1,0 +1,16 @@
+# c_tecpan_de_galeana
+
+# County Title
+title=c_tecpan_de_galeana
+
+# Settlements
+max_settlements=3
+
+b_petatlan_GR=temple
+b_tecpan_de_galeana_GR=castle
+
+# Misc
+culture=nahua
+religion=sacred_heart
+
+#History

@@ -1,0 +1,13 @@
+# 402 - Minot
+
+# County Title
+title=c_minot
+
+# Settlements
+max_settlements=3
+b_minot_ND=tribal
+
+# Misc
+culture=sioux
+religion=peyotist
+terrain=steppe

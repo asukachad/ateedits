@@ -1,0 +1,18 @@
+# 534 - Portland
+
+# County Title
+title=c_portland
+
+# Settlements
+max_settlements=5
+
+b_portland_OR=castle
+b_gresham_OR=temple
+b_troutdale_OR=city
+
+# Misc
+culture=cascadian
+religion=gaian
+terrain=farmlands
+
+#History

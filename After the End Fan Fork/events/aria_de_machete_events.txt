@@ -1,0 +1,1059 @@
+namespace = machete
+
+# Choose new gender school after reformation
+character_event = {
+	id = machete.1
+	desc = EVTDESC_machete_choose_gender_ref
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	religion = aria_de_machete_reformed
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { trait = machete_male_ref }
+		NOT = { trait = machete_female_ref }
+		OR = {
+			trait = machete_male
+			trait = machete_female
+		}
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_machete_ref_male
+		hidden_tooltip = {
+			remove_trait = machete_male
+			remove_trait = machete_female
+		}
+		add_trait = machete_male_ref
+		if = {
+			limit = {
+				NOR = {
+					has_religion_feature = religion_feature_aria_de_machete
+					has_religion_feature = religion_equal
+				}
+			}
+			any_demesne_title = {
+				add_law = {
+					law = agnatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_0
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		if = {
+			limit = {
+				OR = {
+					has_religion_feature = religion_feature_aria_de_machete
+					has_religion_feature = religion_equal
+				}
+			}
+			any_demesne_title = {	
+				add_law = {
+					law = cognatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_1
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = EVTOPT_machete_ref_female
+		hidden_tooltip = {
+			remove_trait = machete_male
+			remove_trait = machete_female
+		}
+		add_trait = machete_female_ref
+		if = {
+			limit = {
+				NOR = {
+					has_religion_feature = religion_feature_aria_de_machete
+					has_religion_feature = religion_equal
+				}
+			}
+			any_demesne_title = {
+				add_law = {
+					law = enatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_4
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		if = {
+			limit = {
+				OR = {
+					has_religion_feature = religion_feature_aria_de_machete
+					has_religion_feature = religion_equal
+				}
+			}
+			any_demesne_title = {
+				add_law = {
+					law = enatic_cognatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_4
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}	
+}
+
+# Choose lore school when unreformed
+character_event = {
+	id = machete.2
+	desc = EVTDESC_machete_choose_gender
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	religion = aria_de_machete
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_machete_ref_male
+		hidden_tooltip = {
+			remove_trait = machete_male
+			remove_trait = machete_female
+		}
+		add_trait = machete_male
+		if = {
+			limit = {
+				NOR = {
+					has_law = agnatic_succession
+					has_law = cognatic_succession
+				}
+			}
+			any_demesne_title = {
+				add_law = {
+					law = agnatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_0
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = EVTOPT_machete_ref_female
+		hidden_tooltip = {
+			remove_trait = machete_male
+			remove_trait = machete_female
+		}
+		add_trait = machete_female
+		if = {
+			limit = {
+				NOR = {
+					has_law = enatic_succession
+					has_law = enatic_cognatic_succession
+				}
+			}
+			any_demesne_title = {
+				add_law = {
+					law = enatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_4
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}	
+}
+
+# Choose lore school when reformed
+character_event = {
+	id = machete.3
+	desc = EVTDESC_machete_choose_gender_ref
+	picture = GFX_evt_bishop
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	religion = aria_de_machete_reformed
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_machete_ref_male
+		hidden_tooltip = {
+			remove_trait = machete_male_ref
+			remove_trait = machete_female_ref
+		}
+		add_trait = machete_male_ref
+		if = {
+			limit = {
+				NOR = {
+					has_religion_feature = religion_feature_aria_de_machete
+					has_religion_feature = religion_equal
+				}
+			}
+			any_demesne_title = {
+				add_law = {
+					law = agnatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_0
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		if = {
+			limit = {
+				OR = {
+					has_religion_feature = religion_feature_aria_de_machete
+					has_religion_feature = religion_equal
+				}
+			}
+			any_demesne_title = {
+				add_law = {
+					law = cognatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_1
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = EVTOPT_machete_ref_female
+		hidden_tooltip = {
+			remove_trait = machete_male_ref
+			remove_trait = machete_female_ref
+		}
+		add_trait = machete_female_ref
+		if = {
+			limit = {
+				NOR = {
+					has_religion_feature = religion_feature_aria_de_machete
+					has_religion_feature = religion_equal
+				}
+			}
+			any_demesne_title = {
+				add_law = {
+					law = enatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_4
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		if = {
+			limit = {
+				OR = {
+					has_religion_feature = religion_feature_aria_de_machete
+					has_religion_feature = religion_equal
+				}
+			}
+			any_demesne_title = {
+				add_law = {
+					law = enatic_cognatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_4
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = brave }
+			modifier = { factor = 2 trait = paranoid }
+			modifier = { factor = 2 trait = envious }
+			modifier = { factor = 2 trait = humble }
+		}
+	}
+}
+
+character_event = {
+	id = machete.4
+	hide_window = yes
+	is_triggered_only = yes
+	religion = aria_de_machete
+	
+	trigger = {
+		NOT = { #immersion-breaking
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				trait = machete_male
+			}
+			any_demesne_title = {
+				add_law = {
+					law = agnatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_0
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+		if = {
+			limit = {
+				trait = machete_female
+			}
+			any_demesne_title = {
+				add_law = {
+					law = enatic_succession
+					opinion_effect = no
+				}
+				add_law = {
+					law = status_of_women_4
+					opinion_effect = no
+				}
+			}
+			recalc_succession = yes
+		}
+	}
+}
+
+narrative_event = {
+	id = machete.5
+	title = EVTTITLE_machete_5
+	desc = EVTDESC_machete_5
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_narrative_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = machete_praying_for_prosperity
+	}
+	
+	option = {
+		name = EVTOPTA_machete_5
+		custom_tooltip = { text = TXT_EVTOPTA_machete_5 }
+		hidden_tooltip = {
+			random_list = {
+				55 = {
+					modifier = {
+						factor = 1.5
+						trait = just
+					}
+					modifier = {
+						factor = 1.5
+						trait = diligent
+					}
+					character_event = { id = machete.6 days = 14 random = 7 } #positive result
+				}
+				45 = {
+					modifier = {
+						factor = 1.5
+						trait = arbitrary
+					}
+					modifier = {
+						factor = 1.5
+						trait = slothful
+					}
+					character_event = { id = machete.7 days = 14 random = 4 } #negative result
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = machete.6
+	desc = EVTDESC_machete_6
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = machete_praying_for_prosperity
+	}
+	
+	option = {
+		name = EVTOPTA_machete_6
+		if = {
+			limit = {
+				is_nomadic = yes
+			}
+			add_character_modifier = { name = machete_blessing_nomad years = 5 }
+		}
+		if = {
+			limit = {
+				is_nomadic = no
+			}
+			add_character_modifier = { name = machete_blessing_notnomad years = 5 }
+		}
+	}
+	
+	after = {
+		clr_character_flag = machete_praying_for_prosperity
+	}
+}
+
+character_event = {
+	id = machete.7
+	desc = EVTDESC_machete_7
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = machete_praying_for_prosperity
+	}
+	
+	option = {
+		name = EVTOPTA_machete_6
+		if = {
+			limit = {
+				is_nomadic = yes
+			}
+			add_character_modifier = { name = machete_curse_nomad years = 3 }
+		}
+		if = {
+			limit = {
+				is_nomadic = no
+			}
+			add_character_modifier = { name = machete_curse_notnomad years = 3 }
+		}
+	}
+	
+	after = {
+		clr_character_flag = machete_praying_for_prosperity
+	}
+}
+
+narrative_event = { #Ritual is performed
+	id = machete.10
+	title = EVTTITLE_machete_10
+	desc = EVTDESC_machete_10
+	picture = GFX_evt_performing_experiments
+	border = GFX_event_narrative_frame_intrigue
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_machete_10
+		custom_tooltip = { text = EVTOPTA_machete_10_TT }
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 2
+						event_target:machete_spell_lover = {
+							trait = trusting
+						}
+					}
+					character_event = { id = machete.11 days = 7 random = 3 }
+				}
+				50 = {
+					character_event = { id = machete.12 days = 7 random = 3 }
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Spell Worked
+	id = machete.11
+	desc = EVTDESC_machete_11
+	picture = GFX_evt_dark_love
+	border = GFX_event_normal_frame_intrigue
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_11
+		reverse_opinion = {
+			who = event_target:machete_spell_lover
+			modifier = opinion_machete_infatuated
+			years = 15
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_machete_11
+		event_target:machete_spell_lover = {
+			add_lover = event_target:machete_spell_caster
+		}
+	}
+}
+
+character_event = { #Spell Failed
+	id = machete.12
+	desc = EVTDESC_machete_12
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_intrigue
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_12
+		reverse_opinion = {
+			who = event_target:machete_spell_lover
+			modifier = opinion_machete_disdain
+			years = 10
+		}
+	}
+}
+
+narrative_event = { #Ritual is performed
+	id = machete.15
+	title = EVTTITLE_machete_15
+	desc = EVTDESC_machete_15
+	picture = GFX_evt_performing_experiments
+	border = GFX_event_narrative_frame_religion
+	is_triggered_only = yes
+	
+	option = { 
+		name = EVTOPTA_machete_15
+		piety = 15
+		custom_tooltip = { text = EVTOPTA_machete_15_TT }
+		character_event = { id = machete.16 days = 10 random = 4 }
+	}
+	option = {
+		name = EVTOPTB_machete_15
+		piety = -30
+		custom_tooltip = { text = EVTOPTB_machete_15_TT }
+		character_event = { id = machete.17 days = 10 random = 4 }
+	}
+}
+
+character_event = { #Spell Worked
+	id = machete.16
+	desc = EVTDESC_machete_16
+	picture = GFX_evt_child_play
+	border = GFX_event_normal_frame_diplomacy
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_16
+		event_target:machete_child = {
+			add_character_modifier = {
+				name = machete_child_blessing
+				years = 1
+			}
+		}
+	}
+}
+
+character_event = { #Spell Worked (bad)
+	id = machete.17
+	desc = EVTDESC_machete_17
+	picture = GFX_evt_child_play
+	border = GFX_event_normal_frame_intrigue
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_17
+		event_target:machete_child = {
+			add_character_modifier = {
+				name = machete_child_curse
+				years = 1
+			}
+		}
+	}
+}
+
+#Strength Prayer - Self
+narrative_event = {
+	id = machete.20
+	title = EVTTITLE_machete_20
+	desc = EVTDESC_machete_20
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_narrative_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = strength_prayer_target_is_self
+	}
+	
+	option = {
+		name = EVTOPTA_machete_20
+		hidden_tooltip = {
+			random_list = {
+				40 = {
+					modifier = {
+						factor = 2
+						trait = brave
+					}
+					modifier = {
+						factor = 2
+						trait = poet
+					}
+					character_event = { id = machete.22 days = 14 random = 7 }
+				}
+				60 = {
+					modifier = {
+						factor = 2
+						trait = craven
+					}
+					character_event = { id = machete.23 days = 14 random = 7 }
+				}
+			}
+		}
+	}
+}
+
+#Strength Prayer - Other
+narrative_event = {
+	id = machete.21
+	title = EVTTITLE_machete_20
+	desc = EVTDESC_machete_21
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_narrative_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_character_flag = strength_prayer_target_is_self }
+	}
+	
+	option = {
+		name = EVTOPTA_machete_20
+		custom_tooltip = { text = TXT_EVTOPTA_machete_20 }
+		hidden_tooltip = {
+			random_list = {
+				45 = {
+					modifier = {
+						factor = 2
+						event_target:strength_prayer_target = {
+							trait = brave
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:strength_prayer_target = {
+							trait = poet
+						}
+					}
+					character_event = { id = machete.24 days = 14 random = 7 }
+				}
+				55 = {
+					modifier = {
+						factor = 2
+						event_target:strength_prayer_target = {
+							trait = craven
+						}
+					}
+					character_event = { id = machete.25 days = 14 random = 7 }
+				}
+			}
+		}
+	}
+}
+
+character_event = { #Spell Worked (self)
+	id = machete.22
+	desc = EVTDESC_machete_22
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_22
+		prestige = 50
+		if = {
+			limit = {
+				trait = depressed
+			}
+			remove_trait = depressed
+		}
+		add_character_modifier = {
+			name = machete_cazadiablos
+			years = 10
+		}
+	}
+	
+	after = {
+		clr_character_flag = praying_for_strength
+		clr_character_flag = strength_prayer_target_is_self
+	}
+}
+
+character_event = { #Spell Failed (self)
+	id = machete.23
+	desc = EVTDESC_machete_23
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_23
+		prestige = -25
+		add_trait = depressed
+	}
+	
+	after = {
+		clr_character_flag = praying_for_strength
+		clr_character_flag = strength_prayer_target_is_self
+		add_character_modifier = {
+			name = machete_strength_prayer_cooldown
+			hidden = yes
+			years = 5
+		}
+	}
+}
+
+character_event = { #Spell Worked (other)
+	id = machete.24
+	desc = EVTDESC_machete_24
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_22
+		prestige = 50
+		custom_tooltip = { text = TXT_EVTOPTA_machete_24 }
+		hidden_tooltip = {
+			event_target:strength_prayer_target = {
+				character_event = { id = machete.26 } #Ping event
+			}
+		}
+	}
+	
+	after = {
+		clr_character_flag = praying_for_strength
+	}
+}
+
+character_event = { #Spell Failed (other)
+	id = machete.25
+	desc = EVTDESC_machete_25
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_23
+		prestige = -25
+		custom_tooltip = { text = TXT_EVTOPTA_machete_25 }
+		hidden_tooltip = {
+			event_target:strength_prayer_target = {
+				character_event = { id = machete.27 } #Ping event
+			}
+		}
+	}
+	
+	after = {
+		clr_character_flag = praying_for_strength
+		add_character_modifier = {
+			name = machete_strength_prayer_cooldown
+			hidden = yes
+			years = 5
+		}
+	}
+}
+
+character_event = { #Spell Worked (ping)
+	id = machete.26
+	desc = EVTDESC_machete_26
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_machete_26
+		if = {
+			limit = {
+				trait = depressed
+			}
+			remove_trait = depressed
+		}
+		add_character_modifier = {
+			name = machete_cazadiablos
+			years = 10
+		}
+	}
+}
+
+character_event = { #Spell Worked (ping)
+	id = machete.27
+	desc = EVTDESC_machete_27
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_machete_27
+		add_trait = depressed
+	}
+}
+
+#Fertility Prayer - Self
+narrative_event = {
+	id = machete.30
+	title = EVTTITLE_machete_30
+	desc = EVTDESC_machete_30
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_narrative_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = fertility_prayer_target_is_self
+	}
+	
+	option = {
+		name = EVTOPTA_machete_30
+		custom_tooltip = { text = TXT_EVTOPTA_machete_30 }
+		random_list = {
+			50 = {
+				modifier = {
+					factor = 2
+					trait = temperate
+				}
+				character_event = { id = machete.32 days = 14 random = 7 }
+			}
+			50 = {
+				modifier = {
+					factor = 2
+					trait = gluttonous
+				}
+				character_event = { id = machete.33 days = 14 random = 7 }
+			}
+		}
+	}
+}
+
+#Fertility Prayer - Other
+narrative_event = {
+	id = machete.31
+	title = EVTTITLE_machete_30
+	desc = EVTDESC_machete_31
+	picture = GFX_evt_religious_exultation
+	border = GFX_event_narrative_frame_religion
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_character_flag = fertility_prayer_target_is_self }
+	}
+	
+	option = {
+		name = EVTOPTA_machete_30
+		custom_tooltip = { text = TXT_EVTOPTA_machete_30 }
+		random_list = {
+			45 = {
+				modifier = {
+					factor = 2
+					event_target:fertility_prayer_target = {
+						trait = temperate
+					}
+				}
+				character_event = { id = machete.34 days = 14 random = 7 }
+			}
+			55 = {
+				modifier = {
+					factor = 2
+					event_target:fertility_prayer_target = {
+						trait = gluttonous
+					}
+				}
+				character_event = { id = machete.35 days = 14 random = 7 }
+			}
+		}
+	}
+}
+
+character_event = { #Spell Worked (self)
+	id = machete.32
+	desc = EVTDESC_machete_32
+	picture = GFX_evt_dark_love
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_32
+		add_character_modifier = {
+			name = machete_high_libido
+			years = 10
+		}
+	}
+	
+	after = {
+		clr_character_flag = praying_for_fertility
+		clr_character_flag = fertility_prayer_target_is_self
+	}
+}
+
+character_event = { #Spell Failed (self)
+	id = machete.33
+	desc = EVTDESC_machete_33
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_33
+		add_character_modifier = {
+			name = machete_low_libido
+			years = 10
+		}
+	}
+	
+	after = {
+		clr_character_flag = praying_for_fertility
+		clr_character_flag = fertility_prayer_target_is_self
+	}
+}
+
+character_event = { #Spell Worked (other)
+	id = machete.34
+	desc = EVTDESC_machete_34
+	picture = GFX_evt_dark_love
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_32
+		custom_tooltip = { text = TXT_EVTOPTA_machete_34 }
+		hidden_tooltip = {
+			event_target:strength_prayer_target = {
+				character_event = { id = machete.36 } #Ping event
+			}
+		}
+	}
+	
+	after = {
+		clr_character_flag = praying_for_fertility
+	}
+}
+
+character_event = { #Spell Failed (other)
+	id = machete.35
+	desc = EVTDESC_machete_35
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_machete_33
+		custom_tooltip = { text = TXT_EVTOPTA_machete_35 }
+		hidden_tooltip = {
+			event_target:strength_prayer_target = {
+				character_event = { id = machete.37 } #Ping event
+			}
+		}
+	}
+	
+	after = {
+		clr_character_flag = praying_for_strength
+	}
+}
+
+character_event = { #Spell Worked (ping)
+	id = machete.36
+	desc = EVTDESC_machete_36
+	picture = GFX_evt_dark_love
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_machete_32
+		add_character_modifier = {
+			name = machete_high_libido
+			years = 10
+		}
+	}
+}
+
+character_event = { #Spell Worked (ping)
+	id = machete.37
+	desc = EVTDESC_machete_37
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_machete_33
+		add_character_modifier = {
+			name = machete_low_libido
+			years = 10
+		}
+	}
+}
+
+character_event = {
+	id = machete.40
+	desc = EVTDESC_machete_40
+	picture = GFX_evt_aria_de_machete
+	border = GFX_event_normal_frame_diplomacy
+	religion = espiritista
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		is_save_game = no
+		has_character_flag = simoneta
+	}
+	
+	immediate = {
+		clr_character_flag = simoneta
+	}
+
+	option = {
+		name = EVTOPTA_machete_40
+		ROOT = {
+			religion = aria_de_machete
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = EVTOPTB_machete_40
+		ROOT = {
+			culture = bolivarense
+		}
+		ai_chance = { factor = 100 }
+	}
+}

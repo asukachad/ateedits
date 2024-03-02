@@ -1,0 +1,22 @@
+# c_port_hardy
+
+# County Title
+title=c_port_hardy
+
+# Settlements
+max_settlements=3
+
+b_holberg_BC=castle
+b_port_hardy_BC=temple
+
+
+
+# Misc
+culture=wakashan
+religion=raven_tales
+
+#History
+
+2253.1.1 ={ capital=b_port_hardy_BC } # The flight of the Kasujis
+
+2410.1.2 ={ capital=b_holberg_BC } # Amanda's reforms

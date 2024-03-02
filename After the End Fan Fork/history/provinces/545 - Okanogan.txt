@@ -1,0 +1,16 @@
+# 545 - Okanogan
+
+# County Title
+title=c_okanogan
+
+# Settlements
+max_settlements=3
+
+b_sunnyslope_WA=tribal
+
+
+# Misc
+culture=inlander
+religion=gaian
+
+#History

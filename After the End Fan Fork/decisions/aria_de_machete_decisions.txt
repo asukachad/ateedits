@@ -1,0 +1,336 @@
+decisions = {
+	machete_pray_for_prosperity = {
+		only_playable = yes
+		is_high_prio = yes
+		
+		potential = {
+			is_playable = yes
+			OR = {
+				religion = aria_de_machete
+				religion = aria_de_machete_reformed
+			}
+			age = 16
+			war = no
+			prisoner = no
+			NOT = { is_incapable = yes }
+			NOT = { has_character_flag = machete_praying_for_prosperity }
+			NOT = { has_machete_blessing_trigger = yes }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		
+		allow = {
+			piety = 25
+		}
+		
+		effect = {
+			piety = -25
+			custom_tooltip = { text = TXT_machete_pray_for_prosperity }
+			narrative_event = { id = machete.5 }
+			set_character_flag = machete_praying_for_prosperity
+		}
+		
+		revoke_allowed = { always = no }
+	}
+}
+
+targeted_decisions = {
+	machete_cast_love_spell = {
+		ai_check_interval = 24
+		filter = realm_including_me
+		ai_target_filter = realm_including_me
+		
+		potential = {
+			age = 16
+			prisoner = no
+			NOT = { is_incapable = yes }
+			is_within_diplo_range = FROM
+			NOT = { is_lover = FROM }
+			NOT = { has_opinion_modifier = { who = FROM modifier = opinion_machete_infatuated } }
+			NOT = { has_opinion_modifier = { who = FROM modifier = opinion_machete_disdain } }
+			OR = {
+				AND = {
+					is_female = no
+					NOT = { trait = homosexual }
+				}
+				AND = {
+					is_female = yes
+					OR = {
+						trait = homosexual
+						trait = bisexual
+					}
+					FROM = {
+						OR = {
+							trait = homosexual
+							trait = bisexual
+						}
+					}
+				}
+			}
+			NOT = { is_incapable = yes }
+		}
+		
+		from_potential = {
+			is_playable = yes
+			OR = {
+				religion = aria_de_machete
+				religion = aria_de_machete_reformed
+			}
+			age = 16
+			is_female = yes
+			prisoner = no
+			NOT = { is_incapable = yes }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		
+		allow = {
+			FROM = {
+				piety = 50
+				scaled_wealth = 0.2
+			}
+		}
+		
+		effect = {
+			piety = -50
+			scaled_wealth = -0.2
+			custom_tooltip = { text = TXT_machete_cast_love_spell }
+			hidden_tooltip = {
+				ROOT = {
+					save_event_target_as = machete_spell_lover
+				}
+				FROM = {
+					save_event_target_as = machete_spell_caster
+					narrative_event = { id = machete.10 }
+				}
+			}
+		}
+		
+		revoke_allowed = { always = no }
+	}
+	
+	machete_decide_childs_health = {
+		ai_check_interval = 26
+		filter = realm_including_me
+		ai_target_filter = realm_including_me
+		
+		potential = {
+			is_within_diplo_range = FROM
+			is_child_of = FROM
+			NOT = { age = 6 }
+			NOT = { has_character_flag = machete_child_health_determined }
+			NOT = { is_incapable = yes }
+		}
+		
+		from_potential = {
+			is_playable = yes
+			OR = {
+				religion = aria_de_machete
+				religion = aria_de_machete_reformed
+			}
+			is_female = yes
+			prisoner = no
+			NOT = { is_incapable = yes }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		
+		allow = {
+			FROM = {
+				piety = 25
+				scaled_wealth = 0.2
+			}
+		}
+		
+		effect = {
+			piety = -25
+			scaled_wealth = -0.2
+			custom_tooltip = { text = TXT_machete_decide_childs_health }
+			hidden_tooltip = {
+				ROOT = {
+					set_character_flag = machete_child_health_determined
+					save_event_target_as = machete_child
+				}
+				FROM = {
+					save_event_target_as = machete_mother
+					narrative_event = { id = machete.15 }
+				}
+			}
+		}
+	}
+	
+	machete_pray_for_strength = {
+		ai_check_interval = 24
+		filter = realm_including_me
+		ai_target_filter = realm_including_me
+		
+		from_potential = {
+			is_playable = yes
+			OR = {
+				religion = aria_de_machete
+				religion = aria_de_machete_reformed
+			}
+			age = 16
+			is_female = no
+			prisoner = no
+			NOT = { is_incapable = yes }
+			NOT = { has_character_flag = praying_for_strength }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		
+		potential = {
+			age = 16
+			OR = {
+				liege = {
+					character = FROM
+				}
+				character = FROM
+			}
+			OR = {
+				FROM = { ai = no }
+				character = FROM
+				is_close_relative = FROM
+				is_friend = FROM
+				is_lover = FROM
+			}
+			NOT = {
+				has_machete_strength_prayer_trigger = yes
+			}
+		}
+		
+		allow = {
+			piety = 100
+		}
+		
+		effect = {
+			piety = -100
+			FROM = { set_character_flag = praying_for_strength }
+
+			if = {
+				limit = { character = FROM }
+				custom_tooltip = {
+					text = praying_for_strength_effect_self
+					set_character_flag = strength_prayer_target_is_self
+					narrative_event = { id = machete.20 }
+				}
+			}
+
+			if = {
+				limit = { NOT = { character = FROM } }
+				save_event_target_as = strength_prayer_target
+				custom_tooltip = {
+					text = praying_for_strength_effect_other
+					narrative_event = { id = machete.21 }
+				}
+			}
+		}
+		
+		revoke_allowed = { always = no }
+		
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 100
+				character = FROM
+			}
+			modifier = {
+				factor = 10
+				reverse_opinion = {
+					who = FROM
+					value = 30
+				}
+			}
+		}
+	}
+	
+	machete_pray_for_fertility = {
+		ai_check_interval = 24
+		filter = realm_including_me
+		ai_target_filter = realm_including_me
+		
+		from_potential = {
+			is_playable = yes
+			OR = {
+				religion = aria_de_machete
+				religion = aria_de_machete_reformed
+			}
+			age = 16
+			is_female = no
+			prisoner = no
+			NOT = { is_incapable = yes }
+			NOT = { has_character_flag = praying_for_fertility }
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+		
+		potential = {
+			age = 16
+			OR = {
+				liege = {
+					character = FROM
+				}
+				character = FROM
+			}
+			OR = {
+				FROM = { ai = no }
+				character = FROM
+				is_close_relative = FROM
+				is_friend = FROM
+				is_lover = FROM
+			}
+			NOT = {
+				has_machete_fertility_prayer_trigger = yes
+			}
+		}
+		
+		allow = {
+			piety = 50
+		}
+		
+		effect = {
+			piety = -50
+			FROM = { set_character_flag = praying_for_fertility }
+
+			if = {
+				limit = { character = FROM }
+				custom_tooltip = {
+					text = praying_for_fertility_effect_self
+					set_character_flag = fertility_prayer_target_is_self
+					narrative_event = { id = machete.30 }
+				}
+			}
+
+			if = {
+				limit = { NOT = { character = FROM } }
+				save_event_target_as = fertility_prayer_target
+				custom_tooltip = {
+					text = praying_for_fertility_effect_other
+					narrative_event = { id = machete.31 }
+				}
+			}
+		}
+		
+		revoke_allowed = { always = no }
+		
+		ai_will_do = {
+			factor = 0.01
+			modifier = { 
+				factor = 100
+				character = FROM
+			}
+			modifier = {
+				factor = 10
+				reverse_opinion = {
+					who = FROM
+					value = 30
+				}
+			}
+		}
+	}
+}

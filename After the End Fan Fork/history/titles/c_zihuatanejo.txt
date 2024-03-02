@@ -1,0 +1,4 @@
+2662.10.1={
+	holder=6900463
+	liege=k_mixteca
+}

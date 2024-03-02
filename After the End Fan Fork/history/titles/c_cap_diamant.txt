@@ -1,0 +1,17 @@
+2568.3.7={
+	liege=k_quebec
+	holder=1763040
+}
+2627.12.5={
+	liege=k_ursuline
+	holder=666142
+}
+2643.1.1={
+	holder=666143
+}
+2658.11.2={
+	holder=666144
+}
+2663.1.1={
+	holder=1763001
+}

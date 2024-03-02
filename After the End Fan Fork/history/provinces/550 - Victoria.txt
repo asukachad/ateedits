@@ -1,0 +1,23 @@
+# 550 - Victoria
+
+# County Title
+title=c_victoria
+
+# Settlements
+max_settlements=4
+
+b_victoria_BC=castle
+b_sidney_BC=city
+b_langford_BC=temple
+
+
+# Misc
+culture=canuck
+religion=gaian
+terrain=plains
+
+#History
+
+2053.1.1={ capital=b_langford_BC } # Estabilishment of the Victorian Groove
+
+2584.1.1={ capital=b_victoria_BC }

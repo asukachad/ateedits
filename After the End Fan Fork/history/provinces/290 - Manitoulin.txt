@@ -1,0 +1,14 @@
+# 290 - Manitoulin
+
+# County Title
+title=c_manitoulin
+
+# Settlements
+max_settlements=3
+b_gore_bay_ON=castle
+b_wikwemikong_ON=temple
+
+# Misc
+culture=ojibwe
+religion=midewiwin
+terrain=hills

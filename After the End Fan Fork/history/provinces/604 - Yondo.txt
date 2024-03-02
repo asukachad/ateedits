@@ -1,0 +1,15 @@
+# County Title
+title=c_yondo
+
+# Settlements
+max_settlements=3
+
+b_pozo_rompida_ANT=castle
+b_santa_rosa_COL=city
+
+# Misc
+culture=paisa
+religion=patria_grande
+terrain=hills
+
+#History

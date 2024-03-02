@@ -1,0 +1,17 @@
+# 533 - Tillamook
+
+# County Title
+title=c_tillamook
+
+# Settlements
+max_settlements=4
+b_tilamook_OR=castle
+b_tierra_del_mar_OR=city
+
+
+
+# Misc
+culture=cascadian
+religion=gaian
+
+#History

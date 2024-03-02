@@ -1,0 +1,177 @@
+###ÄNSI
+
+e_usa = {					# Created by special decision only
+	color={ 40 50 220 }
+	color2={ 220 50 40 }
+	
+	capital = 63 # Washington
+
+	short_name = no
+	
+	deitsch = "Amerika"
+	rostmann = "Amerika"
+	dellsman = "Amerika"
+	yooper = "Amerika"
+	northlander = "Amerika" #lol these 3 guys are banned now
+	yiddish = "Amerika"
+	anjalusi = "Amrika"
+	neomoor = "Amrika"
+	chiraqi = "Amrika"
+	prodnanici = "Amrika"
+	brazilian = "Estados Unidos"
+	baiano = "Estados Unidos"
+	ribeirinho = "Estados Unidos"
+	dragon_culture = "Dragon America" #We'll miss you, Kaichou :'^(
+	
+	allow = {
+		always = no # Only created through special decisions
+	}
+}
+
+e_nys = {
+	color = { 0 42 134 }
+	color2 = { 220 220 0}
+	short_name = yes
+	capital = 3 #Manhattan
+	creation_requires_capital = no
+	dynasty_title_names = no
+	
+	yiddish = "Imferye Shtat"
+	
+	allow = {
+		AND = {
+			OR = {
+				culture = gothamite
+				culture = hudsonian
+				culture = yiddish
+				culture = iroquois
+			}
+			FROM = { # FROM = this title
+				any_previous_holder = {
+					always = yes # The title has existed before
+				}
+			}
+		}
+	}
+}
+
+k_keystone = {
+	color = { 195 205 185 }
+	color2 = { 220 220 0 }
+	capital = 27 #Philadelphia
+	creation_requires_capital = no
+	dynasty_title_names = no
+	
+	yiddish = "Shlislshteyn"
+	deitsch = "Pennsilfaani"
+	
+	allow = {
+		FROM = { # FROM = this title
+			any_previous_holder = {
+				always = yes # The title has existed before
+			}
+		}
+	}
+}
+
+e_grand_louisiana = {
+	color={ 11 22 170 }
+	color2 = { 220 220 0}
+	capital = 1124 #New Orleans
+	creation_requires_capital = no
+	dynasty_title_names = no
+	allow = {
+		AND = {
+			culture_group = louisianais
+			FROM = { # FROM = this title
+				any_previous_holder = {
+					always = yes # The title has existed before
+				}
+			}
+		}
+	}
+}
+
+e_new_california = {
+	color={ 240 22 50 }
+	color2={ 50 49 99 }
+
+	capital = 2046 # c_sacramento
+	
+	allow = {		
+		NOT = {
+			religion = cetic
+		}
+		
+		FROM = { # FROM = this title
+			any_previous_holder = {
+				always = yes # The title has existed before
+			}
+		}
+	}
+}
+
+e_gran_colombia = {
+	color={ 141 10 149 }
+	color2={ 220 220 0 }
+	capital = 1897 # c_bogota
+	
+	allow = {
+		religion = patria_grande
+		FROM = { # FROM = this title
+			any_previous_holder = {
+				always = yes # The title has existed before
+			}
+		}
+	}
+}
+
+e_heaven = {
+	color={ 97 209 251 }
+	color2={ 254 222 0 }
+
+	capital = 2046 # c_sacramento
+	
+	title_prefix = HEAVENLY_KINGDOM_OF
+	
+	title = "KING"
+	title_female = "QUEEN"
+	
+#	short_name = yes
+	
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					religion_group = latter_day_saints
+				}
+			}
+			religion_group = latter_day_saints
+		}
+		conditional_tooltip = {
+			trigger = {
+				e_heaven = {
+					is_titular = yes
+				}
+			}
+			e_heaven = {
+				is_titular = no
+			}
+		}
+	}
+}
+
+e_texarkana = {
+	color = { 168 25 58 }
+	color2= { 255 255 20 }
+
+	capital =1289 # c_texarkana
+	
+	name_tier = emperor
+	
+	short_name = yes
+	
+	allow = {
+		always = no # Only created through special event
+	}
+}

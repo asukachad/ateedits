@@ -1,0 +1,17 @@
+
+# County Title
+title=c_boundary
+
+# Settlements
+max_settlements=3
+
+b_grand_forks_BC=castle
+b_trail_BC=city
+
+
+# Misc
+culture=inlander
+religion=gaian
+terrain=hills
+
+#History

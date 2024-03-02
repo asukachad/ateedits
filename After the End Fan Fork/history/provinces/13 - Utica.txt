@@ -1,0 +1,14 @@
+# 13 - Utica
+
+# County Title
+title=c_utica
+
+# Settlements
+max_settlements=4
+b_utica_NY=castle
+b_oneida_NY=city
+b_rome_NY=temple
+
+# Misc
+culture=hudsonian
+religion=anabaptist

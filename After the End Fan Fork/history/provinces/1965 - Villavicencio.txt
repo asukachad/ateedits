@@ -1,0 +1,14 @@
+# County Title
+title=c_villavicencio
+
+# Settlements
+max_settlements=5
+
+b_villavicencio_LLA=tribal
+
+# Misc
+culture=llanero
+religion=aria_de_machete
+terrain=hills
+
+#History

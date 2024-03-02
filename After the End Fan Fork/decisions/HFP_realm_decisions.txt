@@ -1,0 +1,1537 @@
+decisions = {
+
+	#Deleted
+	
+	#Deleted
+	
+	#Deleted
+	
+	create_new_mexico = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 60
+		potential = {
+			NOT = {
+				higher_tier_than = DUKE
+			}
+			OR = {
+				culture = neomexicano
+				culture = arixan
+			}
+			k_new_mexico = {
+				has_holder = no
+			}
+			k_new_mexico = {
+				is_titular = yes
+			}
+			NOR = {
+				has_alternate_start_setting = {
+					setting = dejure
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random_including_duchies
+				}
+			}
+		}
+		
+		allow = {
+			is_adult = yes
+			independent = yes
+			war = no
+			OR = {
+				culture = neomexicano
+				culture = arixan
+			}
+			has_landed_title = d_new_mexico
+			NOT = {
+				is_incapable = yes
+			}
+			completely_controls = d_new_mexico
+			completely_controls = c_los_alamos
+			completely_controls = c_white_sands
+			completely_controls = c_hidalgo
+			conditional_tooltip = {
+				trigger = {
+					ai = no
+				}
+
+				prestige = 1000
+			}
+			wealth = 100
+		}
+		
+		effect = {
+			wealth = -100
+			primary_title = {
+				save_event_target_as = current_primary_title
+			}
+			k_new_mexico = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:current_primary_title
+			}
+			d_new_mexico = {
+				show_scope_change = no
+				de_jure_liege = k_new_mexico
+			}
+			d_mesilla = {
+				show_scope_change = no
+				de_jure_liege = k_new_mexico
+			}
+			d_mogollon = {
+				show_scope_change = no
+				de_jure_liege = k_new_mexico
+			}
+			if = {
+				limit = {
+					has_landed_title = d_apacheria
+				}
+				d_apacheria = {
+					show_scope_change = no
+					de_jure_liege = k_new_mexico
+				}
+			}
+			if = {
+				limit = {
+					k_arixo = {
+						has_holder = no
+					}
+				}
+				d_gadsden = {
+					show_scope_change = no
+					de_jure_liege = k_arizona
+				}
+				d_arizona = {
+					show_scope_change = no
+					de_jure_liege = k_arizona
+				}
+				d_colorado_river = {
+					show_scope_change = no
+					de_jure_liege = k_arizona
+				}
+			}
+		}
+	}
+	
+	create_tennessee = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 60
+
+		potential = {
+			NOT = {
+				higher_tier_than = DUKE
+			}
+			has_landed_title = d_middle_tennessee
+			religion = catholic
+			k_tennessee = {
+				has_holder = no
+			}
+			k_tennessee = {
+				is_titular = yes
+			}
+			NOR = {
+				has_alternate_start_setting = {
+					setting = dejure
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random_including_duchies
+				}
+			}
+		}
+		allow = {
+			is_adult = yes
+			independent = yes
+			war = no
+			NOT = {
+				is_incapable = yes
+			}
+			completely_controls = d_middle_tennessee
+			num_of_duke_titles >= 2
+			conditional_tooltip = {
+				trigger = {
+					ai = no
+				}
+
+				prestige = 1000
+			}
+			wealth = 100
+		}
+		effect = {
+			wealth = -100
+			primary_title = {
+				save_event_target_as = current_primary_title
+			}
+			k_tennessee = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:current_primary_title
+			}
+			d_middle_tennessee = {
+				show_scope_change = no
+				de_jure_liege = k_tennessee
+			}
+			if = {
+				limit = {
+					has_landed_title = d_west_tennessee
+				}
+				d_west_tennessee = {
+					show_scope_change = no
+					de_jure_liege = k_tennessee
+				}
+			}
+			if = {
+				limit = {
+					has_landed_title = d_east_tennessee
+				}
+				d_east_tennessee = {
+					show_scope_change = no
+					de_jure_liege = k_tennessee
+				}
+			}
+			if = {
+				limit = {
+					has_landed_title = d_nickajack
+				}
+				d_nickajack = {
+					show_scope_change = no
+					de_jure_liege = k_tennessee
+				}
+			}
+			k_booneland = {
+				set_name = "KENTUCKY"
+				adjective = "KENTUCKY_ADJ"
+			}
+			narrative_event = { id = HFP.40013 }
+		}
+	}
+
+	create_west_virginia = { #mountain mamma
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 60
+
+		potential = {
+			religion = catholic
+			has_landed_title = d_vandalia
+			NOT = { 
+				higher_tier_than = DUKE
+			}
+			k_west_virginia = {
+				has_holder = no
+			}
+			k_west_virginia = {
+				is_titular = yes
+			}
+			NOR = {
+				has_alternate_start_setting = {
+					setting = dejure
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random_including_duchies
+				}
+			}
+		}
+
+		allow = {
+			is_adult = yes
+			independent = yes
+			war = no
+			NOT = {
+				is_incapable = yes
+			}
+			completely_controls = d_vandalia
+			conditional_tooltip = {
+				trigger = {
+					ai = no
+				}
+
+				prestige = 1000
+			}
+			wealth = 100
+		}
+
+		effect = {
+			wealth = -100
+			primary_title = {
+				save_event_target_as = current_primary_title
+			}
+			k_west_virginia = {
+				show_scope_change = no
+				grant_title = ROOT
+				copy_title_laws = event_target:current_primary_title
+			}
+			d_vandalia = {
+				show_scope_change = no
+				de_jure_liege = k_west_virginia
+			}
+
+			narrative_event = { id = HFP.40014 }
+		}
+	}
+	
+	restore_hcc = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 60
+
+		potential = {
+			OR = {
+				culture = dixie
+				culture = southron
+			}
+			OR = {
+				religion_group = christian
+				religion_group = oldworld
+				religion = revelationist
+				religion = revelationist_reformed
+			}
+			NOT = { has_landed_title = e_new_south }
+			higher_tier_than = DUKE
+			e_dixie = {
+				has_holder = no
+			}
+			e_usa = {
+				has_holder = no
+			}
+
+			NOR = {
+				has_alternate_start_setting = {
+					setting = dejure
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random
+				}
+				has_alternate_start_setting = {
+					setting = title_names
+					value = random_including_duchies
+				}
+			}
+		}
+
+		allow = {
+			war = no
+			prestige = 4000 
+			has_landed_title = c_charleston
+			OR = {
+				has_landed_title = c_beaufort
+				any_vassal = {
+					has_landed_title = c_beaufort
+				}
+			}
+			OR = {
+				has_landed_title = c_grand_strand
+				any_vassal = {
+					has_landed_title = c_grand_strand
+				}
+			}
+			OR = {
+				has_landed_title = c_pee_dee
+				any_vassal = {
+					has_landed_title = c_pee_dee
+				}
+			}
+			completely_controls = d_santee
+			completely_controls = d_midcountry
+			completely_controls = d_savannah
+			completely_controls = d_augusta
+			completely_controls = d_peachtree
+		}
+
+		effect = {
+			custom_tooltip = {
+				text = restore_hcc_TT
+
+				primary_title = {
+					save_event_target_as = current_primary_title
+				}
+
+				e_dixie = {
+					copy_title_laws = event_target:current_primary_title
+					add_law = succ_hre_elective
+				}
+
+				grant_title = e_dixie
+
+				c_charleston = {
+					location = {
+						ROOT = {
+							capital = PREV
+						}
+					}
+				}
+
+				any_demesne_title = {
+					limit = {
+						NOT = {
+							title = e_dixie
+						}
+						higher_tier_than = DUKE
+					}
+					destroy_landed_title = THIS
+				}
+
+				k_palmetto = {
+					de_jure_liege = e_dixie
+				}
+
+				ROOT = {
+					narrative_event = { id = HFP.40024 }
+				}
+				any_playable_ruler = {
+					limit = {
+						OR = {
+							independent = yes
+							ai = no
+						}
+						is_within_diplo_range = ROOT
+					}
+					narrative_event = { id = HFP.40024 }
+				}
+
+				if = {
+					limit = {
+						religion = evangelical
+					}
+					k_evangelical = {
+						owner = {
+							grant_title_no_opinion = b_atlanta_GA
+						}
+						set_defacto_liege = e_dixie
+					}
+				}
+			}	
+		}
+	}
+	
+	#Deleted
+	
+	ai_claim_county_if_baron = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 36
+
+		potential = {
+			ai = yes
+			war = no
+			is_landed = yes
+			higher_tier_than = COUNT
+			is_merchant_republic = no
+			NOT = { is_patrician = yes }
+			NOT = {
+				any_demesne_title = {
+					tier = COUNT
+				}
+			}
+			any_vassal = {
+				ai = yes
+				any_demesne_title = {
+					tier = COUNT
+				}
+			}
+		}
+
+		allow = {
+
+		}
+
+		effect = {
+			random_vassal = {
+				limit = {
+					ai = yes
+					any_demesne_title = {
+						tier = COUNT
+					}
+				}
+				random_demesne_title = {
+					limit = {
+						tier = COUNT
+					}
+					preferred_limit = {
+						location = {
+							is_capital = no
+						}
+					}
+					usurp_title = FROM
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Deleted
+	
+	stem_duchy_of_georgia = { #:Gigachad: Undeleted
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			capital_scope = {
+				OR = {
+					province = 149 #Atlanta
+					province = 150 #Athens
+					province = 148 #Chattahoochee
+					province = 203 #Oconee
+					province = 1030 #Lagrange
+					province = 157 #Augusta
+					province = 159 #Ogeechee
+					province = 158 #Savannah
+					province = 208 #Dublin
+					province = 206 #Hinesville
+					province = 205 #Peach
+					province = 204 #Sandersville
+					province = 207 #Golden Isles
+					province = 979 #Toombs
+					province = 980 #Hazlehurst
+					province = 1000 #Okefenokee
+					province = 1001 #Ochlockonee
+					province = 1002 #Blackshear
+					province = 1031 #Benning
+				}
+			}
+			top_liege = {
+				has_landed_title = e_dixie
+			}
+			lower_tier_than = KING
+			is_alternate_start = no
+			k_georgia = {
+				is_titular = no
+			}
+			k_georgia_grand_duchy = {
+				is_titular = yes
+			}
+		}
+		allow = {
+			prestige = 3000
+			custom_tooltip = {
+				text = emperor_has_dixie
+
+				liege = {
+					has_landed_title = e_dixie
+				}
+			}
+			tier = DUKE
+			completely_controls = c_atlanta
+			completely_controls = c_athens 
+			completely_controls = c_chattahoochee
+			completely_controls = c_oconee
+			completely_controls = c_lagrange
+			completely_controls = c_augusta
+			completely_controls = c_ogeechee
+			completely_controls = c_savannah
+			completely_controls = c_dublin
+			completely_controls = c_hinesville
+			completely_controls = c_peach
+			completely_controls = c_sandersville
+			completely_controls = c_golden_isles
+			completely_controls = c_toombs
+			completely_controls = c_hazlehurst
+			completely_controls = c_okefenokee
+			completely_controls = c_ochlockonee
+			completely_controls = c_blackshear
+			completely_controls = c_benning
+
+		}
+		effect = {
+			hidden_tooltip = {
+				primary_title = {
+					k_georgia_grand_duchy = {
+						copy_title_laws = PREV
+					}
+				}
+			}
+			grant_title_no_opinion = k_georgia_grand_duchy
+			hidden_tooltip = {
+				d_peachtree = {
+					de_jure_liege = k_georgia_grand_duchy
+				}
+				d_savannah = {
+					de_jure_liege = k_georgia_grand_duchy
+				}
+				d_altamaha = {
+					de_jure_liege = k_georgia_grand_duchy
+				}
+				d_sowega = {
+					de_jure_liege = k_georgia_grand_duchy
+				}
+				d_agusta = {
+					de_jure_liege = k_georgia_grand_duchy
+				}
+				e_dixie = {
+					owner = {
+						ROOT = {
+							set_defacto_liege = PREV
+						}
+					}
+				}
+				ROOT = {
+					narrative_event = { id = HFP.40038 }
+				}
+				any_playable_ruler = {
+					limit = {
+						OR = {
+							has_landed_title = e_dixie
+							top_liege = {
+								has_landed_title = e_dixie
+							}
+						}
+					}
+					narrative_event = { id = HFP.40038 }
+				}
+			}
+		}
+	}
+
+	stem_duchy_of_tuskegee = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			capital_scope = {
+				OR = {
+					province = 1036 #Birmingham
+					province = 1037 #Talladega
+					province = 1038 #Coosa
+					province = 1040 #Tuscaloosa
+					province = 1116 #Fayette
+					province = 1041 #Demopolis
+					province = 1039 #Montgomery
+					province = 1033 #Tuskegee
+					province = 1042 #Conecuh
+					province = 1034 #Dothan
+					province = 1035 #Chipola
+					province = 1032 #Eufaula
+					province = 1029 #Winston
+					province = 1027 #Guntersville
+					province = 1028 #Huntsville
+				}
+			}
+			top_liege = {
+				has_landed_title = e_dixie
+			}
+			lower_tier_than = KING
+			is_alternate_start = no
+			k_tuskegee = {
+				is_titular = no
+			}
+			k_tuskegee_grand_duchy = {
+				is_titular = yes
+			}
+		}
+		allow = {
+			prestige = 3000
+			custom_tooltip = {
+				text = emperor_has_dixie
+
+				liege = {
+					has_landed_title = e_dixie
+				}
+			}
+			tier = DUKE
+			completely_controls = c_birmingham
+			completely_controls = c_talladega
+			completely_controls = c_coosa
+			completely_controls = c_tuscaloosa
+			completely_controls = c_fayette
+			completely_controls = c_demopolis
+			completely_controls = c_montgomery
+			completely_controls = c_tuskegee
+			completely_controls = c_conecuh
+			completely_controls = c_dothan
+			completely_controls = c_chipola
+			completely_controls = c_eufaula
+			completely_controls = c_winston
+			completely_controls = c_guntersville
+			completely_controls = c_huntsville
+		}
+		effect = {
+			hidden_tooltip = {
+				d_birmingham = {
+					de_jure_liege = k_tuskegee_grand_duchy
+				}
+				d_black_belt = {
+					de_jure_liege = k_tuskegee_grand_duchy
+				}
+				d_wiregrass = {
+					de_jure_liege = k_tuskegee_grand_duchy
+				}
+				d_nickajack = {
+					de_jure_liege = k_tuskegee_grand_duchy
+				}
+				primary_title = {
+					k_tuskegee_grand_duchy = {
+						copy_title_laws = PREV
+					}
+				}
+			}
+			grant_title_no_opinion = k_tuskegee_grand_duchy
+			hidden_tooltip = {
+				e_dixie = {
+					owner = {
+						ROOT = {
+							set_defacto_liege = PREV
+						}
+					}
+				}
+				ROOT = {
+					narrative_event = { id = HFP.40038 }
+				}
+				any_playable_ruler = {
+					limit = {
+						OR = {
+							has_landed_title = e_dixie
+							top_liege = {
+								has_landed_title = e_dixie
+							}
+						}
+					}
+					narrative_event = { id = HFP.40038 }
+				}
+			}
+		}
+	}
+
+	stem_duchy_of_tarheel = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			capital_scope = {
+				OR = {
+					province = 129 #Currituck
+					province = 130 #Dare
+					province = 131 #Carteret
+					province = 134 #Chowan
+					province = 133 #Greenville
+					province = 132 #Lejeune
+					province = 138 #Roanoake Rapids
+					province = 139 #Raleigh
+					province = 137 #Fayetteville
+					province = 140 #Durham
+					province = 141 #Chapel Hill
+					province = 1081 #Uwharrie
+					province = 143 #Metrolina
+					province = 142 #Catawba
+					province = 136 #Cheraw
+					province = 135 #Cape Fear
+				}
+			}
+			top_liege = {
+				has_landed_title = e_dixie
+			}
+			lower_tier_than = KING
+			is_alternate_start = no
+			k_tarheel = {
+				is_titular = no
+			}
+			k_tarheel_grand_duchy = {
+				is_titular = yes
+			}
+		}
+		allow = {
+			prestige = 3000
+			custom_tooltip = {
+				text = emperor_has_dixie
+
+				liege = {
+					has_landed_title = e_dixie
+				}
+			}
+			tier = DUKE
+			completely_controls = c_currituck
+			completely_controls = c_dare
+			completely_controls = c_carteret
+			completely_controls = c_chowan
+			completely_controls = c_greenville
+			completely_controls = c_lejeune
+			completely_controls = c_roanoke_rapids
+			completely_controls = c_raleigh
+			completely_controls = c_fayetteville
+			completely_controls = c_durham
+			completely_controls = c_chapel_hill
+			completely_controls = c_uwharrie
+			completely_controls = c_metrolina
+			completely_controls = c_catawba
+			completely_controls = c_cheraw
+			completely_controls = c_cape_fear
+		}
+		effect = {
+			hidden_tooltip = {
+				primary_title = {
+					k_tarheel_grand_duchy = {
+						copy_title_laws = PREV
+					}
+				}
+			}
+			grant_title_no_opinion = k_tarheel_grand_duchy
+			hidden_tooltip = {
+				d_outer_banks = {
+					de_jure_liege = k_tarheel_grand_duchy
+				}
+				d_inner_banks = {
+					de_jure_liege = k_tarheel_grand_duchy
+				}
+				d_triangle = {
+					de_jure_liege = k_tarheel_grand_duchy
+				}
+				d_piedmont_crescent = {
+					de_jure_liege = k_tarheel_grand_duchy
+				}
+				d_cape_fear = {
+					de_jure_liege = k_tarheel_grand_duchy
+				}
+				e_dixie = {
+					owner = {
+						ROOT = {
+							set_defacto_liege = PREV
+						}
+					}
+				}
+				ROOT = {
+					narrative_event = { id = HFP.40038 }
+				}
+				any_playable_ruler = {
+					limit = {
+						OR = {
+							has_landed_title = e_dixie
+							top_liege = {
+								has_landed_title = e_dixie
+							}
+						}
+					}
+					narrative_event = { id = HFP.40038 }
+				}
+			}
+		}
+	}
+	
+	archduchy_of_magnolia = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			capital_scope = {
+				OR = {
+					province = 1131 #Arkabutla
+					province = 1134 #Holly Springs
+					province = 1135 #Ackia
+					province = 1132 #Tillatoba
+					province = 1137 #Yalobusha
+					province = 1136 #Oktibbeha
+					province = 1133 #Sunflower
+					province = 1127 #Vicksburg
+					province = 1130 #Tombigbee
+					province = 1129 #Meridian
+					province = 1128 #Jackson
+					province = 1123 #Tallahoma
+					province = 1126 #Bayou Pierre
+					province = 1125 #Natchez
+					province = 1120 #Homochitto
+					province = 1121 #Leaf
+					province = 1122 #Chickasawhay
+					province = 983 #Itawamba
+				}
+			}
+			top_liege = {
+				has_landed_title = e_dixie
+			}
+			lower_tier_than = KING
+			is_alternate_start = no
+			k_magnolia = {
+				is_titular = no
+			}
+			k_magnolia_archduchy = {
+				is_titular = yes
+			}
+		}
+		allow = {
+			prestige = 3000
+			custom_tooltip = {
+				text = emperor_has_dixie
+
+				liege = {
+					has_landed_title = e_dixie
+				}
+			}
+			tier = DUKE
+			completely_controls = c_arkabutla
+			completely_controls = c_holly_springs
+			completely_controls = c_ackia
+			completely_controls = c_tillatoba
+			completely_controls = c_yalobusha
+			completely_controls = c_oktibbeha
+			completely_controls = c_sunflower
+			completely_controls = c_vicksburg
+			completely_controls = c_tombigbee
+			completely_controls = c_meridian
+			completely_controls = c_jackson
+			completely_controls = c_tallahoma
+			completely_controls = c_bayou_pierre
+			completely_controls = c_natchez
+			completely_controls = c_homochitto
+			completely_controls = c_leaf
+			completely_controls = c_chickasawhay
+			completely_controls = c_itawamba
+		}
+		effect = {
+			hidden_tooltip = {
+				primary_title = {
+					k_magnolia_archduchy = {
+						copy_title_laws = PREV
+					}
+				}
+			}
+			grant_title_no_opinion = k_magnolia_archduchy
+			hidden_tooltip = {
+				d_pine_belt = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+				d_natchez = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+				d_yazoo = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+				d_chickasaw = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+				d_choctaw = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+				e_dixie = {
+					owner = {
+						ROOT = {
+							set_defacto_liege = PREV
+						}
+					}
+				}
+				ROOT = {
+					narrative_event = { id = HFP.40022 }
+				}
+				any_playable_ruler = {
+					limit = {
+						OR = {
+							has_landed_title = e_dixie
+							top_liege = {
+								has_landed_title = e_dixie
+							}
+						}
+					}
+					narrative_event = { id = HFP.40022 }
+				}
+			}
+		}
+	}
+	
+	declare_kingdom_of_georgia = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			capital_scope = {
+				OR = {
+					province = 149 #Atlanta
+					province = 150 #Athens
+					province = 148 #Chattahoochee
+					province = 203 #Oconee
+					province = 1030 #Lagrange
+					province = 157 #Augusta
+					province = 159 #Ogeechee
+					province = 158 #Savannah
+					province = 208 #Dublin
+					province = 206 #Hinesville
+					province = 205 #Peach
+					province = 204 #Sandersville
+					province = 207 #Golden Isles
+					province = 979 #Toombs
+					province = 980 #Hazlehurst
+					province = 1000 #Okefenokee
+					province = 1001 #Ochlockonee
+					province = 1002 #Blackshear
+					province = 1031 #Benning
+				}
+			}
+			e_dixie = {
+				has_holder = no
+			}
+			is_alternate_start = no
+			k_georgia = {
+				is_titular = yes
+			}
+			k_georgia_grand_duchy = {
+				is_titular = no
+			}
+		}
+		allow = {
+			prestige = 500
+			e_dixie = {
+				has_holder = no
+			}
+			completely_controls = c_atlanta
+			completely_controls = c_athens 
+			completely_controls = c_chattahoochee
+			completely_controls = c_oconee
+			completely_controls = c_lagrange
+			completely_controls = c_augusta
+			completely_controls = c_ogeechee
+			completely_controls = c_savannah
+			completely_controls = c_dublin
+			completely_controls = c_hinesville
+			completely_controls = c_peach
+			completely_controls = c_sandersville
+			completely_controls = c_golden_isles
+			completely_controls = c_toombs
+			completely_controls = c_hazlehurst
+			completely_controls = c_okefenokee
+			completely_controls = c_ochlockonee
+			completely_controls = c_blackshear
+			completely_controls = c_benning
+		}
+		effect = {
+			hidden_tooltip = {
+				d_peachtree = {
+					de_jure_liege = k_georgia
+				}
+				d_savannah = {
+					de_jure_liege = k_georgia
+				}
+				d_altamaha = {
+					de_jure_liege = k_georgia
+				}
+				d_sowega = {
+					de_jure_liege = k_georgia
+				}
+				d_agusta = {
+					de_jure_liege = k_georgia
+				}
+				primary_title = {
+					k_tuskegee = {
+						copy_title_laws = PREV
+					}
+				}
+			}
+			grant_title_no_opinion = k_georgia
+		}
+	}
+	declare_kingdom_of_tuskegee = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			capital_scope = {
+				OR = {
+					province = 1036 #Birmingham
+					province = 1037 #Talladega
+					province = 1038 #Coosa
+					province = 1040 #Tuscaloosa
+					province = 1116 #Fayette
+					province = 1041 #Demopolis
+					province = 1039 #Montgomery
+					province = 1033 #Tuskegee
+					province = 1042 #Conecuh
+					province = 1034 #Dothan
+					province = 1035 #Chipola
+					province = 1032 #Eufaula
+					province = 1029 #Winston
+					province = 1027 #Guntersville
+					province = 1028 #Huntsville
+				}
+			}
+			e_dixie = {
+				has_holder = no
+			}
+			is_alternate_start = no
+			k_tuskegee = {
+				is_titular = yes
+			}
+			k_tuskegee_grand_duchy = {
+				is_titular = no
+			}
+		}
+		allow = {
+			prestige = 500
+			e_dixie = {
+				has_holder = no
+			}
+			completely_controls = c_birmingham
+			completely_controls = c_talladega
+			completely_controls = c_coosa
+			completely_controls = c_tuscaloosa
+			completely_controls = c_fayette
+			completely_controls = c_demopolis
+			completely_controls = c_montgomery
+			completely_controls = c_tuskegee
+			completely_controls = c_conecuh
+			completely_controls = c_dothan
+			completely_controls = c_chipola
+			completely_controls = c_eufaula
+			completely_controls = c_winston
+			completely_controls = c_guntersville
+			completely_controls = c_huntsville
+		}
+		effect = {
+			hidden_tooltip = {
+				d_birmingham = {
+					de_jure_liege = k_tuskegee
+				}
+				d_black_belt = {
+					de_jure_liege = k_tuskegee
+				}
+				d_wiregrass = {
+					de_jure_liege = k_tuskegee
+				}
+				d_nickajack = {
+					de_jure_liege = k_tuskegee
+				}
+				primary_title = {
+					k_tuskegee = {
+						copy_title_laws = PREV
+					}
+				}
+			}
+			grant_title_no_opinion = k_tuskegee
+		}
+	}
+
+	declare_kingdom_of_tarheel = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			capital_scope = {
+				OR = {
+					province = 129 #Currituck
+					province = 130 #Dare
+					province = 131 #Carteret
+					province = 134 #Chowan
+					province = 133 #Greenville
+					province = 132 #Lejeune
+					province = 138 #Roanoake Rapids
+					province = 139 #Raleigh
+					province = 137 #Fayetteville
+					province = 140 #Durham
+					province = 141 #Chapel Hill
+					province = 1081 #Uwharrie
+					province = 143 #Metrolina
+					province = 142 #Catawba
+					province = 136 #Cheraw
+					province = 135 #Cape Fear
+				}
+			}
+			e_dixie = {
+				has_holder = no
+			}
+			is_alternate_start = no
+			k_tarheel = {
+				is_titular = yes
+			}
+			k_tarheel_grand_duchy = {
+				is_titular = no
+			}
+		}
+		allow = {
+			prestige = 500
+			e_dixie = {
+				has_holder = no
+			}
+			completely_controls = c_arkabutla
+			completely_controls = c_holly_springs
+			completely_controls = c_ackia
+			completely_controls = c_tillatoba
+			completely_controls = c_yalobusha
+			completely_controls = c_oktibbeha
+			completely_controls = c_sunflower
+			completely_controls = c_vicksburg
+			completely_controls = c_tombigbee
+			completely_controls = c_meridian
+			completely_controls = c_jackson
+			completely_controls = c_tallahoma
+			completely_controls = c_bayou_pierre
+			completely_controls = c_natchez
+			completely_controls = c_homochitto
+			completely_controls = c_leaf
+			completely_controls = c_chickasawhay
+			completely_controls = c_itawamba
+		}
+		effect = {
+			hidden_tooltip = {
+				primary_title = {
+					k_tarheel = {
+						copy_title_laws = PREV
+					}
+				}
+			}
+			grant_title_no_opinion = k_tarheel
+			hidden_tooltip = {
+				d_outer_banks = {
+					de_jure_liege = k_tarheel
+				}
+				d_inner_banks = {
+					de_jure_liege = k_tarheel
+				}
+				d_triangle = {
+					de_jure_liege = k_tarheel
+				}
+				d_piedmont_crescent = {
+					de_jure_liege = k_tarheel
+				}
+				d_cape_fear = {
+					de_jure_liege = k_tarheel_grand_duchy
+				}
+			}
+		}
+	}
+	
+	declare_kingdom_of_magnolia = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			capital_scope = {
+				OR = {
+					province = 1131 #Arkabutla
+					province = 1134 #Holly Springs
+					province = 1135 #Ackia
+					province = 1132 #Tillatoba
+					province = 1137 #Yalobusha
+					province = 1136 #Oktibbeha
+					province = 1133 #Sunflower
+					province = 1127 #Vicksburg
+					province = 1130 #Tombigbee
+					province = 1129 #Meridian
+					province = 1128 #Jackson
+					province = 1123 #Tallahoma
+					province = 1126 #Bayou Pierre
+					province = 1125 #Natchez
+					province = 1120 #Homochitto
+					province = 1121 #Leaf
+					province = 1122 #Chickasawhay
+					province = 983 #Itawamba
+				}
+			}
+			e_dixie = {
+				has_holder = no
+			}
+			is_alternate_start = no
+			k_magnolia = {
+				is_titular = yes
+			}
+			k_magnolia_archduchy = {
+				is_titular = no
+			}
+		}
+		allow = {
+			prestige = 3000
+			e_dixie = {
+				has_holder = no
+			}
+			completely_controls = c_arkabutla
+			completely_controls = c_holly_springs
+			completely_controls = c_ackia
+			completely_controls = c_tillatoba
+			completely_controls = c_yalobusha
+			completely_controls = c_oktibbeha
+			completely_controls = c_sunflower
+			completely_controls = c_vicksburg
+			completely_controls = c_tombigbee
+			completely_controls = c_meridian
+			completely_controls = c_jackson
+			completely_controls = c_tallahoma
+			completely_controls = c_bayou_pierre
+			completely_controls = c_natchez
+			completely_controls = c_homochitto
+			completely_controls = c_leaf
+			completely_controls = c_chickasawhay
+			completely_controls = c_itawamba
+		}
+		effect = {
+			hidden_tooltip = {
+				primary_title = {
+					k_magnolia = {
+						copy_title_laws = PREV
+					}
+				}
+			}
+			grant_title_no_opinion = k_magnolia
+			hidden_tooltip = {
+				d_pine_belt = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+				d_natchez = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+				d_yazoo = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+				d_chickasaw = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+				d_choctaw = {
+					de_jure_liege = k_magnolia_archduchy
+				}
+			}
+		}
+	}
+
+	### POPE RELATED EVENTS ### 
+	recreate_the_papal_guards = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			has_landed_title = k_papal_state
+			NOT = {
+				is_title_active = d_papal_guards
+			}
+		}
+
+		allow = {
+			any_demesne_province = {
+				always = yes
+			}
+		}
+
+		effect = {
+			create_random_soldier = {
+				random_traits = yes
+				culture = rostmann
+				dynasty = random
+			}
+			new_character = {
+				grant_title_no_opinion = d_papal_guards
+
+				set_defacto_liege = ROOT
+			}
+		}
+	}
+	
+	form_zion = {
+		is_high_prio = yes
+		only_playable = yes
+		ai = no
+
+		potential = {
+			religion_group = latter_day_saints
+			any_demesne_title = {
+				OR = {
+					tier = KING
+					tier = EMPEROR
+				}
+				region = custom_greater_deseret
+			}
+			NOR = {
+				has_landed_title = e_new_california
+				has_landed_title = e_usa
+			}
+			e_zion = {
+				is_titular = yes
+			}
+			e_zion = {
+				has_holder = no
+			}
+			is_alternate_start = no
+		}
+
+		allow = {
+			is_adult = yes
+			independent = yes
+			war = no
+			prestige = 5000
+			custom_tooltip = {
+				text = owns_slc_tt
+				has_landed_title = c_salt_lake
+			}
+			custom_tooltip = {
+				text = completely_control_greater_deseret_TT
+
+				completely_controls_region = custom_greater_deseret
+			}
+		}
+
+		effect = {
+			hidden_tooltip = {
+				primary_title = {
+					e_zion = {
+						copy_title_laws = PREV
+						copy_title_history = PREV
+					}
+				}
+			}
+
+			custom_tooltip = {
+				text = create_zion_tt
+				grant_title_no_opinion = e_zion 
+			}
+			#this stuff isn't really necessary
+
+			hidden_tooltip = {
+
+				any_demesne_title = {
+					limit = {
+						tier = EMPEROR
+						NOT = { title = e_zion }
+					}
+					destroy_landed_title = THIS
+				}
+
+				capital = c_salt_lake
+
+				any_landed_title = {
+					limit = {
+						tier = KING
+						region = custom_greater_deseret
+					}
+					de_jure_liege = e_zion
+				}
+				if = {
+					limit = {
+						completely_controls = k_idaho
+					}
+					k_idaho = {
+						de_jure_liege = e_zion
+					}
+				}
+				k_baja_california = {
+					de_jure_liege = e_aztlan # avoid ugly borders
+				}
+				if = {
+					limit = {
+						is_title_active = d_nauvoo_legion
+					}
+					d_nauvoo_legion = {
+						holder_scope = {
+							wealth = 500
+							ROOT = {
+								set_defacto_vassal = PREV
+							}
+						}
+					}
+				}
+				ROOT = {
+					narrative_event = { id = HFP.40027 }
+				}
+				any_playable_ruler = {
+					narrative_event = { id = HFP.40027 }
+				}
+
+				#set_global_flag = destroyed_caliphates
+	
+				#if = {
+				#	limit = {
+				#		ai = no
+				#	}
+				#	set_character_flag = achievement_deus_vult
+				#}
+			}
+		}
+	}
+	
+	recreate_the_abbey_guards = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 120
+
+		potential = {
+			has_landed_title = k_ursuline
+			NOT = {
+				is_title_active = d_abbey_guards
+			}
+		}
+
+		allow = {
+			any_demesne_province = {
+				always = yes
+			}
+		}
+
+		effect = {
+			create_random_soldier = {
+				random_traits = yes
+				culture = quebecois
+				dynasty = random
+			}
+			new_character = {
+				grant_title_no_opinion = d_abbey_guards
+	
+				set_defacto_liege = ROOT
+			}
+		}
+	}
+	
+	nevada_las_vegas_integration = {
+		is_high_prio = yes
+		only_playable = yes
+		ai_check_interval = 24
+		
+		potential = {
+			age = 16
+			prisoner = no
+			NOT = { is_incapable = yes }
+			has_landed_title = k_nevada
+			NOT = { has_global_flag = las_vegas_integrated }
+		}
+		allow = {
+			war = no
+			wealth = 200
+			completely_controls = k_nevada
+			completely_controls = d_mojave
+		}
+		effect = {
+			wealth = -200
+			d_mojave = {
+				de_jure_liege = k_nevada
+			}
+			set_global_flag = las_vegas_integrated
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 0.005 }
+			modifier = { factor = 6 num_of_count_titles = 1 }
+			modifier = { factor = 3	trait = zealous }
+			modifier = { factor = 2	trait = brave }
+			modifier = { factor = 2	trait = ambitious }
+			modifier = { factor = 0 trait = craven }
+			modifier = { factor = 0 trait = content }
+			modifier = { factor = 0 NOT = { wealth = 100 } }
+		}
+	}
+}

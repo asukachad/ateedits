@@ -1,0 +1,475 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+ca_culture_rostmann_1;Picket Training Ground;;;;;;;;;;;;;x
+ca_culture_rostmann_2;Picket Training Ground;;;;;;;;;;;;;x
+ca_culture_rostmann_3;Picket Training Ground;;;;;;;;;;;;;x
+ca_culture_rostmann_4;Picket Training Ground;;;;;;;;;;;;;x
+ca_culture_rostmann_1_desc;The pikemen of the Rust Belt, commonly known as "Pickets", are trained to present an impenetrable wall of steel to enemy cavalry and infantry.;;;;;;;;;;;;;x
+ca_culture_dixie_1;Jousting Lists;;;;;;;;;;;;;x
+ca_culture_dixie_2;Jousting Lists;;;;;;;;;;;;;x
+ca_culture_dixie_3;Jousting Lists;;;;;;;;;;;;;x
+ca_culture_dixie_4;Jousting Lists;;;;;;;;;;;;;x
+ca_culture_dixie_1_desc;Here the knights of the South face off against each other in jousting tournaments and other chivalrous competitions.;;;;;;;;;;;;;x
+ca_culture_gulf_1;Sniper Training Ground;;;;;;;;;;;;;x
+ca_culture_gulf_2;Sniper Training Ground;;;;;;;;;;;;;x
+ca_culture_gulf_3;Sniper Training Ground;;;;;;;;;;;;;x
+ca_culture_gulf_4;Sniper Training Ground;;;;;;;;;;;;;x
+ca_culture_gulf_1_desc;The strong tradition of sharpshooting in the Gulf produces excellent bowmen. Here they can practice with their powerful longbows.;;;;;;;;;;;;;x
+ca_culture_mexican_1;Charro Riding Ground;;;;;;;;;;;;;x
+ca_culture_mexican_2;Charro Riding Ground;;;;;;;;;;;;;x
+ca_culture_mexican_3;Charro Riding Ground;;;;;;;;;;;;;x
+ca_culture_mexican_4;Charro Riding Ground;;;;;;;;;;;;;x
+ca_culture_mexican_1_desc;The agile light cavalry of the Mexican kingdoms are raised here. These horsemen are skilled in skirmishing and harassment.;;;;;;;;;;;;;x
+ca_culture_amerodeutsch_1;Housecarl Training Ground;;;;;;;;;;;;;x
+ca_culture_amerodeutsch_2;Housecarl Training Ground;;;;;;;;;;;;;x
+ca_culture_amerodeutsch_3;Housecarl Training Ground;;;;;;;;;;;;;x
+ca_culture_amerodeutsch_4;Housecarl Training Ground;;;;;;;;;;;;;x
+ca_culture_amerodeutsch_1_desc;The housecarls of the Great Lakes are trained here, providing excellent if somewhat ill-tempered heavy infantry, usually equipped with powerful battle axes.;;;;;;;;;;;;;x
+ca_culture_caribbean_1;Machetero Training Ground;;;;;;;;;;;;;x
+ca_culture_caribbean_2;Machetero Training Ground;;;;;;;;;;;;;x
+ca_culture_caribbean_3;Machetero Training Ground;;;;;;;;;;;;;x
+ca_culture_caribbean_4;Machetero Training Ground;;;;;;;;;;;;;x
+ca_culture_caribbean_1_desc;Caribbean warriors are trained here in the use of machetes and cutlasses.;;;;;;;;;;;;;x
+ca_culture_canadian_1;Hockey Rink;;;;;;;;;;;;;x
+ca_culture_canadian_2;Hockey Rink;;;;;;;;;;;;;x
+ca_culture_canadian_3;Hockey Rink;;;;;;;;;;;;;x
+ca_culture_canadian_4;Hockey Rink;;;;;;;;;;;;;x
+ca_culture_canadian_1_desc;All Canadians can recruit elite pikemen in these rinks. Trained to fight defensively, they can provide a ruler with unyielding wall of spears.;;;;;;;;;;;;;x
+ca_culture_prairie_1;Prairie Barracks;;;;;;;;;;;;;x
+ca_culture_prairie_2;Prairie Barracks;;;;;;;;;;;;;x
+ca_culture_prairie_3;Prairie Barracks;;;;;;;;;;;;;x
+ca_culture_prairie_4;Prairie Barracks;;;;;;;;;;;;;x
+ca_culture_prairie_1_desc;All Canadians can recruit elite cavalrymen here. Having formed a good horse riding culture using the vast Canadian prairies, they are able to go toe-to-toe with the other martial horse-riding cultures in the region.;;;;;;;;;;;;;x					
+ca_culture_ski_troops_1;Ski Warrior Lodge;;;;;;;;;;;;;x
+ca_culture_ski_troops_2;Ski Warrior Lodge;;;;;;;;;;;;;x
+ca_culture_ski_troops_3;Ski Warrior Lodge;;;;;;;;;;;;;x
+ca_culture_ski_troops_4;Ski Warrior Lodge;;;;;;;;;;;;;x
+ca_culture_ski_troops_1_desc;Arctic Territory soldiers are housed here, specializing in outmaneuvering and overcoming the enemy in the roughest terrain and coldest weather.;;;;;;;;;;;;;x
+ca_culture_pirate_port_1;Pirate Port;;;;;;;;;;;;;x
+ca_culture_pirate_port_2;Pirate Port;;;;;;;;;;;;;x
+ca_culture_pirate_port_3;Pirate Port;;;;;;;;;;;;;x
+ca_culture_pirate_port_4;Pirate Port;;;;;;;;;;;;;x
+ca_culture_pirate_port_1_desc;The open ports of ambitious pirate lords attract all manner of adventurers, deserters, criminals and desperados, all willing to set sail for plunder and booty.;;;;;;;;;;;;;x
+ca_whaler_port_1;Whaler Port;;;;;;;;;;;;;x
+ca_whaler_port_2;Whaler Port;;;;;;;;;;;;;x
+ca_whaler_port_3;Whaler Port;;;;;;;;;;;;;x
+ca_whaler_port_4;Whaler Port;;;;;;;;;;;;;x
+ca_whaler_port_1_desc;Whalers dock here to properly process their sea-bounty for its meat and blubber. Both meat and blubber are important commodities that can be used for either trade or stored for upcoming winters.;;;;;;;;;;;;;x
+ca_culture_texan_1;Cowboy Riding Ground;;;;;;;;;;;;;x
+ca_culture_texan_2;Cowboy Riding Ground;;;;;;;;;;;;;x
+ca_culture_texan_3;Cowboy Riding Ground;;;;;;;;;;;;;x
+ca_culture_texan_4;Cowboy Riding Ground;;;;;;;;;;;;;x
+ca_culture_texan_1_desc;The cowboys of the American West, the vaqueros of Mexico, the llaneros of Venezuela, and the gaúchos of the Southern Cone are excellent light cavalrymen, trained to hit the enemy relentlessly from different directions before regrouping and doing it again.;;;;;;;;;;;;;x
+ca_culture_ny_1;New Yorker Militia Quarters;;;;;;;;;;;;;x
+ca_culture_ny_2;New Yorker Militia Quarters;;;;;;;;;;;;;x
+ca_culture_ny_3;New Yorker Militia Quarters;;;;;;;;;;;;;x
+ca_culture_ny_4;New Yorker Militia Quarters;;;;;;;;;;;;;x
+ca_culture_ny_1_desc;The militias of New York wield fearsome spiked staffs designed to dehorse knights. They have proven themselves more than once against armored cavalry.;;;;;;;;;;;;;x
+ca_culture_upstate_1;Dragoon Training Ground;;;;;;;;;;;;;x
+ca_culture_upstate_2;Dragoon Training Ground;;;;;;;;;;;;;x
+ca_culture_upstate_3;Dragoon Training Ground;;;;;;;;;;;;;x
+ca_culture_upstate_4;Dragoon Training Ground;;;;;;;;;;;;;x
+ca_culture_upstate_1_desc;The dragoons of Hudsonia are a fearsome sight on the battlefield, with both horse and rider clad in heavy steel armor, armed with lances or crossbows. Few armies can withstand one of their massed charges.;;;;;;;;;;;;;x
+ca_culture_delawarean_1;Continental Training Ground;;;;;;;;;;;;;x
+ca_culture_delawarean_2;Continental Training Ground;;;;;;;;;;;;;x
+ca_culture_delawarean_3;Continental Training Ground;;;;;;;;;;;;;x
+ca_culture_delawarean_4;Continental Training Ground;;;;;;;;;;;;;x
+ca_culture_delawarean_1_desc;The Continental Guards of Philadelphia, Baltimore, and Washington are known for their resolve on the battlefield, able to fight at peak condition regardless of climate or terrain.;;;;;;;;;;;;;x
+ca_culture_maritimer_1;Gallowglass Training Ground;;;;;;;;;;;;;x
+ca_culture_maritimer_2;Gallowglass Training Ground;;;;;;;;;;;;;x
+ca_culture_maritimer_3;Gallowglass Training Ground;;;;;;;;;;;;;x
+ca_culture_maritimer_4;Gallowglass Training Ground;;;;;;;;;;;;;x
+ca_culture_maritimer_1_desc;Originally from the Maritimes, the gallowglass warriors are excellent heavy infantrymen renowned for their stubborn defense.;;;;;;;;;;;;;x
+ca_culture_appalachian_1;Pike Training Ground;;;;;;;;;;;;;x
+ca_culture_appalachian_2;Pike Training Ground;;;;;;;;;;;;;x
+ca_culture_appalachian_3;Pike Training Ground;;;;;;;;;;;;;x
+ca_culture_appalachian_4;Pike Training Ground;;;;;;;;;;;;;x
+ca_culture_appalachian_1_desc;Well-disciplined Uplander pike formations are raised here, specializing in defense.;;;;;;;;;;;;;x
+ca_culture_native_american_1;Riding Grounds;;;;;;;;;;;;;x
+ca_culture_native_american_2;Riding Grounds;;;;;;;;;;;;;x
+ca_culture_native_american_3;Riding Grounds;;;;;;;;;;;;;x
+ca_culture_native_american_4;Riding Grounds;;;;;;;;;;;;;x
+ca_culture_native_american_1_desc;The feared horse archers of the Great Plains are trained here. These highly mobile horsemen frequently outmaneuver their opponents, and are some of the finest warriors the world has ever seen.;;;;;;;;;;;;;x
+ca_culture_mountain_1;Mountaineer Post;;;;;;;;;;;;;x
+ca_culture_mountain_2;Mountaineer Post;;;;;;;;;;;;;x
+ca_culture_mountain_3;Mountaineer Post;;;;;;;;;;;;;x
+ca_culture_mountain_4;Mountaineer Post;;;;;;;;;;;;;x
+ca_culture_mountain_1_desc;The hardy and self-sufficient mountaineers of the Great Divide are trained to strike swiftly from ambush, especially when defending the rocky crags of their homeland. Their superior foraging skills reduce maintenance costs.;;;;;;;;;;;;;x
+ca_culture_cali_1;Velodrome;;;;;;;;;;;;;x
+ca_culture_cali_2;Velodrome;;;;;;;;;;;;;x
+ca_culture_cali_3;Velodrome;;;;;;;;;;;;;x
+ca_culture_cali_4;Velodrome;;;;;;;;;;;;;x
+ca_culture_cali_1_desc;Californian wheeler soldiers travel by two-wheeled velocipede, but dismount before battle to serve as superheavy infantry armed with pikes and hammers.;;;;;;;;;;;;;x
+ca_culture_pnw_1;Ranger Barracks;;;;;;;;;;;;;x
+ca_culture_pnw_2;Ranger Barracks;;;;;;;;;;;;;x
+ca_culture_pnw_3;Ranger Barracks;;;;;;;;;;;;;x
+ca_culture_pnw_4;Ranger Barracks;;;;;;;;;;;;;x
+ca_culture_pnw_1_desc;The rangers of the Pacific Northwest use aggressive skirmish tactics to demoralize their foes, filling the sky with arrows and hunting the survivors with light cavalry.;;;;;;;;;;;;;x
+ca_culture_nawlins_1;Parade Grounds;;;;;;;;;;;;;x
+ca_culture_nawlins_2;Parade Grounds;;;;;;;;;;;;;x
+ca_culture_nawlins_3;Parade Grounds;;;;;;;;;;;;;x
+ca_culture_nawlins_4;Parade Grounds;;;;;;;;;;;;;x
+ca_culture_nawlins_1_desc;The Wildmen of Nawlins are instantly recognizable by their elaborate feathered battle regalia and renowned for their discipline and bravery.;;;;;;;;;;;;;x
+ca_culture_guerrilla_1;Guerrilla Camp;;;;;;;;;;;;;x
+ca_culture_guerrilla_2;Guerrilla Camp;;;;;;;;;;;;;x
+ca_culture_guerrilla_3;Guerrilla Camp;;;;;;;;;;;;;x
+ca_culture_guerrilla_4;Guerrilla Camp;;;;;;;;;;;;;x
+ca_culture_guerrilla_1_desc;The guerrillas of the Central American jungles are known for their mobility, skill at ambush, and constant harassment of enemy forces.;;;;;;;;;;;;;x
+ca_culture_ballestero_1;Ballestero Range;;;;;;;;;;;;;x
+ca_culture_ballestero_2;Ballestero Range;;;;;;;;;;;;;x
+ca_culture_ballestero_3;Ballestero Range;;;;;;;;;;;;;x
+ca_culture_ballestero_4;Ballestero Range;;;;;;;;;;;;;x
+ca_culture_ballestero_1_desc;Ballesteros are trained to wield and maintain powerful crossbows, which they use with lethal precision against even the most heavily armored foes.;;;;;;;;;;;;;x
+ca_culture_amazon_1;Tamoio Training Grounds;;;;;;;;;;;;;x
+ca_culture_amazon_2;Tamoio Training Grounds;;;;;;;;;;;;;x
+ca_culture_amazon_3;Tamoio Training Grounds;;;;;;;;;;;;;x
+ca_culture_amazon_4;Tamoio Training Grounds;;;;;;;;;;;;;x
+ca_culture_amazon_1_desc;Named for an ancient group of indigenous Brazilian warriors, the Tamoios are tenacious warriors that are known for their use of poison darts and blowguns in battle.;;;;;;;;;;;;;x
+ca_culture_jsm_1;Maccabee Training Ground;;;;;;;;;;;;;x
+ca_culture_jsm_2;Maccabee Training Ground;;;;;;;;;;;;;x
+ca_culture_jsm_3;Maccabee Training Ground;;;;;;;;;;;;;x
+ca_culture_jsm_4;Maccabee Training Ground;;;;;;;;;;;;;x
+ca_culture_jsm_1_desc;Named for the group of Jewish rebels who rose up against an oppressive empire long ago, the Maccabees are highly trained and heavily armored infantrymen armed with longswords and hammers.;;;;;;;;;;;;;x
+ca_pirate_port_1;Pirate Port;;;;;;;;;;;;;x
+ca_pirate_port_2;Pirate Port;;;;;;;;;;;;;x
+ca_pirate_port_3;Pirate Port;;;;;;;;;;;;;x
+ca_pirate_port_4;Pirate Port;;;;;;;;;;;;;x
+ca_pirate_port_1_desc;Pirate captains and their crews dock here to rest, spend their gold, maintain their ships, and train for future raids. Brethren pirates are known and feared for their use of unconventional and underhanded tactics.;;;;;;;;;;;;;x
+ca_culture_woodlands_1;Woodland Training Ground;;;;;;;;;;;;;x
+ca_culture_woodlands_2;Woodland Training Ground;;;;;;;;;;;;;x
+ca_culture_woodlands_3;Woodland Training Ground;;;;;;;;;;;;;x
+ca_culture_woodlands_4;Woodland Training Ground;;;;;;;;;;;;;x
+ca_culture_woodlands_1_desc;Native warriors from Eastern Woodland tribes are armed with tomahawks, bows, and gunstock-shaped war clubs. These soldiers are famous throughout Old America for their bravery and fighting spirit.;;;;;;;;;;;;;x
+ca_culture_maori_1;Toa Training Ground;;;;;;;;;;;;;x
+ca_culture_maori_2;Toa Training Ground;;;;;;;;;;;;;x
+ca_culture_maori_3;Toa Training Ground;;;;;;;;;;;;;x
+ca_culture_maori_4;Toa Training Ground;;;;;;;;;;;;;x
+ca_culture_maori_1_desc;Maori warriors are famous for performing the "Haka", a ceremonial dance, before battles. This is done to motivate Maori warriors and intimidate their enemies.;;;;;;;;;;;;;x
+ca_culture_haida_1;Woodworks Armory;;;;;;;;;;;;;x
+ca_culture_haida_2;Woodworks Armory;;;;;;;;;;;;;x
+ca_culture_haida_3;Woodworks Armory;;;;;;;;;;;;;x
+ca_culture_haida_4;Woodworks Armory;;;;;;;;;;;;;x
+ca_culture_haida_1_desc;The native peoples of the Pacific Northwest are known and feared for their heavy armors. The unique rod-and-slat design can stand against the strongest of weapons.;;;;;;;;;;;;;x
+ca_culture_samurai_1;Samurai Dojo;;;;;;;;;;;;;x
+ca_culture_samurai_2;Samurai Dojo;;;;;;;;;;;;;x
+ca_culture_samurai_3;Samurai Dojo;;;;;;;;;;;;;x
+ca_culture_samurai_4;Samurai Dojo;;;;;;;;;;;;;x
+ca_culture_samurai_1_desc;Japanese Samurai warriors are known for their use of katanas and wakizashis in close-quarters combat, as well as their mastery of martial arts.;;;;;;;;;;;;;x
+ca_culture_cossack_1;Cossack Training Ground;;;;;;;;;;;;;x
+ca_culture_cossack_2;Cossack Training Ground;;;;;;;;;;;;;x
+ca_culture_cossack_3;Cossack Training Ground;;;;;;;;;;;;;x
+ca_culture_cossack_4;Cossack Training Ground;;;;;;;;;;;;;x
+ca_culture_cossack_1_desc;Russian Cossack horsemen train here. They are known for their strong independent streak, and they operate semi-autonomously from the rest of the Russian military.;;;;;;;;;;;;;x
+ca_culture_camel_1;Camel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_camel_2;Camel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_camel_3;Camel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_camel_4;Camel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_camel_1_desc;Imported camels and their riders are trained here. Camel cavalry is highly effective in desert climates, but they tend to become significantly less effective when outside their natural habitat.;;;;;;;;;;;;;x
+ca_culture_asian_1;Asian Crossbow Range;;;;;;;;;;;;;x
+ca_culture_asian_2;Asian Crossbow Range;;;;;;;;;;;;;x
+ca_culture_asian_3;Asian Crossbow Range;;;;;;;;;;;;;x
+ca_culture_asian_4;Asian Crossbow Range;;;;;;;;;;;;;x
+ca_culture_asian_1_desc;Soldiers from East Asia are known for their extensive use of crossbows. Crossbows are relatively rare in post-Event North America, making the sight of a full crossbow unit on the battlefield a fearsome one.;;;;;;;;;;;;;x
+no_peyote_gatherer_1;Peyote Gatherer;;;;;;;;;;;;;x
+no_peyote_gatherer_2;Peyote Gatherer;;;;;;;;;;;;;x
+no_peyote_gatherer_3;Peyote Gatherer;;;;;;;;;;;;;x
+no_peyote_gatherer_4;Peyote Gatherer;;;;;;;;;;;;;x
+no_peyote_gatherer_5;Peyote Gatherer;;;;;;;;;;;;;x
+no_peyote_gatherer_6;Peyote Gatherer;;;;;;;;;;;;;x
+no_peyote_gatherer_7;Peyote Gatherer;;;;;;;;;;;;;x
+no_peyote_gatherer_8;Peyote Gatherer;;;;;;;;;;;;;x
+no_peyote_gatherer_desc;Peyote is a small cactus with psychoactive properties used for spiritual ceremonies.;;;;;;;;;;;;;x
+no_poison_gatherer_1;Poison Gatherer;;;;;;;;;;;;;x
+no_poison_gatherer_2;Poison Gatherer;;;;;;;;;;;;;x
+no_poison_gatherer_3;Poison Gatherer;;;;;;;;;;;;;x
+no_poison_gatherer_4;Poison Gatherer;;;;;;;;;;;;;x
+no_poison_gatherer_5;Poison Gatherer;;;;;;;;;;;;;x
+no_poison_gatherer_6;Poison Gatherer;;;;;;;;;;;;;x
+no_poison_gatherer_7;Poison Gatherer;;;;;;;;;;;;;x
+no_poison_gatherer_8;Poison Gatherer;;;;;;;;;;;;;x
+no_poison_gatherer_desc;Small, highly toxic creatures are hunted for their venom to be used in warfare.;;;;;;;;;;;;;x
+ca_culture_brazilian_1;Independence Dragoon Riding Ground;;;;;;;;;;;;;x
+ca_culture_brazilian_2;Independence Dragoon Riding Ground;;;;;;;;;;;;;x
+ca_culture_brazilian_3;Independence Dragoon Riding Ground;;;;;;;;;;;;;x
+ca_culture_brazilian_4;Independence Dragoon Riding Ground;;;;;;;;;;;;;x
+ca_culture_brazilian_1_desc;Most Brazilian cavalry units can trace their history directly back to the dragoon regiments of the pre-Event Empire of Brazil. The Independence Dragoons are known for their rigid discipline and striking uniforms.;;;;;;;;;;;;;x
+ca_culture_baiano_1;Cangaço Camp;;;;;;;;;;;;;x
+ca_culture_baiano_2;Cangaço Camp;;;;;;;;;;;;;x
+ca_culture_baiano_3;Cangaço Camp;;;;;;;;;;;;;x
+ca_culture_baiano_4;Cangaço Camp;;;;;;;;;;;;;x
+ca_culture_baiano_1_desc;Cangaceiros from northeastern Brazil reside here. Using whatever weapons they can get their hands on, these nomadic bandits are feared for their guerrilla tactics and brutality towards their enemies.;;;;;;;;;;;;;x
+ca_culture_chicagoan_1;Winged Knight Riding Grounds;;;;;;;;;;;;;x
+ca_culture_chicagoan_2;Winged Knight Riding Grounds;;;;;;;;;;;;;x
+ca_culture_chicagoan_3;Winged Knight Riding Grounds;;;;;;;;;;;;;x
+ca_culture_chicagoan_4;Winged Knight Riding Grounds;;;;;;;;;;;;;x
+ca_culture_chicagoan_1_desc;Where might you find the finest cavalry in all of the Great Lakes, the scholar might ask? Whilst a thousand lands may claim the title, the Winged Knights of Chicago are considered a very good contender by most who know them. With lance in hand and eagle-banners stretching behind them a charge of the Winged Knights will break all but the strongest of lines, and Chicagoland is ever stronger for it.;;;;;;;;;;;;;x
+ca_culture_plautdietsch_1;Peatstachel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_plautdietsch_2;Peatstachel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_plautdietsch_3;Peatstachel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_plautdietsch_4;Peatstachel Riding Grounds;;;;;;;;;;;;;x
+ca_culture_plautdietsch_1_desc;Far from their ancestral homelands, the Plautdietsch have been forced by circumstance to adapt to the life of horsemen as well as that of farmers. Whilst the first experience many a raider has of the Plautdietsch is the pike walls of their militia, the second is the dogged pursuit of their riders across night, day and entire nations as they harry any who are perceived as invaders from their lands.;;;;;;;;;;;;;x
+ca_culture_riverlander_1;Riverine Barracks;;;;;;;;;;;;;x
+ca_culture_riverlander_2;Riverine Barracks;;;;;;;;;;;;;x
+ca_culture_riverlander_3;Riverine Barracks;;;;;;;;;;;;;x
+ca_culture_riverlander_4;Riverine Barracks;;;;;;;;;;;;;x
+ca_culture_riverlander_1_desc;The men of the rivers are at a crossroads of not just civilisations but several very different methods of doing battle. Some lords ape the knights of the Southrons, others the dogged Rostmenn and their unflinching pikes. Most commonly though, a Riverlander army will have a large number of lightly armoured militia capable of answering the call to battle in but a few days notice.;;;;;;;;;;;;;x
+ca_culture_malay_1;Pendekar Training Grounds;;;;;;;;;;;;;x
+ca_culture_malay_1;Pendekar Training Grounds;;;;;;;;;;;;;x
+ca_culture_malay_1;Pendekar Training Grounds;;;;;;;;;;;;;x
+ca_culture_malay_1;Pendekar Training Grounds;;;;;;;;;;;;;x
+ca_culture_malay_1_desc;The title of Pendekar is sometimes translated to that of knight, but in reality it is as much a spiritual title as it is a temporal one. Pendekars are masters of the martial art Silat, and whilst garbed in lamellar are expected to move as swiftly as a regular footmen when in battle. Perhaps the greatest testament to their skills as warriors is that a common wisdom amongst those they fight is to never let them enter melee to begin with.;;;;;;;;;;;;;x
+ca_culture_zebenya_1;Zebenya Training Grounds;;;;;;;;;;;;;x
+ca_culture_zebenya_2;Zebenya Training Grounds;;;;;;;;;;;;;x
+ca_culture_zebenya_3;Zebenya Training Grounds;;;;;;;;;;;;;x
+ca_culture_zebenya_4;Zebenya Training Grounds;;;;;;;;;;;;;x
+ca_culture_zebenya_1_desc;The Zebenya are the fist of the Caribbanglos, an unceasing tide of armour and fanaticism that many a foe tried to meet head on, only to be overrun once the greatswords got to work. Horsemen charge and are driven back, archers loose and see nothing for their efforts, infantry charge and infantry die. The Zebenya do not yield, they do not break, and they do not stop the march forwards.;;;;;;;;;;;;;x
+ca_culture_miskito_1;Aiwawakra Watch Towers;;;;;;;;;;;;;x
+ca_culture_miskito_2;Aiwawakra Watch Towers;;;;;;;;;;;;;x
+ca_culture_miskito_3;Aiwawakra Watch Towers;;;;;;;;;;;;;x
+ca_culture_miskito_4;Aiwawakra Watch Towers;;;;;;;;;;;;;x
+ca_culture_miskito_1_desc;The Miskito have been surrounded on all sides for millenia, and the Aiwawakras are a large part of the reason that their independence has been maintained. Atop a system of watchtowers, Aiwawakras gather in barracks of a hundred men who can reinforce each other in but a day if need be. As the core of the Moskito army they have turned back a thousand foes, and will happily slay a thousand more.;;;;;;;;;;;;;x
+ca_culture_venteux_1;Gendarmerie Barracks;;;;;;;;;;;;;x
+ca_culture_venteux_2;Gendarmerie Barracks;;;;;;;;;;;;;x
+ca_culture_venteux_3;Gendarmerie Barracks;;;;;;;;;;;;;x
+ca_culture_venteux_4;Gendarmerie Barracks;;;;;;;;;;;;;x
+ca_culture_venteux_1_desc;The Venteux are not what one would expect of a people dedicated to fighting astride horses, limited to their islands as they are. Indeed most of their steeds are unarmoured altogether, but the Gendarmerie were in ancient times a feared order of warriors, and when the nobles in full plate armed with maces and warhammers join the battle, even the mightiest of foes will flinch.;;;;;;;;;;;;;x
+ca_culture_cubano_1;Mambí Riding Grounds;;;;;;;;;;;;;x
+ca_culture_cubano_2;Mambí Riding Grounds;;;;;;;;;;;;;x
+ca_culture_cubano_3;Mambí Riding Grounds;;;;;;;;;;;;;x
+ca_culture_cubano_4;Mambí Riding Grounds;;;;;;;;;;;;;x
+ca_culture_cubano_1_desc;Perhaps the only sight more terrifying than a man charging you with a machete is one doing so on horseback and in warpaint. The Cubano horsemen have earned a dread reputation amongst those who face them on the open field and a positively foul one amongst those foes unfortunate enough to have them in their rear lines. For their part the Cubans seem amused by the fear they've acquired.;;;;;;;;;;;;;x
+ca_culture_filipino_1;Maharlika Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_filipino_2;Maharlika Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_filipino_3;Maharlika Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_filipino_4;Maharlika Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_filipino_1_desc;The warriors of the Philippines are an eclectic bunch, some go to battle with no armour and a massive machete whilst others march lockstep in heavy steel plate that even crossbows struggle to pierce. Their variation aside, few have faced them and won great victories, for one way or another the Tagalog men will leave the battle victorious or as corpses.;;;;;;;;;;;;;x
+ca_culture_andean_1;Andean Mountain Academy;;;;;;;;;;;;;x
+ca_culture_andean_2;Andean Mountain Academy;;;;;;;;;;;;;x
+ca_culture_andean_3;Andean Mountain Academy;;;;;;;;;;;;;x
+ca_culture_andean_4;Andean Mountain Academy;;;;;;;;;;;;;x
+ca_culture_andean_1_desc;The people of the high Andes have never been overly friendly to outsiders, as likely to shoot them as discuss matters politely. Yet when conscripted the Andean fighters have won more than a few battles for their lowland overlords. Sometimes armed with little more than bows and lumber axes, these militias are nonetheless well motivated and very, very hard to pin down.;;;;;;;;;;;;;x
+ca_culture_mayan_1;Mayan Atlatlist Barracks;;;;;;;;;;;;;x
+ca_culture_mayan_2;Mayan Atlatlist Barracks;;;;;;;;;;;;;x
+ca_culture_mayan_3;Mayan Atlatlist Barracks;;;;;;;;;;;;;x
+ca_culture_mayan_4;Mayan Atlatlist Barracks;;;;;;;;;;;;;x
+ca_culture_mayan_1_desc;The atlatl or, spear thrower, is considered a barbaric and primitive weapon by those unaccustomed to its use, the tool of savages and lowborn hunters. Yet in Mexico many a horseman and footman alike have fallen to the Maya and their propensity for poisoning the spears they launch at targets either unsuspecting or simply unlucky. Perhaps more will yet, the jungles never lack for conflict after all.;;;;;;;;;;;;;x
+ca_culture_anjalusi_1;Jundi Riding Grounds;;;;;;;;;;;;;x
+ca_culture_anjalusi_2;Jundi Riding Grounds;;;;;;;;;;;;;x
+ca_culture_anjalusi_3;Jundi Riding Grounds;;;;;;;;;;;;;x
+ca_culture_anjalusi_4;Jundi Riding Grounds;;;;;;;;;;;;;x
+ca_culture_anjalusi_1_desc;The Jundi are the professional forces of the Immamites of Socal, a mixed band of light lancers and jinetes of legendary discipline, capable of fighting in desert, plain or mountain with equal ease. As they once spearheaded the conquests of Zakariya these horsemen now fight for his descendants with equal zeal, and the terror they inspire in the unprotected infantryman is no less potent now than then.;;;;;;;;;;;;;x
+ca_culture_tehrangeleno_1;Javidan Barracks;;;;;;;;;;;;;x
+ca_culture_tehrangeleno_2;Javidan Barracks;;;;;;;;;;;;;x
+ca_culture_tehrangeleno_3;Javidan Barracks;;;;;;;;;;;;;x
+ca_culture_tehrangeleno_4;Javidan Barracks;;;;;;;;;;;;;x
+ca_culture_tehrangeleno_1_desc;The Tehrangeleno people rarely have needed to fight alone, and this is reflected in the forces they bring to bear on the battlefield. Originating as conscripted city guard the pikes of the Javidan are supplemented by the nobility on what were once steeds for racing, now used as mounts sturdy enough for a rider and bow but too fast to be caught by all but the lightest of horsemen, who then face the pikes.;;;;;;;;;;;;;x
+ca_culture_askar_1;Askar Infantry Barracks;;;;;;;;;;;;;x
+ca_culture_askar_2;Askar Infantry Barracks;;;;;;;;;;;;;x
+ca_culture_askar_3;Askar Infantry Barracks;;;;;;;;;;;;;x
+ca_culture_askar_4;Askar Infantry Barracks;;;;;;;;;;;;;x
+ca_culture_askar_1_desc;Where the Rostmenn use walls of pikes to ward off the knightly charges of the midwest, the Chiraqi nobles prefer to take the fight more directly to the chivalry of the knights. Wielding great axes and maces, many a Chicagoan, Rivermen and Grangelander have felt their armour give way to these guardians of the faithful.;;;;;;;;;;;;;x
+ca_culture_neomoor_1;Arabian Knight Barracks;;;;;;;;;;;;;x
+ca_culture_neomoor_2;Arabian Knight Barracks;;;;;;;;;;;;;x
+ca_culture_neomoor_3;Arabian Knight Barracks;;;;;;;;;;;;;x
+ca_culture_neomoor_4;Arabian Knight Barracks;;;;;;;;;;;;;x
+ca_culture_neomoor_1_desc;Aping the tales of the prophet Aladdin the Neomoor nobles have learnt that they cannot fight the Southron knights on their own ground and expect to win, instead of glorious charges the Neomoor horsemen are masters of feigning retreats, encirclements and never fighting fair. Despite the mockery they receive for their cowardice, none deny that the men of Tampa are some of the finest horsemen in America.;;;;;;;;;;;;;x
+ca_culture_filastino_1;Tali'ah Training Ground;;;;;;;;;;;;;x
+ca_culture_filastino_2;Tali'ah Training Ground;;;;;;;;;;;;;x
+ca_culture_filastino_3;Tali'ah Training Ground;;;;;;;;;;;;;x
+ca_culture_filastino_4;Tali'ah Training Ground;;;;;;;;;;;;;x
+ca_culture_filastino_1_desc;Horsemen are valued in war not just for their prowess in battle but for their ability to strike behind enemy lines and loot a nation for all it is worth. The Tali'ah have gleefully fulfilled this purpose for whatever lord they served for hundreds of years, and whilst they are no match for heavier horse in combat they have time and again decided battles by annihilating enemy skirmisher and rearguards.;;;;;;;;;;;;;x
+ca_culture_tlingit_1;Coinworks Armory;;;;;;;;;;;;;x
+ca_culture_tlingit_2;Coinworks Armory;;;;;;;;;;;;;x
+ca_culture_tlingit_3;Coinworks Armory;;;;;;;;;;;;;x
+ca_culture_tlingit_4;Coinworks Armory;;;;;;;;;;;;;x
+ca_culture_tlingit_1_desc;In times past the Tlingit outright made entire suits of armour out of coinage, not merely for prestige but for the surprising protection it offered. In the modern era this practice is somewhat dated but having an outer coat of coinage above plate and mail is still a sign of great power amongst the Tlingit nobility, and as their many dead enemies have learnt it makes them no less capable fighters.;;;;;;;;;;;;;x
+ca_culture_highland_1;Highland Warrior Barracks;;;;;;;;;;;;;x
+ca_culture_highland_2;Highland Warrior Barracks;;;;;;;;;;;;;x
+ca_culture_highland_3;Highland Warrior Barracks;;;;;;;;;;;;;x
+ca_culture_highland_4;Highland Warrior Barracks;;;;;;;;;;;;;x
+ca_culture_highland_1_desc;The Canadian Plateau does not lend itself well to the style of warfare practiced in the cascades or the great plains, the horses are stocky and the people too few to match the more professional forces of the lowlands. A highlander army is almost inevitably comprised of grizzled farmers with large axes and herders remarkably accurate with their bows. It is a testament to their ferocity that they usually win.;;;;;;;;;;;;;x
+ca_culture_dene_1;Beschok Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_dene_2;Beschok Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_dene_3;Beschok Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_dene_4;Beschok Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_dene_1_desc;Dene tribesmen grow up in one of the harshest environments in the world. The frozen north which preserved their peoples even as the event wrought ruination to the entire world. When they go to war it is the hard hunters, farmers and woodsmen who do much of the fighting, and whilst not as armoured as the coastal Haida, the men of Dene are capable of striking a foe even when he thinks himself safe.;;;;;;;;;;;;;x
+ca_culture_musher_1;Musher Kennels;;;;;;;;;;;;;x
+ca_culture_musher_2;Musher Kennels;;;;;;;;;;;;;x
+ca_culture_musher_3;Musher Kennels;;;;;;;;;;;;;x
+ca_culture_musher_4;Musher Kennels;;;;;;;;;;;;;x
+ca_culture_musher_1_desc;The lands of the far north are too cold to raise a proper army, so the peoples of those dreary nations make up for their lack of numbers by taking their companions to battle with them. Dogs are used for everything in the snowy countries and in battle be it pulling a sled across a battlefield or being sicced on an unfortunate foe, the hounds of the north are worth their weight in gold.;;;;;;;;;;;;;x
+ca_culture_mesoamerican_1;Cuauhocelotl Warrior Lodge;;;;;;;;;;;;;x
+ca_culture_mesoamerican_2;Cuauhocelotl Warrior Lodge;;;;;;;;;;;;;x
+ca_culture_mesoamerican_3;Cuauhocelotl Warrior Lodge;;;;;;;;;;;;;x
+ca_culture_mesoamerican_4;Cuauhocelotl Warrior Lodge;;;;;;;;;;;;;x
+ca_culture_mesoamerican_1_desc;The fearless warriors of the Eagle Jaguar orders are trained here. They represent the elite of the Mesoamerican war machine and entire armies have been known to rout at the mere sight of the spotted fur covering their armor.;;;;;;;;;;;;;x
+ca_culture_mexicanarcher_1;Arquero Range;;;;;;;;;;;;;x
+ca_culture_mexicanarcher_2;Arquero Range;;;;;;;;;;;;;x
+ca_culture_mexicanarcher_3;Arquero Range;;;;;;;;;;;;;x
+ca_culture_mexicanarcher_4;Arquero Range;;;;;;;;;;;;;x
+ca_culture_mexicanarcher_1_desc;The strong tradition of archery in Mexican highlands produces excellent bowmen. Here they can practice with their powerful bows.;;;;;;;;;;;;;x
+ca_culture_mexicanjungle_1;Jungle Barracks;;;;;;;;;;;;;x
+ca_culture_mexicanjungle_2;Jungle Barracks;;;;;;;;;;;;;x
+ca_culture_mexicanjungle_3;Jungle Barracks;;;;;;;;;;;;;x
+ca_culture_mexicanjungle_4;Jungle Barracks;;;;;;;;;;;;;x
+ca_culture_mexicanjungle_1_desc;The various jungles of Mexico serves both as an advantage and disadvantage for military operations. The lords who find themselves ruling lands in jungle terrain tend to use fast-moving and lightly armored soldiers to defend their holdings.;;;;;;;;;;;;;x
+ca_culture_rockygeneralist_1;Generalist Barracks;;;;;;;;;;;;;x
+ca_culture_rockygeneralist_2;Generalist Barracks;;;;;;;;;;;;;x
+ca_culture_rockygeneralist_3;Generalist Barracks;;;;;;;;;;;;;x
+ca_culture_rockygeneralist_4;Generalist Barracks;;;;;;;;;;;;;x
+ca_culture_rockygeneralist_1_desc;While Rocklanders generally excel at mountain warfare, they sometimes find their troops unsuited to other types of terrain. When necessary, they adapt to the terrain and employ mounted units to support their ambush tactics for a more generalist approach.;;;;;;;;;;;;;x
+ca_culture_mountaincali_1;Enduro Trails;;;;;;;;;;;;;x
+ca_culture_mountaincali_2;Enduro Trails;;;;;;;;;;;;;x
+ca_culture_mountaincali_3;Enduro Trails;;;;;;;;;;;;;x
+ca_culture_mountaincali_4;Enduro Trails;;;;;;;;;;;;;x
+ca_culture_mountaincali_1_desc;The wheeler soldiers of the Californian mountains travel via reinforced velocipedes called Boneshakers, named due to the uncomfortable ride caused by the stiff materials used to grants the velocipede survivability in the mountains. Because of this, the soldiers mainly serve as lightly armoured skirmishers armed with swords, javelins, slings, and bows.;;;;;;;;;;;;;x
+ca_culture_fatcali_1;Obesidrome;;;;;;;;;;;;;x
+ca_culture_fatcali_2;Obesidrome;;;;;;;;;;;;;x
+ca_culture_fatcali_3;Obesidrome;;;;;;;;;;;;;x
+ca_culture_fatcali_4;Obesidrome;;;;;;;;;;;;;x
+ca_culture_fatcali_1_desc;Californian desert soldiers travel using modified velocipedes with enlarged wheels. One should not let the strange-looking mounts distract from their riders, who are equipped with swords, longswords, and hammers. Surprisingly, some of these mounts have also their way to the snowy north and proved good at navigating deep snow.;;;;;;;;;;;;;x
+ca_culture_andino_1;Lancero Academy;;;;;;;;;;;;;x
+ca_culture_andino_2;Lancero Academy;;;;;;;;;;;;;x
+ca_culture_andino_3;Lancero Academy;;;;;;;;;;;;;x
+ca_culture_andino_4;Lancero Academy;;;;;;;;;;;;;x
+ca_culture_andino_1_desc;With the Llanero hordes ever on the horizon the peoples of the Andes have had to learn the hard way that it always pays to be ready at a moments notice. Lanceros are the result of this cultural imperative, a mix of lightly armoured soldiers that can keep up with the ever mobile nomad tribes yet also be too heavily armed to face without great numbers on the side of the horse lords.;;;;;;;;;;;;;x
+ca_culture_ozzi_1;Ozzi Knight Barracks;;;;;;;;;;;;;x
+ca_culture_ozzi_2;Ozzi Knight Barracks;;;;;;;;;;;;;x
+ca_culture_ozzi_3;Ozzi Knight Barracks;;;;;;;;;;;;;x
+ca_culture_ozzi_4;Ozzi Knight Barracks;;;;;;;;;;;;;x
+ca_culture_ozzi_1_desc;The Cameleers of Oz are often derided as unwashed barbarians, this has not stopped the many, many lords of foreign lands from hiring them as mercenaries. As skilled with the axe as with the lance, the knights of Oz delight in bringing ruination to the cavalry which oppose them, and are perhaps some of the only heavy cavalry capable of fighting effectively in deserts.;;;;;;;;;;;;;x
+ca_culture_billmen_1;Billmen Barracks;;;;;;;;;;;;;x
+ca_culture_billmen_2;Billmen Barracks;;;;;;;;;;;;;x
+ca_culture_billmen_3;Billmen Barracks;;;;;;;;;;;;;x
+ca_culture_billmen_4;Billmen Barracks;;;;;;;;;;;;;x
+ca_culture_billmen_1_desc;These warriors are equipped with the very infamous Bill, a polearm derived from a simple farming instrument that is said to have both the advantages of a spear and an Axe. English and Northumbrian commanders commonly pair these great warriors with the equally skilled Longbowmen to devastating effect in the battlefield.;;;;;;;;;;;;;x
+ca_culture_schiltron_1;Schiltron Barracks;;;;;;;;;;;;;x
+ca_culture_schiltron_2;Schiltron Barracks;;;;;;;;;;;;;x
+ca_culture_schiltron_3;Schiltron Barracks;;;;;;;;;;;;;x
+ca_culture_schiltron_4;Schiltron Barracks;;;;;;;;;;;;;x
+ca_culture_schiltron_1_desc;The schiltron is a compact body of Scottish pikemen. If threatened by cavalry, they present row upon row of spears firmly braced in the earth. Only a fool or a madman would willingly charge into such a dense wall of killing instruments.;;;;;;;;;;;;;x
+ca_culture_highlander_1;Highlander Barracks;;;;;;;;;;;;;x
+ca_culture_highlander_2;Highlander Barracks;;;;;;;;;;;;;x
+ca_culture_highlander_3;Highlander Barracks;;;;;;;;;;;;;x
+ca_culture_highlander_4;Highlander Barracks;;;;;;;;;;;;;x
+ca_culture_highlander_1_desc;Highlander warriors from the Scottish Highlands are reknowned for their bravery and ferocity in battle. As a tactic, they commonly fire at the enemy first with ranged attacks before charging at them with great speed with their fearsome broadswords.;;;;;;;;;;;;;x
+ca_culture_gallowglass_1;Clan Gallowglass Barracks;;;;;;;;;;;;;x
+ca_culture_gallowglass_2;Clan Gallowglass Barracks;;;;;;;;;;;;;x
+ca_culture_gallowglass_3;Clan Gallowglass Barracks;;;;;;;;;;;;;x
+ca_culture_gallowglass_4;Clan Gallowglass Barracks;;;;;;;;;;;;;x
+ca_culture_gallowglass_1_desc;These gallowglass warriors from the different influential Clans of Ireland are excellent heavy infantrymen renowned for their stubborn defense. They have also proven themselves on the offence when assaulting the enemy in such a way that it almost ends up almost immediately routing the enemy.;;;;;;;;;;;;;x
+ca_culture_redshank_1;Redshank Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_redshank_2;Redshank Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_redshank_3;Redshank Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_redshank_4;Redshank Gathering Grounds;;;;;;;;;;;;;x
+ca_culture_redshank_1_desc;Redshanks are unique soldiers in that they go into battle with only plaid as their body protection while being mostly equipped with short bows, broadswords, and shields. That doesn't detract from their ability in battle though as even though they only wear limited clothing they have racked up the reputation of being feared by many.;;;;;;;;;;;;;x
+ca_culture_yaqui_1;Yaqui Cavalry Gathering;;;;;;;;;;;;;x
+ca_culture_yaqui_2;Yaqui Cavalry Gathering;;;;;;;;;;;;;x
+ca_culture_yaqui_3;Yaqui Cavalry Gathering;;;;;;;;;;;;;x
+ca_culture_yaqui_4;Yaqui Cavalry Gathering;;;;;;;;;;;;;x
+ca_culture_yaqui_1_desc;Coming from a proud tradition of cavalry and ambush these cavalry units have existed in many forms and resisted the many forms of invasions through the years, and so have become resiliant to the conditions of battle.;;;;;;;;;;;;;x
+ca_culture_raramuri_1;Rarajipari Arena;;;;;;;;;;;;;x
+ca_culture_raramuri_2;Rarajipari Arena;;;;;;;;;;;;;x
+ca_culture_raramuri_3;Rarajipari Arena;;;;;;;;;;;;;x
+ca_culture_raramuri_4;Rarajipari Arena;;;;;;;;;;;;;x
+ca_culture_raramuri_1_desc;Raramuri traditions value endurance and velocity, these centers are made so to explicitly train their soldiers to the peak of this ability, and so have made for excellent skirmish tactics.;;;;;;;;;;;;;x
+
+tp_shrine_washington;Shrine to Washington;;;;;;;;;;;;;x
+tp_shrine_washington_desc;This temple has been dedicated to Washington, the greatest Founding Father.;;;;;;;;;;;;;x
+tp_shrine_jefferson;Shrine to Jefferson;;;;;;;;;;;;;x
+tp_shrine_jefferson_desc;This temple has been dedicated to Jefferson, the Founding Father representing free trade.;;;;;;;;;;;;;x
+tp_shrine_roosevelt;Shrine to Roosevelt;;;;;;;;;;;;;x
+tp_shrine_roosevelt_desc;This temple has been dedicated to Roosevelt, who famously sailed around the world in his Great White Ship.;;;;;;;;;;;;;x
+tp_shrine_lincoln;Shrine to Lincoln;;;;;;;;;;;;;x
+tp_shrine_lincoln_desc;This temple has been dedicated to Lincoln, who ended the largest revolt in American history.;;;;;;;;;;;;;x
+tb_great_pillar_revelationist;Snake Totem;;;;;;;;;;;;;x
+tb_great_pillar_revelationist_desc;A curved wooden idol bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;;x
+#tb_great_pillar_rust_cultist;Iron Pillar;;;;;;;;;;;;;x
+#tb_great_pillar_rust_cultist_desc;A twisted pillar made of rusted iron bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;;x
+tb_great_pillar_occultist;Relief of the Old Ones;;;;;;;;;;;;;x
+tb_great_pillar_occultist_desc;A carved mural depicting nightmarish creatures bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;;x
+#tb_great_pillar_thelemic;Pyramid;;;;;;;;;;;;;x
+#tb_great_pillar_thelemic_desc;A small, glittering, pyramid-shaped structure bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;;x
+tb_great_pillar_celtic_pagan;Great [celtic_pagan.GetName] Pillar;;;;;;;;;;;;;x
+tb_great_pillar_celtic_pagan_desc;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;;x
+tb_great_pillar_aria_de_machete;Great [aria_de_machete.GetName] Pillar;;;;;;;;;;;;;x
+tb_great_pillar_aria_de_machete_desc;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;;x
+tb_great_pillar_trailwalker;Great [trailwalker.GetName] Pillar;;;;;;;;;;;;;x
+tb_great_pillar_trailwalker_desc;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;;x
+
+RETTYPE_CUL_CANADIAN;Enforcer;;;;;;;;;;;;;x
+RETTYPE_CUL_PRAIRIE;Stampeder;;;;;;;;;;;;;x	
+RETTYPE_CUL_MEXICAN;Charro;;;;;;;;;;;;;x
+RETTYPE_CUL_RUSTBELT;Shieldwall;;;;;;;;;;;;;x
+RETTYPE_CUL_SOUTHERN;Knight;;;;;;;;;;;;;x
+RETTYPE_CUL_DEL;Continental Guard;;;;;;;;;;;;;x
+RETTYPE_CUL_TEXAS;Cowboy;;;;;;;;;;;;;x
+RETTYPE_CUL_GULF;Sniper;;;;;;;;;;;;;x
+RETTYPE_CUL_NORTH;Lineman;;;;;;;;;;;;;x
+RETTYPE_CUL_NY;New Yorker Militia;;;;;;;;;;;;;x
+RETTYPE_CUL_UPSTATE;Hudsonian Dragoon;;;;;;;;;;;;;x
+RETTYPE_CUL_CARIBBEAN;Machetero;;;;;;;;;;;;;x
+RETTYPE_CUL_APPALACHIAN;Pike;;;;;;;;;;;;;x
+RETTYPE_CUL_PLAINS;Horse Archer;;;;;;;;;;;;;x
+RETTYPE_CUL_MOUNTAIN;Mountaineer;;;;;;;;;;;;;x
+RETTYPE_CUL_CALI;Wheeler;;;;;;;;;;;;;x
+RETTYPE_CUL_PORTLAND;Ranger;;;;;;;;;;;;;x
+RETTYPE_CUL_GUERRILLA;Guerrilla;;;;;;;;;;;;;x
+RETTYPE_CUL_BALLESTERO;Ballestero;;;;;;;;;;;;;x
+RETTYPE_CUL_SAMURAI;Samurai;;;;;;;;;;;;;x
+RETTYPE_CUL_COSSACK;Cossack;;;;;;;;;;;;;x
+RETTYPE_CUL_KOA;Koa;;;;;;;;;;;;;x
+RETTYPE_CUL_JSM;Maccabee;;;;;;;;;;;;;x
+RETTYPE_CUL_WOODLANDS;Woodland Warrior;;;;;;;;;;;;;x
+RETTYPE_CUL_INVADER;Hooligan;;;;;;;;;;;;;x
+RETTYPE_CUL_CAMEL;Camel Cavalry;;;;;;;;;;;;;x
+RETTYPE_CUL_ASIAN;Asian Crossbow;;;;;;;;;;;;;x
+RETTYPE_CUL_BRAZILIAN;Independence Dragoon;;;;;;;;;;;;;x
+RETTYPE_CUL_BAIANO;Cangaçeiro;;;;;;;;;;;;;x
+RETTYPE_CUL_MAORI;Toa;;;;;;;;;;;;;x
+RETTYPE_CUL_HAIDA;Kíidaawaa;;;;;;;;;;;;;x
+RETTYPE_CUL_AMAZON;Tamoio;;;;;;;;;;;;;x
+RETTYPE_CUL_JSM;Maccabee;;;;;;;;;;;;;x
+RETTYPE_CUL_CHICAGOAN;Winged Knight;;;;;;;;;;;;;x
+RETTYPE_CUL_PLAUTDIETSCH;Peatstachel;;;;;;;;;;;;;x
+RETTYPE_CUL_RIVERLANDER;River Riders;;;;;;;;;;;;;x
+RETTYPE_CUL_OZZI;Ozzi Knight;;;;;;;;;;;;;x
+RETTYPE_CUL_MALAY;Pendekar;;;;;;;;;;;;;x
+RETTYPE_CUL_ZEBENYA;Zebenya;;;;;;;;;;;;;x
+RETTYPE_CUL_MISKITO;Aiwawakra;;;;;;;;;;;;;x
+RETTYPE_CUL_VENTEUX;Gendarmerie;;;;;;;;;;;;;x
+RETTYPE_CUL_CUBANO;Mambí;;;;;;;;;;;;;x
+RETTYPE_CUL_FILIPINO;Maharlika;;;;;;;;;;;;;x
+RETTYPE_CUL_ANDEAN;Andean;;;;;;;;;;;;;x
+RETTYPE_CUL_MAYAN;Atlatlist;;;;;;;;;;;;;x
+RETTYPE_CUL_ANJALUSI;Jundi;;;;;;;;;;;;;x
+RETTYPE_CUL_TEHRANGELENO;Javidan;;;;;;;;;;;;;x
+RETTYPE_CUL_ASKAR;Askar;;;;;;;;;;;;;x
+RETTYPE_CUL_NEOMOOR;Arabian Knight;;;;;;;;;;;;;x
+RETTYPE_CUL_FILASTINO;Tali'ah;;;;;;;;;;;;;x
+RETTYPE_CUL_TLINGIT;Dáanaa X'igaakáa;;;;;;;;;;;;;x
+RETTYPE_CUL_HIGHLAND;Highland Warrior;;;;;;;;;;;;;x
+RETTYPE_CUL_DENE;Beschok;;;;;;;;;;;;;x
+RETTYPE_CUL_MUSHER;Musher;;;;;;;;;;;;;x
+RETTYPE_CUL_MESOAMERICAN;Cuauhocelotl;;;;;;;;;;;;;x
+RETTYPE_CUL_ANDINO;Lancero;;;;;;;;;;;;;x
+RETTYPE_CUL_BILLMEN;Billmen;;;;;;;;;;;;;x
+RETTYPE_CUL_SCHILTRON;Schiltron;;;;;;;;;;;;;x
+RETTYPE_CUL_HIGHLANDER;Highlander;;;;;;;;;;;;;x
+RETTYPE_CUL_GALLOWGLASS;Clan Gallowglass;;;;;;;;;;;;;x
+RETTYPE_CUL_REDSHANK;Redshank;;;;;;;;;;;;;x
+RETTYPE_CUL_YAQUI;Yoeme Cavalry;;;;;;;;;;;;;x
+retreat_and_ambush_tactic;Hit and Run;;;;;;;;;;;;;x
+berserker_charge_tactic;Blitz;;;;;;;;;;;;;x
+schiltron_formation_tactic;Schildwall;;;;;;;;;;;;;x
+pike_column_advance_tactic;Pike Square;;;;;;;;;;;;;x
+dragoon_charge_tactic;Dragoon Charge;;;;;;;;;;;;;x
+massive_atlatlist_volley_tactic;Massive Atlatlist Volley;;;;;;;;;;;;;x
+river_ambush_tactic;River Ambush;;;;;;;;;;;;;x
+rapid_charge_tactic;Rapid Charge;;;;;;;;;;;;;x
+open_range_1;Open Range;;;;;;;;;;;;;x
+open_range_2;Open Range;;;;;;;;;;;;;x
+open_range_3;Open Range;;;;;;;;;;;;;x
+open_range_4;Open Range;;;;;;;;;;;;;x
+open_range_5;Open Range;;;;;;;;;;;;;x
+open_range_6;Open Range;;;;;;;;;;;;;x
+open_range_7;Open Range;;;;;;;;;;;;;x

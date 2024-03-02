@@ -1,0 +1,13 @@
+# County Title
+title=c_eastern_ranges
+
+# Settlements
+max_settlements=2
+
+b_pioche_NV=tribal
+
+# Misc
+culture=battleborn
+religion=atomicist
+
+#History

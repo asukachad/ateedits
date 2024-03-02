@@ -1,0 +1,1067 @@
+namespace = hanovers
+
+narrative_event = {
+	id = hanovers.1
+	title= EVTTITLE_hanovers_landed
+	desc = "EVTDESC_hanovers_landed"
+	picture = GFX_evt_a_crowning_ceremony
+	border = GFX_event_narrative_frame_diplomacy
+	major = yes
+	trigger = {
+		NOT = {
+			has_global_flag = hanovers_landed
+		}
+		AND = {
+			dynasty = 1782165
+			OR = {
+				tier = COUNT
+				tier = DUKE
+				tier = KING
+				tier = EMPEROR
+			}
+		}
+		NOT = {
+			has_landed_title = c_james
+			has_landed_title = k_old_dominion
+		}
+	}
+	immediate = {
+		set_global_flag = hanovers_landed
+	}
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = "EVTOPT_hanoverlanda" #the hanovers
+		trigger = {
+			is_landed = yes
+			dynasty = 1782165
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoverlandb" #the josias
+		trigger = {
+			is_landed = yes
+			dynasty = 1782060
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoverlandc" #the americanist/OWC
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				NOT = {
+					OR = {
+						religion = americanist
+						religion = hamiltonian
+						religion = jeffersonian
+					}
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoverlandd" #other
+		trigger = {
+			is_landed = yes
+			NOT = {
+				dynasty = 1782165
+				dynasty = 1782060
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoverlandd"
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				OR = {
+					religion = americanist
+					religion = hamiltonian
+					religion = jeffersonian
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+}
+narrative_event = {
+	id = hanovers.2
+	title= EVTTITLE_hanovers_richmond
+	desc = "EVTDESC_hanovers_richmond"
+	picture = GFX_evt_a_crowning_ceremony
+	border = GFX_event_narrative_frame_diplomacy
+	major = yes
+	trigger = {
+		NOT = {
+			has_global_flag = hanovers_richmond
+		}
+		AND = {
+			dynasty = 1782165
+			has_landed_title = c_james
+			NOT = {
+				has_global_flag = hanovers_virginia
+				has_landed_title = k_old_dominion
+			}
+		}
+	}
+	immediate = {
+		set_global_flag = hanovers_richmond
+		set_global_flag = hanovers_landed
+	}
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = "EVTOPT_hanoversrichmonda"
+		trigger = {
+			is_landed = yes
+			dynasty = 1782165
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoversrichmondb"
+		trigger = {
+			is_landed = yes
+			dynasty = 1782060
+			NOT = {
+				character = 1861579
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoversrichmondc"
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				NOT = {
+					OR = {
+						religion = americanist
+						religion = hamiltonian
+						religion = jeffersonian
+					}
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoverlandd"
+		trigger = {
+			is_landed = yes
+			NOT = {
+				dynasty = 1782165
+				dynasty = 1782060
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoverlandd"
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				OR = {
+					religion = americanist
+					religion = hamiltonian
+					religion = jeffersonian
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_anastasiarichmond"
+		trigger = {
+			is_landed = yes
+			character = 1861579
+			has_landed_title = c_james
+		}
+	}
+}
+narrative_event = {
+	id = hanovers.3
+	title= EVTTITLE_hanovers_richmond
+	desc = "EVTDESC_josias_richmond"
+	picture = GFX_evt_a_crowning_ceremony
+	border = GFX_event_narrative_frame_diplomacy
+	major = yes
+	trigger = {
+		NOT = {
+			has_global_flag = hanovers_richmond
+		}
+		AND = {
+			dynasty = 1782060
+			has_landed_title = c_james
+			NOT = {
+				has_global_flag = hanovers_virginia
+				has_landed_title = k_old_dominion
+			}
+		}
+	}
+	immediate = {
+		set_global_flag = hanovers_richmond
+	}
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = "EVTOPT_hanoversrichmonda"
+		trigger = {
+			is_landed = yes
+			dynasty = 1782060
+			NOT = {
+				character = 1861579
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoversrichmondb"
+		trigger = {
+			is_landed = yes
+			dynasty = 1782165
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoversrichmondc"
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				NOT = {
+					OR = {
+						religion = americanist
+						religion = hamiltonian
+						religion = jeffersonian
+					}
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoverlandd"
+		trigger = {
+			is_landed = yes
+			NOT = {
+				dynasty = 1782165
+				dynasty = 1782060
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoverlandd"
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				OR = {
+					religion = americanist
+					religion = hamiltonian
+					religion = jeffersonian
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_anastasiarichmond"
+		trigger = {
+			is_landed = yes
+			character = 1861579
+			has_landed_title = c_james
+		}
+	}
+}
+narrative_event = {
+	id = hanovers.4
+	title= EVTTITLE_hanovers_virginia
+	desc = {
+		trigger = {
+			dynasty = 1782165
+			has_landed_title = k_old_dominion
+		}
+		text = "EVTDESC_hanover_virginia"
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				NOT = {
+					OR = {
+						religion = americanist
+						religion = hamiltonian
+						religion = jeffersonian
+					}
+				}
+			}
+		}
+		text = "EVTDESC_hanovers_virginiab"
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				OR = {
+					religion = americanist
+					religion = hamiltonian
+					religion = jeffersonian
+				}
+			}
+		}
+		text = "EVTDESC_hanovers_virginia_americanist"
+	}
+	picture = GFX_evt_a_crowning_ceremony
+	border = GFX_event_narrative_frame_diplomacy
+	major = yes
+	trigger = {
+		NOT = {
+			has_global_flag = hanovers_virginia
+		}
+		AND = {
+			dynasty = 1782165
+			has_landed_title = k_old_dominion
+		}
+	}
+	immediate = {
+		set_global_flag = hanovers_virginia
+		set_global_flag = hanovers_landed
+		if = {
+			limit = {
+				has_landed_title = c_james
+			}
+			set_global_flag = hanovers_richmond
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = "EVTOPT_hanoversvirginiaa"
+		trigger = {
+			dynasty = 1782165
+		}
+		prestige = 50
+	}
+	option = {
+		name = "EVTOPT_hanoversvirginiab"
+		trigger = {
+			dynasty = 1782060
+		}
+		prestige = 20
+	}
+	option = {
+		name = "EVTOPT_hanoversvirginiac"
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				NOT = {
+					OR = {
+						religion = americanist
+						religion = hamiltonian
+						religion = jeffersonian
+					}
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoversvirginiad"
+		trigger = {
+			is_landed = yes
+			NOT = {
+				dynasty = 1782165
+				dynasty = 1782060
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoversvirginiae"
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				OR = {
+					religion = americanist
+					religion = hamiltonian
+					religion = jeffersonian
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+}
+narrative_event = {
+	id = hanovers.5
+	title= EVTTITLE_hanovers_virginia
+	desc = {
+		trigger = {
+			dynasty = 1782060
+			has_landed_title = k_old_dominion
+		}
+		text = "EVTDESC_hanover_virginia"
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				NOT = {
+					OR = {
+						religion = americanist
+						religion = hamiltonian
+						religion = jeffersonian
+					}
+				}
+			}
+		}
+		text = "EVTDESC_josias_virginia"
+	}
+	desc = {
+		trigger = {
+			ROOT = {
+				OR = {
+					religion = americanist
+					religion = hamiltonian
+					religion = jeffersonian
+				}
+			}
+		}
+		text = "EVTDESC_josias_virginia_americanist"
+	}
+	picture = GFX_evt_a_crowning_ceremony
+	border = GFX_event_narrative_frame_diplomacy
+	major = yes
+	trigger = {
+		NOT = {
+			has_global_flag = hanovers_virginia
+		}
+		AND = {
+			dynasty = 1782060
+			has_landed_title = k_old_dominion
+		}
+	}
+	immediate = {
+		set_global_flag = hanovers_virginia
+		if = {
+			limit = {
+				has_landed_title = c_james
+			}
+			set_global_flag = hanovers_richmond
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}	
+	option = {
+		name = "EVTOPT_hanoversvirginiaa"
+		trigger = {
+			is_landed = yes
+			dynasty = 1782060
+			NOT = {
+				character = 1861579
+			}
+		}
+		prestige = 50
+	}
+	option = {
+		name = "EVTOPT_hanoversvirginiab"
+		trigger = {
+			is_landed = yes
+			dynasty = 1782165
+		}
+		prestige = 20
+	}
+	option = {
+		name = "EVTOPT_hanoversvirginiac"
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				NOT = {
+					OR = {
+						religion = americanist
+						religion = hamiltonian
+						religion = jeffersonian
+					}
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoversvirginiae"
+		trigger = {
+			is_landed = yes
+			ROOT = {
+				OR = {
+					religion = americanist
+					religion = hamiltonian
+					religion = jeffersonian
+				}
+			}
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_hanoversvirginiad"
+		trigger = {
+			is_landed = yes
+			NOT = {
+				dynasty = 1782165
+				dynasty = 1782060
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT_anastasiavirginia"
+		trigger = {
+			is_landed = yes
+			character = 1861579
+			has_landed_title = k_old_dominion
+		}
+		prestige = 50
+	}
+}
+
+narrative_event = {
+	id = hanovers.6
+	title= EVTTITLE_anastasiaopening
+	desc = "EVTDESC_anastasia1"
+	picture = GFX_evt_princess_byzantine
+	border = GFX_event_narrative_frame_diplomacy
+	prisoner = no
+	has_character_flag = anastasia
+	trigger = {
+		is_landed = yes
+		NOT = {has_landed_title = e_dixie}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "EVTOPT_anaread"
+		clr_character_flag = anastasia
+		set_character_flag = anastasia2
+		custom_tooltip = { text = TXT_anastasia1 }
+		custom_tooltip = { text = TXT_anastasia2 }
+		hidden_tooltip = {
+			character_event = { id = hanovers.7 days = 1 }
+		}
+		job_chancellor = {
+			opinion = { who = ROOT modifier = opinion_annoyed } #placeholder
+			reverse_opinion = { who = ROOT modifier = opinion_annoyed } #placeholder
+		}
+		ai_chance = { factor = 10 }
+	}
+	option = {
+		name = "EVTOPT_anasulk"
+		clr_character_flag = anastasia
+		set_character_flag = anastasia0
+		add_trait = content
+		hidden_tooltip = {
+			remove_trait = flowered
+		}
+		ai_chance = { factor = 1 }
+	}
+}
+narrative_event = {
+	id = hanovers.7
+	title= EVTTITLE_anastasiareading
+	desc = "EVTDESC_anastasia2"
+	picture = GFX_evt_open_book_hf
+	border = GFX_event_narrative_frame_diplomacy
+	prisoner = no
+	is_triggered_only = yes
+	trigger = {
+		NOT = {has_landed_title = e_dixie}
+	}
+	option = {
+		name = "EVTOPT_anaambitious"
+		custom_tooltip = { text = TXT_anaambitious }
+		add_trait = ambitious
+		hidden_tooltip = {
+			character_event = { id = hanovers.8 days = 10 }
+		}	
+	}
+}
+narrative_event = {
+	id = hanovers.8
+	title= EVTTITLE_anastasiaplot
+	desc = "EVTDESC_anastasia3"
+	picture = GFX_evt_woman_at_window_hf
+	border = GFX_event_narrative_frame_intrigue
+	prisoner = no
+	is_triggered_only = yes
+	trigger = {
+		NOT = {has_landed_title = e_dixie}
+	}
+	option = {
+		name = "EVTOPT_anastasia3a"
+		custom_tooltip = { text = TXT_anastasia3a }
+		add_character_modifier = {
+			name = anastasia_general
+			years = 5
+		}
+		hidden_tooltip = {
+			remove_trait = flowered
+		}
+		ai_chance = { factor = 1 }
+	}
+	option = {
+		name = "EVTOPT_anastasia3b"
+		custom_tooltip = { text = TXT_anastasia3b }
+		hidden_tooltip = {
+			if = {
+				limit = {
+					e_dixie = {
+						holder_scope = {
+							is_married = yes
+							NOT = { 
+								any_spouse = {
+									has_character_flag = anastasia2
+								} 
+							}
+						}
+					}
+				}
+				narrative_event = { id = hanovers.9 days = 1 }
+			}
+			else = {
+				narrative_event = { id = hanovers.10 days = 1 }
+			}
+		}
+		ai_chance = { factor = 10 }
+	}
+}
+narrative_event = {
+	id = hanovers.9
+	title= EVTTITLE_anastasia4
+	desc = "EVTDESC_anastasia4"
+	picture = GFX_evt_wise_woman
+	border = GFX_event_narrative_frame_intrigue
+	prisoner = no
+	is_triggered_only = yes
+	trigger = {
+		NOT = {has_landed_title = e_dixie}
+	}
+	option = {
+		name = "EVTOPT_anastasia4a"
+		custom_tooltip = { text = TXT_anastasia4a }
+		add_character_modifier = {
+			name = delightfully_devilish_anastasia
+			years = 3
+		}
+		hidden_tooltip = {
+			e_dixie = {
+				holder_scope = {
+					add_trait = flowered
+				}
+			}
+		}
+	}
+}
+narrative_event = {
+	id = hanovers.10
+	title= EVTTITLE_anastasiacourt
+	desc = "EVTDESC_anastasia5"
+	picture = GFX_evt_pleasing_letter
+	border = GFX_event_narrative_frame_intrigue
+	prisoner = no
+	has_character_flag = anastasia2
+	
+	trigger = {
+		d_inner_banks = {
+			holder_scope = {
+				is_married = no
+				has_character_flag = anastasia2
+			}
+		}
+		e_dixie = {
+			holder_scope = {
+				age = 16
+				is_married = no
+				NOT = { has_character_flag = rejected_anastasia }
+			}
+		}
+		NOT = {has_landed_title = e_dixie}
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	
+	option = {
+		name = "EVTOPT_anastasia5a"
+		custom_tooltip = { text = TXT_anastasia5a }
+		e_dixie = {
+			holder_scope = {
+				narrative_event = { id = hanovers.12 }
+			}
+		}
+	}
+}
+narrative_event = {
+	id = hanovers.11
+	title = EVTTITLE_anastasia6
+	desc = EVTDESC_anastasia6
+	picture = GFX_evt_bier_with_a_dead_character
+	border = GFX_event_narrative_frame_intrigue
+	prisoner = no
+	has_character_flag = anastasia2
+	
+	trigger = {
+		e_dixie = {
+			holder_scope = {
+				is_incapable = no
+				any_spouse = {
+					has_character_flag = anastasia2
+				}
+			}
+		}
+		NOT = { has_global_flag = anastaisa_helped_hand }
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	
+	option = {
+		name = "EVTOPT_anastasia6a"
+		custom_tooltip = { text = TXT_anastasia6a }
+		hidden_tooltip = {
+		random_list = {
+			90 = {
+				e_dixie = {
+					holder_scope = {
+						narrative_event = { id = hanovers.14 }
+					}
+				}
+			}
+			10 = {
+				#nothing, or some lesser effect if desired
+			}
+		}
+		}
+		set_character_flag = helped_hand
+	}
+}
+
+narrative_event = {
+	id = hanovers.12
+	title= EVTTITLE_anastasiaEMP1
+	desc = "EVTDESC_anastasiaEMP1"
+	picture = GFX_evt_pleasing_letter
+	border = GFX_event_narrative_frame_diplomacy
+	prisoner = no
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = "EVTOPT_anastasiaEMP1a"
+		d_inner_banks = {
+			holder_scope = {
+				add_spouse = ROOT
+			}
+		}
+		hidden_tooltip = {
+			remove_trait = flowered
+			d_inner_banks = {
+				holder_scope = {
+					remove_trait = flowered
+				}
+			}
+		}
+		ai_chance = { factor = 10 }
+	}
+	
+	option = {
+		name = "EVTOPT_anastasiaEMP1b"
+		ai_chance = { factor = 0 }
+		d_inner_banks = {
+			holder_scope = {
+				narrative_event = { id = hanovers.13 }
+			}
+		}
+		hidden_tooltip = {
+			remove_trait = flowered
+			d_inner_banks = {
+				holder_scope = {
+					remove_trait = flowered
+				}
+			}
+			e_dixie = {
+				holder_scope = {
+					set_character_flag = rejected_anastasia
+				}
+			}
+		}
+	}
+}
+
+narrative_event = {
+	id = hanovers.13
+	title= EVTTITLE_anastasiaEMP2
+	desc = "EVTDESC_anastasiaEMP2"
+	picture = GFX_evt_courtiers_looking_scandalized
+	border = GFX_event_narrative_frame_diplomacy
+	prisoner = no
+	is_triggered_only = yes
+	trigger = {
+		NOT = {has_landed_title = e_dixie}
+	}
+	
+	option = {
+		name = "EVTOPT_anastasiaEMP2a"
+		custom_tooltip = { text = TXT_anastasiaEMP2 }
+		add_trait = wroth
+	}
+}
+
+narrative_event = {
+	id = hanovers.14
+	title= EVTTITLE_anastasiaEMP3
+	desc = "EVTDESC_anastasiaEMP3"
+	picture = GFX_evt_died_illness
+	border = GFX_event_narrative_frame_intrigue
+	prisoner = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT_anastasiaEMP3a"
+		add_trait = incapable
+		set_global_flag = anastaisa_helped_hand
+	}
+}
+
+narrative_event = {
+	id = hanovers.19
+	title= EVTTITLE_hcc_heartbreaker_war
+	desc = "EVTDESC_hcc_heartbreaker_war"
+	picture = GFX_evt_mounted_knights_hf
+	border = GFX_event_narrative_frame_intrigue
+	prisoner = no
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA_hcc_heartbreaker_war"
+		add_claim = e_dixie
+		create_title = {
+			tier = EMPEROR
+			landless = yes
+			temporary = yes
+			culture = ROOT
+			name = HEARTBREAKER_REVOLT
+			holder = ROOT
+		}
+		capital_scope = {
+            ROOT = {
+                spawn_unit = {
+					owner = THIS
+                    province = PREV
+					home = ROOT
+
+					troops = {
+						archers = { 1000 1000 }
+						light_infantry = { 3000 3000 }
+						heavy_infantry = { 2000 2000 }
+						light_cavalry = { 1000 1000 }
+					}
+
+					attrition = 1.0
+					disband_on_peace = yes
+					maintenance_multiplier = 0
+				}
+			}
+		}
+		e_dixie = {
+			holder_scope = {
+				reverse_war = {
+					target = ROOT
+					thirdparty_title = PREV
+					casus_belli = claim
+				}
+			}
+		}
+		set_character_flag = anastasia_war
+	}
+}
+
+narrative_event = {
+	id = hanovers.20
+	title = EVTTITLE_anastasiabloodHCC
+	desc = {
+		trigger = {
+			character = 1861579
+		}
+		text = EVTDESC_anastasiabloodHCC
+	}
+	desc = {
+		trigger = {
+			NOT = { character = 1861579 }
+		}
+		text = EVTDESC_anastasiabloodHCCgeneric
+	}
+	picture = GFX_evt_virgin_mary_icon
+	border = GFX_event_narrative_frame_war
+	sound = bloodline_added
+
+	trigger = { 
+		has_dlc = "Holy Fury"
+		has_character_flag = anastasia_war #Fuck this event.
+		e_dixie = {
+			holder_scope = {
+				OR = {
+					has_character_flag = anastasia_war
+					#adding it if Anastasia got the empire in another way
+					has_character_flag = anastasia2
+					has_character_flag = anastasia
+				}
+				NOT = {
+					any_owned_bloodline = {
+						has_bloodline_flag = matilde_bloodline
+						ROOT = {
+							is_bloodline_member_of = PREV
+						}
+					}
+				}
+			}
+		}
+		NOT = {
+			has_character_flag = anastasia_win
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = flag_anastasia_bloodline
+	}
+	
+	option = {
+		name = EVTOPT_anabloodline
+		limit = {has_character_flag = anastasia_war}
+		if = { 
+			limit = { 
+				this_has_cool_nickname_trigger = no
+				this_has_super_cool_nickname_trigger = no
+			}
+			give_nickname = nick_the_heartbreaker
+		}
+		if = { 
+			limit = { character = 1861579 }
+			create_bloodline = {
+				type = true_anastasia_bloodline
+			}
+			clr_character_flag = anastasia_war
+			add_character_flag = anastasia_win
+		}
+		else_if = {
+			limit = { is_female = yes } 
+			create_bloodline = {
+				type = heartbraker_female_bloodline
+			}
+			clr_character_flag = anastasia_war
+			add_character_flag = anastasia_win
+		}
+		else_if = {
+			limit = { is_female = no }
+			create_bloodline = {
+				type = heartbraker_male_bloodline
+			}
+			clr_character_flag = anastasia_war
+			add_character_flag = anastasia_win
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+narrative_event = {
+	id = hanovers.21
+	title= EVTTITLE_cogsuc
+	desc = "EVTDESC_cogsuc"
+	picture = GFX_evt_open_book_hf
+	border = GFX_event_narrative_frame_intrigue
+	prisoner = no
+	
+	trigger = {
+		e_dixie = {
+			holder_scope = {
+				is_female = yes
+				any_owned_bloodline = {
+					has_bloodline_flag = matilde_bloodline
+					ROOT = {
+						is_bloodline_member_of = PREV
+					}
+				}
+	
+			}
+			NOT = { has_law = true_cognatic_succession }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = {
+		name = "EVTOPTA_cogsuc"
+		primary_title = { add_law = { law = true_cognatic_succession } }
+		any_child = {
+			dynasty = ROOT
+		}
+	}
+	option = {
+		name = "EVTOPTB_cogsuc"
+		prestige = -50
+	}
+}

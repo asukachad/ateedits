@@ -1,0 +1,11 @@
+# County Title
+title=c_wrangell
+
+# Settlements
+max_settlements=1
+b_wrangell_AK=castle
+
+# Misc
+culture=alaskan
+religion=raven_tales
+terrain=hills

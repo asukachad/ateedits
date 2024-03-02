@@ -1,0 +1,16 @@
+# Tulua
+
+# County Title
+title=c_tulua
+
+# Settlements
+max_settlements=4
+
+b_tulua_COL=tribal
+
+# Misc
+culture=valluno
+religion=patria_grande
+terrain=farmlands
+
+#History

@@ -1,0 +1,291 @@
+official_stewardship_authorization = {
+	icon = 10
+	stewardship = 1
+	demesne_size = 2
+}
+lost_official_diplomacy_authorization = {
+	icon = 22
+	diplomacy = -1
+}
+druidic_delegation = {
+	icon = 10
+	gaian_opinion = 10
+	monthly_character_piety = 1
+}
+martial_land_focus = {
+	icon = 10
+	global_levy_size = 0.25
+	land_morale = 0.10
+}
+defensive_land_focus = {
+	icon = 10
+	global_garrison_size = 0.25
+	max_attrition = 0.10
+}
+tax_land_focus = {
+	icon = 10
+	global_tax_modifier = 0.2
+	local_build_cost_modifier = -0.25
+}
+official_druid_sponsorship = {
+	icon = 10
+	monthly_character_prestige = 3
+	monthly_character_piety = -1
+}
+boon_timer = {
+	icon = 79
+}
+mobilized_druidic_reserves ={
+	icon = 31
+	church_opinion = -5
+	martial = 1
+}
+
+refused_reclamation = {
+	icon = 13
+	church_opinion = 5
+}
+
+gaian_took_part_in_reclamation = {
+	icon = 1
+	martial = 1
+}
+
+peaked_garibaldi = {
+	icon = 79
+	siege_speed = 0.1
+	martial = 1
+}
+
+van_lions = {
+	icon = 79
+	combat_rating = 5
+	land_morale = 0.5
+}
+
+golden_hind = {
+	icon = 79
+	stewardship = 1
+	levy_size = 0.5
+}
+
+standing_wave = {
+	icon = 79
+	monthly_character_piety = 1
+	land_morale = 0.5
+}
+
+waddington = {
+	icon = 79
+	learning = 1
+	health = 1
+	land_organisation = 0.5
+}
+
+carmanah_hike = {
+	icon = 79
+	learning = 1
+	command_modifier = {
+		terrain = forest
+		terrain = hills
+	}
+}
+
+canadian_muir = {
+	icon = 79
+	diplomacy = 1
+	command_modifier = {
+		terrain = forest
+	}
+	levy_size = 0.5
+}
+
+olympic_canada = {
+	icon = 79
+	intrigue = 1
+	command_modifier = {
+		terrain = hills
+	}
+}
+
+saw_greatbear = {
+	icon = 79
+	combat_rating = 5
+	command_modifier = {
+		terrain = hills
+	}
+	martial = 1
+}
+
+in_prospective = {
+	icon = 79
+	stewardship = 1
+	command_modifier = {
+		terrain = hills
+	}
+	global_tax_modifier = 0.5
+}
+
+pleased_hike_doc = {
+	icon = 79
+	health = 0.5
+	monthly_character_piety = 1
+	learning = 1
+}
+
+braved_graveyard = {
+	icon = 79
+	martial = 1
+	health = 1
+}
+
+peaked_canfield = {
+	icon = 79
+	local_build_cost_modifier = -0.2
+	stewardship = 1
+	monthly_character_piety = 0.1
+}
+
+got_through_hellscanyon = {
+	icon = 79
+	martial = 1
+	attrition = -0.25
+}
+
+went_to_celilo = {
+	icon = 79
+	global_tax_modifier = 0.1
+	stewardship = 1
+}
+
+hot_spring_olympia = {
+	icon = 79
+	combat_rating = 15
+	health = 0.5
+}
+
+lake_heart = {
+	icon = 79
+	general_opinion = 10
+}
+
+multnomah_falls = {
+	icon = 79
+	learning = 2
+}
+
+mount_hood = {
+	icon = 79
+	health = 1.5
+}
+
+hoh_forest = {
+	icon = 79
+	stewardship = 3
+}
+
+redwoods_power = {
+	icon = 79
+	stewardship = 2
+	monthly_character_piety = 1
+}
+
+forest_park = {
+	icon = 79
+	diplomacy = 2
+}
+
+braved_helens = {
+	icon = 79
+	martial = 2
+}
+
+rainier_topping = {
+	icon = 79
+	monthly_character_prestige = 1
+}
+
+steptoe_butte = {
+	icon = 79
+	stewardship = 2
+	local_build_cost_modifier = -0.1
+}
+
+encountered_bigfoot = {
+	icon = 79
+	command_modifier = { speed = 0.2 }
+	intrigue = 1
+}
+
+pend_orielle_finished = {
+	icon = 79
+	learning = 1
+	threat_decay_speed = 0.1
+}
+
+hiawhata_finished = {
+	icon = 79
+	stewardship = 1
+	tradevalue = 2
+}
+
+courdalenes_finished = {
+	icon = 79
+	diplomacy = 1
+	monthly_character_prestige = 0.2
+}
+
+sacajawea_sundown = {
+	icon = 79
+	martial = 1
+	command_modifier = {
+		terrain = hills
+	}
+	health = 0.05
+}
+
+spokane_summited = {
+	icon = 79
+	learning = 1
+	diplomacy = 1
+}
+
+refused_succ_law_change = {
+	icon = 11
+	church_opinion = -25
+}
+
+refused_demilitarize = {
+	icon = 11
+	church_opinion = -50
+}
+
+climbed_south_sis = {
+	icon = 79
+	fertility = 0.15
+}
+
+firewalked_with_gaia = {
+	icon = 79
+	intrigue = 1
+	plot_power_modifier = 0.2
+}
+
+st_joe_good = {
+	icon = 79
+	learning = 1
+	church_opinion = 10
+}
+
+st_joe_bad = {
+	icon = 79
+	monthly_character_piety = -0.5
+	monthly_character_prestige = 0.5
+	church_opinion = -5
+}
+
+umatilla_bested = {
+	icon = 79
+	learning = 1
+	monthly_character_piety = 0.8
+}

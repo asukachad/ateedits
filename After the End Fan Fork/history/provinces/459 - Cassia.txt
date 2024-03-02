@@ -1,0 +1,12 @@
+# 459 - Cassia
+
+# County Title
+title=c_cassia
+
+# Settlements
+max_settlements=2
+b_jackpot_NV=tribal
+
+# Misc
+culture=snakelander
+religion=mormon

@@ -1,0 +1,17 @@
+# c_chiquimula
+
+# County Title
+title=c_chiquimula
+
+# Settlements
+max_settlements=4
+
+b_chiquimula_GT=castle
+b_esquipulas_GT=temple
+b_zacapa_GT=castle
+
+# Misc
+culture=quichean
+religion=falling_star
+
+#History

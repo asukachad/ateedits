@@ -1,0 +1,15 @@
+# c_blythe
+
+# County Title
+title=c_blythe
+
+# Settlements
+max_settlements=2
+
+b_havasu_CA=castle
+
+# Misc
+culture=battleborn
+religion=nazarene
+
+#History

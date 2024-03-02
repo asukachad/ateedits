@@ -1,0 +1,15 @@
+# c_hawthorne
+
+# County Title
+title=c_hawthorne
+
+# Settlements
+max_settlements=2
+
+b_hawthorne_CA=tribal
+
+# Misc
+culture=battleborn
+religion=cetic
+
+#History

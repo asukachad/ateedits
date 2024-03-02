@@ -1,0 +1,18 @@
+# c_waskaganish
+
+# County Title
+title=c_waskaganish
+
+# Settlements
+max_settlements=3
+b_waskaganish_QC=tribal
+
+# Misc
+culture=iyyu
+religion=midewiwin
+terrain=taiga
+
+#History
+2600.1.1={ 
+	b_waskaganish_QC=tb_shipyard_1
+}

@@ -1,0 +1,252 @@
+###ÄNSI
+
+d_viceroy_host = {
+	color = { 202 26 26 }
+
+	color2= { 255 255 255 }
+
+	capital = 440 # Boston
+
+	culture = arixan
+	religion = orientalist
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+
+	#tribe = yes
+
+	short_name = yes
+
+	allow = {
+		always = no
+	}
+
+}
+d_renovator_host = {
+	color = { 202 26 26 }
+
+	color2= { 255 255 255 }
+
+	capital = 440 # Boston
+
+	culture = czexan
+	religion = falling_star
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+
+	#tribe = yes
+
+	short_name = yes
+
+	allow = {
+		always = no
+	}
+
+}
+d_wayne_host = {
+	color = { 243 180 17 }
+	color2 = { 220 220 0 }
+
+	capital = 2019 # Los Angeles
+
+	culture = grangelander
+	religion = trailwalker
+
+	#title = "CAPTAIN"
+	#foa = "CAPTAIN_FOA"
+
+
+	#tribe = yes
+
+	short_name = yes
+
+	allow = {
+		always = no
+	}
+
+}
+#d_miskahannock = {
+#	color = { 170 46 32 }
+#	color2={ 220 220 20 }
+#	
+#	#tribe = yes
+#	
+#	allow = {
+#		always = no
+#	}
+#	
+#	capital = 167 # Greensburg
+#	culture = rostmann
+#	title = "HIGH_CHIEF"
+#	foa = "HIGH_CHIEF_FOA"
+#	title_prefix = "TRIBE_OF"
+#}
+
+#d_burning_river = {
+#	color = { 238 145 67 }
+#	color2={ 220 220 20 }
+#	
+#	#tribe = yes
+#	
+#	allow = {
+#		always = no
+#	}
+#	
+#	capital = 102 # Cuyahoga / Cleveland
+#	culture = motowner
+#	title = "HIGH_CHIEF"
+#	foa = "HIGH_CHIEF_FOA"
+#	title_prefix = "TRIBE_OF"
+#}
+
+#d_trailblazers = {
+#	color = { 73 186 102 }
+#	color2={ 220 220 20 }
+#	
+#	#tribe = yes
+#	
+#	allow = {
+#		always = no
+#	}
+#	
+#	capital = 516 # c_wallawalla
+#	culture = cascadian
+#	title = "HIGH_CHIEF"
+#	foa = "HIGH_CHIEF_FOA"
+#	title_prefix = "TRIBE_OF"
+#}
+
+	
+### HORDES
+
+e_estelaria = {
+	color = { 218 165 32 }
+
+	color2= { 255 255 255 }
+	
+	religion = falling_star
+	
+	short_name = yes
+	
+	dignity = 300
+	
+	allow = {
+		always = no
+	}
+
+}
+
+e_redcoat_dominion = {
+	color = { 202 26 26 }
+
+	color2= { 255 255 255 }
+
+	capital = 69 # Boston
+
+	culture = anglish
+	religion = glorian
+
+	title = "LORD_ADMIRAL"
+	foa = "LORD_ADMIRAL_FOA"
+
+	# Always exists
+	landless = yes
+
+	#tribe = yes
+
+	short_name = yes
+
+	allow = {
+		always = no
+	}
+
+}
+e_playercoledokko = { # Japan
+	color = { 238 238 238 }
+
+	color2= { 255 255 255 }
+
+	capital = 2031 # San Francisco
+
+	culture = edokko
+	religion = shinto
+
+	title = "city_emperor_edokko"
+	title_female = "city_emperor_female_edokko"
+	#tribe = yes
+
+	short_name = no
+
+	allow = {
+		always = no
+	}
+}
+
+e_edokko = { # Japan
+	color = { 238 238 238 }
+
+	color2= { 255 255 255 }
+
+	capital = 2031 # San Francisco
+
+	culture = edokko
+	religion = shinto
+
+	title = "city_emperor_edokko"
+	title_female = "city_emperor_female_edokko"
+	landless = yes
+	#tribe = yes
+
+	short_name = no
+
+	allow = {
+		always = no
+	}
+}
+
+e_playercolnovorusskiy = {
+	color = { 238 10 10 }
+
+	color2= { 255 255 255 }
+
+	capital = 832 # Sitka
+
+	culture = primorskiy
+	religion = nousthreskeia
+
+	title = "city_emperor_novorusskiy"
+	title_female = "city_emperor_female_novorusskiy"
+	#tribe = yes
+
+	short_name = no
+
+	allow = {
+		always = no
+	}
+}
+
+
+e_novorusskiy = {
+	color = { 238 10 10 }
+
+	color2= { 255 255 255 }
+
+	capital = 832 # Sitka
+
+	culture = primorskiy
+	religion = nousthreskeia
+
+	title = "city_emperor_novorusskiy"
+	title_female = "city_emperor_female_novorusskiy"
+	landless = yes
+	#tribe = yes
+
+	short_name = no
+
+	allow = {
+		always = no
+	}
+}

@@ -1,0 +1,16 @@
+# 554 - Clayoquot
+
+# County Title
+title=c_clayoquot
+
+# Settlements
+max_settlements=1
+
+b_tofino_BC = castle
+
+
+# Misc
+culture=wakashan
+religion=raven_tales
+
+#History

@@ -1,0 +1,152 @@
+###ÄNSI
+EVTNAME_SoA_570;Yud Tes Kislev;;;;;;;;;x
+EVTDESC_SoA_570;Today is the day the Alter Rebbe was released from prison after arrest from the Russian authorities.\nIt is a day of celebration for all Jews who follow the Rebbe! Farbregens are held for days to celebrate the release of the Alter Rebbe.;;;;;;;;;;;;x
+EVTOPTA_SoA_570;Yechi Adoneinu Moreinu V'Rabbeinu!;;;;;;;;;x
+EVTNAME_SoA_571;Yud Tes Kislev Invitation;;;;;;;;;x
+EVTDESC_SoA_571;At a time of great conflict in the Jewish world, the Alter Rebbe was accused and imprisoned for treason. It is this day we mark his liberation from prison with a farbregen.;;;;;;;;;;;;x
+EVTOPTA_SoA_571;Yechi Adoneinu Moreinu V'Rabbeinu!;;;;;;;;;x
+EVTOPTB_SoA_571;I cannot attend;;;;;;;;;x
+EVTTOOLTIP_SoA_571;is invited to a farbregen;;;;;;;;;x
+EVTNAME_SoA_572;Invitation Refused!;;;;;;;;;x
+EVTDESC_SoA_572;Your invitation to a farbregen was refused!;;;;;;;;;;;;x
+EVTOPTA_SoA_572;Disappointing.;;;;;;;;;x
+EVTNAME_SoA_573;Yud Tes Kislev;;;;;;;;;x
+EVTDESC_SoA_573;The Farbregen is large and lasts for days, niggunim are sung into the night, and Tanya is recited for hours.\n;;;;;;;;;;;;x
+EVTOPTA_SoA_573;Yechi Adoneinu Moreinu V'Rabbeinu L'olam Va'ed!;;;;;;;;;x
+EVTNAME_SoA_574;Yud Tes Kislev;;;;;;;;;x
+EVTDESC_SoA_574;The Farbregen has ended, and everyone has returned back to their estates.;;;;;;;;;;;;x
+EVTOPTB_SoA_574;Yechi!;;;;;;;;;x
+opinion_yudtes;Attended Farbrengen;;;;;;;;;x
+opinion_refused_yudtes;Refused to Farbreng;;;;;;;;;x
+yudtes_invitations_sent;Invitations to farbreng are sent;;;;;;;;;x
+celebrate_yudtes;Celebrate Yud Tes Kislev;;;;;;;;x
+celebrate_yudtes_desc;Yud-Tes Kislev is the celebration of the liberation of the Alter Rebbe from imprisonment at the hands of the Russians. Celebrate a Farbregen with your vassals to mark the day!;;;;;;;;x
+
+avrach;Avrach;;;;;;;;;;;;;x
+avrach_desc;This character has began a period of intense study of the Talmud at a prominent yeshiva;;;;;;;;;;;;;x
+hakham;Hakham;;;;;;;;;;;;;x
+hakham_desc;This character is considered an especially learned scholar of Talmud and Halakha.;;;;;;;;;;;;;x
+maskil;Maskil;;;;;;;;;;;;;x
+maskil_desc;While not especially distinguished, this character has a well-rounded knowledge of Talmud and Halakha.;;;;;;;;;;;;;x
+
+bar_mitzvah;Prepare Grand Bar Mitzvah;;;;;;;;;;;;;x
+bar_mitzvah_named;Prepare Grand Bar Mitzvah;;;;;;;;;;;;;x
+bar_mitzvah_desc;As your child is soon of age you can choose to hold an extravagant Bar Mitzvah for [Root.GetHerHim], inviting your vassals and the members of your court. This can help build trust that will certainly prove useful for the child in the future.;;;;;;;;;;;;;x
+bar_mitzvah_custom_tooltip;Send out the invitations.;;;;;;;;;;;;;x
+
+attend_yeshiva;Attend Yeshiva;;;;;;;;;;;;;x
+attend_yeshiva_desc;Begin your journey as a student of Talmud and Torah by attending a prominent Yeshiva in the region.;;;;;;;;;;;;;x
+YESHIVA_TIMER_TT;Have not attended Yeshiva in the last 5 years;;;;;;;;;;;;;x
+TXT_talmud_study;You will start studying Talmud in a Yeshiva;;;;;;;;;;;;;x
+
+#Bar Mitzvah Localizations ;;;;;;;;;;;;;;
+EVTDESC_barmitzvah_1;The day of [bar_mitzvah_target.GetBestName]'s Bar Mitzvah is soon approaching, and excitement builds in the palace. Your Rabbi [Root.job_spiritual.GetBestName] has offered to personally prepare [bar_mitzvah_target.GetHerHim] in the final month, to read from the Torah and give a D'var Torah as well.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_1;[Root.job_spiritual.GetBestName] will prepare my [bar_mitzvah_target.GetSonDaughter].;;;;;;;;;;;;;x
+EVTOPTB_barmitzvah_1;I can prepare [bar_mitzvah_target.GetBestName] for the Bar Mitzvah myself!;;;;;;;;;;;;;x
+EVTOPTC_barmitzvah_1;[bar_mitzvah_target.GetBestName] can figure it out on [bar_mitzvah_target.GetHerHis] own.;;;;;;;;;;;;;x
+EVTDES1_barmitzvah_2;The day has arrived. At your family's synagogue [bar_mitzvah_target.GetBestName] approaches the bimah brimming with a regal confidence. [bar_mitzvah_target.GetSheHeCap] reads [bar_mitzvah_target.GetHerHis] Torah portion effortlessly, followed by a D'var Torah on the portion that impresses even the most cynical of your vassals.;;;;;;;;;;;;;x
+EVTDES2_barmitzvah_2;The day has arrived. At your family's synagogue [bar_mitzvah_target.GetBestName] approaches the bimah shaking nervously. [bar_mitzvah_target.GetSheHeCap] stumbles [bar_mitzvah_target.GetHerHis] way through the passage, constantly stopping for corrections from the gabbai. Your vassals cringe in pity as [bar_mitzvah_target.GetFirstName] attempts to deliver a clumsy D'var Torah clearly written the night before.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_2;I'm so proud!;;;;;;;;;;;;;x
+EVTOPTB_barmitzvah_2;That fool!;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_3;In the celebration after, you see [bar_mitzvah_target.GetBestName] and [compliment_vassal.GetBestName] discussing intently some issue brought up in [bar_mitzvah_target.GetHerHis] D'var Torah, with [bar_mitzvah_target.GetFirstName] displaying a maturity you didn't realize [bar_mitzvah_target.GetSheHe] had. Afterwards [compliment_vassal.GetFirstName] pull you aside to tell you just how impressed [compliment_vassal.GetSheHe] is.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_3;That's my [bar_mitzvah_target.GetSonDaughter]!;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_4;In the celebration after, you see [bar_mitzvah_target.GetBestName] and [insult_vassal.GetBestName] arguing, when [bar_mitzvah_target.GetFirstName] suddenly jumps up out of [bar_mitzvah_target.GetHerHis] seat, flailing at [insult_vassal.GetFirstName] until your guards are able to pull [bar_mitzvah_target.GetHerHim] away. [insult_vassal.GetFirstName] calls out to you: "is this how your family treats guests?".;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_4;Ugh, what have you done [bar_mitzvah_target.GetFirstName]!;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_5;It seems as if [bar_mitzvah_target.GetFirstName] has started getting along incredibly well with the child of one of the visiting vassals! Indeed, apparently [bar_mitzvah_target.GetFirstName] and [befriended_child.GetBestName] are becoming fast friends.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_5;How lovely!;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_6;While having a pleasant conversation you are suddenly interrupted by an infernal ruckus, upon further investigation it seems as if [bar_mitzvah_target.GetFirstName] has gotten into a fight with the child of one of the visiting vassals! You tear the two children apart, but it is obvious that [bar_mitzvah_target.GetFirstName] and [rival_child.GetBestName] will not ever be friends after this encounter...;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_6;I wonder who started it?;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_7;As the hours go by you notice [bar_mitzvah_target.GetFirstName]'s mood starting to drop. [bar_mitzvah_target.GetSheHeCap] is obviously still upset about the embarassment at [bar_mitzvah_target.GetHerHis] Bar Mitzvah. Hopefully this slump in [bar_mitzvah_target.GetFirstName]'s mood will pass soon.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_7;I should go help [bar_mitzvah_target.GetHerHim]...;;;;;;;;;;;;;x
+EVTDESC_barmitzvah_8;After a long night of celebration, the Bar Mitzvah is finally over. After all the stresses of the day, [bar_mitzvah_target.GetFirstName] retires to [bar_mitzvah_target.GetHerHis] chambers and wishes you good night. For better or worse, you look on the child you raised, finally grown to adulthood, and wonder what [bar_mitzvah_target.GetHerHis] future will bring.;;;;;;;;;;;;;x
+EVTOPTA_barmitzvah_8;I feel old...;;;;;;;;;;;;;x
+
+
+#Yeshiva event chain
+EVTDESC_yeshiva_1;A New letter has arrived from the Rosh Yeshiva: you have been accepted as a student! Soon you will pack your bags and begin your studying under great scholars of Talmud.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_1;I can't wait!;;;;;;;;;;;;;x
+EVTDESC_yeshiva_2;The Head Rabbi of your Yeshiva has found a fellow student [chevruta_partner.GetBestName], who will be your chevruta, a constant companion in study throughtout your time there. The Rabbi reminds you that as "Iron sharpens iron, so a man sharpens the countenance of his friend". You hope this new friend is sharp enough to help you on your path of learning.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_2;Pleased to meet you, [chevruta_partner.GetFirstName]!;;;;;;;;;;;;;x
+EVTDESC_yeshiva_end_dropout;I have failed in my mission to enlighten myself in the world of the Torah. I have left the Yeshiva disgraced, with no reputation to my name. Oh what a shame!;;;;;;;;;;;;;x
+EVTDESC_yeshiva_end_maskil;I have finished my studies and one may now call me a maskil, a knowledgeable [Root.GetManWoman]. I will leave the Yeshiva and return to rule The [Root.PrimaryTitle.GetFullName];;;;;;;;;;;;;x
+EVTDESC_yeshiva_end_hakham;I have done myself beyond evetybody's expectations. My knowlege in the scriptures is vast and deep. I am now a hakham - a true jewish scholar.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_end_dropout;How will I be able to show myself in the synagogue ever again?;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_end_maskil;Time to get back to earthly life.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_end_hakham;Excellent.;;;;;;;;;;;;;x
+EVTDESC_yeshiva_teach_1;You have been looking at the same Daf for what feels like ages, trying to find some way to understand the argument. You turn to [chevruta_partner.GetFirstName] who pulls out another commentary [chevruta_partner.GetSheHe] read which clarified things.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_teach_1;I am blessed to have such a capable chaver.;;;;;;;;;;;;;x
+EVTDESC_yeshiva_teach_2;[chevruta_partner.GetFirstName] has come to you after looking at the same Daf for what feels like ages, trying to find some way to understand the argument. After a moment of contemplation you pull out another commentary you hope will help [chevruta_partner.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_teach_2;I hope I can be helpful.;;;;;;;;;;;;;x
+EVTDESC_yeshiva_teach_3;You have been looking at the same Daf for what feels like ages, trying to find some way to understand the argument. You turn to [chevruta_partner.GetFirstName] who confuses you further with some nonsense.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_teach_3;Ugh, useless!;;;;;;;;;;;;;x
+EVTDESC_yeshiva_teach_4;[chevruta_partner.GetFirstName] has come to you after looking at the same Daf for what feels like ages, trying to find some way to understand the argument. You try to explain it to [chevruta_partner.GetHerHim], but you appear to only confuse [chevruta_partner.GetHerHim] further.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_teach_4;Maybe I am not a great teacher...;;;;;;;;;;;;;x
+EVTDESC_yeshiva_library;You have been sitting in the Library, reading and trying to gain a better understanding of today's Daf. As you read, you realise that book is talking about the mysteries of the Kaballah. You read moore and more, and it seems like you understand it well.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_library;I am now far more educated in the Kaballah;;;;;;;;;;;;;x
+EVTDESC_yeshiva_friend;You and [chevruta_partner.GetFirstName] have became inseparable. You two go beyond just studying together, you have common jokes, common interests and similar minds. Your names go together in the rabbis mouths, and the other avrachs see you as one entity.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_friend;I think this is friendship.;;;;;;;;;;;;;x
+EVTDESC_yeshiva_rival;The noise can be heard all over the Yeshiva. You and [chevruta_partner.GetFirstName] are at each other throats yet agan, disagreeing over interpertations. You have became infamous for your bad relationship, and the Rosh Yeshiva himself tried to settle, unsuccessfully.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_rival;This is the last straw!;;;;;;;;;;;;;x
+EVTDESC_yeshiva_argument_1;Me and [chevruta_partner.GetFirstName] have found ourselves in a disagreement in reagrds to the interpetation of today's Daf. We took different positions as for what the scholars meant, and got into a fight over it. Eventually we manged to meddle it, and see each other's ideas.;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_argument_1;[chevruta_partner.GetBestName] has helped me gain a new perspective on the Talmud today.;;;;;;;;;;;;;x
+EVTDESC_yeshiva_argument_2;Me and [chevruta_partner.GetFirstName] have found ourselves in a disagreement in reagrds to the interpetation of today's Daf. We took different positions as for what the scholars meant, and got into a fight over it. Hours of learning were lost by [chevruta_partner.GetHisHer] incompetence!;;;;;;;;;;;;;x
+EVTOPTA_yeshiva_argument_2;Ugh, why am I stuck with [chevruta_partner.GetHimHer]!;;;;;;;;;;;;;x
+yeshiva_learning_success;Successful Student;;;;;;;;;;;;;x
+yeshiva_learning_success_desc;This character is seeing success in his studies at the Yeshiva;;;;;;;;;;;;;x
+yeshiva_learning_failure;Unsuccessful Student;;;;;;;;;;;;;x
+yeshiva_learning_failure_desc;This character is failing in his studies at the Yeshiva;;;;;;;;;;;;;x
+
+
+
+EVTDESC_jewish_choose;I find myself distanced from the community I was raised in. The teachings I once valued no longer hold the same meaning. While it might cause scandal, I can choose to join another Haredi community, but which teachings should I choose to follow?;;;;;;;;;;;;;x
+EVTOPT_jewish_yashvai;I will follow the teachings of the Roshei Yeshiva;;;;;;;;;;;;;x
+EVTOPT_jewish_yashvai_desc;Gain the Yashva'i trait;;;;;;;;;;;;;x
+EVTOPT_jewish_chassid;I will follow the wisdom of the Tzadikim;;;;;;;;;;;;;x
+EVTOPT_jewish_chassid_desc;Gain the Chassid trait;;;;;;;;;;;;;x
+EVTOPT_jewish_derekh_eretz;I will follow the philosophers of Torah im Derekh Eretz;;;;;;;;;;;;;x
+EVTOPT_jewish_breslov_desc;Gain the Derekh Eretz trait;;;;;;;;;;;;;x
+
+#dialogue event(s?)
+EVTDESC_dialogue_1;After reading in [From.Religion.GetScriptureName] and other [From.Religion.GetGroupName] texts, I now have a better understanding of their religion and a new appreciation for its followers.;;;;;;;;;;;;;x
+EVTOPTA_dialogue_1;Let there be no hate between me and [From.Religion.GetGroupName] believers.;;;;;;;;;;;;;x
+EVTOPTB_dialogue_1;I shall invite [From.GetTitledFirstName], a [From.Religion.GetFullName] believer, over to my house for further discussion.;;;;;;;;;;;;;x
+not_have_corresponding_sympathy_tooltip; Doesn't have Sympathy for [Root.Religion.GetGroupName]s;;;;;;;;;;;;;x
+
+#Tish Localizations;;;;;;;;;;;;;;
+EVTTITLE_TISH_INVITATION;A Grand Tish;;;;;;;;;;;;;x
+EVTDESC_TISH_INVITATION;To celebrate your great Rebbe [Root.job_spiritual.GetFirstName], Admor of [Root.Capital.GetName], you have decided to hold a grand tish in his honor, inviting all his disciples from far and wide to celebrate.;;;;;;;;;;;;;x
+EVTOPT_inform_haredi_rabbi;Let all come and honor this wise Tzaddik!;;;;;;;;;;;;;x
+EVTTITLE_RECITING_TORAH;The Wisdom of The Rebbe;;;;;;;;;;;;;x
+TORAH_VERSE_1;A silence fills the room as the Rebbe clears his throat and begins to share some words of wisdom: \n A disciple once asked the Baal Shem Tov: "Why is it that one who clings to God and knows he is close to him, sometimes experiences a sense of interruption and remoteness?" \n The Baal Shem explained: "When a father sets out to teach his little son to walk, he stands in front of him and holds his two hands on either side of the child, so that he cannot fall, and the boy goes toward his father between his father's hands. But the moment he is close to his father, he moves away a little, and holds his hands farther apart, and he does this over and over, so that the child may learn to walk.";;;;;;;;;;;;;x
+TORAH_VERSE_2;A silence fills the room as the Rebbe clears his throat and begins to share some words of wisdom: \n Rabbi Pinhas of Koretz once said: "God's relationship to the wicked may be compared to that of a prince who, besides his magnificent palaces, owns all manner of little houses hidden away in the woods and in villages, and visits them occasionally to hunt or to rest. The dignity of a palace is no greater than that of such a temporary abode, for the two are not alike, and what the lesser accomplishes, the greater cannot. It is the same with the righteous man. Though his value and service be great, he cannot accomplish what the wicked man accomplishes in the hour he prays, or does something to honor God, and God who is watching the worlds of confusion, rejoices in him. That is why the righteous man should not consider himself better than the wicked.";;;;;;;;;;;;;x
+TORAH_VERSE_3;A silence fills the room as the Rebbe clears his throat and begins to share some words of wisdom: \n Rabbi Yehiel Mikhal once said: "It is written: 'Who shall ascend into the mountain of the Lord? And who shall stand in His holy place?' For the sake of comparison, let us take a man who rides up a mountain in his carriage, and when he is half-way up, the horses are tired and he must stop and give them a rest. Now, whoever has no sense at this point, will roll down. But he who has sense will take a stone and put it under the wheel while the carriage is standing. Then he will be able to reach the top. The man who does not fall, when he is forced to interrupt his service, but knows how to pause, will get to the top of the mountain of the Lord.";;;;;;;;;;;;;x
+TORAH_VERSE_4;A silence fills the room as the Rebbe clears his throat and begins to share some words of wisdom: \n Rabbi Shelomo of Karlin once said: "When he, who has done all the commandments of the Torah, but has not felt the blaze of holy ecstasy in so doing, comes to that other world, they open the gates of paradise for him. But because he has not felt the blaze of ecstasy in this world, he does not feel the ecstasy of paradise. Now, if he is a fool, and complains, and grumbles: 'And they make so much to-do about paradise!' he is instantly thrown out. But if he is wise, he leaves of his own accord, and goes to the tzaddik, and he teaches the poor soul how to feel ecstasy.";;;;;;;;;;;;;x
+EVTOPT_praise_rabbi;Wise Words!;;;;;;;;;;;;;x
+EVTTITLE_A_NIGHT_OUT;Kol Sasson v'Kol Simcha!;;;;;;;;;;;;;x
+EVTDESC_TISH_PARTY;Your servants bring out a sumptous feast arranged for your Rabbi and the other dignitaries on the high table: kugel filled with raisins and cinnamon, lamb tsimmes, goblets filled to the brim with wine. While many of the disciples ate their meals at home, the Rebbe passes out wine and food for each of them as shiyarim, each recieved with a personal blessing from the Rebbe. \n After the meal, the Rebbe begins with a slight voice, singing a wordless melody. Slowly his disciples begin to join in, the song building in passionate intensity as voices fill the great dining hall with music. Soon the young chassids are dancing on the tables, as their elders clap and sway in the benches!;;;;;;;;;;;;;x
+EVTOPTA_party_with_rabbi;Stay on the benches with another glass of wine;;;;;;;;;;;;;x
+EVTOPTB_party_with_rabbi;Dance with the younger chassids;;;;;;;;;;;;;x
+EVTTITLE_TISH_FAREWELLS;The Tish Ends;;;;;;;;;;;;;x
+EVTDESC_TISH_END;The feasting has finally wound down, and most of the guests have left your court, with many meeting later with the Rebbe individually. Clearly it was a time of great holiness and joy for all who came.;;;;;;;;;;;;;x
+EVTOPT_tish_memories;Rebbe [Root.job_spiritual.GetFirstName] is truly a righteous man!;;;;;;;;;;;;;x
+
+
+bar_mitzvah_good;Impressive Bar Mitzvah;;;;;;;;;;;;;x
+bar_mitzvah_good_desc;After [root.GetHerHis] Bar Mitzvah, [root.GetFirstName] has impressed the nearby Jewish community with [root.GetHerHis] performance.;;;;;;;;;;;;;x
+bar_mitzvah_bad;Disasterous Bar Mitzvah;;;;;;;;;;;;;x
+bar_mitzvah_bad_desc;After [root.GetHerHis] Bar Mitzvah, [root.GetFirstName] has disappointed the nearby Jewish community with [root.GetHerHis] performance.;;;;;;;;;;;;;x
+celebrate_tish;Celebrate a Grand Tish;;;;;;;;;;;;;x
+celebrate_tish_desc;The time has come to invite all the disciples of your Rebbe to an extravagant Tish to hear his words and worship with him.;;;;;;;;;;;;;x
+gain_sympathy;Gain Sympathy for [Root.Religion.GetGroupName] religions;;;;;;;;;;;;;x
+gain_sympathy_desc;Interfaith Dialogue is an important aspect of religon for pious Haskalah Jews, surrounded by powerful non-Jewish Realms you could study about your neighbors faith and and their customs.;;;;;;;;;;;;;x
+switch_jewish;Switch Haredi Movement;;;;;;;;;;;;;x
+switch_jewish_desc;I can change which Haredi movement that I belong to;;;;;;;;;;;;;x
+TXT_change_jewish_branch;Change your Haredi movement;;;;;;;;;;;;;x
+jewish_yashvai;Yashva'i;;;;;;;;;;;;;x
+jewish_yashvai_desc;Yashva'im stress highly intellectual and rationalist Talmud study through yeshivas, rejecting the emphasis on popularized mysticism prevalent in Chasssidim. Many belong to the traditions of the Ashenazi Litvaks or the Sefaradi Haredis.;;;;;;;;;;;;;x
+jewish_derekh_eretz;Torah im Derekh Eretz;;;;;;;;;;;;;x
+jewish_derekh_eretz_desc;Torah im Derekh Eretz, lit. "Torah and the way of the land", is a movement that seeks to balance a strict adherence to the teachings of Halakha with a more open appoach to the outside world, garnering suspicion from the more isolationist Haredi groups.;;;;;;;;;;;;;x
+jewish_chassid;Chassid;;;;;;;;;;;;;x
+jewish_chassid_desc;The Chassidic movement developed in Eastern Europe beginning with the Baal Shem Tov. Chassids follow one of many rabbinical courts, each run by a Rebbe of a given dynasty who guides his followers in all their life decisions and whose position is passed down from father to son.;;;;;;;;;;;;;x
+jewish_outrage;Haredi Outrage;;;;;;;;;;;;;x
+jewish_outrage_desc;The Haredi Community is outraged by the actions of this individual.;;;;;;;;;;;;;x

@@ -1,0 +1,14 @@
+# County Title
+title=c_bulkley
+
+# Settlements
+max_settlements=3
+
+b_smithers_BC=castle
+
+# Misc
+culture=dakelh
+religion=raven_tales
+terrain=taiga
+
+#History

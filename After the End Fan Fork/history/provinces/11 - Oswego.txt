@@ -1,0 +1,14 @@
+# 11 - Oswego
+
+# County Title
+title=c_oswego
+
+# Settlements
+max_settlements=3
+b_pulaski_NY=castle
+b_oswego_NY=city
+
+# Misc
+culture=hudsonian
+religion=high_church
+terrain=forest

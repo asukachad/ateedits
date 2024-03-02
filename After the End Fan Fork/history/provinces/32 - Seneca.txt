@@ -1,0 +1,15 @@
+# 32 - Seneca
+
+# County Title
+title=c_seneca
+
+# Settlements
+max_settlements=4
+b_seneca_falls_NY=castle
+b_geneva_NY=city
+b_ithaca_NY=temple
+
+# Misc
+culture=hudsonian
+religion=anabaptist
+terrain=hills

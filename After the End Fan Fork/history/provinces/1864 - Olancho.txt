@@ -1,0 +1,16 @@
+# c_olancho
+
+# County Title
+title=c_olancho
+
+# Settlements
+max_settlements=4
+
+b_catacamas_HN=castle
+b_juticalpa_HN=city
+
+# Misc
+culture=trifinio
+religion=falling_star
+
+#History

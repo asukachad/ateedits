@@ -1,0 +1,16 @@
+2104.2.18={
+	holder=1845103
+}
+2159.1.1={
+	holder=0
+}
+2510.1.1={
+	holder=1845146
+	law=true_cognatic_succession
+}
+2527.7.9={
+	holder=0
+}
+2661.6.21={
+	holder=1845019
+}

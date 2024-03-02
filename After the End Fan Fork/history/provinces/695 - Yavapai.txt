@@ -1,0 +1,13 @@
+# 695 - Yavapai
+
+# County Title
+title=c_yavapai
+
+# Settlements
+max_settlements=3
+b_prescott_AZ=tribal
+
+# Misc
+culture=arixan
+religion=atomicist
+terrain=highlands

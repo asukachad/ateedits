@@ -1,0 +1,15 @@
+# 21 - Cortland
+
+# County Title
+title=c_cortland
+
+# Settlements
+max_settlements=3
+b_cortland_NY=castle
+b_cazenovia_NY=city
+#b_moravia_NY=temple
+
+# Misc
+culture=iroquois
+religion=anabaptist
+terrain=hills

@@ -1,0 +1,5 @@
+2609.6.17={
+	holder=1810200
+	vice_royalty=no
+	liege=0
+}

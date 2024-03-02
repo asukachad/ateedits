@@ -1,0 +1,18 @@
+# 547 - Boundary Bay
+
+# County Title
+title=c_boundary_bay
+
+# Settlements
+max_settlements=5
+
+b_surrey_BC=castle
+b_abbotsford_BC=temple
+b_langley_BC=city
+
+
+# Misc
+culture=canuck #cascadian
+religion=gaian
+
+#History

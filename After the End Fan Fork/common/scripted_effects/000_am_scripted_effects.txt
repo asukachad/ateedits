@@ -1,0 +1,1342 @@
+#	Example:
+# 
+#	example_effect = {
+#		treasury = 100
+#		prestige = 50
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+# Naming convention: xxxx_effect
+#
+
+##BANKING GUILD##
+clear_banking_flags_effect = {
+	clr_character_flag = loan_taken
+	clr_character_flag = loan_100
+	clr_character_flag = loan_200
+	clr_character_flag = loan_400
+	clr_character_flag = loan_600
+	clr_character_flag = loan_800
+	clr_character_flag = loan_1000
+}
+
+clear_selling_shares_flags_effect = {
+	clr_character_flag = shares_selling
+	clr_character_flag = shares_100
+	clr_character_flag = shares_200
+	clr_character_flag = shares_400
+	clr_character_flag = shares_600
+	clr_character_flag = shares_800
+	clr_character_flag = shares_1000
+}
+
+join_prev_banking_society = {
+	join_society = banking_society
+	scaled_wealth = -0.50
+}
+
+##SECRET RELIGIONS##
+# Add a sympathy trait for the current religion
+add_sympathy_effect = {
+	if = {
+		limit = { religion_group = pagan_group }
+		add_trait = sympathy_pagans
+	}
+	if = {
+		limit = { religion_group = afro_syncretic }
+		add_trait = sympathy_afro_syncretic
+	}
+	if = {
+		limit = { religion_group = american_native }
+		add_trait = sympathy_american_native
+	}
+	if = {
+		limit = { religion_group = amero_syncretic }
+		add_trait = sympathy_amero_syncretic
+	}
+	if = {
+		limit = { religion_group = christian }
+		add_trait = sympathy_christendom
+	}
+	if = {
+		limit = { religion_group = cult_of_saints }
+		add_trait = sympathy_cult_of_saints
+	}
+	if = {
+		limit = { religion_group = pacific }
+		add_trait = sympathy_pacific
+	}
+	if = {
+		limit = { religion_group = latter_day_saints }
+		add_trait = sympathy_latter_day_saints
+	}
+	if = {
+		limit = { religion_group = mesoamerican_gods }
+		add_trait = sympathy_mesoamerican_gods
+	}
+	if = {
+		limit = { religion_group = oldworld }
+		add_trait = sympathy_oldworld
+	}
+	if = {
+		limit = { religion_group = nautical }
+		add_trait = sympathy_nautical
+	}
+	if = {
+		limit = { religion_group = jewish_group }
+		add_trait = sympathy_judaism
+	}
+	if = {
+		limit = { religion_group = indian_group }
+		add_trait = sympathy_indian
+	}
+	if = {
+		limit = { religion_group = muslim }
+		add_trait = sympathy_islam
+	}
+}
+
+# Add a sympathy trait for the true religion
+add_sympathy_true_effect = {
+	if = {
+		limit = { PREV = { true_religion_group = pagan_group } }
+		add_trait = sympathy_pagans
+	}
+	if = {
+		limit = { PREV = { true_religion_group = afro_syncretic } }
+		add_trait = sympathy_afro_syncretic
+	}
+	if = {
+		limit = { PREV = { true_religion_group = american_native } }
+		add_trait = sympathy_american_native
+	}
+	if = {
+		limit = { PREV = { true_religion_group = amero_syncretic } }
+		add_trait = sympathy_amero_syncretic
+	}
+	if = {
+		limit = { PREV = { true_religion_group = christian } }
+		add_trait = sympathy_christendom
+	}
+	if = {
+		limit = { PREV = { true_religion_group = cult_of_saints } }
+		add_trait = sympathy_cult_of_saints
+	}
+	if = {
+		limit = { PREV = { true_religion_group = pacific } }
+		add_trait = sympathy_pacific
+	}
+	if = {
+		limit = { PREV = { true_religion_group = latter_day_saints } }
+		add_trait = sympathy_latter_day_saints
+	}
+	if = {
+		limit = { PREV = { true_religion_group = mesoamerican_gods } }
+		add_trait = sympathy_mesoamerican_gods
+	}
+	if = {
+		limit = { PREV = { true_religion_group = oldworld } }
+		add_trait = sympathy_oldworld
+	}	
+	if = {
+		limit = { PREV = { true_religion_group = nautical } }
+		add_trait = sympathy_nautical
+	}
+	if = {
+		limit = { PREV = { true_religion_group = jewish_group } }
+		add_trait = sympathy_judaism
+	}
+	if = {
+		limit = { PREV = { true_religion_group = indian_group } }
+		add_trait = sympathy_indian
+	}
+	if = {
+		limit = { PREV = { true_religion_group = muslim } }
+		add_trait = sympathy_islam
+	}
+}
+
+##BRAZIL##
+
+remove_candomble_deity_effect = {
+	remove_character_modifier = candomble_ogum
+	remove_character_modifier = candomble_oxossi
+	remove_character_modifier = candomble_pomba_gira
+	remove_character_modifier = candomble_orunmila
+	remove_character_modifier = candomble_xango
+	remove_character_modifier = candomble_yemanja
+	remove_character_modifier = candomble_oxum
+	remove_character_modifier = candomble_iansa
+	remove_character_modifier = candomble_obaluaie
+}
+
+return_to_travel_boa_vista_leg_effect = {
+	hidden_effect = {
+		event_target:kow_tow_traveler = {
+			subtract_variable = {
+				which = boa_vista_travel_events
+				value = 1
+			}
+			character_event = {
+				id = plscometobr.5
+				days = 45
+				random = 30
+			}
+		}
+	}
+}
+
+return_to_travel_amazon_leg_effect = {
+	hidden_effect = {
+		event_target:kow_tow_traveler = {
+			subtract_variable = {
+				which = amazon_travel_events
+				value = 1
+			}
+			character_event = {
+				id = plscometobr.17
+				days = 22
+				random = 7
+			}
+		}
+	}
+}
+
+return_to_travel_overseas_leg_effect = {
+	hidden_effect = {
+		event_target:kow_tow_traveler = {
+			subtract_variable = {
+				which = overseas_travel_events
+				value = 1
+			}
+			character_event = {
+				id = plscometobr.43
+				days = 30
+				random = 7
+			}
+		}
+	}
+}
+
+return_to_brasil_tombola_effect = {
+	hidden_effect = {
+		event_target:kow_tow_traveler = {
+			subtract_variable = {
+				which = brasil_travel_events
+				value = 1
+			}
+			character_event = {
+				id = plscometobr.52
+				days = 35
+				random = 15
+			}
+		}
+	}
+}
+
+add_brazilian_artifact_effect = { #Used in event JD.15016 (possible to use elsewhere!)
+	hidden_effect = {
+		random_list = {
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = oriental_rug } } }
+				add_artifact = oriental_rug
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = chinese_calligraphy } } }
+				add_artifact = chinese_calligraphy
+				new_artifact = {
+					set_name = chinese_calligraphy_name
+				}
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = carranca } } }
+				add_artifact = carranca
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = chinese_ceremonial_robes } } }
+				add_artifact = paubrasilia_dyed_robes
+			}
+			10 = {
+				offmap_china = {
+					offmap_prev_ruler = {
+						save_event_target_as = prev_emperor
+					}
+				}
+				add_artifact = brazilian_prev_emperor_sculpture
+				new_artifact = {
+					set_name = chinese_figurine_name
+				}
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = berimbau } } }
+				add_artifact = berimbau
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = dragoon_lance } } }
+				add_artifact = dragoon_lance
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = jungle_knife } } }
+				add_artifact = jungle_knife
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = brazilian_firearm } } }
+				add_artifact = brazilian_firearm
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = paubrasilia_sculpture } } }
+				add_artifact = paubrasilia_sculpture
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = guerilla_warfare } } }
+				add_artifact = guerilla_warfare
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = the_guarani } } }
+				add_artifact = the_guarani
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = brazilian_book_health } } }
+				add_artifact = brazilian_book_health
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = brazilian_book_history } } }
+				add_artifact = brazilian_book_history
+			}
+			1 = {
+				trigger = { ROOT = { NOT = { has_artifact = brazilian_painting_of_glitterhoof } } }
+				add_artifact = brazilian_painting_of_glitterhoof
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = brazilian_tapestry } } }
+				random_independent_ruler = {
+					limit = {
+						any_realm_province = {
+							trade_route = coffee_current
+						}
+					}
+					random_realm_province = {
+						limit = {
+							trade_route = coffee_current
+						}
+						save_event_target_as = tapestry_target
+					}
+				}
+				add_artifact = brazilian_tapestry
+				new_artifact = {
+					set_name = chinese_tapestry_name
+				}
+			}
+			10 = {
+				trigger = { ROOT = { NOT = { has_artifact = brazilian_tapestry_grand } } }
+				add_artifact = brazilian_tapestry_grand
+				new_artifact = {
+					set_name = chinese_tapestry_grand_name
+				}
+				trigger = { ROOT = { NOT = { has_artifact = brazilian_tapestry_grand } } }
+			}
+		}
+		new_artifact = {
+			save_event_target_as = brazilian_artifact
+		}
+	}
+}
+
+remove_random_sin_effect = {
+	if = {
+		limit = {
+			trait = slothful
+		}
+		remove_trait = slothful
+	}
+	if = {
+		limit = {
+			trait = gluttonous
+		}
+		remove_trait = gluttonous
+	}
+	if = {
+		limit = {
+			trait = wroth
+		}
+		remove_trait = wroth
+	}
+	if = {
+		limit = {
+			trait = envious
+		}
+		remove_trait = envious
+	}
+	if = {
+		limit = {
+			trait = proud
+		}
+		remove_trait = proud
+	}
+	if = {
+		limit = {
+			trait = envious
+		}
+		remove_trait = envious
+	}
+	if = {
+		limit = {
+			trait = greedy
+		}
+		remove_trait = greedy
+	}
+	else = {
+		piety = 20
+	}
+}
+
+clear_era_name = {
+	hidden_effect = {
+		clr_global_flag = a_august
+		clr_global_flag = a_auspicious
+		clr_global_flag = a_benedictory
+		clr_global_flag = a_beneficial
+		clr_global_flag = a_benevolent
+		clr_global_flag = a_bountiful
+		clr_global_flag = a_bright
+		clr_global_flag = a_brilliant
+		clr_global_flag = a_celebrated
+		clr_global_flag = a_celestial
+		clr_global_flag = a_correct
+		clr_global_flag = a_cultured
+		clr_global_flag = a_distinguished
+		clr_global_flag = a_divine
+		clr_global_flag = a_enduring
+		clr_global_flag = a_enlightened
+		clr_global_flag = a_esteemed
+		clr_global_flag = a_eternal
+		clr_global_flag = a_everlasting
+		clr_global_flag = a_exalted
+		clr_global_flag = a_flaming
+		clr_global_flag = a_flourishing
+		clr_global_flag = a_fortuitous
+		clr_global_flag = a_gracious
+		clr_global_flag = a_grand
+		clr_global_flag = a_great
+		clr_global_flag = a_good
+		clr_global_flag = a_heavenly
+		clr_global_flag = a_heavenbestowed
+		clr_global_flag = a_heavenborn
+		clr_global_flag = a_honorable
+		clr_global_flag = a_magnificent
+		clr_global_flag = a_meritous
+		clr_global_flag = a_paramount
+		clr_global_flag = a_permanent
+		clr_global_flag = a_perpetual
+		clr_global_flag = a_peaceable
+		clr_global_flag = a_peaceful
+		clr_global_flag = a_rectifying
+		clr_global_flag = a_righteous
+		clr_global_flag = a_rightful
+		clr_global_flag = a_sacred
+		clr_global_flag = a_thriving
+		clr_global_flag = a_transcendent
+		clr_global_flag = a_united
+		clr_global_flag = a_valuable
+		clr_global_flag = a_vast
+		clr_global_flag = a_venerable
+		clr_global_flag = a_venerated
+		clr_global_flag = a_victorious
+		clr_global_flag = n_administration
+		clr_global_flag = n_augury
+		clr_global_flag = n_bear
+		clr_global_flag = n_blessings
+		clr_global_flag = n_bureaucracy
+		clr_global_flag = n_civility
+		clr_global_flag = n_command
+		clr_global_flag = n_court
+		clr_global_flag = n_country
+		clr_global_flag = n_eagle
+		clr_global_flag = n_eminence
+		clr_global_flag = n_balance
+		clr_global_flag = n_era
+		clr_global_flag = n_equality
+		clr_global_flag = n_felicitation
+		clr_global_flag = n_fortune
+		clr_global_flag = n_governance
+		clr_global_flag = n_government
+		clr_global_flag = n_happiness
+		clr_global_flag = n_harmony
+		clr_global_flag = n_jubilance
+		clr_global_flag = n_jubilations
+		clr_global_flag = n_justice
+		clr_global_flag = n_life
+		clr_global_flag = n_longevity
+		clr_global_flag = n_majesty
+		clr_global_flag = n_martial
+		clr_global_flag = n_military
+		clr_global_flag = n_nation
+		clr_global_flag = n_order
+		clr_global_flag = n_path
+		clr_global_flag = n_peace
+		clr_global_flag = n_power
+		clr_global_flag = n_prosperity
+		clr_global_flag = n_protection
+		clr_global_flag = n_radiance
+		clr_global_flag = n_reign
+		clr_global_flag = n_reverence
+		clr_global_flag = n_richness
+		clr_global_flag = n_rule
+		clr_global_flag = n_sage
+		clr_global_flag = n_success
+		clr_global_flag = n_supremacy
+		clr_global_flag = n_sun
+		clr_global_flag = n_tranquility
+		clr_global_flag = n_treasure
+		clr_global_flag = n_valuable
+		clr_global_flag = n_wisdom
+		clr_global_flag = n_writings
+		clr_global_flag = n_valleyquail
+	}
+}
+
+get_random_era_name = {
+	hidden_effect = {
+		random_list = {
+			2 = {
+				set_global_flag = a_august
+			}
+			2 = {
+				set_global_flag = a_auspicious
+			}
+			2 = {
+				set_global_flag = a_benedictory
+			}
+			2 = {
+				set_global_flag = a_beneficial
+			}
+			2 = {
+				set_global_flag = a_benevolent
+			}
+			2 = {
+				set_global_flag = a_bountiful
+			}
+			2 = {
+				set_global_flag = a_bright
+			}
+			2 = {
+				set_global_flag = a_brilliant
+			}
+			2 = {
+				set_global_flag = a_celebrated
+			}
+			2 = {
+				set_global_flag = a_celestial
+			}
+			2 = {
+				set_global_flag = a_correct
+			}
+			2 = {
+				set_global_flag = a_cultured
+			}
+			2 = {
+				set_global_flag = a_distinguished
+			}
+			2 = {
+				set_global_flag = a_divine
+			}
+			2 = {
+				set_global_flag = a_enduring
+			}
+			2 = {
+				set_global_flag = a_enlightened
+			}
+			2 = {
+				set_global_flag = a_esteemed
+			}
+			2 = {
+				set_global_flag = a_eternal
+			}
+			2 = {
+				set_global_flag = a_everlasting
+			}
+			2 = {
+				set_global_flag = a_exalted
+			}
+			2 = {
+				set_global_flag = a_flaming
+			}
+			2 = {
+				set_global_flag = a_flourishing
+			}
+			2 = {
+				set_global_flag = a_fortuitous
+			}
+			2 = {
+				set_global_flag = a_gracious
+			}
+			2 = {
+				set_global_flag = a_grand
+			}
+			2 = {
+				set_global_flag = a_great
+			}
+			2 = {
+				set_global_flag = a_good
+			}
+			2 = {
+				set_global_flag = a_heavenly
+			}
+			2 = {
+				set_global_flag = a_heavenbestowed
+			}
+			2 = {
+				set_global_flag = a_heavenborn
+			}
+			2 = {
+				set_global_flag = a_honorable
+			}
+			2 = {
+				set_global_flag = a_magnificent
+			}
+			2 = {
+				set_global_flag = a_meritous
+			}
+			2 = {
+				set_global_flag = a_paramount
+			}
+			2 = {
+				set_global_flag = a_permanent
+			}
+			2 = {
+				set_global_flag = a_perpetual
+			}
+			2 = {
+				set_global_flag = a_peaceable
+			}
+			2 = {
+				set_global_flag = a_peaceful
+			}
+			2 = {
+				set_global_flag = a_rectifying
+			}
+			2 = {
+				set_global_flag = a_righteous
+			}
+			2 = {
+				set_global_flag = a_rightful
+			}
+			2 = {
+				set_global_flag = a_sacred
+			}
+			2 = {
+				set_global_flag = a_thriving
+			}
+			2 = {
+				set_global_flag = a_transcendent
+			}
+			2 = {
+				set_global_flag = a_united
+			}
+			2 = {
+				set_global_flag = a_valuable
+			}
+			2 = {
+				set_global_flag = a_vast
+			}
+			2 = {
+				set_global_flag = a_venerable
+			}
+			2 = {
+				set_global_flag = a_venerated
+			}
+			2 = {
+				set_global_flag = a_victorious
+			}
+		}
+		random_list = {
+			2 = {
+				set_global_flag = n_administration
+			}
+			2 = {
+				set_global_flag = n_augury
+			}
+			2 = {
+				set_global_flag = n_bear
+			}
+			2 = {
+				set_global_flag = n_blessings
+			}
+			2 = {
+				set_global_flag = n_bureaucracy
+			}
+			2 = {
+				set_global_flag = n_civility
+			}
+			2 = {
+				set_global_flag = n_command
+			}
+			2 = {
+				set_global_flag = n_court
+			}
+			2 = {
+				set_global_flag = n_country
+			}
+			2 = {
+				set_global_flag = n_eagle
+			}
+			2 = {
+				set_global_flag = n_eminence
+			}
+			2 = {
+				set_global_flag = n_balance
+			}
+			2 = {
+				set_global_flag = n_era
+			}
+			2 = {
+				set_global_flag = n_equality
+			}
+			2 = {
+				set_global_flag = n_felicitation
+			}
+			2 = {
+				set_global_flag = n_fortune
+			}
+			2 = {
+				set_global_flag = n_governance
+			}
+			2 = {
+				set_global_flag = n_government
+			}
+			2 = {
+				set_global_flag = n_happiness
+			}
+			2 = {
+				set_global_flag = n_harmony
+			}
+			2 = {
+				set_global_flag = n_jubilance
+			}
+			2 = {
+				set_global_flag = n_jubilations
+			}
+			2 = {
+				set_global_flag = n_justice
+			}
+			2 = {
+				set_global_flag = n_life
+			}
+			2 = {
+				set_global_flag = n_longevity
+			}
+			2 = {
+				set_global_flag = n_majesty
+			}
+			2 = {
+				set_global_flag = n_martial
+			}
+			2 = {
+				set_global_flag = n_military
+			}
+			2 = {
+				set_global_flag = n_nation
+			}
+			2 = {
+				set_global_flag = n_order
+			}
+			2 = {
+				set_global_flag = n_path
+			}
+			2 = {
+				set_global_flag = n_peace
+			}
+			2 = {
+				set_global_flag = n_power
+			}
+			2 = {
+				set_global_flag = n_prosperity
+			}
+			2 = {
+				set_global_flag = n_protection
+			}
+			2 = {
+				set_global_flag = n_radiance
+			}
+			2 = {
+				set_global_flag = n_reign
+			}
+			2 = {
+				set_global_flag = n_reverence
+			}
+			2 = {
+				set_global_flag = n_richness
+			}
+			2 = {
+				set_global_flag = n_rule
+			}
+			2 = {
+				set_global_flag = n_sage
+			}
+			2 = {
+				set_global_flag = n_success
+			}
+			2 = {
+				set_global_flag = n_supremacy
+			}
+			2 = {
+				set_global_flag = n_sun
+			}
+			2 = {
+				set_global_flag = n_tranquility
+			}
+			2 = {
+				set_global_flag = n_treasure
+			}
+			2 = {
+				set_global_flag = n_valuable
+			}
+			2 = {
+				set_global_flag = n_wisdom
+			}
+			2 = {
+				set_global_flag = n_writings
+			}
+			2 = {
+				set_global_flag = n_valleyquail
+			}
+		}
+	}
+}
+remove_imperial_authority_modifier = {
+	clr_character_flag = imperial_authority
+	remove_character_modifier = imperial_authority_modifier_0
+	remove_character_modifier = imperial_authority_modifier_1
+	remove_character_modifier = imperial_authority_modifier_2
+	remove_character_modifier = imperial_authority_modifier_3
+	remove_character_modifier = imperial_authority_modifier_4
+	remove_character_modifier = imperial_authority_modifier_5
+	remove_character_modifier = imperial_authority_modifier_6
+	remove_character_modifier = imperial_authority_modifier_7
+	remove_character_modifier = imperial_authority_modifier_8
+	remove_character_modifier = imperial_authority_modifier_9
+	remove_character_modifier = imperial_authority_modifier_10
+	remove_character_modifier = imperial_authority_modifier_11
+	remove_character_modifier = imperial_authority_modifier_12
+	remove_character_modifier = imperial_authority_modifier_13
+	remove_character_modifier = imperial_authority_modifier_14
+	remove_character_modifier = imperial_authority_modifier_15
+	remove_character_modifier = imperial_authority_modifier_16
+	remove_character_modifier = imperial_authority_modifier_17
+	remove_character_modifier = imperial_authority_modifier_18
+	remove_character_modifier = imperial_authority_modifier_19
+	remove_character_modifier = imperial_authority_modifier_20
+	remove_character_modifier = imperial_authority_modifier_21
+	remove_character_modifier = imperial_authority_modifier_22
+	remove_character_modifier = imperial_authority_modifier_23
+	remove_character_modifier = imperial_authority_modifier_24
+	remove_character_modifier = imperial_authority_modifier_25
+	remove_character_modifier = imperial_authority_modifier_26
+	remove_character_modifier = imperial_authority_modifier_27
+	remove_character_modifier = imperial_authority_modifier_28
+	remove_character_modifier = imperial_authority_modifier_29
+	remove_character_modifier = imperial_authority_modifier_30
+	remove_character_modifier = imperial_authority_modifier_31
+	remove_character_modifier = imperial_authority_modifier_32
+	remove_character_modifier = imperial_authority_modifier_33
+	remove_character_modifier = imperial_authority_modifier_34
+	remove_character_modifier = imperial_authority_modifier_35
+	remove_character_modifier = imperial_authority_modifier_36
+	remove_character_modifier = imperial_authority_modifier_37
+	remove_character_modifier = imperial_authority_modifier_38
+	remove_character_modifier = imperial_authority_modifier_39
+	remove_character_modifier = imperial_authority_modifier_40
+	remove_character_modifier = imperial_authority_modifier_41
+	remove_character_modifier = imperial_authority_modifier_42
+	remove_character_modifier = imperial_authority_modifier_43
+	remove_character_modifier = imperial_authority_modifier_44
+	remove_character_modifier = imperial_authority_modifier_45
+	remove_character_modifier = imperial_authority_modifier_46
+	remove_character_modifier = imperial_authority_modifier_47
+	remove_character_modifier = imperial_authority_modifier_48
+	remove_character_modifier = imperial_authority_modifier_49
+	remove_character_modifier = imperial_authority_modifier_50
+	remove_character_modifier = imperial_authority_modifier_51
+	remove_character_modifier = imperial_authority_modifier_52
+	remove_character_modifier = imperial_authority_modifier_53
+	remove_character_modifier = imperial_authority_modifier_54
+	remove_character_modifier = imperial_authority_modifier_55
+	remove_character_modifier = imperial_authority_modifier_56
+	remove_character_modifier = imperial_authority_modifier_57
+	remove_character_modifier = imperial_authority_modifier_58
+	remove_character_modifier = imperial_authority_modifier_59
+	remove_character_modifier = imperial_authority_modifier_60
+	remove_character_modifier = imperial_authority_modifier_61
+	remove_character_modifier = imperial_authority_modifier_62
+	remove_character_modifier = imperial_authority_modifier_63
+	remove_character_modifier = imperial_authority_modifier_64
+	remove_character_modifier = imperial_authority_modifier_65
+	remove_character_modifier = imperial_authority_modifier_66
+	remove_character_modifier = imperial_authority_modifier_67
+	remove_character_modifier = imperial_authority_modifier_68
+	remove_character_modifier = imperial_authority_modifier_69
+	remove_character_modifier = imperial_authority_modifier_70
+	remove_character_modifier = imperial_authority_modifier_71
+	remove_character_modifier = imperial_authority_modifier_72
+	remove_character_modifier = imperial_authority_modifier_73
+	remove_character_modifier = imperial_authority_modifier_74
+	remove_character_modifier = imperial_authority_modifier_75
+	remove_character_modifier = imperial_authority_modifier_76
+	remove_character_modifier = imperial_authority_modifier_77
+	remove_character_modifier = imperial_authority_modifier_78
+	remove_character_modifier = imperial_authority_modifier_79
+	remove_character_modifier = imperial_authority_modifier_80
+	remove_character_modifier = imperial_authority_modifier_81
+	remove_character_modifier = imperial_authority_modifier_82
+	remove_character_modifier = imperial_authority_modifier_83
+	remove_character_modifier = imperial_authority_modifier_84
+	remove_character_modifier = imperial_authority_modifier_85
+	remove_character_modifier = imperial_authority_modifier_86
+	remove_character_modifier = imperial_authority_modifier_87
+	remove_character_modifier = imperial_authority_modifier_88
+	remove_character_modifier = imperial_authority_modifier_89
+	remove_character_modifier = imperial_authority_modifier_90
+	remove_character_modifier = imperial_authority_modifier_91
+	remove_character_modifier = imperial_authority_modifier_92
+	remove_character_modifier = imperial_authority_modifier_93
+	remove_character_modifier = imperial_authority_modifier_94
+	remove_character_modifier = imperial_authority_modifier_95
+	remove_character_modifier = imperial_authority_modifier_96
+	remove_character_modifier = imperial_authority_modifier_97
+	remove_character_modifier = imperial_authority_modifier_98
+	remove_character_modifier = imperial_authority_modifier_99
+	remove_character_modifier = imperial_authority_modifier_100
+}
+
+
+
+add_imperial_authority_modifier = {
+	set_character_flag = imperial_authority
+	if = {
+		limit = { check_variable = { which = global_imp_auth value < 1 } }
+		add_character_modifier = { name = imperial_authority_modifier_0 duration = -1 }
+		set_variable = { which = global_imp_auth value = 0 }
+		}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 1 } }
+		add_character_modifier = { name = imperial_authority_modifier_1 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 2 } }
+		add_character_modifier = { name = imperial_authority_modifier_2 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 3 } }
+		add_character_modifier = { name = imperial_authority_modifier_3 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 4 } }
+		add_character_modifier = { name = imperial_authority_modifier_4 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 5 } }
+		add_character_modifier = { name = imperial_authority_modifier_5 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 6 } }
+		add_character_modifier = { name = imperial_authority_modifier_6 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 7 } }
+		add_character_modifier = { name = imperial_authority_modifier_7 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 8 } }
+		add_character_modifier = { name = imperial_authority_modifier_8 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 9 } }
+		add_character_modifier = { name = imperial_authority_modifier_9 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 10 } }
+		add_character_modifier = { name = imperial_authority_modifier_10 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 11 } }
+		add_character_modifier = { name = imperial_authority_modifier_11 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 12 } }
+		add_character_modifier = { name = imperial_authority_modifier_12 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 13 } }
+		add_character_modifier = { name = imperial_authority_modifier_13 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 14 } }
+		add_character_modifier = { name = imperial_authority_modifier_14 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 15 } }
+		add_character_modifier = { name = imperial_authority_modifier_15 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 16 } }
+		add_character_modifier = { name = imperial_authority_modifier_16 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 17 } }
+		add_character_modifier = { name = imperial_authority_modifier_17 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 18 } }
+		add_character_modifier = { name = imperial_authority_modifier_18 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 19 } }
+		add_character_modifier = { name = imperial_authority_modifier_19 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 20 } }
+		add_character_modifier = { name = imperial_authority_modifier_20 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 21 } }
+		add_character_modifier = { name = imperial_authority_modifier_21 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 22 } }
+		add_character_modifier = { name = imperial_authority_modifier_22 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 23 } }
+		add_character_modifier = { name = imperial_authority_modifier_23 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 24 } }
+		add_character_modifier = { name = imperial_authority_modifier_24 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 25 } }
+		add_character_modifier = { name = imperial_authority_modifier_25 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 26 } }
+		add_character_modifier = { name = imperial_authority_modifier_26 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 27 } }
+		add_character_modifier = { name = imperial_authority_modifier_27 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 28 } }
+		add_character_modifier = { name = imperial_authority_modifier_28 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 29 } }
+		add_character_modifier = { name = imperial_authority_modifier_29 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 30 } }
+		add_character_modifier = { name = imperial_authority_modifier_30 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 31 } }
+		add_character_modifier = { name = imperial_authority_modifier_31 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 32 } }
+		add_character_modifier = { name = imperial_authority_modifier_32 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 33 } }
+		add_character_modifier = { name = imperial_authority_modifier_33 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 34 } }
+		add_character_modifier = { name = imperial_authority_modifier_34 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 35 } }
+		add_character_modifier = { name = imperial_authority_modifier_35 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 36 } }
+		add_character_modifier = { name = imperial_authority_modifier_36 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 37 } }
+		add_character_modifier = { name = imperial_authority_modifier_37 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 38 } }
+		add_character_modifier = { name = imperial_authority_modifier_38 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 39 } }
+		add_character_modifier = { name = imperial_authority_modifier_39 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 40 } }
+		add_character_modifier = { name = imperial_authority_modifier_40 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 41 } }
+		add_character_modifier = { name = imperial_authority_modifier_41 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 42 } }
+		add_character_modifier = { name = imperial_authority_modifier_42 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 43 } }
+		add_character_modifier = { name = imperial_authority_modifier_43 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 44 } }
+		add_character_modifier = { name = imperial_authority_modifier_44 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 45 } }
+		add_character_modifier = { name = imperial_authority_modifier_45 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 46 } }
+		add_character_modifier = { name = imperial_authority_modifier_46 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 47 } }
+		add_character_modifier = { name = imperial_authority_modifier_47 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 48 } }
+		add_character_modifier = { name = imperial_authority_modifier_48 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 49 } }
+		add_character_modifier = { name = imperial_authority_modifier_49 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 50 } }
+		add_character_modifier = { name = imperial_authority_modifier_50 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 51 } }
+		add_character_modifier = { name = imperial_authority_modifier_51 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 52 } }
+		add_character_modifier = { name = imperial_authority_modifier_52 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 53 } }
+		add_character_modifier = { name = imperial_authority_modifier_53 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 54 } }
+		add_character_modifier = { name = imperial_authority_modifier_54 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 55 } }
+		add_character_modifier = { name = imperial_authority_modifier_55 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 56 } }
+		add_character_modifier = { name = imperial_authority_modifier_56 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 57 } }
+		add_character_modifier = { name = imperial_authority_modifier_57 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 58 } }
+		add_character_modifier = { name = imperial_authority_modifier_58 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 59 } }
+		add_character_modifier = { name = imperial_authority_modifier_59 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 60 } }
+		add_character_modifier = { name = imperial_authority_modifier_60 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 61 } }
+		add_character_modifier = { name = imperial_authority_modifier_61 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 62 } }
+		add_character_modifier = { name = imperial_authority_modifier_62 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 63 } }
+		add_character_modifier = { name = imperial_authority_modifier_63 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 64 } }
+		add_character_modifier = { name = imperial_authority_modifier_64 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 65 } }
+		add_character_modifier = { name = imperial_authority_modifier_65 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 66 } }
+		add_character_modifier = { name = imperial_authority_modifier_66 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 67 } }
+		add_character_modifier = { name = imperial_authority_modifier_67 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 68 } }
+		add_character_modifier = { name = imperial_authority_modifier_68 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 69 } }
+		add_character_modifier = { name = imperial_authority_modifier_69 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 70 } }
+		add_character_modifier = { name = imperial_authority_modifier_70 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 71 } }
+		add_character_modifier = { name = imperial_authority_modifier_71 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 72 } }
+		add_character_modifier = { name = imperial_authority_modifier_72 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 73 } }
+		add_character_modifier = { name = imperial_authority_modifier_73 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 74 } }
+		add_character_modifier = { name = imperial_authority_modifier_74 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 75 } }
+		add_character_modifier = { name = imperial_authority_modifier_75 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 76 } }
+		add_character_modifier = { name = imperial_authority_modifier_76 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 77 } }
+		add_character_modifier = { name = imperial_authority_modifier_77 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 78 } }
+		add_character_modifier = { name = imperial_authority_modifier_78 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 79 } }
+		add_character_modifier = { name = imperial_authority_modifier_79 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 80 } }
+		add_character_modifier = { name = imperial_authority_modifier_80 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 81 } }
+		add_character_modifier = { name = imperial_authority_modifier_81 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 82 } }
+		add_character_modifier = { name = imperial_authority_modifier_82 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 83 } }
+		add_character_modifier = { name = imperial_authority_modifier_83 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 84 } }
+		add_character_modifier = { name = imperial_authority_modifier_84 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 85 } }
+		add_character_modifier = { name = imperial_authority_modifier_85 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 86 } }
+		add_character_modifier = { name = imperial_authority_modifier_86 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 87 } }
+		add_character_modifier = { name = imperial_authority_modifier_87 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 88 } }
+		add_character_modifier = { name = imperial_authority_modifier_88 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 89 } }
+		add_character_modifier = { name = imperial_authority_modifier_89 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 90 } }
+		add_character_modifier = { name = imperial_authority_modifier_90 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 91 } }
+		add_character_modifier = { name = imperial_authority_modifier_91 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 92 } }
+		add_character_modifier = { name = imperial_authority_modifier_92 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 93 } }
+		add_character_modifier = { name = imperial_authority_modifier_93 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 94 } }
+		add_character_modifier = { name = imperial_authority_modifier_94 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 95 } }
+		add_character_modifier = { name = imperial_authority_modifier_95 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 96 } }
+		add_character_modifier = { name = imperial_authority_modifier_96 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 97 } }
+		add_character_modifier = { name = imperial_authority_modifier_97 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 98 } }
+		add_character_modifier = { name = imperial_authority_modifier_98 duration = -1 }
+	}
+	if = {
+		limit = { is_variable_equal = { which = global_imp_auth value = 99 } }
+		add_character_modifier = { name = imperial_authority_modifier_99 duration = -1 }
+	}
+	if = {
+		limit = { check_variable = { which = global_imp_auth value > 99 } }
+		add_character_modifier = { name = imperial_authority_modifier_100 duration = -1 }
+		set_variable = { which = global_imp_auth value = 100 }
+	}
+}
+
+remove_nestorian_patron_saint_effect = {
+	remove_character_modifier = nestorian_mar_zaya
+	remove_character_modifier = nestorian_mar_maroun
+	remove_character_modifier = nestorian_mar_nestor
+	remove_character_modifier = nestorian_mar_abba
+}
+
+
+startup_orf = {
+	if = {
+		limit = { has_character_flag = ORF_embrace }
+		set_government_type = open_range_feudalism_government
+	}
+}

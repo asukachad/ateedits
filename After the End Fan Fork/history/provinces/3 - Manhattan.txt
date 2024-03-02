@@ -1,0 +1,21 @@
+# 3 - Manahattan
+
+# County Title
+title=c_manhattan
+
+# Settlements
+max_settlements=7
+b_manhattan_NY=city
+b_bronx_NY=temple
+b_harlem_NY=castle
+b_yonkers_NY=city
+b_mamaroneck_NY=city
+b_sleepy_hollow_NY=temple
+
+# Misc
+culture=gothamite
+religion=americanist #catholic
+terrain=farmlands
+
+2200.1.1={ capital=b_harlem_NY }
+2320.1.1={ capital=b_manhattan_NY }

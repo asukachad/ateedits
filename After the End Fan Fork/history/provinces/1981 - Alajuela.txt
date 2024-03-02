@@ -1,0 +1,19 @@
+# c_alajuela
+
+# County Title
+title=c_alajuela
+
+# Settlements
+max_settlements=5
+
+b_alajuela_CSR=castle
+b_la_fortuna_CR=city
+b_aguas_zarcas_CR=temple
+
+
+# Misc
+culture=nicoyano
+religion=falling_star
+terrain=jungle
+
+#History

@@ -1,0 +1,18 @@
+# c_guanacaste
+
+# County Title
+title=c_guanacaste
+
+# Settlements
+max_settlements=5
+
+b_liberia_CSR=castle
+b_puntarenas_CR=city
+b_santa_cruz_CSR=temple
+
+
+# Misc
+culture=nicoyano
+religion=falling_star
+
+#History

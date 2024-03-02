@@ -1,0 +1,20 @@
+# c_cartagena
+
+# County Title
+title=c_cartagena
+
+# Settlements
+max_settlements=6
+
+b_cartagena_COL=city
+b_el_carmen_de_bolivar_COL=castle
+b_turbaco_COL=temple
+b_bayunca_COL=castle
+
+# Misc
+culture=costeno
+religion=patria_grande
+terrain=farmlands
+
+
+#History

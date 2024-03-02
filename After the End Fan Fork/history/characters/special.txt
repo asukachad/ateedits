@@ -1,0 +1,1644 @@
+###ÄNSI
+666000={
+	name="Petrus Romanus" #birthday changed to 33.4.3, because the 666 meme is obnoxious
+	culture=beltway
+	occluded=yes
+	religion=catholic
+	trait=legendary
+	33.4.3={birth=yes}
+	2100.7.4={death=yes}
+}
+
+666001={
+	name="Abraham"
+	culture=beltway
+	occluded=yes
+	religion=catholic
+	trait=legendary
+	trait=strong
+	trait=zealous
+	trait=erudite
+	trait=tough_soldier
+	2047.1.1={birth=yes}
+	2100.7.4={
+		name="Legatus"
+	}
+	2114.7.28={death=yes}
+}
+
+666002={
+	name="Adam"
+	culture=beltway
+	occluded=yes
+	religion=catholic
+	trait=legendary
+	trait=trusting
+	trait=zealous
+	2078.1.1={birth=yes}
+	2155.1.1={death=yes}
+}
+
+666003={
+	name="Samuel"
+	culture=beltway
+	occluded=yes
+	religion=catholic
+	trait=legendary
+	trait=humble
+	trait=charitable
+	2071.1.1={birth=yes}
+	2167.1.1={death=yes}
+}
+
+666004={
+	name="Hannibal"
+	culture=riverlander
+	religion=catholic
+	2101.1.1={birth=yes}
+	2167.1.1={
+		name="Redeemed"
+	}
+	2174.1.1={death=yes}
+}
+
+666005={
+	name="Simon"
+	culture=riverlander
+	religion=catholic
+	2121.1.1={birth=yes}
+	2174.1.1={
+		name="Hallelujah"
+	}
+	2196.1.1={death=yes}
+}
+
+666006={
+	name="Ossian"
+	culture=tuskegean
+	religion=revelationist
+	2139.1.1={birth=yes}
+	2155.1.1={
+		religion=catholic
+		trait=sympathy_pagans
+	}
+	2196.1.1={
+		name="Adam"
+	}
+	2202.1.1={death=yes}
+}
+
+666007={
+	name="Fulton"
+	culture=riverlander
+	religion=catholic
+	2157.1.1={birth=yes}
+	2202.1.1={
+		name="Righteous"
+	}
+	2222.2.2={death=yes}
+}
+
+666008={
+	name="Perry"
+	culture=riverlander
+	religion=catholic
+	2155.1.1={birth=yes}
+	2222.2.2={
+		name="Redeemed"
+	}
+	2225.1.1={death=yes}
+}
+
+666009={
+	name="Allen"
+	culture=riverlander
+	religion=catholic
+	2182.1.1={birth=yes}
+	2225.1.1={
+		name="Blessed-Be"
+	}
+	2263.1.1={death=yes}
+}
+
+666010={
+	name="Lyndon"
+	culture=texan
+	religion=catholic
+	2197.1.1={birth=yes}
+	2263.1.1={
+		name="Hallelujah"
+	}
+	2269.1.1={death=yes}
+}
+
+666011={
+	name="Campion"
+	culture=riverlander
+	religion=catholic
+	2210.1.1={birth=yes}
+	2269.1.1={
+		name="Redeemed"
+	}
+	2280.1.1={death=yes}
+}
+
+666012={
+	name="Bixby"
+	culture=riverlander
+	religion=catholic
+	2233.4.4={birth=yes}
+	2280.1.1={
+		name="Barnabas"
+	}
+	2301.9.1={death=yes}
+}
+
+666013={
+	name="Agrippine"
+	occluded=yes
+	female=yes
+	culture=quebecois
+	religion=catholic
+	trait=legendary
+	2258.1.1={birth=yes}
+	2301.9.1={
+		give_nickname=nick_the_maid
+	}
+	2303.1.1={
+		religion=ursuline
+	}
+	2304.1.1={death=yes}
+}
+
+666014={
+	name="Anthemeol"
+	culture=southron
+	religion=catholic
+	2262.1.1={birth=yes}
+	2303.1.1={
+		name="Barnabas"
+	}
+	2332.1.1={death=yes}
+}
+
+666015={
+	name="Micager"
+	culture=melungeon
+	religion=revelationist
+	2278.1.1={birth=yes}
+	2294.1.1={
+		religion=catholic
+	}
+	2332.1.1={
+		name="Righteous"
+	}
+	2347.1.1={death=yes}
+}
+
+666016={
+	name="Trigg"
+	culture=riverlander
+	religion=catholic
+	2288.1.1={birth=yes}
+	2347.1.1={
+		name="Amen"
+	}
+	2366.1.1={death=yes}
+}
+
+666017={
+	name="Fionnslav"
+	culture=chicagoan
+	religion=catholic
+	trait=zealous
+	trait=wroth
+	trait=brave
+	trait=ambitious
+	2307.1.1={birth=yes}
+	2366.1.1={
+		name="David"
+	}
+	2377.1.1={death={
+			death_reason=death_execution
+			killer=1967107
+		}
+	}
+}
+
+666018={
+	name="Patrick"
+	culture=riverlander
+	religion=catholic
+	2323.1.1={birth=yes}
+	2377.1.1={
+		name="Barnabas"
+	}
+	2400.12.25={death=yes}
+}
+
+666019={
+	name="Leon"
+	culture=riverlander
+	religion=evangelical
+	trait=mastermind_theologian
+	trait=honest
+	trait=humble
+	trait=erudite
+	trait=kind
+	2350.1.1={birth=yes}
+	2395.12.27={# 795 Pope Leo III elected
+		religion=catholic
+	}
+	2400.12.25={# 800 Pope Leo III crowns Charlemagne
+		name="Redeemed"
+	}
+	2416.6.12={death=yes}
+}
+
+666020={
+	name="Napoleon"
+	culture=riverlander
+	religion=catholic
+	2361.1.1={birth=yes}
+	2416.6.12={
+		name="Manasses"
+	}
+	2427.8.27={death=yes}
+}
+
+666021={
+	name="Clark"
+	culture=texan
+	religion=catholic
+	2376.1.1={birth=yes}
+	2427.8.27={
+		name="Fear-Not"
+	}
+	2444.1.11={death=yes}
+}
+
+666022={
+	name="Preston"
+	culture=riverlander
+	religion=catholic
+	2380.1.1={birth=yes}
+	2444.1.11={
+		name="Praise-God"
+	}
+	2447.1.24={death=yes}
+}
+
+666023={
+	name="Caliste"
+	culture=cajun
+	religion=catholic
+	2390.1.1={birth=yes}
+	2447.1.24={
+		name="Humble"
+	}
+	2458.4.17={death=yes}
+}
+
+666024={
+	name="David"
+	culture=riverlander
+	religion=catholic
+	trait=humble
+	2408.1.1={birth=yes}
+	2458.4.17={
+		name="David"
+	}
+	2472.12.14={death=yes}
+}
+
+666025={
+	name="Laurel"
+	culture=riverlander
+	religion=catholic
+	2421.1.1={birth=yes}
+	2472.12.14={
+		name="Amen"
+	}
+	2485.9.1={death=yes}
+}
+
+666026={
+	name="Juan"
+	culture=tejano
+	religion=catholic
+	2431.1.1={birth=yes}
+	2485.9.1={
+		name="What-God-Will"
+	}
+	2497.12.1={death=yes}
+}
+
+666027={
+	name="Earl"
+	culture=riverlander
+	religion=catholic
+	trait=proud
+	2444.1.1={birth=yes}
+	2497.12.1={
+		name="Humble"
+	}
+	2511.4.14={death=yes}
+}
+
+666028={
+	name="Jean"
+	culture=cajun
+	religion=catholic
+	2458.1.1={birth=yes}
+	2511.4.14={
+		name="Redeemed"
+	}
+	2528.5.1={death=yes}
+}
+
+666029={
+	name="Pleasant"
+	culture=tuskegean
+	religion=catholic
+	trait=zealous
+	2482.1.1={birth=yes
+		culture=riverlander
+	}
+	2528.5.1={
+		name="Son-Of-The-Right-Hand"
+	}
+	2546.5.1={death=yes}
+}
+
+666030={
+	name="Hank"
+	culture=riverlander
+	religion=catholic
+	2489.1.1={birth=yes}
+	2546.5.1={
+		name="Hallelujah"
+	}
+	2555.12.16={death=yes}
+}
+
+666031={
+	name="Beauregard"
+	culture=riverlander
+	religion=catholic
+	2501.1.1={birth=yes}
+	2555.12.16={
+		name="What-God-Will"
+	}
+	2564.4.14={death=yes}
+}
+
+666032={
+	name="Leon"
+	culture=riverlander
+	religion=catholic
+	2500.1.1={birth=yes}
+	2564.4.14={
+		name="Deliverance"
+	}
+	2565.3.1={death=yes}
+}
+
+666033={
+	name="Finn"
+	culture=riverlander
+	religion=catholic
+	2504.1.1={birth=yes}
+	2565.3.1={
+		name="Deliverance"
+	}
+	2572.9.6={death=yes}
+}
+
+666034={
+	name="Fitch"
+	culture=riverlander
+	religion=catholic
+	2518.1.1={birth=yes}
+	2572.9.6={
+		name="God-Is-Salvation"
+	}
+	2583.7.10={death=yes}
+}
+
+666035={
+	name="Fitch"
+	culture=riverlander
+	religion=catholic
+	2529.1.1={birth=yes}
+	2583.7.10={
+		name="God-Is-Gracious"
+	}
+	2596.5.3={death=yes}
+}
+
+666036={
+	name="Allan"
+	culture=texan
+	religion=catholic
+	2540.1.1={birth=yes}
+	2596.5.3={
+		name="Solomon"
+	}
+	2609.7.1={death=yes}
+}
+
+666037={
+	name="Hull"
+	culture=riverlander
+	religion=catholic
+	2561.1.1={birth=yes}
+	2609.7.1={
+		name="Humble"
+	}
+	2624.8.9={death=yes}
+}
+
+666038={
+	name="Jim"
+	culture=grangelander
+	religion=catholic
+	2569.1.1={birth=yes}
+	2624.8.9={
+		name="Zealot"
+	}
+	2632.10.1={death=yes}
+}
+
+666039={
+	name="Louis"
+	culture=riverlander
+	religion=catholic
+	2579.1.1={birth=yes}
+	2632.10.1={
+		name="Corinth"
+	}
+	2645.5.1={death=yes}
+}
+
+666040={
+	name="Dearborn"
+	dynasty=1789012
+	culture=chicagoan
+	religion=catholic
+	father=1967098
+	mother=1967097
+	2587.1.1={birth=yes}
+	2645.5.1={
+		name="David"
+	}
+	2654.4.19={death=yes}
+}
+
+666041={
+	name="Langhorne"
+	culture=riverlander
+	religion=catholic
+	2601.1.1={birth=yes}
+	2654.4.19={
+		name="Corinth"
+	}
+	2659.1.24={death=yes}
+}
+
+666042={
+	name="Isa-viah"
+	dynasty=1491010
+	culture=comanche
+	religion=catholic
+	2604.1.1={birth=yes}
+	2659.1.24={
+		name="Redeemed"
+	}
+	2661.1.1={death=yes}
+}
+
+# Presidents
+666100={
+	name="Aurel"
+	dynasty=1777012 # Heerestraat
+	culture=gothamite
+	religion=americanist
+	2583.10.9={birth=yes}
+	2628.6.21={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2656.5.4={death=yes}
+}
+
+666101={
+	name="Bannister"
+	dynasty=1781008 # Smithson
+	culture=beltway
+	religion=americanist
+	martial=8
+	diplomacy=7
+	intrigue=9
+	stewardship=6
+	learning=8
+	trait=brilliant_strategist
+	trait=genius
+	trait=ambitious
+	trait=zealous
+	trait=proud
+	trait=brave
+	trait=homosexual
+	2311.7.7={birth=yes}
+	2344.10.12={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2378.7.7={death={
+			death_reason=death_battle
+			killer=1997005
+		}
+	}
+}
+
+666102={
+	name="Ned"
+	dynasty=1889009 # Pitchstone
+	culture=mountainer
+	religion=americanist
+	2321.1.9={birth=yes}
+	2378.7.7={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2389.10.2={death=yes}
+}
+666103={
+	name="Stanislaus"
+	dynasty=1789000 # Avondale
+	culture=chicagoan
+	religion=americanist
+	2352.4.19={birth=yes}
+	2389.10.2={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2420.4.5={death=yes}
+}
+666104={
+	name="Margaret"
+	female=yes
+	dynasty=1889009 # Pitchstone
+	culture=mountainer
+	religion=americanist
+	father=666102
+	2365.8.25={birth=yes}
+	2420.4.5={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2453.8.8={death=yes}
+}
+666105={
+	name="Wyatt"
+	dynasty=1814032 # Kelleher
+	culture=texan
+	religion=americanist
+	2411.12.5={birth=yes}
+	2453.8.8={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2474.4.14={death={
+			death_reason=death_execution
+			killer=1997008
+		}
+	}
+}
+# interregnum
+666106={
+	name="Hannibal"
+	dynasty=1787004 # Barron
+	culture=dixie
+	religion=americanist
+	2443.11.14={birth=yes}
+	2485.7.4={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2501.8.13={death={
+			death_reason=death_murder
+			killer=1861010
+		}
+	}
+}
+666107={
+	name="Marcellus"
+	dynasty=1782005 # Dandridge
+	culture=southron
+	religion=americanist
+	2462.2.1={birth=yes}
+	2501.8.13={
+		add_trait=medal_of_honor
+	}
+	2485.6.12={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2513.5.16={death=yes}
+}
+666108={
+	name="Ferguslav"
+	dynasty=1789000 # Avondale
+	culture=chicagoan
+	religion=americanist
+	mother=1967090
+	2477.5.10={birth=yes}
+	2513.5.16={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2537.7.19={death=yes}
+}
+666109={
+	name="Florence"
+	female=yes
+	dynasty=1792003 # Tensaw
+	culture=gulfard
+	religion=americanist
+	2501.11.11={birth=yes}
+	2537.7.19={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2561.11.11={death=yes}
+}
+
+666110={
+	name="Whitelaw"
+	dynasty=1776015 # Stratton
+	culture=hudsonian
+	religion=americanist
+	2522.1.21={birth=yes}
+	2561.11.11={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2580.6.3={death=yes}
+}
+
+666111={
+	name="Abigail"
+	female=yes
+	dynasty=1778000 # Calvert
+	culture=delawarean
+	religion=americanist
+	2544.9.9={birth=yes}
+	2580.6.3={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2619.4.12={death=yes}
+}
+
+666112={
+	name="Anatol"
+	dynasty=1789000 # Avondale
+	culture=chicagoan
+	religion=americanist
+	father=1967092
+	2581.1.17={birth=yes}
+	2619.4.12={
+		add_trait=president
+		give_nickname=nick_lastname
+	}
+	2628.6.21={death={
+			death_reason=death_sacrificed
+			killer=1919000
+		}
+	}
+}
+
+666114={#Huey Long, legendary King of Lousiana
+	name="Huey"
+	dynasty=1787082 #Long
+	culture=dixie
+	occluded=yes
+	religion=evangelical
+	trait=legendary
+	trait=grey_eminence
+	trait=shrewd
+	trait=charitable
+	trait=ambitious
+	trait=zealous
+	trait=proud
+	1893.8.30={birth=yes}
+	1928.5.21={give_nickname=nick_the_kingfish}
+	1935.8.10={death={
+			death_reason=death_murder
+		}
+	}
+}
+
+666115={
+	name="Geneviève"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2259.1.1={birth=yes}
+	2304.1.1={
+		name="Josephine"
+	}
+	2315.8.11={death=yes}
+}
+
+666116={
+	name="Frédérique"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2266.1.1={birth=yes}
+	2315.8.11={
+		name="Ursule"
+	}
+	2330.1.22={death=yes}
+}
+
+666117={
+	name="Charlotte"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2286.1.1={birth=yes}
+	2330.1.22={
+		name="Madeleine"
+	}
+	2354.1.1={death=yes}
+}
+
+666118={
+	name="Chloé"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2303.1.1={birth=yes}
+	2354.1.1={
+		name="Honoria"
+	}
+	2369.1.2={death=yes}
+}
+
+666119={
+	name="Béatrice"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2323.1.1={birth=yes}
+	2369.1.2={
+		name="Constantia"
+	}
+	2380.2.7={death=yes}
+}
+
+666120={
+	name="Danielle"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2320.1.1={birth=yes}
+	2380.2.7={
+		name="Jeanne"
+	}
+	2384.12.25={death=yes}
+}
+
+666121={
+	name="Isadora"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2339.1.1={birth=yes}
+	2384.12.25={
+		name="Jeanne"
+	}
+	2406.2.18={death=yes}
+}
+
+666122={
+	name="Avril"
+	female=yes
+	culture=ontarois
+	religion=ursuline
+	2347.1.1={birth=yes}
+	2406.2.18={
+		name="Maria"
+	}
+	2415.4.1={death=yes}
+}
+
+666123={
+	name="Josée"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2362.1.1={birth=yes}
+	2415.4.1={
+		name="Regina"
+	}
+	2421.1.1={death=yes}
+}
+
+666124={
+	name="Diane"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2371.1.1={birth=yes}
+	2421.1.1={
+		name="Sofia"
+	}
+	2437.1.21={death=yes}
+}
+
+666125={
+	name="Diane"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2382.1.1={birth=yes}
+	2437.1.21={
+		name="Sofia"
+	}
+	2443.3.4={death=yes}
+}
+
+666126={
+	name="Émilie"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2395.1.1={birth=yes}
+	2443.3.4={
+		name="Severina"
+	}
+	2458.12.25={death=yes}
+}
+
+666127={
+	name="Elaine"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2404.1.1={birth=yes}
+	2458.12.25={
+		name="Louise"
+	}
+	2466.11.23={death=yes}
+}
+
+666128={
+	name="Jacqueline"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2418.1.1={birth=yes}
+	2466.11.23={
+		name="Honoria"
+	}
+	2477.10.23={death=yes}
+}
+
+666129={
+	name="Nokomis"
+	female=yes
+	culture=ojibwe
+	religion=ursuline
+	2422.1.1={birth=yes}
+	2477.10.23={
+		name="Marguerite"
+	}
+	2486.12.1={death=yes}
+}
+
+666130={
+	name="Jeanne"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2428.1.1={birth=yes}
+	2486.12.1={
+		name="Jeanne"
+	}
+	2493.5.18={death=yes}
+}
+
+666131={
+	name="Julie"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2438.1.1={birth=yes}
+	2493.5.18={
+		name="Francisca"
+	}
+	2501.2.12={death=yes}
+}
+
+666132={
+	name="Louise"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2443.1.1={birth=yes}
+	2501.2.12={
+		name="Louise"
+	}
+	2512.5.15={death=yes}
+}
+
+666133={
+	name="Gracia"
+	female=yes
+	culture=ontarois
+	religion=ursuline
+	2458.1.1={birth=yes}
+	2512.5.15={
+		name="Constantia"
+	}
+	2525.1.1={death=yes}
+}
+
+666134={
+	name="Denise"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2467.1.1={birth=yes}
+	2525.1.1={
+		name="Sofia"
+	}
+	2533.2.2={death=yes}
+}
+
+666135={
+	name="Denise"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2486.1.1={birth=yes}
+	2533.2.2={
+		name="Sofia"
+	}
+	2556.2.27={death=yes}
+}
+
+666136={
+	name="Constance"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2502.1.1={birth=yes}
+	2556.2.27={
+		name="Alexandra"
+	}
+	2570.2.5={death=yes}
+}
+
+666137={
+	name="Céline"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2516.1.1={birth=yes}
+	2570.2.5={
+		name="Justina"
+	}
+	2579.1.1={death=yes}
+}
+
+666138={
+	name="Henriette"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2531.1.1={birth=yes}
+	2579.1.1={
+		name="Justina"
+	}
+	2596.1.1={death=yes}
+}
+
+666139={
+	name="Isadora"
+	female=yes
+	culture=ontarois
+	religion=ursuline
+	2536.1.1={birth=yes}
+	2596.1.1={
+		name="Laurentine"
+	}
+	2600.1.1={death=yes}
+}
+
+666140={
+	name="Jacqueline"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2555.1.1={birth=yes}
+	2600.1.1={
+		name="Josephine"
+	}
+	2619.7.1={death=yes}
+}
+
+666141={
+	name="Jocelyne"
+	dynasty=1796048
+	father=1763110
+	mother=1763112
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2562.1.1={birth=yes}
+	2619.7.1={
+		name="Justina"
+	}
+	2625.1.1={death=yes}
+}
+
+666142={
+	name="Wawetseka"
+	female=yes
+	culture=ojibwe
+	religion=ursuline
+	2575.1.1={birth=yes}
+	2625.1.1={
+		name="Helene"
+	}
+	2643.1.1={death=yes}
+}
+
+666143={
+	name="Geneviève"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2595.1.1={birth=yes}
+	2643.1.1={
+		name="Bella"
+	}
+	2658.1.1={death=yes}
+}
+
+666144={
+	name="Isabelle"
+	female=yes
+	culture=quebecois
+	religion=ursuline
+	2599.1.1={birth=yes}
+	2658.11.2={
+		name="Angèle"
+	}
+	2663.1.1={death=yes}
+}
+
+666145={
+	name="Gabito"
+	dynasty=1533038
+	occluded=yes
+	culture=costeno
+	religion=patria_grande
+	trait=legendary
+	trait=poet
+	trait=genius
+	trait=erudite
+	trait=humble
+	trait=kind
+	trait=shy
+	1927.3.6={birth=yes}
+	1982.12.8={death={
+			death_reason=death_ants
+		}
+	}
+}
+
+666146={
+	name="Pullman"
+	culture=chicagoan
+	religion=rust_cultist
+	trait=heresiarch
+	trait=fords_striker
+	trait=zealous
+	2345.1.1={birth=yes}
+	2408.1.1={death=yes}
+}
+
+666147={
+	name="Randolph"
+	culture=motowner
+	religion=rust_cultist
+	2363.1.1={birth=yes}
+	2363.1.2={culture=chicagoan}
+	2423.1.1={death=yes}
+}
+
+666148={
+	name="Horace"
+	culture=lacustrine
+	religion=rust_cultist
+	2395.1.1={birth=yes}
+	2447.1.1={death=yes}
+}
+
+666149={
+	name="Gene"
+	culture=rostmann
+	religion=rust_cultist
+	2401.1.1={birth=yes}
+	2463.1.1={death={
+			death_reason=death_dungeon
+			killer=1967109
+		}
+	}
+}
+
+666150={
+	name="Samuel"
+	culture=motowner
+	religion=rust_cultist
+	2573.1.1={birth=yes}
+	2629.1.1={death=yes}
+}
+
+666151={
+	name="Walter"
+	culture=rostmann
+	religion=rust_cultist
+	2597.1.1={birth=yes}
+	2641.1.1={death=yes}
+}
+
+666152={
+	name="Aurelia"
+	female=yes
+	dynasty=1886152
+	culture=canuck
+	religion=gaian
+	trait=scholarly_theologian
+	trait=shy
+	trait=gamer
+	trait=musician
+	trait=feeble
+	trait=uncouth
+	trait=proud
+	trait=ambitious
+	trait=homosexual
+	2650.6.30={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1845081}
+	2700.1.1={death=yes}
+}
+
+666153={
+	name="Philip"
+	dynasty=1784074 #Kreitz
+	culture=rostmann
+	religion=americanist
+	trait=fortune_builder
+	trait=content
+	trait=erudite
+	trait=honest
+	trait=stubborn
+	2646.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={effect={add_artifact=stamp_collection}}
+	2666.1.2={employer=1967008} #Burning River
+	2700.1.1={death=yes}
+}
+
+666155={
+	name="Adam"
+	culture=southron
+	religion=americanist
+	dna="dieehyhbbcd"
+	trait=naive_appeaser
+	trait=groomed
+	trait=erudite
+	trait=kind
+	trait=content
+	trait=slothful
+	trait=trusting
+	2648.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1861061}
+	2700.1.1={death=yes}
+}
+
+666156={
+	name="Augustus"
+	dynasty=1787143 #Fitzhenry
+	culture=southron
+	religion=evangelical
+	dna="ciafdlfddca"
+	trait=underhanded_rogue
+	trait=robust
+	trait=wroth
+	trait=kind
+	trait=stubborn
+	trait=poet
+	trait=bulldog_hcc
+	trait=knight
+	2646.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={effect={add_artifact=king_james_bible}}
+	2666.1.2={employer=1861040} #
+	2700.1.1={death=yes}
+}
+
+666157={
+	name="Theodosia"
+	dynasty=1787144 #Canul
+	female=yes
+	culture=southron
+	religion=neomayan
+	dna="cfjgikfbifh"
+	trait=thrifty_clerk
+	trait=slothful
+	trait=dwarf
+	trait=scholar
+	trait=lustful
+	trait=bisexual
+	trait=homosexualmarried_ff
+	2636.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2660.1.2={add_spouse=666158}
+	2666.1.1={employer=1650105} #Belmopan
+	2700.1.1={death=yes}
+}
+
+666158={
+	name="Margo"
+	female=yes
+	culture=kriol
+	religion=neomayan
+	trait=bisexual
+	trait=homosexualmarried_ff
+	2636.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2660.1.2={add_spouse=666157}
+	2666.1.1={employer=1650105} #Belmopan
+	2700.1.1={death=yes}
+}
+
+666159={
+	name="Viola"
+	dynasty=1787144 #Canul
+	female=yes
+	culture=kriol
+	religion=neomayan
+	trait=adopted_child
+	mother=666157
+	father=666158 #???
+	2663.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1650105} #Belmopan
+	2700.1.1={death=yes}
+}
+
+666160={
+	name="Shiloh"
+	dynasty=1787144 #Canul
+	culture=kriol
+	religion=neomayan
+	trait=adopted_child
+	mother=666157
+	father=666158 #???
+	2665.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1650105} #Belmopan
+	2700.1.1={death=yes}
+}
+
+666161={
+	name="Arthur"
+	dynasty=1787145 #Cox
+	culture=dixie
+	religion=evangelical
+	dna="cbedcrdabbz"
+	trait=martial_cleric
+	trait=stubborn
+	trait=kind
+	trait=content
+	trait=zealous
+	trait=diligent
+	trait=knight
+	2648.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1933033}
+	2700.1.1={death=yes}
+}
+
+666162={
+	name="Emilio"
+	dynasty=2004054 #Magnuson
+	culture=brazilian
+	religion=revelationist
+	dna="bjbgerfacbw"
+	trait=fortune_builder
+	trait=homosexual
+	trait=kind
+	trait=charitable
+	trait=cynical
+	trait=patient
+	trait=trusting
+	2648.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1861047}
+	2700.1.1={death=yes}
+}
+
+666163={
+	name="Sully"
+	dynasty=1536090 #León
+	culture=brown
+	religion=americanist
+	martial=5
+	diplomacy=4
+	stewardship=3
+	intrigue=7
+	learning=4
+	trait=elusive_shadow
+	trait=gamer
+	trait=brave
+	trait=cynical
+	trait=adventurer
+	trait=ambitious
+	2631.4.18={birth=yes
+		culture=valluno
+	}
+	2666.1.1={effect={add_artifact=old_world_shades}}
+	2666.1.2={employer=1513001}
+	2698.8.28={death=yes}
+}
+
+666164={
+	name="Rafael"
+	dynasty=2004055 #de Fortaleza
+	culture=brazilian
+	religion=apostolic
+	martial=5
+	diplomacy=4
+	stewardship=3
+	intrigue=7
+	learning=4
+	trait=grey_eminence
+	trait=depressed
+	trait=content
+	trait=kind
+	trait=humble
+	trait=erudite
+	trait=scarred
+	trait=distractible
+	trait=shy
+	trait=shrewd
+	give_nickname=nick_the_exiled
+	2631.4.18={birth=yes}
+	2666.1.1={employer=2100017}
+	2698.8.28={death=yes}
+}
+
+666165={
+	name="Gail"
+	female=yes
+	dynasty=1850084 # Panselo 
+	culture=southron
+	religion=cetic
+	dna="cgeefjdbeaq"
+	martial=10
+	learning=10
+	trait=brilliant_strategist
+	trait=adopted_child
+	trait=quick
+	trait=musician
+	trait=way_fist
+	trait=brave
+	trait=diligent
+	trait=kind
+	disallow_random_traits=yes
+	give_nickname=nick_the_phoenix
+	2647.8.20={birth=yes
+	culture=angeleno
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1910165}
+#	2666.1.1={effect={add_artifact=old_world_musicbox}}
+	2698.8.20={death=yes}
+}
+
+666166={
+	name="Kevin"
+	dynasty=1849101 # Choíros
+	culture=bayfolk
+	religion=cetic
+	trait=brilliant_strategist
+	trait=gamer
+	trait=diligent
+	trait=adopted_child
+	trait=brave
+	trait=aggressive_leader
+	trait=distractible
+	trait=way_fist
+	give_nickname=nick_the_blade
+	disallow_random_traits=yes
+	2644.6.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1911002}
+	2666.1.1={effect={add_artifact=art_of_war}}
+	2667.1.1={death=yes}
+}
+
+666167={
+	name="Romeo" #My self insert !!!
+	female=no
+	dynasty=2030036
+	martial=6
+	diplomacy=12
+	stewardship=10
+	intrigue=4
+	learning=12
+	culture=anjalusi
+	religion=imamite
+	trait=scholarly_theologian
+	trait=sayyid2
+	trait=sufi_zahid
+	trait=patient
+	trait=ambitious
+	trait=stubborn
+	trait=brave
+	trait=devout
+	trait=just
+	trait=ansari
+	2645.8.6={birth=yes}
+	2660.1.1={
+	effect={
+			set_character_flag=no_historical_family
+			set_character_flag=diversity
+			set_character_flag=physique
+			add_friend=1384010
+			add_friend=1384011
+			add_friend=2200016
+		}
+	}
+	2660.1.2={
+		effect={
+			join_society=monastic_order_shiite
+		}
+	}
+	2740.12.1={death=yes}
+}
+666168={
+	name="Abdi"
+	dynasty=2033025
+	culture=motowner
+	religion=traditionalist
+	trait=intricate_webweaver
+	trait=erudite
+	trait=slothful
+	trait=gregarious
+	trait=humble
+	trait=greedy
+	2645.5.9={
+		birth=yes
+		culture=chiraqi
+		set_character_flag = diversity
+	}
+	2660.1.1={
+	effect={
+			add_friend=3000206
+			add_friend=1788293
+		}
+	}
+	2666.1.1={employer=1919002}
+}
+666169={
+	name="Julia"
+	female=yes
+	dynasty=1798051 #Amsel
+	culture=dellsman
+	religion=norse_pagan
+	dna="baiffyfaddn"
+	properties="cf0cik00000000000000000000000000000000"
+	trait=underhanded_rogue
+	trait=distractible
+	trait=reclusive
+	trait=shy
+	trait=cynical
+	trait=lustful
+	trait=kind
+	trait=paranoid
+	trait=sympathy_christendom
+	2646.8.26={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1919002}
+	2666.1.1={effect={add_friend=666154}}
+}
+
+666170={
+	name="Yuniu"
+	female=yes
+	dynasty=1777062 #Al Safanah
+	culture=dixie
+	religion=imamite
+	trait=scholarly_theologian
+	trait=distractible
+	trait=reclusive
+	trait=quick
+	trait=scholar
+	trait=lustful
+	trait=wroth
+	trait=ambitious
+	trait=homosexual
+	2646.1.1={birth=yes
+	culture=gothamite
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1788012}
+	2666.1.1={effect={add_lover=666171}}
+}
+666171={
+	name="Layla"
+	female=yes
+	dynasty=1787149 #Al Zaffino
+	culture=dixie
+	religion=imamite
+	trait=skilled_tactician
+	trait=distractible
+	trait=reclusive
+	trait=quick
+	trait=gluttonous
+	trait=strong
+	trait=stubborn
+	trait=bisexual
+	2643.1.1={birth=yes
+		effect={
+			set_character_flag=diversity
+			set_character_flag=physique
+		}
+	}
+	2666.1.1={employer=1788012}
+	2666.1.1={effect={add_lover=666170}}
+}

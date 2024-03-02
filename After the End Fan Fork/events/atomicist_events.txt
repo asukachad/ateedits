@@ -1,0 +1,1544 @@
+# 1		atomic revival occurs in one of their holy sites
+# 2		revival continues, attempting to convert the holy site again
+# 3		revival in adjacent holy city has spread to this province
+# 10	non-atomicist ruler/advisor_spiritual of an atomicist holy city bears witness to the atomic revival
+# 11	your newly-atomicist vassal attempts to convert you
+# 12	you have converted to Atomicism
+# 13	your liege has agreed to convert
+# 14	your liege has refused to convert
+# 15	your advisor has succeeded in disrupting the revival
+# 16	your advisor has failed to disrupt the revival
+
+#ALL OF THE ABOVE EVENTS WILL BE GIVEN TO CONSUMERISTS
+
+# the AEC is formed ### DEFUNCT
+# 17	someone becomes the Warhead
+# 18	choose a regent Particle
+
+#THE RADIANT PATH
+
+# 50	the option to become irradiated
+# AHHHHHHHHHHHHHHHHHHHH
+
+# should a decision to get blessed as an adult be added? no
+#100	atomicist child is born, prepare for the blessing
+#101	parent chooses whether to grant the blessing of the atom
+#102	parent notified that spouse will choose whether blessing is granted
+#103	parent notified that spouse has chosen to undergo the ritual
+#104	parent notified that spouse has chosen not to undergo the ritual
+#110	secretly determine whether the ritual goes well or not
+#120	your ritual has gone well (send to child) [apply benefits]
+#121	your ritual has gone poorly (send to child) [apply penalties]
+#122	the ritual has gone well for your child (send to mom & dad)
+#123	the ritual has gone poorly for your child (send to mom & dad)
+
+#200	First Strike Launched
+
+namespace = atom
+
+# ************************* Blessing of the Atom ************************
+
+character_event = {
+	id = atom.100
+	hide_window = yes
+	is_triggered_only = yes
+	religion = atomicist
+	
+	immediate = {
+		if = { limit = { is_female = yes }
+			mother = { character_event = { id = atom.101 days = 5 } }
+			father = { character_event = { id = atom.102 days = 5 } }
+		}
+		if = { limit = { is_female = no }
+			mother = { character_event = { id = atom.102 days = 5 } }
+			father = { character_event = { id = atom.101 days = 5 } }
+		}
+	}
+	option = { }
+}
+
+character_event = {
+	id = atom.101
+	desc = EVTDESC_atom_birth
+	picture = GFX_evt_birth
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OPTDESC_atom_birth_tradition
+		trigger = {
+			religion = atomicist
+			OR = { 
+				trait = atom_bless
+				trait = atom_curse
+			}
+		}
+		piety = 10
+		any_spouse = { character_event = { id = atom.103 days = 3 } }
+		FROM = { character_event = { id = atom.110 days = 5 } }
+		ai_chance = {
+			factor = 100
+			modifier = { factor = 5 trait = zealous }
+			modifier = { factor = 0.2 trait = cynical }
+		}
+	}
+	
+	option = {
+		name = OPTDESC_atom_birth_grant
+		trigger = {
+			religion = atomicist
+			NOT = { OR = { 
+					trait = atom_bless
+					trait = atom_curse
+				}	
+			}
+		}
+		piety = 10
+		any_spouse = { character_event = { id = atom.103 days = 3 } }
+		FROM = { character_event = { id = atom.110 days = 5 } }
+		ai_chance = {
+			factor = 25
+			modifier = { factor = 5 trait = zealous }
+			modifier = { factor = 0.2 trait = cynical }
+		}
+	}
+	
+	option = {
+		name = OPTDESC_atom_birth_deny
+		piety = -10
+		any_spouse = { character_event = { id = atom.104 days = 3 } }
+		FROM = { add_trait = atom_deny }
+		ai_chance = { factor = 10 }
+	}
+}
+
+character_event = {
+	id = atom.102
+	desc = EVTDESC_atom_birth_spousedecide
+	picture = GFX_evt_birth
+	is_triggered_only = yes
+	option = { name = OK }
+}
+
+character_event = {
+	id = atom.103
+	desc = EVTDESC_atom_birth_spousegrant
+	picture = GFX_evt_birth
+	is_triggered_only = yes
+	option = { name = OK }
+}
+
+character_event = {
+	id = atom.104
+	desc = EVTDESC_atom_birth_spousedeny
+	picture = GFX_evt_birth
+	is_triggered_only = yes
+	option = { name = OK }
+}
+
+character_event = {
+	id = atom.110
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		random_list = {
+			75 = { narrative_event = { id = atom.120 days = 5 } } # good ritual
+			25 = { narrative_event = { id = atom.121 days = 5 } } # bad ritual
+		}
+	}
+	option = { }
+}
+
+narrative_event = {
+	id = atom.120
+	title = EVTNAME_atom_birth_ritual
+	desc = EVTDESC_atom_birth_ritualgood
+	picture = GFX_evt_atom_blessing
+	is_triggered_only = yes
+	
+	immediate = {
+		mother = { narrative_event = { id = atom.122 } }
+		father = { narrative_event = { id = atom.122 } }
+	}
+	
+	option = {
+		name = OK
+		add_trait = atom_bless
+		random_list = {
+			2 = { add_trait = genius }
+			3 = { add_trait = quick }
+			5 = { add_trait = strong }
+			20 = { remove_disease_trait_effect = yes }
+			20 = { remove_trait = sickly }
+			50 = { }
+		}
+	}
+}
+
+narrative_event = {
+	id = atom.121
+	title = EVTNAME_atom_birth_ritual
+	desc = EVTDESC_atom_birth_ritualbad
+	picture = GFX_evt_atom_blessing
+	is_triggered_only = yes
+	
+	immediate = {
+		mother = { narrative_event = { id = atom.123 } }
+		father = { narrative_event = { id = atom.123 } }
+	}
+	
+	option = {
+		name = OK
+		add_trait = atom_curse
+		random_list = {
+			40 = { give_ill_effect = yes }
+			15 = { add_trait = wounded }
+			5 = { add_trait = lunatic }
+			5 = { add_trait = possessed }
+			5 = { add_trait = ugly }
+			5 = { add_trait = clubfooted }
+			5 = { add_trait = hunchback }
+			5 = { add_trait = harelip }
+			5 = { add_trait = weak }
+			5 = { add_trait = slow }
+			5 = { add_trait = imbecile }
+		}
+	}
+}
+
+narrative_event = {
+	id = atom.122
+	title = EVTNAME_atom_birth_ritual
+	desc = EVTDESC_atom_birth_ritualgoodparent
+	picture = GFX_evt_atom_blessing
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atom_birth_ritualgoodparent
+	}
+}
+
+narrative_event = {
+	id = atom.123
+	title = EVTNAME_atom_birth_ritual
+	desc = EVTDESC_atom_birth_ritualbadparent
+	picture = GFX_evt_atom_blessing
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPT_atom_birth_ritualbadparent
+	}
+}
+
+####################################################
+# Atomicist torture events
+# By Henrik "Groogy" Hansson, modified by Sam
+####################################################
+character_event = {
+	id = atom.15000
+	
+	desc = "EVTDESCATOM15000"
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		add_character_modifier = {
+			name = atom_judgement
+			duration = -1
+		}
+		
+		character_event = { id = atom.15001 days = 30 }
+	}
+	
+	option = {
+		name = "OK"
+	}
+}
+
+character_event = {
+	id = atom.15001
+	
+	hide_window = yes
+	#desc = "EVTDESCATOM15001"
+	#picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_character_flag = atom_judged
+		
+		if = {
+			limit = {
+				NOT = { is_incapable = yes }
+				NOT = { has_character_flag = passing_atom_judgement }
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				NOT = { religion = atomicist }
+				NOT = { trait = lunatic }
+			}
+
+			set_character_flag = passing_atom_judgement
+			random_list = {
+				60 = { character_event = { id = atom.15003 } } # Character lives
+				10 = { character_event = { id = atom.15004 } } # Character dies
+				5 = { character_event = { id = atom.15005 } } # Character goes insane
+				5 = { character_event = { id = atom.15006 } } # Character goes zealous
+				5 = { character_event = { id = atom.15007 } } # Character goes atomicist
+				10 = { character_event = { id = atom.15002 } } # Character is freed
+			}
+		}
+		
+		if = {
+			limit = {
+				NOT = { is_incapable = yes }
+				NOT = { has_character_flag = passing_atom_judgement }
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				NOT = { religion = atomicist }
+				trait = lunatic
+			}
+
+			set_character_flag = passing_atom_judgement
+			random_list = {
+				60 = { character_event = { id = atom.15003 } } # Character lives
+				5 = { character_event = { id = atom.15004 } } # Character dies
+				5 = { character_event = { id = atom.15006 } } # Character goes zealous
+				5 = { character_event = { id = atom.15007 } } # Character goes atomicist
+				20 = { character_event = { id = atom.15002 } } # Character is freed
+			}
+		}
+		
+		if = {
+			limit = {
+				NOT = { is_incapable = yes }
+				NOT = { has_character_flag = passing_atom_judgement }
+				NOT = { trait = lunatic }
+			}
+
+			set_character_flag = passing_atom_judgement
+			random_list = {
+				60 = { character_event = { id = atom.15003 } } # Character lives
+				5 = { character_event = { id = atom.15004 } } # Character dies
+				5 = { character_event = { id = atom.15005 } } # Character goes insane
+				20 = { character_event = { id = atom.15002 } } # Character is freed
+			}
+		}
+		
+		if = {
+			limit = {
+				NOT = { is_incapable = yes }
+				NOT = { has_character_flag = passing_atom_judgement }
+			}
+
+			set_character_flag = passing_atom_judgement
+			random_list = {
+				60 = { character_event = { id = atom.15003 } } # Character lives
+				5 = { character_event = { id = atom.15004 } } # Character dies
+				20 = { character_event = { id = atom.15002 } } # Character is freed
+			}
+		}
+		
+		if = {
+			limit = {
+				is_incapable = yes
+				NOT = { has_character_flag = passing_atom_judgement }
+			}
+
+			set_character_flag = passing_atom_judgement
+			random_list = {
+				60 = { character_event = { id = atom.15003 } } # Character lives
+				40 = { character_event = { id = atom.15004 } } # Character dies
+				10 = { character_event = { id = atom.15002 } } # Character is freed
+			}
+		}
+	}
+}
+
+character_event = {	# End torture
+	id = atom.15002
+	
+	desc = "EVTDESCATOM15002"
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_modifier = atom_judgement
+		prisoner = yes
+	}
+	
+	option = {
+		name = "EVTOPTACM15002"
+		remove_character_modifier = atom_judgement
+		clr_character_flag = passing_atom_judgement
+		prisoner = no
+	}
+}
+
+character_event = {	# Character lives
+	id = atom.15003
+	
+	#desc = "EVTDESCATOM15003"
+	#picture = GFX_evt_emissary
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAATOM15003"
+		clr_character_flag = passing_atom_judgement
+		character_event = { id = atom.15001 days = 30 }
+	}
+}
+
+character_event = {	# Character dies
+	id = atom.15004
+	
+	desc = "EVTDESCATOM15004"
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTACM15004"
+		remove_character_modifier = atom_judgement
+		clr_character_flag = passing_atom_judgement
+		host = {
+			ROOT = {
+				death = { 
+					killer = PREV
+					death_reason = death_sacrificed
+				}
+			}
+		}
+
+	}
+}
+
+character_event = {	# Character goes insane
+	id = atom.15005
+	
+	desc = "EVTDESCCM15005"
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTACM15005"
+		clr_character_flag = passing_atom_judgement
+		add_trait = lunatic
+		character_event = { id = atom.15001 days = 30 }
+	}
+}
+
+character_event = {	# Character goes zealous
+	id = atom.15006
+	
+	desc = "EVTDESCCM15006"
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTACM15006"
+		clr_character_flag = passing_atom_judgement
+		add_trait = zealous
+		character_event = { id = atom.15001 days = 30 }
+	}
+}
+
+character_event = {	# Character goes atomicist
+	id = atom.15007
+	
+	desc = "EVTDESCATOM15007"
+	picture = GFX_evt_emissary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAATOM15007"
+		clr_character_flag = passing_atom_judgement
+		religion = atomicist
+		character_event = { id = atom.15001 days = 30 }
+	}
+}
+
+# Survivor of radiation gets cancer
+character_event = {
+	id = atom.15010
+	
+	desc = "EVTDESCATOM15010"
+	picture = GFX_evt_bad_news
+	
+	trigger = {
+		NOT = { trait = cancer }
+		OR = {
+			has_character_flag = atom_judged
+			trait = atom_curse
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 3
+			NOT = { has_character_flag = atom_judged }
+		}
+	}
+	
+	option = {
+		name = "OK"
+		if = {
+			limit = {
+				NOT = { has_dlc = "Reapers" }
+			}
+			add_trait = ill
+		}
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+			}
+			add_trait = ill
+		}
+		health = -1
+		give_cancer_effect = yes
+	}
+}
+
+narrative_event = {
+	id = atom.17
+	title = EVTNAME_atomic_high_commission
+	desc = EVTDESC_atom_commissar
+	picture = GFX_evt_cathedral_zun_pagan
+	border = GFX_event_narrative_frame_religion
+
+	major = yes
+
+	is_triggered_only = yes
+	
+	major_trigger = {
+		OR = {
+		capital_scope = { region = custom_mountain_zone }
+		religion = atomicist
+		religion = aphite
+		}
+	}
+	
+	trigger = {
+		NOT = { has_global_flag = atomic_commission }
+	}
+	
+	immediate = {
+		set_global_flag = atomic_commission
+		d_atomicist = { grant_title = ROOT }
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_commissar
+		trigger = {
+			religion = atomicist
+			NOT = { has_landed_title = d_atomicist }
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_atomicist_commissar
+		trigger = {
+			NOT = { religion_group = oldworld }
+		}
+	}
+	
+	option = {
+		name = EVTOPTC_atomicist_commissar
+		trigger = {
+			religion_group = oldworld
+			NOT = { religion = atomicist }
+		}
+	}
+	
+	option = {
+		name = EVTOPTD_atomicist_commissar
+		trigger = {
+			religion = atomicist
+			has_landed_title = d_atomicist
+		}
+	}
+}
+
+character_event = {
+	id = atom.18
+	title = "EVTITLE_atomicist_18"
+	desc = "EVTDESC_atomicist_18"
+	picture = GFX_evt_atom_blessing
+	religion = atomicist
+	is_triggered_only = yes
+	
+	option = {
+		name = EVOTPA_atomicist_particle
+		custom_tooltip = { text = TXT_atomicist_quark }
+		piety = -50
+		hidden_effect = {
+			add_character_modifier = { name = atomicist_quark duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				OR = {
+					trait = gregarious
+					trait = slothful
+				}
+			}
+		}
+	}
+	option = {
+		name = EVOTPB_atomicist_particle
+		custom_tooltip = { text = TXT_atomicist_lepton }
+		piety = -50
+		hidden_effect = {
+			add_character_modifier = { name = atomicist_lepton duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				OR = {
+					trait = shy
+					trait = weak
+					trait = quick
+				}
+			}
+		}
+	}
+	option = {
+		name = EVOTPC_atomicist_particle
+		custom_tooltip = { text = TXT_atomicist_boson }
+		piety = -50
+		hidden_effect = {
+			add_character_modifier = { name = atomicist_boson duration = -1 }
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 20
+				OR = {
+					trait = is_fat
+					trait = diligent
+					trait = deceitful
+				}
+			}
+		}
+	}
+	option = {
+		name = EVOTPD_atomicist_particle
+		trigger = {
+			trait = cynical
+		}
+		custom_tooltip = { text = TXT_atomicist_none }
+		piety = -100
+		prestige = 200
+		add_character_modifier = {
+			name = atomicist_didnt_choose_particle
+			hidden = yes
+			years = 10
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 20
+				OR = {
+					trait = content
+					trait = arbitrary
+				}
+			}
+		}
+	}
+}
+
+narrative_event = {
+	id = atom.50
+	title = "EVTITLE_radiant_pathstart"
+	desc = "EVTDESC_radiant_pathstart"
+	picture = GFX_evt_cathedral_zun_pagan
+	is_triggered_only = yes
+
+	option = {
+		name = EVOTPA_radiant_pathstart
+		custom_tooltip = { text = TXT_thestartofradiance }
+		piety = -500
+		add_trait = irradiated
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 50
+				OR = {
+					trait = zealous
+					trait = erudite
+					trait = scholar
+					trait = genius
+					trait = quick
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVOTPB_radiant_pathstart
+		custom_tooltip = { text = TXT_notinterestedintheradiantpath }
+		piety = -100
+		prestige = 20
+		hidden_tooltip = {
+			add_character_modifier = {
+				name = ignores_the_radiant_light
+				hidden = yes
+				years = 5
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 10
+				OR = {
+					trait = cynical
+					trait = slow
+					trait = imbecile
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = zealous
+				}
+			}
+		}
+	}
+}
+
+narrative_event = {
+	id = atom.51
+	title = "EVTITLE_radiant_pathstart"
+	desc = "EVTDESC_radiant_pathmiddle1"
+	picture = GFX_evt_cathedral_zun_pagan
+	religion = atomicist
+	is_triggered_only = yes
+	
+	option = {
+		name = EVOPTA_atomicist_51
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_51 }
+		hidden_tooltip = {
+			set_character_flag = enriched_path
+			ROOT = { set_variable = { which = enriched_path value = 1 } }
+			character_event = { id = atom.52 days = 5 }
+		}
+	}
+}
+
+character_event = {
+	id = atom.52
+	desc = "EVTDESC_radiant_pathmiddle2"
+	picture = GFX_evt_cathedral_zun_pagan
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+	}
+	
+	option = {
+		name = EVOPTA_atomicist_52
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_52 }
+		hidden_tooltip = {
+			lose_weight_large_effect = yes
+			weight_trait_check_effect = yes
+			ROOT = { change_variable = { which = enriched_path value = 2 } }
+			character_event = { id = atom.53 days = 2 }
+		}
+		
+	}
+	
+	option = {
+		name = EVOPTB_atomicist_52
+		prestige = -100
+		custom_tooltip = { text = TXT_EVTOPTB_atomicist_52 }
+		hidden_tooltip = {
+			ROOT = { change_variable = { which = enriched_path value = 1 } }
+			character_event = { id = atom.53 days = 2 }
+		}
+	}
+	
+	option = {
+		name = EVOPTC_atomicist_52
+		trigger = {
+			intrigue = 10
+		}
+		tooltip_info = intrigue
+		custom_tooltip = { text = TXT_EVTOPTC_atomicist_52 }
+		hidden_tooltip = {
+			character_event = { id = atom.53 days = 2 }
+		}
+	}
+}
+
+character_event = {
+	id = atom.53
+	desc = "EVTDESC_radiant_pathmiddle3"
+	picture = GFX_evt_battle
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+	}
+	
+	option = {
+		name = EVOPTA_atomicist_53
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_53 }
+		hidden_tooltip = {
+			random_list = {
+				50 = {
+					modifier = {
+						factor = 0.8
+						combat_rating = 12
+					}
+					modifier = {
+						factor = 0.6
+						AND = {
+							combat_rating = 9
+							NOT = { combat_rating = 12 }
+						}
+					}
+					modifier = {
+						factor = 0.4
+						AND = {
+							combat_rating = 6
+							NOT = { combat_rating = 9 }
+						}
+					}
+					modifier = {
+						factor = 0.2
+						AND = {
+							combat_rating = 3
+							NOT = { combat_rating = 6 }
+						}
+					}
+					modifier = {
+						factor = 0
+						NOT = { combat_rating = 3 }
+					}
+					character_event = { id = atom.54 }
+				}
+				50 = {
+					modifier = {
+						factor = 0
+						combat_rating = 15
+					}
+					modifier = {
+						factor = 0.2
+						AND = {
+							combat_rating = 12
+							NOT = { combat_rating = 15 }
+						}
+					}
+					modifier = {
+						factor = 0.4
+						AND = {
+							combat_rating = 9
+							NOT = { combat_rating = 12 }
+						}
+					}
+					modifier = {
+						factor = 0.6
+						AND = {
+							combat_rating = 6
+							NOT = { combat_rating = 9 }
+						}
+					}
+					modifier = {
+						factor = 0.8
+						combat_rating = 3
+						NOT = { combat_rating = 6 }
+					}
+					character_event = { id = atom.55 }
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = atom.54
+	desc = "EVTDESC_radiant_pathmiddle4"
+	picture = GFX_evt_battle
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+	}
+	
+	option = {
+		name = EVOPTA_atomicist_54
+		tooltip_info = combat_rating
+		hidden_tooltip = {
+			ROOT = { change_variable = { which = enriched_path value = 2 } }
+			character_event = { id = atom.56 days = 3 }
+		}
+	}
+}
+
+character_event = {
+	id = atom.55
+	desc = "EVTDESC_radiant_pathmiddle5"
+	picture = GFX_evt_battle
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+	}
+	
+	option = {
+		name = EVOPTA_atomicist_55
+		hidden_tooltip = {
+			ROOT = { subtract_variable = { which = enriched_path value = 1 } }
+			character_event = { id = atom.56 days = 3 }
+		}
+	}
+}
+
+character_event = {
+	id = atom.56
+	desc = "EVTDESC_radiant_pathmiddle6"
+	picture = GFX_evt_cathedral_zun_pagan
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_56
+		trigger = {
+			learning = 12
+		}
+		tooltip_info = learning
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_56 }
+		hidden_tooltip = {
+			ROOT = { change_variable = { which = enriched_path value = 2 } }
+			character_event = { id = atom.57 }
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_atomicist_56
+		trigger = {
+			NOT = { learning = 12 }
+		}
+		custom_tooltip = { text = TXT_EVTOPTB_atomicist_56 }
+		hidden_tooltip = {
+			ROOT = { subtract_variable = { which = enriched_path value = 2 } }
+			character_event = { id = atom.57 }
+		}
+	}
+}
+
+character_event = {
+	id = atom.57
+	hide_window = yes
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				ROOT = { check_variable = { which = enriched_path value = 7 } }
+			}
+			narrative_event = { id = atom.58 days = 1 }
+		}
+		else_if = {
+			limit = {
+				ROOT = { check_variable = { which = enriched_path value = 4 } }
+				NOT = { ROOT = { check_variable = { which = enriched_path value = 7 } } }
+			}
+			narrative_event = { id = atom.59 days = 1 }
+		}
+		else_if = {
+			limit = {
+				NOT = { ROOT = { check_variable = { which = enriched_path value = 4 } } }
+			}
+			narrative_event = { id = atom.60 days = 1 }
+		}
+	}
+}
+
+narrative_event = {
+	id = atom.58
+	title = "EVTITLE_radiant_pathmiddle7"
+	desc = "EVTDESC_radiant_pathmiddle7"
+	picture = GFX_evt_cathedral_zun_pagan
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_58
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_58 }
+		remove_trait = irradiated
+		add_trait = enriched
+		prestige = 500
+	}
+	
+	after = {
+		clr_character_flag = enriched_path
+		hidden_tooltip = {
+			ROOT = { set_variable = { which = enriched_path value = 1 } }
+		}
+	}
+}
+
+narrative_event = {
+	id = atom.59
+	title = "EVTITLE_radiant_pathmiddle8"
+	desc = "EVTDESC_radiant_pathmiddle8"
+	picture = GFX_evt_cathedral_zun_pagan
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_59
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_58 }
+		remove_trait = irradiated
+		add_trait = enriched
+	}
+	
+	after = {
+		clr_character_flag = enriched_path
+		hidden_tooltip = {
+			ROOT = { set_variable = { which = enriched_path value = 1 } }
+		}
+	}
+}
+
+narrative_event = {
+	id = atom.60
+	title = "EVTITLE_radiant_pathmiddle9"
+	desc = "EVTDESC_radiant_pathmiddle9"
+	picture = GFX_evt_bad_news
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_60
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_60 }
+		hidden_tooltip = {
+			add_character_modifier = {
+				name = enriched_path_cooldown
+				hidden = yes
+				years = 10
+			}
+		}
+	}
+	
+	after = {
+		clr_character_flag = enriched_path
+		hidden_tooltip = {
+			ROOT = { set_variable = { which = enriched_path value = 1 } }
+		}
+	}
+}
+
+character_event = {
+	id = atom.61
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = enriched_path
+		hidden_tooltip = {
+			ROOT = { set_variable = { which = enriched_path value = 1 } }
+		}
+	}
+}
+	
+narrative_event = {
+	id = atom.62
+	title = "EVTITLE_radiant_pathend1"
+	desc = "EVTDESC_radiant_pathend1"
+	picture = GFX_evt_cathedral_zun_pagan
+	religion = atomicist
+	is_triggered_only = yes
+	
+	immediate = {
+		ROOT = { set_variable = { which = radiant_path value = 1 } }
+		set_character_flag = radiant_path
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_62
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_62 }
+	}
+	
+	option = {
+		name = EVTOPTB_atomicist_62
+		custom_tooltip = { text = TXT_EVTOPTB_atomicist_62 }
+	}
+	
+	option = {
+		name = EVTOPTC_atomicist_62
+		trigger = {
+			trait = paranoid
+		}
+		tooltip_info = paranoid
+		custom_tooltip = { text = TXT_EVTOPTC_atomicist_62 }
+		hidden_tooltip = {
+			ROOT = { change_variable = { which = radiant_path value = 1 } }
+		}
+	}
+	
+	after = {
+		character_event = { id = atom.63 days = 7 }
+	}
+}
+
+character_event = {
+	id = atom.63
+	desc = "EVTDESC_radiant_pathend2"
+	picture = GFX_evt_secluded_in_prayer
+	religion = atomicist
+	is_triggered_only = yes
+
+	trigger = {
+		has_character_flag = radiant_path
+		trait = travelling
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_63
+		trigger = {
+			NOR = {
+				trait = proud
+				learning = 12
+			}
+		}
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_63 }
+		hidden_tooltip = {
+			ROOT = { change_variable = { which = radiant_path value = 1 } }
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_atomicist_63
+		trigger = {
+			trait = proud
+		}
+		tooltip_info = proud
+		piety = -25
+		custom_tooltip = { text = TXT_EVTOPTB_atomicist_63 }
+		hidden_tooltip = {
+			ROOT = { subtract_variable = { which = radiant_path value = 1 } }
+		}
+	}
+	
+	option = {
+		name = EVTOPTC_atomicist_63
+		trigger = {
+			learning = 12
+		}
+		tooltip_info = learning
+		piety = 50
+		custom_tooltip = { text = TXT_EVTOPTC_atomicist_63 }
+		hidden_tooltip = {
+			ROOT = { change_variable = { which = radiant_path value = 2 } }
+		}
+	}
+	
+	after = {
+		character_event = { id = atom.64 days = 7 }
+	}
+}
+
+character_event = {
+	id = atom.64
+	desc = "EVTDESC_radiant_pathend3"
+	picture = GFX_evt_secluded_in_prayer
+	religion = atomicist
+	is_triggered_only = yes
+
+	trigger = {
+		has_character_flag = radiant_path
+		trait = travelling
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_64
+		trigger = {
+			NOT = {
+				trait = stubborn
+			}
+		}
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_64 }
+		hidden_tooltip = {
+			give_pneumonic_effect = yes
+			ROOT = { change_variable = { which = radiant_path value = 1 } }
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_atomicist_64
+		trigger = {
+			trait = stubborn
+		}
+		tooltip_info = stubborn
+		prestige = -25
+		custom_tooltip = { text = TXT_EVTOPTB_atomicist_64 }
+		hidden_tooltip = {
+			give_pneumonic_effect = yes
+			ROOT = { subtract_variable = { which = radiant_path value = 1 } }
+		}
+	}
+	
+	after = {
+		character_event = { id = atom.65 days = 7 }
+	}	
+}
+
+character_event = {
+	id = atom.65
+	desc = "EVTDESC_radiant_pathend65"
+	picture = GFX_evt_secluded_in_prayer
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = radiant_path
+		trait = travelling
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_65
+		trigger = {
+			NOT = {
+				trait = temperate
+			}
+		}
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_65 }
+		hidden_tooltip = {
+			lose_weight_large_effect = yes
+			lose_weight_small_effect = yes
+			weight_trait_check_effect = yes
+			ROOT = { change_variable = { which = radiant_path value = 1 } }
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_atomicist_65
+		trigger = {
+			trait = temperate
+		}
+		tooltip_info = temperate
+		custom_tooltip = { text = TXT_EVTOPTB_atomicist_65 }
+		hidden_tooltip = {
+			lose_weight_medium_effect = yes
+			weight_trait_check_effect = yes
+			ROOT = { change_variable = { which = radiant_path value = 2 } }
+		}
+	}
+	
+	after = {
+		character_event = { id = atom.66 days = 7 }
+	}
+}
+
+
+character_event = {
+	id = atom.66
+	desc = "EVTDESC_radiant_pathend4"
+	picture = GFX_evt_secluded_in_prayer
+	religion = atomicist
+	is_triggered_only = yes
+
+	trigger = {
+		has_character_flag = radiant_path
+		trait = travelling
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_66
+		trigger = {
+			NOR = {
+				trait = patient
+				trait = wroth
+			}
+		}
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_66 }
+		hidden_tooltip = {
+			ROOT = { subtract_variable = { which = radiant_path value = 1 } }
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_atomicist_66
+		trigger = {
+			trait = patient
+		}
+		tooltip_info = patient
+		custom_tooltip = { text = TXT_EVTOPTB_atomicist_66 }
+		hidden_tooltip = {
+			ROOT = { change_variable = { which = radiant_path value = 1 } }
+		}
+	}
+	
+	option = {
+		name = EVTOPTC_atomicist_66
+		trigger = {
+			trait = wroth
+		}
+		tooltip_info = wroth
+		custom_tooltip = { text = TXT_EVTOPTC_atomicist_66 }
+		hidden_tooltip = {
+			ROOT = { subtract_variable = { which = radiant_path value = 2 } }
+		}
+	}
+	
+	after = {
+		character_event = { id = atom.67 }
+	}
+}
+
+character_event = {
+	id = atom.67
+	hide_window = yes
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = radiant_path
+		trait = travelling
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				ROOT = { check_variable = { which = radiant_path value = 7 } }
+			}
+			narrative_event = { id = atom.68 days = 7 }
+		}
+		else_if = {
+			limit = {
+				ROOT = { check_variable = { which = radiant_path value = 4 } }
+				NOT = { ROOT = { check_variable = { which = radiant_path value = 7 } } }
+			}
+			narrative_event = { id = atom.68 days = 7 }
+		}
+		else_if = {
+			limit = {
+				NOT = { ROOT = { check_variable = { which = radiant_path value = 4 } } }
+			}
+			narrative_event = { id = atom.69 days = 7 }
+		}
+	}
+}
+
+narrative_event = {
+	id = atom.68
+	title = "EVTTITLE_radiant_pathend5"
+	desc = "EVTDESC_radiant_pathend5"
+	picture = GFX_evt_mushroom_cloud
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = radiant_path
+		trait = travelling
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_68
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_68 }
+		remove_trait = enriched
+		add_trait = radioactive
+		give_nickname = nick_the_radiant
+		if = { #Isotropic Blood (male)
+			limit = { 
+				has_dlc = "Holy Fury" 
+				is_female = no
+			}
+			create_bloodline = {
+				type = isotopic_male
+			}
+			new_bloodline = {
+				set_description = "bloodline_desc_isotopic"
+			}	
+			sound_effect = bloodline_added
+		}
+		else_if = { #Isotropic Blood (female)
+			limit = { 
+				has_dlc = "Holy Fury" 
+				is_female = yes
+			}
+			create_bloodline = {
+				type = isotopic_female
+			}
+			new_bloodline = {
+				set_description = "bloodline_desc_isotopic"
+			}	
+			sound_effect = bloodline_added
+		}
+	}
+	
+	after = {
+		clr_character_flag = radiant_path
+		ROOT = { set_variable = { which = radiant_path value = 1 } }
+		remove_trait = travelling
+	}
+}
+
+narrative_event = {
+	id = atom.69
+	title = "EVTTITLE_radiant_pathend6"
+	desc = "EVTDESC_radiant_pathend6"
+	picture = GFX_evt_bad_news
+	religion = atomicist
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = enriched_path
+		trait = travelling
+	}
+	
+	option = {
+		name = EVTOPTA_atomicist_69
+		custom_tooltip = { text = TXT_EVTOPTA_atomicist_69 }
+		hidden_tooltip = {
+			add_character_modifier = {
+				name = radiant_path_cooldown
+				hidden = yes
+				years = 10
+			}
+		}
+	}
+	
+	after = {
+		clr_character_flag = radiant_path
+		ROOT = { set_variable = { which = enriched_path value = 1 } }
+		remove_trait = travelling
+	}
+}
+
+character_event = {
+	id = atom.70
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = radiant_path
+		ROOT = { set_variable = { which = enriched_path value = 1 } }
+		remove_trait = travelling
+	}
+}
+
+# ATOMICIST FIRST STRIKE
+# Called from 'on_crusade_creation'
+# new_character is the targetted enemy
+# ROOT is the religious head
+# FROM is the attacked kingdom title
+narrative_event = {
+	id = atom.200
+	title = EVTNAME200
+	picture = GFX_evt_battle
+	border = GFX_event_narrative_frame_war
+	
+	desc = {
+		text = EVTDESC_first_strike
+		trigger = {
+			OR = {
+				new_character = {
+					NOT = { religion_group = christian }
+					NOT = { religion_group = pagan_group }
+				}
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+	}
+	desc = {
+		text = EVTDESC_first_strike_pagan
+		trigger = {
+			new_character = {
+				religion_group = pagan_group
+			}
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+	}
+	desc = {
+		text = EVTDESC_first_strike_christ
+		trigger = {
+			new_character = {
+				religion_group = christian
+			}
+			NOT = {
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	major = yes
+	show_ROOT = yes
+	hide_new = yes
+	
+	trigger = {
+		can_call_crusade = yes
+		ROOT = { religion = atomicist }
+	}
+	
+	option = {
+		name = EVTOPTA324 # For [God Name]!
+		trigger = { religion = ROOT }
+	}
+	option = {
+		name = EVTOPTB200 # No concern of ours
+		trigger = {
+			NOT = { religion = ROOT }
+			new_character = {
+				NOT = { religion = PREV }
+				NOT = { character = PREV }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTD200 # To Arms!
+		trigger = {
+			new_character = {
+				character = PREV
+			}
+		}
+	}
+	option = {
+		name = EVTOPTE200 # Terrible News!
+		trigger = {
+			new_character = {
+				religion = PREV
+				NOT = { character = PREV }
+			}
+		}
+	}
+}

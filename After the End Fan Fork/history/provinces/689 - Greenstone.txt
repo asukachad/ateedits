@@ -1,0 +1,13 @@
+# 689 Greenstone
+
+# County Title
+title=c_greenstone
+
+# Settlements
+max_settlements=3
+b_geraldton_ON=tribal
+
+# Misc
+culture=ojibwe
+religion=midewiwin
+terrain=taiga

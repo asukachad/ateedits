@@ -1,0 +1,17 @@
+# 70 - Merrimack
+
+# County Title
+title=c_merrimack
+
+# Settlements
+max_settlements=4
+b_portsmouth_NH=tribal #castle
+#b_portsmouth_NH=city
+b_derry_NH=temple
+
+# Misc
+culture=yankee
+religion=occultist
+
+
+# History

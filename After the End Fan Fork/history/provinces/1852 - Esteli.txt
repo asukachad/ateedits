@@ -1,0 +1,19 @@
+# c_esteli
+
+# County Title
+title=c_esteli
+
+# Settlements
+max_settlements=4
+
+b_esteli_NI=castle
+b_ocotal_NI=castle
+b_somoto_NI=temple
+b_condega_NI=city
+
+
+# Misc
+culture=nicoyano
+religion=falling_star
+
+#History

@@ -1,0 +1,16 @@
+# 250 - Moks
+
+# County Title
+title=c_moks
+
+# Settlements
+max_settlements=5
+b_kansas_city_MOKS=castle
+b_olathe_KS=city
+b_independence_MO=temple
+b_raytown_MO=city
+
+# Misc
+culture=riverlander
+religion=catholic
+terrain=farmlands

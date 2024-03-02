@@ -1,0 +1,36 @@
+800.1.1={
+	active=no
+}
+1000.1.1={
+government=theocracy_government
+}
+2378.1.1={
+	holder=666146
+}
+2408.1.1={
+	holder=666147
+}
+2423.1.1={
+	holder=666148
+}
+2447.1.1={
+	holder=666149
+}
+2463.1.1={
+	holder=0
+}
+2613.1.1={
+	holder=666150
+}
+2629.1.1={
+	holder=666151
+}
+2641.3.2={
+	holder=1967121
+}
+2660.1.1={
+	set_tribute_suzerain={
+		who=d_detroit
+		type=permanent
+	}
+}

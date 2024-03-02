@@ -1,0 +1,15 @@
+# 454 - Wind River
+
+# County Title
+title=c_wind_river
+
+# Settlements
+max_settlements=2
+b_riverton_WY=tribal
+
+
+# Misc
+culture=mountainer
+religion=trailwalker
+terrain=desert
+

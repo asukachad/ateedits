@@ -1,0 +1,19 @@
+# 535 - Mount Hood
+
+# County Title
+title=c_mount_hood
+
+# Settlements
+max_settlements=3
+
+b_sandy_OR=castle
+b_estacada_OR=temple
+
+
+# Misc
+culture=cascadian
+religion=gaian
+
+#History
+2103.1.1={ capital=b_estacada_OR }
+2159.1.1={ capital=b_sandy_OR }

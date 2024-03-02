@@ -1,0 +1,13 @@
+# 588 - Wabakimi
+
+# County Title
+title=c_wabakimi
+
+# Settlements
+max_settlements=1
+b_collins_ON=tribal
+
+# Misc
+culture=saulteaux
+religion=exovedate
+terrain=taiga

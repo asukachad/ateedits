@@ -1,0 +1,984 @@
+song = {
+	name = "crusaderkings2_maintitle.ogg"
+	song_name = "Lazy Days"
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "Drums of the Deep.ogg"
+	song_name = "Drums of the Deep"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = plains
+				culture_group = interior
+				culture_group = athabaskan
+				culture_group = plateau
+				culture_group = eastern_woodlands
+				culture_group = northwest_coast
+				culture_group = subarctic
+				culture_group = anishinaabe
+				culture = metis
+				religion_group = american_native
+			}
+		}
+	}
+}
+
+song = {
+	name = "Lord of the Land.ogg"
+	song_name = "Lord of the Land"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Sardana.ogg"
+	song_name = "Sardana"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = mexicano
+				culture_group = chicano
+				culture_group = caribeno
+				culture_group = centrolatino
+				culture_group = costero
+				culture_group = andino
+				culture = texan
+				culture = arixan
+				religion_group = cult_of_saints
+				religion = aria_de_machete
+				religion = aria_de_machete_reformed
+			}
+		}
+	}
+}
+
+song = {
+	name = "Porch Blues.ogg"
+	song_name = "Porch Blues"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = south_anglo
+				culture_group = upland
+				religion = evangelical
+				religion = antinomian
+				religion = charismatic
+				religion = revelationist
+				religion = revelationist_reformed
+			}
+		}
+	}
+}
+
+song = {
+	name = "Teller of the Tales.ogg"
+	song_name = "Teller of the Tales"
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "Virtutes Instrumenti.ogg"
+	song_name = "Virtutes Instrumenti"
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "DD Groove.ogg"
+	song_name = "DD Groove"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = south_anglo
+				culture_group = upland
+				religion = evangelical
+				religion = antinomian
+				religion = charismatic
+				religion = revelationist
+				religion = revelationist_reformed
+			}
+		}
+	}
+}
+
+song = {
+	name = "Night of the Owl.ogg"
+	song_name = "Night of the Owl"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = plains
+				culture_group = interior
+				culture_group = athabaskan
+				culture_group = plateau
+				culture_group = eastern_woodlands
+				culture_group = northwest_coast
+				culture_group = subarctic
+				culture_group = anishinaabe
+				culture = metis
+				religion_group = american_native
+			}
+		}
+	}
+}
+
+song = {
+	name = "Achaidh Cheide.ogg"
+	song_name = "Achaidh Cheide"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = north_atlantic
+				culture_group = britannic
+				religion = occultist
+				religion = occultist_reformed
+				religion = glorian
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+		}
+	}
+}
+
+song = {
+	name = "Black Bird.ogg"
+	song_name = "Black Bird"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = plains
+				culture_group = interior
+				culture_group = athabaskan
+				culture_group = plateau
+				culture_group = eastern_woodlands
+				culture_group = northwest_coast
+				culture_group = subarctic
+				culture_group = anishinaabe
+				culture = metis
+				religion_group = american_native
+			}
+		}
+	}
+}
+
+song = {
+	name = "chantcri(cree).ogg"
+	song_name = "Chant Cri"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				culture = cree
+				culture = metis
+				religion = exovedate
+			}
+		}
+	}
+}
+
+song = {
+	name = "creepowwowsong.ogg"
+	song_name = "Cree Powwow"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	culture = metis }
+			NOT = {	culture = cree }
+		}		
+	}
+}
+
+song = {
+	name = "irishgirl.ogg"
+	song_name = "My Daughter is an Irish Girl"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	culture = metis }
+			NOT = {	religion = exovedate }
+		}		
+	}
+}
+
+song = {
+	name = "kispinkisakihin.ogg"
+	song_name = "Kispin Kisakihin"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	culture = metis }
+			NOT = {	religion = exovedate }
+		}		
+	}
+}
+
+
+song = {
+	name = "lametisse.ogg"
+	song_name = "La Metisse"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	culture = metis }
+			NOT = {	religion = exovedate }
+		}		
+	}
+}
+
+song = {
+	name = "lamontagnetortue.ogg"
+	song_name = "La Montagne Tortue"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	culture = metis }
+			NOT = {	religion = exovedate }
+		}		
+	}
+}
+
+song = {
+	name = "lespetitoiseaux.ogg"
+	song_name = "Les Petit Oiseaux"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	culture = metis }
+			NOT = {	religion = exovedate }
+		}		
+	}
+}
+
+song = {
+	name = "rabbitforlunch.ogg"
+	song_name = "Rabbit for Lunch"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	culture = metis }
+			NOT = {	religion = exovedate }
+		}		
+	}
+}
+
+song = {
+	name = "redriverjig.ogg"
+	song_name = "The Red River Jig"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	culture = metis }
+			NOT = {	religion = exovedate }
+		}		
+	}
+}
+
+song = {
+	name = "thekeystonereel.ogg"
+	song_name = "The Keystone Reel"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {	culture = metis }
+			NOT = {	religion = exovedate }
+		}		
+	}
+}
+
+song = {
+	name = "Native American Flute.ogg"
+	song_name = "Native American Flute"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = plains
+				culture_group = interior
+				culture_group = athabaskan
+				culture_group = plateau
+				culture_group = eastern_woodlands
+				culture_group = northwest_coast
+				culture_group = subarctic
+				culture_group = anishinaabe
+				culture = metis
+				religion_group = american_native
+			}
+		}
+	}
+}
+
+song = {
+	name = "Dhaka.ogg"
+	song_name = "Dhaka"
+	chance = {
+		factor = 1	
+	}
+}
+
+song = {
+	name = "Moorland.ogg"
+	song_name = "Moorland"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Thunderhead.ogg"
+	song_name = "Thunderhead"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = plains
+				culture_group = interior
+				culture_group = athabaskan
+				culture_group = plateau
+				culture_group = eastern_woodlands
+				culture_group = northwest_coast
+				culture_group = subarctic
+				culture_group = anishinaabe
+				culture = metis
+				religion_group = american_native
+			}
+		}
+	}
+}
+
+song = {
+	name = "Laid Back Guitars.ogg"
+	song_name = "Laid Back Guitars"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = mexicano
+				culture_group = chicano
+				culture_group = caribeno
+				culture_group = centrolatino
+				culture_group = costero
+				culture_group = andino
+				culture = texan
+				culture = arixan
+				religion_group = cult_of_saints
+				religion = aria_de_machete
+				religion = aria_de_machete_reformed
+			}
+		}
+	}
+}
+
+song = {
+	name = "Suonatore di Liuto.ogg"
+	song_name = "Suonatore di Liuto"
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "Angevin B.ogg"
+	song_name = "Angevin B"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = north_atlantic
+				culture_group = britannic
+				religion = occultist
+				religion = occultist_reformed
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+				religion = glorian
+			}
+		}
+	}
+}
+
+song = {
+	name = "Pippin the Hunchback.ogg"
+	song_name = "Pippin the Hunchback"
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "Senbazuru.ogg"
+	song_name = "Senbazuru"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = pacific
+			}
+		}
+	}
+}
+
+song = {
+	name = "Hidden Past.ogg"
+	song_name = "Hidden Past"
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 2.5
+			war = yes
+		}
+	}
+}
+
+song = {
+	name = "Finding Movement.ogg"
+	song_name = "Finding Movement"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = {
+					religion_group = pacific
+				}
+				war = yes
+			}
+		}
+	}
+}
+
+song = {
+	name = "Plaint.ogg"
+	song_name = "Plaint"
+	chance = {
+		factor = 1 
+		modifier = {
+			factor = 2.5
+			war = yes
+		}
+	}
+}
+
+song = {
+	name = "Around_the_Lake.ogg"
+	song_name = "Around the Lake"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = south_anglo
+				culture_group = upland
+				religion = evangelical
+				religion = charismatic
+				religion = antinomian
+				religion = revelationist
+				religion = revelationist_reformed
+			}
+		}
+	}
+}
+
+song = {
+	name = "Driving_to_the_Delta.ogg"
+	song_name = "Driving to the Delta"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = south_anglo
+				culture_group = upland
+				religion_group = christian
+				religion = revelationist
+				religion = revelationist_reformed
+			}
+		}
+	}
+}
+
+song = {
+	name = "Guilderoy.ogg"
+	song_name = "Guilderoy"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				capital_scope = {
+					region = custom_usa
+				}
+			}
+		}
+	}
+}
+
+song = {
+	name = "Lowlands_Away.ogg"
+	song_name = "Lowlands Away"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				capital_scope = {
+					region = custom_usa
+				}
+			}
+		}
+	}
+}
+
+song = {
+	name = "The Star-Spangled Banner.ogg"
+	song_name = "Anthem of Old America"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				religion = americanist
+				religion = hamiltonian
+				religion = jeffersonian
+				religion = libertarian
+				has_landed_title = e_usa
+			}
+		}
+	}
+}
+
+song = {
+	name = "Antediluvian Blues.ogg"
+	song_name = "Antediluvian Blues"
+	chance = {
+		factor = 1
+	}
+}
+
+song = {
+	name = "Ibn Al_Noor.ogg"
+	song_name = "Ibn Al-Noor"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = muslim
+			}
+		}
+	}
+}
+
+song = {
+	name = "Mystery Bazaar.ogg"
+	song_name = "Mystery Bazaar"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = muslim
+			}
+		}
+	}
+}
+
+song = {
+	name = "Tabuk.ogg"
+	song_name = "Tabuk"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = muslim
+			}
+		}
+	}
+}
+
+song = {
+	name = "Desert City.ogg"
+	song_name = "Desert City"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = muslim
+			}
+		}
+	}
+}
+
+song = {
+	name = "Rhythm.ogg"
+	song_name = "Rhythm"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = caribbanglo
+				culture_group = antillais
+				culture_group = caribeno
+				religion_group = afro_syncretic
+			}
+		}
+	}
+}
+
+song = {
+	name = "Master of the Feast.ogg"
+	song_name = "Master of the Feast"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Ancient Rite.ogg"
+	song_name = "Ancient Rite"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOT = { religion_group = pagan_group }
+		}
+	}
+}
+
+song = {
+	name = "Celtic Impulse.ogg"
+	song_name = "Celtic Impulse"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+				culture_group = north_atlantic
+			}
+		}
+	}
+}
+
+song = {
+	name = "Return of the Mummy.ogg"
+	song_name = "Return of the Mummy"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				religion = orientalist
+				religion = misrist
+				culture = neomoor
+			}
+		}
+	}
+}
+
+song = {
+	name = "Amazing Grace.ogg"
+	song_name = "Amazing Grace"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = christian
+			}
+		}
+	}
+}
+
+song = {
+	name = "Dark Times.ogg"
+	song_name = "Dark Times"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Grave Matters.ogg"
+	song_name = "Grave Matters"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Lost Time.ogg"
+	song_name = "Lost Time"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Nu Flute.ogg"
+	song_name = "Nu Flute"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "The Pyre.ogg"
+	song_name = "The Pyre"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Eastminster.ogg"
+	song_name = "Eastminster"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = pacific
+			}
+		}
+	}
+}
+
+song = {
+	name = "Ripples.ogg"
+	song_name = "Ripples"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				religion_group = pacific
+			}
+		}
+	}
+}
+
+song = {
+	name = "Kumasi Groove.ogg"
+	song_name = "Kumasi Groove"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = caribbanglo
+				culture_group = antillais
+				culture_group = caribeno
+				religion_group = afro_syncretic
+			}
+		}
+	}
+}
+
+song = {
+	name = "Hidden Wonders.ogg"
+	song_name = "Hidden Wonders"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				religion = orientalist
+				religion = misrist
+				culture = neomoor
+			}
+		}
+	}
+}
+
+song = {
+	name = "Song of the Volga Boatmen.ogg"
+	song_name = "Song of the Volga Boatmen"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = novorusskiy
+				culture = prairielander
+			}
+		}
+	}
+}
+
+song = {
+	name = "Firesong.ogg"
+	song_name = "Firesong"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = plains
+				culture_group = interior
+				culture_group = athabaskan
+				culture_group = plateau
+				culture_group = eastern_woodlands
+				culture_group = northwest_coast
+				culture_group = subarctic
+				culture_group = anishinaabe
+				culture = metis
+				religion_group = american_native
+			}
+		}
+	}
+}
+
+song = {
+	name = "Birch Run.ogg"
+	song_name = "Birch Run"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = plains
+				culture_group = interior
+				culture_group = athabaskan
+				culture_group = plateau
+				culture_group = eastern_woodlands
+				culture_group = northwest_coast
+				culture_group = subarctic
+				culture_group = anishinaabe
+				culture = metis
+				religion_group = american_native
+			}
+		}
+	}
+}
+
+song = {
+	name = "Lotus.ogg"
+	song_name = "Lotus"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = caribbanglo
+				culture_group = antillais
+				culture_group = caribeno
+				religion_group = afro_syncretic
+			}
+		}
+	}
+}
+
+song = {
+	name = "Rite of Passage.ogg"
+	song_name = "Rite of Passage"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = caribbanglo
+				culture_group = antillais
+				culture_group = caribeno
+				religion_group = afro_syncretic
+			}
+		}
+	}
+}
+
+song = {
+	name = "Civilization.ogg"
+	song_name = "Civilization"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Crisis.ogg"
+	song_name = "Crisis"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Townsville.ogg"
+	song_name = "Townsville"
+	chance = {
+		factor = 1		
+	}
+}
+
+song = {
+	name = "Evening Campfire.ogg"
+	song_name = "Evening Campfire"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 1
+			NOR = {
+				culture_group = south_anglo
+				culture_group = upland
+				religion = evangelical
+				religion = antinomian
+				religion = charismatic
+				religion = revelationist
+				religion = revelationist_reformed
+			}
+		}
+	}
+}
+
+song = {
+	name = "Hall of the Mountain King.ogg"
+	song_name = "Hall of the Mountain King"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+				has_landed_title = e_the_rockies
+			}
+		}
+	}
+}

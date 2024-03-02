@@ -1,0 +1,35 @@
+#high king candidate
+
+
+party_populist = {
+	martial = 1
+	opposites = {
+		party_magnate
+		party_theocratic
+	}
+}
+party_magnate = {
+	diplomacy = 1
+	opposites = {
+		party_populist
+	}
+}
+party_royalist = {
+	stewardship = 1
+	opposites = {
+		party_opposition
+	}
+}
+party_theocratic = {
+	learning = 1
+	opposites = {
+		party_populist
+	}
+}
+party_opposition = {
+	intrigue = 1
+	opposites = {
+		party_royalist
+	}
+}
+

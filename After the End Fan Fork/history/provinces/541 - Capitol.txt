@@ -1,0 +1,21 @@
+# 541 - Capitol
+
+# County Title
+title=c_capitol
+
+# Settlements
+max_settlements=5
+
+b_olympia_WA=castle
+b_turnwater_WA=city
+b_grand_mound_WA=temple
+
+# Misc
+culture=cascadian
+religion=gaian
+
+#History
+
+2062.1.1 ={ capital=b_grand_mound_WA } # Estabilishment of the Jolly Oly' Groove
+
+2442.6.21 ={ capital=b_olympia_WA } # Amanda's reforms

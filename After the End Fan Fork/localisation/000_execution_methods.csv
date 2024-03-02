@@ -1,0 +1,24 @@
+	###ÄNSI
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+DEATH_EXECUTION_POLAR_BEAR;was mauled to death by a polar bear on the order of $KILLER$;;;;;;;;;;;;;x
+DEATH_EXECUTION_POLAR_BEAR_NO_KILLER;was mauled to death by a polar bear;;;;;;;;;;;;;x
+DEATH_EXECUTION_MAROONING;was marooned and left to die on the order of $KILLER$;;;;;;;;;;;;;x
+DEATH_EXECUTION_MAROONING_NO_KILLER;was marooned and left to die on the order of $KILLER$;;;;;;;;;;;;;x
+DEATH_EXECUTION_SHARKS;was torn apart by frenzied sharks on the order of $KILLER$;;;;;;;;;;;;;x
+DEATH_EXECUTION_SHARKS_NO_KILLER;was torn apart by frenzied sharks;;;;;;;;;;;;;x
+DEATH_EXECUTION_KEELHAULING;was keelhauled until dead on the order of $KILLER$;;;;;;;;;;;;;x
+DEATH_EXECUTION_KEELHAULING_NO_KILLER;was keelhauled until dead;;;;;;;;;;;;;x
+DEATH_EXECUTION_RADIATION_POISONING;was overexposed to the Holy Atom on the order of $KILLER$;;;;;;;;;;;;;x
+DEATH_EXECUTION_RADIATION_POISONING_NO_KILLER;was overexposed to the Holy Atom;;;;;;;;;;;;;x
+DEATH_EXECUTION_FIRING_SQUAD;was fusilladed by arrows on the order of $KILLER$;;;;;;;;;;;;;x
+DEATH_EXECUTION_FIRING_SQUAD_NO_KILLER;was fusilladed by arrows;;;;;;;;;;;;;x
+DEATH_EXECUTION_GEAR;was broken on a gear by order of $KILLER$;;;;;;;;;;;;;x
+DEATH_EXECUTION_GEAR_NO_KILLER;was broken on a gear;;;;;;;;;;;;;x
+DEATH_EXECUTION_GUILLOTINE;was guillotined by order of $KILLER$;;;;;;;;;;;;;x
+DEATH_EXECUTION_GUILLOTINE_NO_KILLER;was guillotined;;;;;;;;;;;;;x
+DEATH_ANTS;was devoured alive by a swarm of ants;;;;;;;;;;;;;x
+DEATH_VIDA_HISTORIA;left life to enter history;;;;;;;;;;;;;x
+DEATH_HUMBLED;was humbled;;;;;;;;;;;;;x
+DEATH_AMERICANIST_RABBLE;was killed by Americanist rabble;;;;;;;;;;;;;x
+DEATH_DRANK_TO_DEATH;drank themself to death;;;;;;;;;;;;;x
+DEATH_MIRACLE_ARROW;was shot by a miraculous arrow;;;;;;;;;;;;;x

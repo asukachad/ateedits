@@ -1,0 +1,12 @@
+
+# County Title
+title=c_deh_cho
+
+# Settlements
+max_settlements=2
+b_indian_cabins_AB=tribal
+
+# Misc
+culture=dene
+religion=peyotist
+terrain=taiga

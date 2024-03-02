@@ -1,0 +1,18 @@
+# 564 - Harrison
+
+# County Title
+title=c_harrison
+
+# Settlements
+max_settlements=4
+
+b_chilliwack_BC=castle
+b_deroche_BC=temple
+
+
+# Misc
+culture=canuck
+religion=gaian
+terrain=mountain
+
+#History

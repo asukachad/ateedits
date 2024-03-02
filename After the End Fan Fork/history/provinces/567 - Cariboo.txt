@@ -1,0 +1,17 @@
+# 567 - Cariboo
+
+# County Title
+title=c_cariboo
+
+# Settlements
+max_settlements=3
+
+b_williams_lake_BC=castle
+b_horsefly_BC=city
+
+# Misc
+culture=shuswap
+religion=gaian
+terrain=hills
+
+#History

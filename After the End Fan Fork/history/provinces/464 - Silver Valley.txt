@@ -1,0 +1,12 @@
+# 464 - Silver Valley
+
+# County Title
+title=c_silver_valley
+
+# Settlements
+max_settlements=3
+b_kellogg_ID=tribal
+
+# Misc
+culture=inlander
+religion=trailwalker

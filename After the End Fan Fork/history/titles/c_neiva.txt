@@ -1,0 +1,8 @@
+2655.8.24={
+	law=succ_gavelkind
+	liege=d_gran_cafetal
+	holder=1811085
+}
+2656.3.21={
+	holder=1811086
+}

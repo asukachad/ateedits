@@ -1,0 +1,13 @@
+# County Title
+title=c_baranof
+
+# Settlements
+max_settlements=3
+b_sitka_AK=castle
+b_port_alexander_AK=temple
+b_port_walter_AK=castle
+
+# Misc
+culture=alaskan
+religion=orthodox
+terrain=hills

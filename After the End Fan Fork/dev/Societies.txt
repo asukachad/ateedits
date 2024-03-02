@@ -1,0 +1,42 @@
+SOCIETIES:
+
+Four types:
+*Religious/Monastic
+*Academic
+*Sports/Outdoors
+*Other
+
+RELIGIOUS/MONASTIC (INCOMPLETE)
+(NOTE: All monastic societies will use vanilla mechanics unless stated otherwise. Not every religion or religious group needs one of these.)
+*Albertian Order of St. Leibowitz - Catholic monastic order, replacing the Benedictines from vanilla
+*If we don't turn the Salvation Army into a merc company/holy order, it can be the name of the Evangelical monastic society. Otherwise, find a different name. (Orthodox mechanics from vanilla)
+*Port over Hindu society from vanilla, perhaps rename it to reflect Arya Samaj flavor
+*We could probably borrow the Buddhist society mechanics from vanilla and repurpose it for a Gaian monastic order - name TBD
+*Chabad - religious society for Jews. Available to all Orthodox Jews and zealous Reform Jews.
+ *Powers would have to be tweaked significantly, as many things, like the idea of celibacy, wouldn't work when transferred to Judaism.
+ *Potential focus on the Kabbalah, but we'd have to make them a little closer to the Hermetics for that to really work.
+*We could probably use one for the Americanists, Atomicists, and Consumerists, but I can't think of anything right now.
+*Cetic "Imperial Court" society, incorporating the current "pilgrimage" events (and thus freeing up pilgrimages for the Oregon Trail etc.) and potentially offering a third path to removing the figurehead trait. Some events may be left as is to prevent this society from becoming effectively mandatory for all Cetics, however.
+
+Afro-Syncretic society: 
+Ifá society - available to Santeria, Candomble, and maybe Voodoo and Tres Potencias. Powers and quests TBD
+
+ACADEMIC:
+Ivy League, replacing the Hermetics from Vanilla
+Rename ingredients to chemicals
+Rename theorem papers to tests
+Rename scrying to research/something else
+Rename horoscopes to standardized tests
+Rename magnum opus to master thesis
+Rename hermetic art to specialty
+Change "alchemy" for "chemistry" or "medicine" in most instances
+Change astrology to psychology or something
+
+SPORTS/OUTDOORS:
+Sportist society - check the Google Doc, it's all in there. We'll basically implement it like that, but we may have to come up with some additional powers for it.
+Scouts society - based on Boy Scouts of America (Scouts of America??). (Maybe we won't do this)
+
+OTHER:
+Men in Black - replaces Assassins. I already have most of the flavor written up for them, it's the implementation that was getting me
+Potential rework of the banking mechanic to use societies instead (would prefer building it on top of the existing stuff instead of removing what we have)
+Potential society for Overseas Traders (We might do this as an offmap instead) - Combine this with the above idea: the society branch is integrated with the bankers and affected by the status of the overseas offmap.

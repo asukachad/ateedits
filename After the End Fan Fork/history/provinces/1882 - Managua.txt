@@ -1,0 +1,17 @@
+# c_managua
+
+# County Title
+title=c_managua
+
+# Settlements
+max_settlements=5
+
+b_managua_NIC=castle
+b_masaya_NIC=city
+b_granada_NIC=temple
+
+# Misc
+culture=nicoyano
+religion=falling_star
+
+#History

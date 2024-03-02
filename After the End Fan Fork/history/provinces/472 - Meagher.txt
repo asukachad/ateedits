@@ -1,0 +1,13 @@
+# 472 - Meagher
+
+# County Title
+title=c_meagher
+
+# Settlements
+max_settlements=3
+b_fort_logan_MT=tribal
+
+# Misc
+culture=mountainer
+religion=trailwalker
+terrain=hills

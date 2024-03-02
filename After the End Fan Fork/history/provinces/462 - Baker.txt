@@ -1,0 +1,13 @@
+# 462 - Baker
+
+# County Title
+title=c_baker
+
+# Settlements
+max_settlements=3
+b_la_grande_OR=tribal
+
+# Misc
+culture=inlander
+religion=gaian
+terrain=mountain

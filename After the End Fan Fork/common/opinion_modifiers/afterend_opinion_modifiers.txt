@@ -1,0 +1,298 @@
+
+
+denied_pilgrim = {
+	opinion = -10
+	months = 120
+}
+
+allowed_pilgrim = {
+	opinion = 5
+	months = 60
+}
+
+opinion_puppetmaster = {
+	opinion = 100
+	months = 600
+}
+
+opinion_zombi_family = {
+	opinion = -10
+	months = 120
+}
+
+opinion_mercantile_sponsor = {
+	opinion = 5
+	months = 1200
+	inherit = yes
+}
+
+opinion_cathedral_donation = {
+	opinion = 5
+	months = 60
+}
+
+opinion_no_cathedral_donation = {
+	opinion = -5
+	months = 60
+}
+
+opinion_failed_me = {
+	opinion = -30
+	months = 120
+}
+
+# Banking stuff
+owes_me_money = {
+	opinion = 1
+	inherit = yes
+}
+lent_me_money = {
+	opinion = 1
+	inherit = yes
+}
+refused_loan = {
+	opinion = -1
+	months = 12
+}
+defaulted = {
+	opinion = -15
+	inherit = yes
+}
+defaulted_other = {
+	opinion = -15
+	inherit = yes
+}
+
+forgave_debts = {
+	opinion = 20
+	months = 240
+}
+
+# Presidential elections
+running_mate = {
+	opinion = 15
+	months = 24
+}
+made_vp = {
+	opinion = 15
+	years = 10
+}
+refused_vp = {
+	opinion = -5
+	years = 10
+}
+
+campaign_opinion = {
+	opinion = 0
+	months = 24
+}
+opposing_candidate = {
+	opinion = -10
+	crime = yes # so rival filter can be used for decisions
+	years = 1
+}
+
+attack_heralds = {
+	opinion = -10
+}
+negative_campaign = {
+	opinion = -5
+}
+campaign_attacked_me = {
+	opinion = -5
+}
+
+opinion_inspiring = {
+	opinion = 5
+	months = 60
+}
+
+opinion_desired_abdication = {
+	opinion = -20
+	months = 120
+}
+
+opinion_unenlightened = {
+	opinion = -20
+	months = 60
+}
+
+westphalia_monk_displeased = {
+	opinion = -10
+	months = 60 
+}
+	
+westphalia_monk_pleased = {
+	opinion = 10
+	months = 60
+}
+
+westphalian_tyranny = {
+	opinion = -25
+	months = 60
+}
+opinion_yudtes = {
+	opinion = 15
+	months = 12
+}
+
+opinion_refused_yudtes = {
+	opinion = -10
+	months = 12
+}
+
+sacked_me = {
+	opinion = -50
+	years = 25
+}
+
+sacked_gnator_5 = {
+	opinion = -10
+	years = 5
+}
+
+gnator_rumors_10 = {
+	opinion = -20
+	years = 5
+}
+
+gnator_rumors_25 = {
+	opinion = -30
+	years = 5
+}
+
+slandered_emperor = {
+	opinion = -20
+	years = 10
+}
+
+opinion_slanderer = {
+	opinion = -50
+	years = 50
+}
+
+defied_norms = {
+	opinion = -40
+	years = 25
+}
+
+gnator_succeed = {
+	opinion = 30
+	years = 20
+}
+
+gnator_fail = {
+	opinion = -50
+	years = 20
+}
+
+gnator_betrayed = {
+	opinion = -50
+	years = 25
+}
+
+gnator_donated = {
+	opinion = 20
+	years = 5
+}
+
+gnator_bad_donated = {
+	opinion = -20
+	years = 5
+}
+
+gnator_powers = {
+	opinion = 20
+	years = 10
+}
+
+made_me_governator = {
+	opinion = 50
+	years = 50
+}
+
+model_bureaucrat = {
+	opinion = 10
+	years = 5
+}
+
+bad_bureaucrat = {
+	opinion = -20
+	years = 5
+}
+
+opinion_machete_infatuated = {
+	opinion = 60
+}
+
+opinion_machete_disdain = {
+	opinion = -30
+}
+
+opinion_draft_dodger = {
+	opinion = -15
+}
+
+appointed_grand_architect = {
+	opinion = 20
+	years = 20
+}
+
+opinion_welcoming_host = {
+	opinion = 5
+	years = 1
+}
+opinion_celebrated_mimouna = {
+	opinion = 20
+	years = 3
+}
+opinion_helpful_chaver = {
+	opinion = 20
+	years = 3
+}
+opinion_useless_chaver = {
+	opinion = -20
+	years = 3
+}
+
+opinion_didnt_hear_rain = {
+	opinion = -10
+	months = 6
+}
+
+opinion_right_about_rain = {
+	opinion = 10
+	months = 6
+}
+opinion_ate_my_soup = {
+	opinion = 10
+	months = 6
+}
+opinion_annoyed = {
+	opinion = -5
+	months = 6
+}
+opinion_impressed_by_rock_throw = {
+	opinion = 15
+	months = 6
+}
+refused_discharging = {
+	opinion = -20
+	years = 3
+}
+impressed_dryads = {
+	opinion = 10
+	years = 2
+}
+mason_spared = {
+	opinion = 75
+	years = 25
+}
+denied_boon = {
+	opinion = -10
+	years = 2
+}
+opinion_tish_celebration = {
+	opinion = 20
+	months = 36
+}

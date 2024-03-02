@@ -1,0 +1,14 @@
+# 15 - Cayuga
+
+# County Title
+title=c_cayuga
+
+# Settlements
+max_settlements=3
+b_lyons_NY=castle
+b_auburn_NY=city
+
+# Misc
+culture=hudsonian
+religion=anabaptist
+terrain=plains

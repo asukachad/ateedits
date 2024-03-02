@@ -1,0 +1,851 @@
+###ÄNSI
+
+e_borealia = {
+	color={ 52 240 221 }
+	color2={ 220 220 0 }
+	
+	capital = 718 #Grande Prairie
+	primorskiy = "Boriyaliya"
+	petropavlovskiy = "Boriyaliya"
+	dene = "Dákeyi" #our country
+	
+	k_peace = {
+		color = { 100 152 220 }
+		color2 = { 255 255 255 }
+		
+		exovedate = 500
+		
+		capital = 718 #Grande Prairie
+
+		plautdietsch = "Freden"
+		
+		d_peace = {
+			color = { 100 132 230 }
+			color2 = { 255 255 255 }
+
+			dakelh = "Dane-zaa" # name of local Athabaskan people
+			plautdietsch = "Freden"
+
+			capital = 718 #Grande Prairie
+
+			c_dawson_creek = {
+				color = { 81 166 216 }
+				color2 = { 20 72 156 }
+	
+				plautdietsch="Dawsonbeck"
+	
+				b_dawson_creek_BC = {
+					plautdietsch="Dawsonbeck"
+				}
+				b_chetwynd_BC = {}
+				b_tumbler_ridge_BC = {}
+				b_hudsons_hope_BC = {}
+				b_pouce_coupe_BC = {}
+				b_sunset_prairie_BC = {}
+				b_lone_prairie_BC = {}
+				b_groundbirch_BC = {}
+			}
+			c_grande_prairie = {
+				color = { 151 161 219 }
+				color2 = { 20 72 156 }
+	
+				plautdietsch="Groot Grassteppe"
+	
+				b_grande_prairie_AB = {
+					plautdietsch="Groot Grassteppe"
+				}
+				b_dunvegan_AB = {}
+				b_beaverlodge_AB = {}
+				b_hythe_AB = {}
+				b_sexsmith_AB = {}
+				b_clairmont_AB = {}
+				b_valhalla_centre_AB = {}
+				b_spirit_river_AB = {}
+				b_rycroft_AB = {}
+				b_grande_cache_AB = {}
+			}
+			c_peace_river = {
+				color = { 55 111 241 }
+				color2 = { 20 72 156 }
+	
+				plautdietsch = "Fredenstroom"
+	
+				b_peace_river_AB = {
+					plautdietsch = "Fredenstroom"
+				}
+				b_grimshaw_AB = {}
+				b_fairview_AB = {}
+				b_falher_AB = {}
+				b_nampa_AB = {}
+				b_marie_reine_AB = {}
+				b_berwyn_AB = {}
+				b_bluesky_AB = {}
+			}
+			c_fort_st_john = {
+				color = { 89 81 203 }
+				color2 = { 20 72 156 }
+	
+				dakelh = "Dane-zaa" # name of local Athabaskan people
+				plautdietsch = "Jansborg"
+	
+				b_fort_st_john_BC = {
+					plautdietsch = "Jansborg"
+				}
+				b_taylor_BC = {}
+				b_wonowon_BC = {}
+				b_rose_prairie_BC = {}
+				b_prespatou_BC = {}
+				b_montney_BC = {}
+				b_cecil_lake_BC = {}
+				b_attachie_BC = {}
+			}
+			c_northern_lights = {
+				color = { 55 51 232 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Nuadlicht"
+	
+				b_manning_AB = {}
+				b_hotchkiss_AB = {}
+				b_hawk_hills_AB = {}
+				b_notikewin_AB = {}
+				b_north_star_AB = {}
+				b_deadwood_AB = {}
+				b_dixonville_AB = {}
+			}
+		}
+		d_lesser_slave = {
+			color = { 83 117 200 }
+			color2 = { 255 255 255 }
+
+			capital = 719 #Greenview
+
+			plautdietsch = "Skloweikje"
+
+			c_big_lakes = {
+				color = { 123 155 232 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Grootläacht"
+	
+				b_slave_lake_AB = {}
+				b_canyon_creek_AB = {}
+				b_driftpile_AB = {}
+				b_joussard_AB = {}
+				b_high_prairie_AB = {}
+				b_marten_beach_AB = {}
+				b_grouard_AB = {}
+				b_kinuso_AB = {}
+			}
+			c_greenview = {
+				color = { 95 131 227 }
+				color2 = { 20 72 156 }
+	
+				plautdietsch = "Gräunutkiek"
+	
+				b_valleyview_AB = {}
+				b_sunset_house_AB = {}
+				b_swan_hills_AB = {}
+				b_fox_creek_AB = {}
+				b_little_smoky_AB = {}
+				b_mclennan_AB = {}
+				b_crooked_creek_AB = {}
+			}
+			c_northern_sunrise = {
+				color = { 21 74 200 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Sonnoppgank"
+	
+				b_little_buffalo_AB = {}
+				b_cadotte_lake_AB = {}
+				b_atikameg_AB = {}
+				b_harmon_valley_AB = {}
+				b_three_creeks_AB = {}
+				b_loon_lake_AB = {}
+				b_peavine_AB = {}
+			}
+		}
+		d_great_slave = {
+			color = { 120 145 148 }
+			color2 = { 255 255 255 }
+
+			capital = 824 #High Level
+
+			plautdietsch = "Grootsklowei"
+
+			c_high_level = {
+				color = { 82 124 170 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Huachenjlikj"
+	
+				b_high_level_AB = {}
+				b_paddle_prairie_AB = {}
+				b_carcajou_AB = {}
+				b_keg_river_AB = {}
+				b_rainbow_lake_AB = {}
+				b_zama_city_AB = {}
+				b_habay_AB = {}
+				b_chateh_AB = {}
+			}
+			c_mackenzie = {
+				color = { 101 166 245 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Jreenborg"
+	
+				b_fort_vermilion_AB = {}
+				b_vermilion_chutes_AB = {}
+				b_la_crete_AB = {}
+				b_fox_lake_AB = {}
+				b_john_dor_prairie_AB = {}
+				b_buffalo_head_prairie_AB = {}
+				b_wabasca_river_AB = {}
+			}
+			c_deh_cho = {
+				color = { 45 23 144 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Heistroom"
+	
+				b_indian_cabins_AB = {}
+				b_steen_river_AB = {}
+				b_lutose_AB = {}
+				b_meander_river_AB = {}
+				b_grumbler_NWT = {}
+				b_enterprise_NWT = {}
+				b_hay_river_NWT = {}
+			}
+			c_resolution = {
+				color = { 25 88 161 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Beschluss"
+	
+				b_fort_resolution_NWT = {}
+				b_pine_point_NWT = {}
+				b_rocher_river_NWT = {}
+				b_fort_smith_NWT = {}
+				b_thubun_NWT = {}
+				b_taltson_NWT = {}
+				b_fitzgerald_AB = {}
+			}
+		}
+		d_athabasca = {
+			color = { 154 165 245 }
+			color2 = { 255 255 255 }
+
+			capital = 840 #Wood Buffalo
+
+			plautdietsch = "Eeljgrawel"
+
+			c_wood_buffalo = {
+				color = { 65 111 216 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Holtoss"
+	
+				b_fort_chipewyan_AB = {}
+				b_embarrass_portage_AB = {}
+				b_jackfish_AB = {}
+				b_peace_point_AB = {}
+				b_garden_creek_AB = {}
+				b_fifth_meridian_AB = {}
+				b_colin_cornwall_AB = {}
+			}
+			c_firebag = {
+				color = { 55 121 221 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Brauntensacken"
+				newfie = "New Town"
+	
+				b_fort_mcmurray_AB = {newfie = "New Town"}
+				b_anzac_AB = {}
+				b_fort_mackay_AB = {}
+				b_mildred_lake_AB = {}
+				b_gregoire_AB = {}
+				b_kinosis_AB = {}
+				b_tar_island_AB = {}
+				b_pingle_AB = {}
+				b_janvier_AB = {}
+			}
+			c_opportunity = {
+				color = { 100 176 241 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Jeläajenheit"
+	
+				b_wabasca_desmarais_AB = {}
+				b_sandy_lake_AB = {}
+				b_trout_lake_AB = {}
+				b_peerless_lake_AB = {}
+				b_calling_lake_AB = {}
+				b_red_earth_creek_AB = {}
+				b_chipewyan_lake_AB = {}
+			}
+			c_cold_lake = {
+				color = { 173 251 144 }
+				color2 = { 255 232 0 }
+
+				plautdietsch = "Kjilläacht"
+
+				b_st_paul_AB = {}
+				b_elk_point_AB = {}
+				b_bonnyville_AB = {}
+				b_frog_lake_AB = {}
+				b_saddle_lake_AB = {}
+				b_spedden_AB = {}
+				b_vilna_AB = {}
+				b_st_lina_AB = {}
+			}
+			c_fond_du_lac = {
+				color = { 101 166 245 }
+				color2 = { 20 72 156 }
+
+				plautdietsch = "Wietunbreet"
+	
+				b_fond_du_lac_SK = {}
+				b_goldfields_SK = {}
+				b_gunnar_SK = {}
+				b_uranium_city_SK = {}
+				b_camsell_portage_SK = {}
+				b_stony_rapids_SK = {}
+				b_black_lake_SK = {}
+			}
+		}
+	}
+
+	k_klondike = {
+		color={ 188 202 225 }
+		color2={ 255 255 255 }
+		primorskiy = "Klondayk"
+		petropavlovskiy = "Klondayk"
+
+
+		capital = 848
+		
+		d_liard = {
+			color = { 100 125 165 }
+			color2 = { 0 0 0 }
+
+			capital = 826
+
+
+			c_watson_lake = {
+				color = { 123 144 182 }
+				color2 = { 96 50 17 }
+				primorskiy = "Ozero Uotson"
+				petropavlovskiy = "Ozero Uotson"
+				dene = "Nêt'i Tué" #River flowing from mountains where sheep are snared, Kaska Dené Language
+	
+				b_watson_lake_YT = {
+					dene = "Tuts Algua"
+				}
+				b_upper_liard_YT = {}
+				b_frances_lake_YT = {
+					dene = "Tucho" #big water
+				}
+				b_rancheria_YT = {}
+				b_two_and_one_half_YT = {}
+				b_lower_post_BC = {
+					dene = "Daylu"
+				}
+				b_portage_brule_BC = {}
+				b_hyland_river_BC = {
+					dene = "Agedze Tué" #too much game, also sometimes called Bath-o-too-a (dangerous river)
+				}
+			}
+			c_muskwa = {
+				color = { 103 107 191 }
+				color2 = { 96 50 17 }
+	
+				b_fort_nelson_BC = {}
+				b_nelson_forks_BC = {}
+				b_toad_river_BC = {}
+				b_muncho_lake_BC = {}
+				b_muskwa_BC = {}
+				b_kahntah_BC = {}
+				b_maxhamish_BC = {}
+			}
+			c_sikanni = {
+				color = { 161 132 224 }
+				color2 = { 96 50 17 }
+	
+				b_sikanni_chief_BC = {}
+				b_buckinghorse_river_BC = {}
+				b_pink_mountain_BC = {}
+				b_redfern_kelly_BC = {}
+				b_prophet_river_BC = {}
+				b_nig_creek_BC = {}
+				b_klua_lakes_BC = {}
+			}
+		}
+		d_yukon = {
+			color = { 155 181 145 }
+			color2 = { 0 0 0 }
+
+			capital = 848
+
+			dene = "Dän Keyi" #Our People's Land in Southern Tutchone
+			tlingit = "Dakká" #Inland
+
+			c_whitehorse = {
+				color = { 90 141 124 }
+				color2 = { 96 50 17 }
+				holy_site = orthodox 
+				primorskiy = "Belaya Loshad'"
+				petropavlovskiy = "Belaya Loshad'"
+				plautdietsch = "Wittpieet"
+				dene = "Kwanlin" #Rapids in Southern Tutchone
+				tlingit = "Kwanlin"
+
+				b_whitehorse_YT = {}
+				b_mt_lorne_YT = {}
+				b_ibex_valley_YT = {
+					dene = "Tàa'an Män"
+				}
+				b_carcross_YT = {
+					dene = "Naataase Heen" #water running through the narrows
+					tlingit = "Naadaashaahéeni"
+				}
+				b_bennett_BC = {
+					tlingit = "Ch'akúx Anax Dul.adi Yé" #Place to pack a hide canoe over
+				}
+				b_fraser_BC = {}
+				b_conrad_YT = {}
+				b_marsh_lake_YT = {
+					dene = "Ges Tué"
+					tlingit = "Kóoshdaa Xágu" #land otter sandbar
+				}
+				b_tagish_YT = {}
+			}
+			c_kluane = {
+				color = { 52 113 182 }
+				color2 = { 96 50 17 }
+	
+				dene = "Lù’àn Män" #Big Fish Lake in Southern Tutchone
+				tlingit = "Ùxh-Àni" #Whitefish Country
+	
+				b_haines_junction_YT = {
+					dene = "Dakwakada" #high cache
+					tlingit = "Dakwákáda"
+				}
+				b_beaver_creek_YT = {}
+				b_dalton_post_YT = {
+					dene = "Shâwshe"
+					tlingit = "Neskatahin" #water goes under rocks
+				}
+				b_klukshu_YT = {
+					dene = "Lu Gha"
+					tlingit = "L'ukshú" #end of the coho salmon
+				}
+				b_kloo_lake_YT = {
+					dene = "Tsí Män"
+					tlingit = "K'üà Män"
+				}
+				b_destruction_bay_YT = {}
+				b_burwash_landing_YT = {
+					dene = "Tl'äw Kà Chù'" #long grass water with sharp bladed grass
+				}
+				b_snag_YT = {}
+				b_canyon_YT = {
+					dene = "Tthe Yänlin"
+				}
+				b_champagne_landing_YT = {
+					dene = "Shadhäla" #little sunny mountain camp
+					tlingit = "Shadhäla"
+				}
+				b_dezadeash_lake_YT = {}
+			}
+			c_teslin = {
+				color = { 56 176 161 }
+				color2 = { 96 50 17 }
+	
+				primorskiy = "Yuzhnoye Ozero"
+				petropavlovskiy = "Yuzhnoye Ozero"
+				tlingit = "Deisleen"
+	
+				b_teslin_YT = {
+					tlingit = "Deisleen"
+				}
+				b_johnsons_crossing_YT = {}
+				b_jakes_corner_YT = {}
+				b_swift_river_YT = {}
+				b_nisutlin_YT = {}
+				b_hootalinqua_YT = {}
+				b_squanga_YT = {}
+			}
+			c_atlin = {
+				color = { 92 166 195 }
+				color2 = { 96 50 17 }
+	
+				tlingit = "Áa Tlein"
+				dene = "Tagish"
+				yukoner = "Tagish"
+	
+				b_atlin_BC = {
+					tlingit = "Áa Tlein"
+				}
+				b_taku_BC = {}
+				b_inklin_BC = {}
+				b_tulsequah_BC = {}
+				b_ben_my_chree_BC = {}
+				b_engineer_BC = {}
+				b_warm_bay_BC = {}
+			}
+		}
+		d_stikine = {
+			color = { 100 113 193 }
+			color2 = { 0 0 0 }
+
+			capital = 836
+
+			tlingit = "Shtax'héen"
+
+			c_cassiar = {
+				color = { 88 121 145 }
+				color2 = { 96 50 17 }
+				primorskiy = "Kassiar"
+				petropavlovskiy = "Kassiar"
+
+				b_dease_lake_BC = {}
+				b_cassiar_BC = {
+					primorskiy = "Kassiar"
+					petropavlovskiy = "Kassiar"
+				}
+				b_good_hope_lake_BC = {}
+				b_mcdame_BC = {}
+				b_defot_BC = {}
+				b_porter_landing_BC = {}
+				b_laketon_BC = {}
+			}
+			c_stikine = {
+				color = { 125 132 221 }
+				color2 = { 96 50 17 }
+	
+				tlingit = "Shtax'héen"
+	
+				b_tatogga_BC = {}
+				b_iskut_BC = {}
+				b_telegraph_creek_BC = {}
+				b_chutine_landing_BC = {}
+				b_mt_edziza_BC = {}
+				b_gladys_lake_BC = {}
+				b_sheslay_BC = {}
+				b_tuya_BC = {}
+				b_bob_quinn_lake_BC = {}
+				b_glenora_BC = {}
+			}
+			c_nass = {
+				color = { 88 165 239 }
+				color2 = { 96 50 17 }
+	
+				b_nisgaa_BC = {}
+				b_laxgaltsap_BC = {}
+				b_gitwinksihlkw_BC = {}
+				b_gingolx_BC = {}
+				b_aiyansh_BC = {}
+				b_nass_camp_BC = {}
+				b_kitsault_BC = {}
+				b_anyox_BC = {}
+				b_bell_two_BC = {}
+				b_meziadin_junction_BC = {}
+				b_alice_arm_BC = {}
+				b_stewart_BC = {}
+				b_hyder_AK = {}
+			}
+		}
+	}
+	
+	k_keewatin = {
+		color={ 86 196 228 }
+		color2={ 255 255 255 }
+		
+		capital = 853 # Port Nelson
+		
+		d_desnethe = {
+			color = { 151 210 196 }
+			color2 = { 220 170 118 }
+
+			capital = 759 # Paskoyac
+
+			c_la_ronge = {
+				color = { 99 82 123 }
+				color2 = { 96 50 17 }
+	
+				b_la_ronge_SK = {}
+				b_wadin_bay_SK = {}
+				b_anglo_rouyn_SK = {}
+				b_missinipe_SK = {}
+				b_stanley_mission_SK = {}
+				b_air_ronge_SK = {}
+				b_molanosa_SK = {}
+				b_pinehouse_SK = {}
+			}
+
+			c_paskoyac = {
+				color = { 180 151 110 }
+				color2 = { 117 35 114 }
+	
+				b_the_pas_MB = {}
+				b_cormorant_MB = {}
+				b_moose_lake_MB = {}
+				b_cranberry_portage_MB = {}
+				b_wanless_MB = {}
+				b_flin_flon_MB = {}
+				b_deschambault_lake_SK = {}
+				b_pelican_narrows_SK = {}
+				b_jan_lakes_SK = {}
+			}
+
+			c_granville = {
+				color = { 155 22 251 }
+				color2 = { 96 50 17 }
+	
+				b_leaf_rapids_MB = {}
+				b_ruttan_mine_MB = {}
+				b_granville_lake_MB = {}
+				b_south_indian_lake_MB = {}
+				b_notigi_MB = {}
+				b_nelson_house_MB = {}
+				b_amisk_MB = {}
+			}
+			c_reindeer = {
+				color = { 102 45 225 }
+				color2 = { 96 50 17 }
+	
+				b_southend_SK = {}
+				b_fox_mine_MB = {}
+				b_lynn_lake_MB = {}
+				b_kinoosao_SK = {}
+				b_brabant_lake_SK = {}
+				b_mclennan_lake_SK = {}
+				b_jetait_MB = {}
+				b_laurie_river_MB = {}
+				b_highrock_MB = {}
+			}
+		}
+		d_keewatin = {
+			color = { 139 155 150 }
+			color2 = { 255 178 0 }
+
+			capital = 765 # Big Trout
+
+			ojibwe = "Giiwedin" 
+			saulteaux = "Giiwedin"
+			algonquin = "Giiwedin"
+
+			c_osnaburgh = {
+				color = { 88 80 155 }
+				color2 = { 117 35 114 }
+	
+				b_osnaburgh_house_ON = {}
+				b_pickle_lake_ON = {}
+				b_pickle_crow_ON = {}
+				b_slate_falls_ON = {}
+				b_uchi_lake_ON = {}
+				b_jackson_manion_ON = {}
+				b_swain_post_ON = {}
+				b_new_osnaburgh_ON = {}
+			}
+			c_big_trout = {
+				color = { 121 142 121 }
+				color2 = { 117 35 114 }
+	
+				b_big_beaver_house_ON = {}
+				b_weagamow_lake_ON = {}
+				b_kingfisher_lake_ON = {}
+				b_angling_lake_ON = {}
+				b_summer_beaver_ON = {}
+				b_kasabonika_ON = {}
+				b_cotter_ON = {}
+				b_lansdowne_house_ON = {}
+			}
+			c_opasquia = {
+				color = { 144 161 110 }
+				color2 = { 117 35 114 }
+				holy_site = midewiwin
+				holy_site = midewiwin_reformed
+
+				b_opasquia_ON = {}
+				b_sandy_lake_ON = {}
+				b_muskrat_lake_ON = {}
+				b_sachigo_lake_ON = {}
+				b_fawn_river_ON = {}
+				b_sandhill_crane_ON = {}
+				b_ponask_lake_ON = {}
+				b_red_sucker_lake_ON = {}
+			}
+			c_winisk = {
+				color = { 99 173 195 }
+				color2 = { 117 35 114 }
+	
+				b_winisk_ON = {}
+				b_fort_severn_ON = {}
+				b_peawanuck_ON = {}
+				b_polar_bear_ON = {}
+				b_atik_ON = {}
+				b_webequie_ON = {}
+				b_eastwood_ON = {}
+			}
+		}
+		d_missinipi = {
+			color = { 166 210 151 }
+			color2 = { 118 170 220 }
+
+			capital = 616 #Prince Albert
+
+			c_north_battleford = {
+				color = { 150 116 98 }
+				color2 = { 255 232 0 }
+	
+				b_north_battleford_SK = {}
+				b_maymont_SK = {}
+				b_borden_SK = {}
+				b_cochin_SK = {}
+				b_spiritwood_SK = {}
+				b_witchekan_SK = {}
+				b_krydor_SK = {}
+				b_edam_SK = {}
+			}
+			c_prince_albert = {
+				color = { 122 151 56 }
+				color2 = { 255 232 0 }
+	
+				cree = "Kistahpinanihk"
+				plautdietsch="Göschen"
+
+				b_prince_albert_SK = {}
+				b_shellbrook_SK = {}
+				b_ahtahkakoop_SK = {}
+				b_leask_SK = {}
+				b_marcelin_SK = {}
+				b_meath_park_SK = {}
+				b_paddockwood_SK = {}
+			}
+
+			c_beaver_river = {
+				color = { 145 127 54 }
+				color2 = { 255 232 0 }
+
+				b_cold_lake_AL = {}
+				b_loon_lake_SK = {}
+				b_meadow_lake_SK = {}
+				b_waterhen_lake_SK = {}
+				b_chitek_lake_SK = {}
+				b_greig_lake_SK = {}
+				b_helena_lake_SK = {}
+			}
+			c_waskesiu = {
+				color = { 227 177 168 }
+				color2 = { 117 35 114 }
+
+				plautdietsch="Grootstroom"
+	
+				b_big_river_SK = {}
+				b_murray_point_SK = {}
+				b_smeaton_SK = {}
+				b_anglin_lake_SK = {}
+				b_debden_SK = {}
+				b_canwood_SK = {}
+				b_choiceland_SK = {}
+			}
+			c_narrows = {
+				color = { 58 181 144 }
+				color2 = { 96 50 17 }
+	
+				b_buffalo_narrows_SK = {}
+				b_black_point_SK = {}
+				b_patuanak_SK = {}
+				b_ile_a_la_crosse_SK = {}
+				b_cole_bay_SK = {}
+				b_beauval_SK = {}
+				b_canoe_narrows_SK = {}
+				b_st_georges_hill_SK = {}
+			}
+		}
+		d_nelson = {
+			color = { 50 102 112 }
+			color2 = { 0 0 0 }
+
+			capital = 853
+
+			c_split_lake = {
+				color = { 50 129 121 }
+				color2 = { 96 50 17 }
+	
+				b_split_lake_MB = {}
+				b_pikwitonei_MB = {}
+				b_moak_lake_MB = {}
+				b_kelsey_MB = {}
+				b_ilford_MB = {}
+				b_gillam_MB = {}
+				b_thompson_MB = {}
+			}
+			c_churchill = {
+				color = { 88 151 114 }
+				color2 = { 96 50 17 }
+	
+				b_churchill_MB = {}
+				b_wapusk_MB = {}
+				b_back_MB = {}
+				b_o_day_MB = {}
+				b_herchmer_MB = {}
+				b_farnworth_lake_MB = {}
+				b_silcox_MB = {}
+			}
+			c_port_nelson = {
+				color = { 91 173 201 }
+				color2 = { 96 50 17 }
+				holy_site = exovedate
+				b_port_nelson_MB = {}
+				b_york_factory_MB = {}
+				b_sundance_MB = {}
+				b_weir_river_MB = {}
+				b_lawledge_MB = {}
+				b_amery_MB = {}
+				b_hayes_river_MB = {}
+			}
+			c_wekusko = {
+				color = { 145 123 137 }
+				color2 = { 117 35 114 }
+	
+				b_wekusko_MB = {}
+				b_herb_lake_MB = {}
+				b_wabowden_MB = {}
+				b_paint_lake_MB = {}
+				b_setting_lake_MB = {}
+				b_thicket_portage_MB = {}
+				b_bakers_narrows_MB = {}
+				b_grand_rapids_MB = {}
+			}
+			c_gods_lake = {
+				color = { 55 116 180 }
+				color2 = { 117 35 114 }
+	
+				b_gods_lake_narrows_MB = {}
+				b_oxford_house_MB = {}
+				b_norway_house_MB = {}
+				b_wasagamack_MB = {}
+				b_garden_hill_MB = {}
+				b_saint_theresa_point_MB = {}
+				b_cross_lake_MB = {}
+			}
+			c_popular_river = {
+				color = { 201 91 122 }
+				color2 = { 63 77 160 }
+	
+				b_negginan_MB = {}
+				b_berens_river_MB = {}
+				b_bloodvein_MB = {}
+				b_little_grand_rapids_MB = {}
+				b_pauingassi_MB = {}
+				b_princess_harbour_MB = {}
+				b_jacksons_lodge_MB = {}
+				b_nanowin_MB = {}
+			}
+		}
+	}
+}

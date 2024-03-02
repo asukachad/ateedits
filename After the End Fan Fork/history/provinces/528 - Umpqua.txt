@@ -1,0 +1,17 @@
+# 528 - Umpqua
+
+# County Title
+title=c_umpqua
+
+# Settlements
+max_settlements=3
+
+b_roseburg_OR=castle
+b_glide_OR=city
+
+
+# Misc
+culture=siskiyouan
+religion=gaian
+
+#History

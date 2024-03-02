@@ -1,0 +1,15 @@
+# 161 - Saluda
+
+# County Title
+title=c_saluda
+
+# Settlements
+max_settlements=3
+b_saluda_SC=castle
+b_batesburg_SC=temple
+b_leesville_SC=city
+
+# Misc
+culture=dixie
+religion=evangelical
+terrain=farmlands

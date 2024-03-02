@@ -1,0 +1,13 @@
+2500.1.1={
+	holder=1863006
+}
+2509.1.6={
+	holder=0
+}
+2650.1.1={
+	holder=3000010
+	set_tribute_suzerain={
+		who=e_dixie
+		type=permanent 
+	}
+}

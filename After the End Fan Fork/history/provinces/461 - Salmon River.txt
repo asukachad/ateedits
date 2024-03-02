@@ -1,0 +1,13 @@
+# 461 - Salmon River
+
+# County Title
+title=c_salmon_river
+
+# Settlements
+max_settlements=3
+b_riggins_ID=tribal
+
+# Misc
+culture=nez_perce
+religion=peyotist
+terrain=mountain

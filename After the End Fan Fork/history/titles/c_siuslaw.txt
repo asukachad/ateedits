@@ -1,0 +1,24 @@
+2541.4.13={
+	holder=0
+	law=true_cognatic_succession
+}
+2561.2.7={
+	holder=1845035
+}
+2584.5.31={
+	holder=1845036
+}
+2612.3.30={
+	holder=1845038
+}
+2624.11.7={
+	holder=1845041
+}
+2645.4.9={
+	holder=0
+}
+2654.3.3={
+	holder=1845105
+	law=succ_mil_gaian_elective
+	law=captaincy_mobilization_2
+}

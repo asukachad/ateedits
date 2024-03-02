@@ -1,0 +1,18 @@
+# c_chinandega
+
+# County Title
+title=c_chinandega
+
+# Settlements
+max_settlements=5
+
+b_leon_NIC=castle
+b_el_viejo_NI=temple
+b_chinandega_NI=city
+
+
+# Misc
+culture=nicoyano
+religion=falling_star
+
+#History

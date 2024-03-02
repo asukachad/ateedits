@@ -1,0 +1,22 @@
+2154.2.19={
+	holder=1861448 #Oliver Hanover
+}
+2199.10.12={
+	holder=1861465 #Daisy Northam
+}
+2231.1.30={
+	holder=1861492 #Nicholas Northam
+}
+2232.4.30={
+	holder=1861497 #Zachary Northam
+}
+2235.4.4={
+	holder=1861501 #Walter Northam
+}
+2238.9.5={
+	holder=0
+}
+2660.1.1={
+	holder=1789034 # Primula Angelos
+	liege=d_capital
+}

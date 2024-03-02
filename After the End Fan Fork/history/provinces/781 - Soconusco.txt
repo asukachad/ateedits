@@ -1,0 +1,17 @@
+# County Title
+title=c_soconusco
+
+# Settlements
+max_settlements=5
+
+b_tapachula_CP=city
+b_ciudad_tecun_uman_GT=castle
+b_huixtla_CP=temple
+b_escuintla_CP=city
+
+# Misc
+culture=trifinio
+religion=falling_star
+terrain=plains
+
+#History

@@ -1,0 +1,13 @@
+# 477 - Thunder Basin
+
+# County Title
+title=c_thunder_basin
+
+# Settlements
+max_settlements=3
+b_fort_laramie_WY=tribal
+
+# Misc
+culture=mountainer
+religion=trailwalker
+terrain=steppe

@@ -1,0 +1,15 @@
+# 1232 - Comal
+
+# County Title
+title=c_comal
+
+# Settlements
+max_settlements=4
+b_new_braunfels_TX=castle
+b_universal_city_TX=temple
+b_new_berlin_TX=city
+
+# Misc
+culture=texaner
+religion=catholic
+terrain=steppe

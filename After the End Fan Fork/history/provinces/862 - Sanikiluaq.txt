@@ -1,0 +1,17 @@
+# County Title
+title=c_sanikiluaq
+
+# Settlements
+max_settlements=1
+
+b_sanikiluaq_QC=tribal
+
+# Misc
+culture=inuit
+religion=pelagic
+terrain=arctic
+
+#History
+2600.1.1={ 
+	b_sanikiluaq_QC=tb_shipyard_1
+}

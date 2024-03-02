@@ -1,0 +1,15 @@
+# 1149 - Milwaukee
+
+# County Title
+title=c_milwaukee
+
+# Settlements
+max_settlements=6
+b_waukesha_WI=castle
+b_milwaukee_WI=city
+b_voree_WI=temple
+b_wauwatosa_WI=city
+
+# Misc
+culture=chiraqi
+religion=traditionalist

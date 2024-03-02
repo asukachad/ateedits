@@ -1,0 +1,14 @@
+# 365 - Buffalo Ridge
+
+# County Title
+title=c_buffalo_ridge
+
+# Settlements
+max_settlements=4
+b_marshall_MN=tribal
+
+# Misc
+culture=grangelander
+religion=trailwalker
+terrain=plains
+

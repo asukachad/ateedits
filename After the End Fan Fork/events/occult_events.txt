@@ -1,0 +1,211 @@
+namespace = occult
+
+# Choose new lore school after reformation
+character_event = {
+	id = occult.1
+	desc = EVTDESC_occult_choose_sect_ref
+	picture = GFX_evt_bishop
+	religion = occultist_reformed
+
+	trigger = {
+		NOT = { trait = lore_masons_ref }
+		NOT = { trait = lore_pact_ref }
+		NOT = { trait = lore_old_ones_ref }
+		OR = {
+			trait = lore_masons
+			trait = lore_pact
+			trait = lore_old_ones
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = EVTOPT_occult_ref_mason
+		hidden_tooltip = {
+			remove_trait = lore_masons
+			remove_trait = lore_pact
+			remove_trait = lore_old_ones
+		}
+		add_trait = lore_masons_ref
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = ambitious }
+			modifier = { factor = 2 trait = diligent }
+			modifier = { factor = 2 trait = patient }
+			modifier = { factor = 2 trait = zealous }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_occult_ref_oldones
+		hidden_tooltip = {
+			remove_trait = lore_masons
+			remove_trait = lore_pact
+			remove_trait = lore_old_ones
+		}
+		add_trait = lore_old_ones_ref
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = brave }
+			modifier = { factor = 2 trait = paranoid }
+			modifier = { factor = 2 trait = envious }
+			modifier = { factor = 2 trait = humble }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_occult_ref_pact
+		hidden_tooltip = {
+			remove_trait = lore_masons
+			remove_trait = lore_pact
+			remove_trait = lore_old_ones
+		}
+		add_trait = lore_pact_ref
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = greedy }
+			modifier = { factor = 2 trait = lustful }
+			modifier = { factor = 2 trait = cruel }
+			modifier = { factor = 2 trait = wroth }
+		}
+	}
+}
+
+# Choose lore school when unreformed
+character_event = {
+	id = occult.2
+	desc = EVTDESC_occult_choose_lore
+	picture = GFX_evt_bishop
+	is_triggered_only = yes
+	religion = occultist
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		#NOR = {
+		#	trait = lore_pact
+		#	trait = lore_old_ones
+		#	trait = lore_masons
+		#}
+	}
+	
+	option = {
+		name = EVTOPT_occult_ref_mason
+		hidden_tooltip = {
+			remove_trait = lore_pact
+			remove_trait = lore_old_ones
+		}
+		add_trait = lore_masons
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = ambitious }
+			modifier = { factor = 2 trait = diligent }
+			modifier = { factor = 2 trait = patient }
+			modifier = { factor = 2 trait = zealous }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_occult_ref_oldones
+		hidden_tooltip = {
+			remove_trait = lore_masons
+			remove_trait = lore_pact
+		}
+		add_trait = lore_old_ones
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = brave }
+			modifier = { factor = 2 trait = paranoid }
+			modifier = { factor = 2 trait = envious }
+			modifier = { factor = 2 trait = humble }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_occult_ref_pact
+		hidden_tooltip = {
+			remove_trait = lore_masons
+			remove_trait = lore_old_ones
+		}
+		add_trait = lore_pact
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = greedy }
+			modifier = { factor = 2 trait = lustful }
+			modifier = { factor = 2 trait = cruel }
+			modifier = { factor = 2 trait = wroth }
+		}
+	}
+}
+
+# Choose lore school when reformed
+character_event = {
+	id = occult.3
+	desc = EVTDESC_occult_choose_lore_ref
+	picture = GFX_evt_bishop
+	is_triggered_only = yes
+	religion = occultist_reformed
+
+	trigger = {
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		#NOR = {
+		#	trait = lore_pact_ref
+		#	trait = lore_old_ones_ref
+		#	trait = lore_masons_ref
+		#}
+	}
+	
+	option = {
+		name = EVTOPT_occult_ref_mason
+		hidden_tooltip = {
+			remove_trait = lore_pact_ref
+			remove_trait = lore_old_ones_ref
+		}
+		add_trait = lore_masons_ref
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = ambitious }
+			modifier = { factor = 2 trait = diligent }
+			modifier = { factor = 2 trait = patient }
+			modifier = { factor = 2 trait = zealous }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_occult_ref_oldones
+		hidden_tooltip = {
+			remove_trait = lore_masons_ref
+			remove_trait = lore_pact_ref
+		}
+		add_trait = lore_old_ones_ref
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = brave }
+			modifier = { factor = 2 trait = paranoid }
+			modifier = { factor = 2 trait = envious }
+			modifier = { factor = 2 trait = humble }
+		}
+	}
+	
+	option = {
+		name = EVTOPT_occult_ref_pact
+		hidden_tooltip = {
+			remove_trait = lore_masons_ref
+			remove_trait = lore_old_ones_ref
+		}
+		add_trait = lore_pact_ref
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 2 trait = greedy }
+			modifier = { factor = 2 trait = lustful }
+			modifier = { factor = 2 trait = cruel }
+			modifier = { factor = 2 trait = wroth }
+		}
+	}
+}

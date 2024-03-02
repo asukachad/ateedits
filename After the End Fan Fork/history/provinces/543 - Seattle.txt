@@ -1,0 +1,25 @@
+# 543 - Seattle
+
+# County Title
+title=c_seattle
+
+# Settlements
+max_settlements=6
+
+b_seattle_WA=castle
+b_bellevue_WA=city
+b_redmond_WA=temple
+b_renton_WA=city
+
+
+# Misc
+culture=cascadian
+religion=gaian
+
+#History
+
+2074.1.1 ={ capital=b_redmond_WA } # Estabilishment of the Emerald Groove
+
+2361.1.1 ={ capital=b_bellevue_WA } # Kasujis found the republic of Seattle and hold Olympus
+
+2551.9.30={ capital=b_seattle_WA } # Conquest by the Freelands

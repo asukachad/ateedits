@@ -1,0 +1,14 @@
+# c_red_deer
+
+# County Title
+title=c_red_deer
+
+# Settlements
+max_settlements=3
+b_red_deer_AB=tribal
+
+# Misc
+culture=prairielander
+religion=trailwalker
+terrain=steppe
+

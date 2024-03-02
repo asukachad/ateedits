@@ -1,0 +1,18 @@
+# c_comayagua
+
+# County Title
+title=c_comayagua
+
+# Settlements
+max_settlements=4
+
+b_siguatepeque_HN=castle
+b_comayagua_HN=city
+b_esquias_HN=temple
+
+
+# Misc
+culture=trifinio
+religion=lamanita
+
+#History

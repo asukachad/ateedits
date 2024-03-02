@@ -1,0 +1,15 @@
+# 1136 - Oktibbeha
+
+# County Title
+title=c_oktibbeha
+
+# Settlements
+max_settlements=4
+b_starkville_MS=castle
+b_aberdeen_MS=temple
+b_egypt_MS=city
+
+# Misc
+culture=dixie
+religion=revelationist
+terrain=forest

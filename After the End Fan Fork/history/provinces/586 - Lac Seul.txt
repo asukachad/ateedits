@@ -1,0 +1,13 @@
+# 586 - Lac Seul
+
+# County Title
+title=c_lac_seul
+
+# Settlements
+max_settlements=3
+b_dryden_ON=tribal
+
+# Misc
+culture=saulteaux
+religion=exovedate
+terrain=taiga

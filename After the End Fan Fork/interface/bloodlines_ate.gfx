@@ -1,0 +1,146 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_bloodlines_symbol_cetic"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_cetic.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_cetic2"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_cetic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_isotope"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_isotope.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_gaian"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_gaian.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_haida"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_haida.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_raven_eagle"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_raven_eagle.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_hanover"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_hanovers.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_anastasia"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_anastasia.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_amerifreedom"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_amerifreedom.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_metis"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_metis.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_metis_shield"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_metis_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_riel"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_riel.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_neomayan"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_neomayan.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_irving"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_irving.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_falso_libertador"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_falso_libertador.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_libertador"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_libertador.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_imamite"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_imamite.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_nokona"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_nokona.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_candomble"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_candomble.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_washington"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_washington.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_star_of_david"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_star_of_david.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_burning_redwood" #mfw kirk isn't the fucker who burned down the redwoods
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_burning_redwood.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_royall"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_royall.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_yelverton"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_yelverton.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_rodman"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_rodman.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_portia"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_portia.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_elder_gods"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_elder_gods.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_occultist"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_occultist.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_trailwalker"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_trailwalker.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_anglican"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_anglican.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_revelationist"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_revelationist.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_celtic"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_celtic.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_raven_tales"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_raven_tales.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_midewiwin"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_midewiwin.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_suuk_chilam"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_suuk_chilam.dds"
+	}
+	spriteType = {
+		name = "GFX_bloodlines_symbol_texas"
+		texturefile = "gfx\\interface\\bloodlines\\bloodlines_symbol_texas.dds"
+	}
+}

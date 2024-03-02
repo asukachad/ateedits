@@ -1,0 +1,19 @@
+# 27 - Philadelphia
+
+# County Title
+title=c_philadelphia
+# Settlements
+max_settlements=6
+b_philadelphia_PA=castle
+b_havertown_PA=city
+b_chester_PA=temple
+b_ardmore_PA=castle
+b_bryn_mawr_PA=temple
+
+# Misc
+culture=delawarean
+religion=americanist #catholic
+terrain=farmlands
+
+
+# History

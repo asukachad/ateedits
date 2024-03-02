@@ -1,0 +1,14 @@
+# 582 - Shilo
+
+# County Title
+title=c_shilo
+
+# Settlements
+max_settlements=3
+b_brandon_MB=tribal
+
+# Misc
+culture=metis
+religion=exovedate
+terrain=plains
+

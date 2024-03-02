@@ -1,0 +1,22 @@
+# 548 - Vancouver
+
+# County Title
+title=c_vancouver
+
+# Settlements
+max_settlements=6
+
+b_vancouver_BC=castle
+b_coquitlam_BC=city
+b_richmond_BC=temple
+b_burnaby_BC=city
+
+# Misc
+culture=canuck
+religion=gaian #raven_tales
+
+#History
+
+2062.1.1 ={ capital=b_richmond_BC } # Estabilishment of the Rainy Groove
+
+2442.6.21 ={ capital=b_vancouver_BC } # Amanda's reforms

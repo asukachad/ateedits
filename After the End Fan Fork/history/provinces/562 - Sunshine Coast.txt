@@ -1,0 +1,17 @@
+# 562 - Sunshine Coast
+
+# County Title
+title=c_sunshine_coast
+
+# Settlements
+max_settlements=3
+
+b_gibsons_BC=castle
+
+
+# Misc
+culture=canuck
+religion=gaian
+terrain=mountain
+
+#History

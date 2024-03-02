@@ -1,0 +1,808 @@
+###ÄNSI
+
+
+britannic = {
+	graphical_cultures = { westerngfx }
+
+	anglish = {
+		graphical_cultures = { englishgfx westerngfx }
+		unit_graphical_cultures = { englishgfx westerngfx }
+		
+		color = { 0.8 0.2 0.2 }
+		
+		male_names = {
+			Adam Adelard Adelgar Adrian Ahmed Ainsley Ajax Alan Albert Albus Alexander Alfred Algernon Ali Ambrose Andio Andrew Andwise Angus Anselm Anson Anthony Apodemus Archibald Arnold Arthur Attwell Aubrey Augustus Austell Awen
+			Baldrick Balian Bandobras Baravorn Barlow Barnaby Basso Bedivere Benedict Benjamin Berilac Bernard Bertram Bertrand Bilbo Bledric Bodger Boris Borogove Bounder Bowman Bracewell Branok Brian Bruno Brutus Bryok
+			Cadan Cadoc Cador Callimac Carantoc Casimir Casworan Cecil Cedric Charles Chilperick Christian Christopher Churchill Claude_Claudius Clement Clether Clive Colan Colin Conan Coningsby Conrad Constantine Cotman Cottar Craddock Cuthbert Cyril
+			Daniel Daucus David Dean Denis Derek Dermot Digory Dinodas Doderic Dodinas Dominic Donyarth Dorian Douglas Drogo Dudley Durral
+			Ector_Hector Edgar Edmund Edward Egbert Elfstan Elliott Elton Eric Erling Ernest Errol Ethelbert Eustace Everard Ewart
+			Falco Faramir Fastolph Fastred Ferdibrand Ferdinand Ferumbras Flambard Fortinbras Francis Fredegar Frederick Frobisher Frodo Fulk
+			Gallahad Gascoyne Gawen Geoffrey George Geraint Gerald Gerard Gerens Gerontius Gilbert Giles Godfrey Gorath Gorbadoc Gorbulas Gordon Gorhendad Gormadoc Gorron Graham Gregory Griffo Gundabald Gundahad Gundahar Gundolph Guy
+			Halfast Halfred Hamfast Haming Hamson Harding Hardy Harold Hartnell Havelock Heath Hending Henry Herbert Heribald Herugar Hildebrand Hildegard Hildifons Hildigrim Hobson Holdwine Holman Horatio_Horace Howel Hugh Humphrey Hurndall Hussein
+			Ian Idris Ilberic Inigo Isaac Isembard Isembond Isengar Isengrim Isumbras
+			Jabez Jacob James Jay Jeremy Jocelyn John Jonathan Jordan Joseph Joshua Julian Justin
+			Keith Keneder Kenneth Kenstec Kenver Kenwyn Kevern Kevin
+			Lancelot Lawrence Leonard Lesland Leslie Lewis_Louis Lionel Lloyd Lotho Louis Lovarck Lucius Luke
+			Madern Madoc Malcolm Marcho Marcus Mark Marmaduke Marroc Martin Marvin Matthew Matthias_Matthew Maurice Mawgan Maxwell Meldrick Melor Melville Meriadoc Meriasek Merimas Merrick Michael Miles Milo Mordalfus Mortimer Mungo Myecroft
+			Nathaniel Neddard Nehemiah Neil Nelson Nennius Neville Nicholas Nigel Noel
+			Oberon Odovacar Oliver Orgulas Osmond Oswald Outgrabe Owen
+			Paladin Patrick Paul Pelleas Pepin Percival Percy Peregrin Perran Peter Petrok Philbert Philip Phineas
+			Ralph Ramsay Randolph Raymond Reginald Reginard Rewan Richard Rigby Robert Robin Roger Roland Rollo Ronald Rorimac Royston Ruddigore Rudibert Rudigar Rudolph Rudyard Rufus Rugbert Rupert Russell
+			Sadiq Sagramore Samson Samuel Samwise Sancho Saradoc Saxtus Scathelock Scott Seredic Serlo Severus Seymour Sherlock Sidney Simon Slingsby Spencer Stanislaw Stephen Stuart_Stewart Sullivan Sylvester
+			Talan Talek Teignmouth Terence Thaddeus Theobald Theodore Theophilus Thomas Tiberius Timothy Tobald Togo Tolman Tosto Trevor Tristan
+			Uffo Urban Uriens Uther
+			Valentine Vardamir Victor Vigo Vincent Vylloc
+			Waleran Wallace Walter Watkin Wellington Wembley Wilcome Wilibald Wilimar William Winston Winwaloe Wiseman Wladyslaw
+			Ythel
+		}
+		
+		female_names = {
+			Abigale Ada Adaldrida Adamanta_Adamant Adela Adelaide Agatha Agnes Alexandra Alfreda Alice Alison Almyra Amaranth Amethyst Amice Anabel Angela Angelica Anna Anne Annette Antimony Aphrodite April Arya_Arya Asphodel Augusta Avelina Aveline
+			Barbara Beatrice Begonia Belba Belinda Belladonna Beryan Berylla Blanche Blejan Bryony
+			Caja Camilla Caroline Catherine Cecilia Celosia Charity Christine Cicely Claire Clementina_Clementine Cleonie Constance Cora Cordelia Cornelia Crewenna Cryda Cynthia
+			Daisy Danielle Dawn Delen Demelza Diamond Diana Dina Donnamira Dora Dorothy_Dorothy Druda
+			Edith Edwina Eglantine Ela Elaine Eleanor Elisabeth Eliza_Elizabeth Elizabeth Elowen Elspeth Emily Emma Emmeline Endelienta Enid Esmeralda Estella Ethel Eudora Evaine
+			Fay Felicity Fidelia Firiel Floradine Florence Frances
+			Georgina Geraldine Gerda Germaine Gilly Gladys Gloriana Gonetta Grace Guinevere Gwennol Gwyneth
+			Hanna Hannah Harriet Hawise Hazel Hedra Helen Henrietta Hermoine Hilda Honoria Horatia Hortense
+			Igraine Irene Isabel Isabella Iseult Ivy
+			Jacqueline Jane Jasmine Jenna_Jane Jennifer Jessamine Joan Joanna Josephine Julia_Julia Juliana Julie_Julia June Juniper
+			Kate_Catherine Kensa Kew
+			Lamorna Laudine Laura Lavender Lenora Lilica Lilith Lily Linda Lobelia Lorraine Louise Loveday Lowena Lucy Lyonesse
+			Mabyn Mahaut Malva Marcia Margaret Marian Marigold Marjoram Mary Matilda Maud May Meera Melilot Meliora Melita Mellyn Menegilda Mentha Meraud Meriam Metheven Mildred Millicent Mimosa Mirabella Miranda Morgause Morveren Muriel Myrtle
+			Nancy Nightingale Nimue Nina Nora Numantia
+			Pansy Patricia Pauline Pearl Peony Permelia Pervinca Petra Philipa Philippa Philomena Phoebe Phyllis Pimpernel Poppy Primrose Primula Prisca Prudence
+			Rosamund Rosemary Ruby
+			Sage Salvia Samantha Sarah Selina Senara Shireen Sophie_Sophia Sowena Spinel Stephanie Steren Sunflower Susan Sybil Sylvia
+			Talwyn Tamara Tamsyn Tansy Tanta Tara Tasha Tecca Tegen Theodosia Theresa Topaz Tregereth Tryfena
+			Vale Venus Victoria Virginia Vivienne_Vivian
+			Wenna Winnifred
+			Zoe Zylphia
+		}
+		
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+		
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	
+	northumbrian = {
+		graphical_cultures = { englishgfx westerngfx }
+		unit_graphical_cultures = { englishgfx westerngfx }
+		
+		color = { 0.8 0.3 0.3 }
+
+		male_names = {
+			Adam Allen_Alan Alec_Alexander Alfred Andy_Andrew Arnold Arthur
+			Barry Basil Bazza_Barry Bertie_Albert Billy_William
+			Christopher
+			Daryl David
+			Edmund Edward Eric 
+			Gary Gazza_Gary Georgie_George Gerry_Gerald Gilbert Godfrey Greg_Gregory
+			Henry Hugh Humphrey 
+			Jack_James Jeremy Jezza_Jeremy John Jordan
+			Larry_Lawrence Lionel
+			Mark Martin Matthew Morris_Maurice Michael Mohammed
+			Nicholas Nigel
+			Paul Pete_Peter Philip
+			Ralph_Ralph Randy_Randolph Reg_Reginald Richard Robert Roger 
+			Simon Stephen
+			Ted_Theodore Terry_Terence Thomas Tony_Anthony
+			Walter
+		}
+		female_names = {
+			Amy
+			Carol_Caroline Chloe
+			Edith
+			Joan
+			Liz_Elizabeth
+			Mary
+			Sybil
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Fitz"
+
+		modifier = default_culture_modifier
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+	
+	scottish = {
+		graphical_cultures = { celticgfx westerngfx }
+		unit_graphical_cultures = { englishgfx celticgfx westerngfx }
+		
+		color = { 0.3 0.7 0.7 }
+
+		male_names = {
+			Alan Alexander Alistair Alpin Andrew Angus Anthony Archibald Arthur Aulay_Olaf
+			Barry Brian Bruce
+			Callum Cameron Campbell Cecil Charles Christopher Colin Conall Cormac Craig
+			David Donald Douglas Duncan
+			Edgar Edward Eric Ernest Ewan
+			Fergus Findlay Fraser
+			Gavin George Gerard Gilbert Gilroy Glen Godfrey Gordon Graham Grant Gregor_Gregory Gwilym
+			Haldane Hamish_James Harold Hector Henry Herbert Hugh
+			Ian Ivar
+			Jacob James John Jonathan
+			Keith Kenneth Kevin Kieran
+			Lachlan Lawrence Lewis_Louis
+			Magnus Malcolm Matthew Maxwell Michael Mungo Murdoch Murray
+			Neil Nigel Norman
+			Patrick Paul Peter
+			Ralph Richard Robert Roderick Ronald Rory Ross
+			Samuel Scott Simon Somerled Stanley Stephen Stuart
+			Tavish Thomas
+			Wallace Walter Watson William
+		}
+		female_names = {
+			Agnes Alice Alison Andrea Anne Audrey
+			Barbara Beatrice Bernice Brenda Bridget
+			Carol Catherine Catriona_Catherine Claire
+			Deborah Diane
+			Edith Eileen Eleanor Elizabeth Ellen Emily Emma Eve Evelyn
+			Fiona Frances
+			Gail Gemma Gillian Grace
+			Hannah Hazel Heather Helen
+			Jane Janet Jeanne_Joan Jessie Joyce Judith Julie
+			Kathleen Kelly Kirsty
+			Lauren Leanne Lesley_Leslie Linda Lindsay Lisa Lorna Lucy Lynne
+			Martha Mary Maureen May Moira Morag
+			Nicola Norma
+			Patricia Paula Peggy
+			Rachel Rhona Roberta Rose
+			Sarah Sharon Sheena Sheila Shona Susan
+			Theresa
+			Victoria
+			Wilma
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "of "
+		bastard_dynasty_prefix = "Mac"
+
+		modifier = default_culture_modifier
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 10
+		
+		tribal_name = "TRIBAL_NAME_PROV_CLAN"
+	}
+
+	irish = {
+		graphical_cultures = { celticgfx }
+		
+		color = { 0.3 0.8 0.8 }
+
+		male_names = {
+			Abbán Agaistín_Augustine Ágastas_Augustus Aibhne Ailbhe_Albert Ailill Ailín_Alan Aindréas_Andrew Aindriú_Andrew Ainníleas Ambrós_Ambrosius Amhalgaidh Amhlaoibh_Olaf Anluan Anmchadh_Ambrose Antóin_Anthony Aodh_Hugh Aodhán Aogán Aonghus_Angus Árdghal Árón_Aaron Art Artúr_Arthur 
+			Bairre_Barry Baothghalach Beacán Bearach Bearchán Bearnárd_Bernard Beinidict_Benedict Bran Breasal Breandán_Brendan Bréanainn Brendan Brian_Brian Brochadh Buadhach 
+			Cairbre Calbhach Caoimhín_Kevin Caolán Caomhán_Kevan Carraig Cárthach Cathal Cathaoir Cathbharr Ceallach Cearbhall Cían Cíanán Ciarán Cillian_Killian Cinnéididh_Kennedy Cionaodh Ciothruadh Coilean_Colin Coilín_Colin Coinneach Coireall_Cyril Colla Colm Colmán Comán Comhghall Comhghan Conaire Conall Conán Conchobhar_Connor Conchúr_Connor Conghalach Conmhac Conn Connla Connlaodh Cormac Cosnamhach Criomthann Críostóir_Christopher Cróchán Crónán Cuan Cúchonnacht Cuimín Cúmhaighe Cúmheadha 
+			Dabhag Daibhí_David Dainéal_Daniel Dáire Damháin Dara Déaglán Deasmhumhnach_Desmond Diarmaid Domhnall_Donald Dónall_Donald Donn Donnchadh_Duncan Donnghaile Dubhaltach Dubhán Dubhghall_Dougal Dubhghlas_Douglas Dúnlang 
+			Eachaidh Eachann_Hector Eachthighearn Éadbhárd_Edward Éamon_Edmund Éanán Éanna Earcán Earnán Éibhear_Ivar Éignach Éimhín Éireamhón Eochaidh Eoghan_Owen Eóin_Owen 
+			Fachtna Fáilbhe Faolán Fearadhach Fearchar_Farquhar Feardorcha Fearganainm_Ferdinand Fearghal Feichín Féilim_Felix Fergus Fiach Finghin Fionghuine Fionn Fionnbharr Fitheal Flann 
+			Garbhán Gearóid_Gerard Glaisne Gréagóir_Gregory 
+			Iarlaith Íomhar_Ivar Íosac_Isaac Iósaf_Joseph Irial Iúdás_Jude 
+			Labhrás_Lawrence Lachtna Laoiseach Lasairian Liam_William Lochlann Lomán Lonán Lorcán Lughaidh 
+			Maeleachlainn Maelíosa_Malise Mainchín Máirtín_Martin Maitiú_Matthew Maodhóg Maoilín Maoilir Maolcholm_Malcolm Maolmórdha Maolmhuire_Malmure Maolruadháin Marcus_Mark Mathghamhain Mícheál_Michael Muircheartach Muireadhach_Murdoch Muirgheas_Maurice Murchadh 
+			Naomhán Naos Neachtan Neasán Niall Nioclás_Nicholas Nollaig_Noel 
+			Odhrán Oilibhéar_Oliver Oireachtach Oisín Oscar_Oscar 
+			Pádraig_Patrick Peadar_Peter Pól_Paul Proinsias_Francis 
+			Réamann_Raymond Riain_Ryan Risteárd_Richard Roibéard_Robert Roibhilín Rónán Ros Ruadhán_Rowan Ruairí_Rory 
+			Saerbhreathach Séadna_Sidney Séafra_Godfrey Séamus_James Seán_John Seárlas_Charles Seoirse_George Seosamh_Joseph Sechnassach Senán Siadhal Sioda Síomón_Simon Stíofán_Stephen Suibhne_Sweeny 
+			Tadhg Taichleach Téodóir_Theodore Tighearnán Tighernach Tiobóid_Theobald Toirdhealbhach Toirleach Tomás_Thomas Torna Treabhair_Trevor Tuathal 
+			Uaitéar Uaithne Ualgharg Uilliam_William Uinseann_Vincent Ultán 
+		}
+		female_names = {
+			Aibhilín_Evelyn Aíbhinn_Evin Aifric_Africa Ailbhe Áine_Anne Aisling_Ashlyn Aithche Aodhamair_Emma Aodhnait Aoibheann Aoibhin_Evin Aoife_Eve Aoileann Athracht 
+			Barrdhubh Bébhinn Bláithín_Flora Bláth_Flora Bláthnaid_Flora Blinne_Blanche Bríd_Brigid Brighdín_Brigid Brónach Buadhnait 
+			Cacht Caitlín_Catherine Caitríona_Catherine Caoilfhionn Caoimhe Catraoine_Catherine Ciamhnait Ciannait Clara Clíona Clodagh Cobhlaith 
+			Damhnait Dearbháil Dearbhfhorghaill Dearbhla Deirdre Dianaimh_Diana Doireann Dubhchobhlaigh Dubhóg
+			Éadaoin_Edwina Éabha_Eve Earnait Easnadh Eibhlínn_Evelyn Eilín_Helen Eilís_Elizabeth Éimhear Eithne 
+			Faoiltighearna Feidhelm Féthnaid Fiadh Fiadhnait Fíneamhain Fíona_Fiona Fionnabhair Fionnuala Flann Flannait Fodhla Forbhlaith 
+			Geiléis Gobnait Gormlaith Gráinne_Grace 
+			Íde_Ida Iodhnait 
+			Lann Lasairfhíona 
+			Máire_Mary Mairéad_Margaret Máirín_Maureen Meabh Mealla Meidhbhín Míde Miodhnait Móirín Moncha_Monica Mór Muadhnait Muireann_Marion Muirgheal_Muriel Muirne 
+			Neasa Niamh Nóirín Nollaig_Noelle Nóra Nuala 
+			Odharnait Onóra Órla Órlaith 
+			Peigí_Peggy Peigín 
+			Ráichéal_Rachel Raghnailt_Regina Rathnait Ríona_Regina Róisín_Rose Rós_Rose 
+			Sadhbh_Sabina Saoirse Saorla Saorlaith Sibéal_Elizabeth Síle_Cecilia Sinéad_Joan Siobhán_Joan Síofra Síthmaith Sláine Sorcha_Sarah 
+			Tuathflaith 
+			Uainionn Uallach Uasal Úna_Agnes 
+		}
+		
+		dukes_called_kings = no
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "mac "
+		female_patronym = "nic "
+		prefix = yes
+
+		modifier = default_culture_modifier
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 10
+	}
+}
+
+patagonian = {
+	graphical_cultures = { westerngfx }
+	
+	gwladfeg = { #Patagonian Welsh
+		graphical_cultures = { celticgfx westerngfx }
+		unit_graphical_cultures = { englishgfx celticgfx westerngfx }
+
+		color = { 0.3 0.8 0.6 }
+		
+		male_names ={
+			Adda Adgar_Edgar Adran_Adrian Alan_Alan Alejandro_Alexander Alfredo_Alfred Alwyn_Alwin Anarawd Andrés_Andrew Aneurin Anlaff_Olaf Anllech Antonio_Anthony Argad_Arcadius Arod Artemio_Artemius Arthfael Arthfoddw_Arthbodus Arturo_Arthur Arthws Arthwys_Artorius Asa Asaph Agustín_August
+			Bangar Bedwyr Beli_Beli Berthgwyn_Berhtwine Berthwallt_Berthoald Bleddyn_Bleddyn Bledrig_Bledrig Bleiddud_Bleiddud Branwaladr_Branwaladr Bride_Bride Briog_Briog Brochfael_Brogmaglus Brwt_Brutus Brwyn Brychan_Brychan Brân_Bran
+			Cadfael Cadell Cadfan Cadog_Cadog Cadeyrn Cadw_Cadw Cadwal Cadwaladr_Cadwaladr Cadwallon_Cadwallon Cadwared_Cadwared Cadwgan Cadwr_Cadwr Cai_Gaius Caid Caradog_Caradog Casnar Caswallon Cawdaf Cedig_Caedicius Cedwyn Ceneu Ceredig_Caratacus Coel Corentin_Corentin Cuhelyn Custennin_Constantine Cwlfyn_Culmin Cwrig_Cyriacus Cydifor Cydrych Cynan_Conan Cynddelw_Cynddelw Cyndyddan_Cyndyddan Cynddylan Cyndeyrn_Kentigern Cynfael_Cynfael Cynfarch_Cynfarch Cynfawr Cynfeddw Cynfelyn_Cynfelyn Cynfran Cynfyn Cyngar_Cyngar Cyngen_Cyngen Cynwallon_Cynwallon Cynwared Cynwrig Cynwyd Cynyr Cysteint_Constans
+			Dafydd_David Deheuwant Deiniol_Daniel Dewi_David Dogfael Drystan_Tristan Dumnagual Dwyfan_Damian Dyfnarth_Donyarth Dyfnwal_Donald Dyfnwallon_Dyfnwallon Dynod_Donatus Dywel_Dywel
+			Enrique_Henry Edern_Eternus Ednyfed_Ednyfed Ednywain Edryd_Ailred Edwyn_Edwin Edylfred_Aethelfred Einion Elfin_Alwin Elidyr Elis Elisedd Elud Eluned Elystan_Alstan Emrys_Ambrosius Enfidaig_Enfidaig Erb_Urban Erclwf_Heracles Eudaf_Octavius Ewyas
+			Ffernfael_Ffernfael Felipe_Philip Ffriog_Friog Ffwdwr Fragan_Fragan Ffransis_Fransis Fychan Fyrsil
+			Gamon Garmon_German Geraint_Gerontius Gerallt_Gerald Glwyddien Glywys_Claudius Godwyn_Godwin Goronwy Gronw Gruffydd_Ruffinus Gregorio_Gregory Guret Gwalchmai_Gavin Gwen Gwenwynwyn Gwerstan_Werestan Gwerthefyr_Vortimer Gwerthern_Vortigern Gwydol_Vitalis Gwydolin_Vitalinus Gwyn_Finn Gwidyr Gwrfawr_Gwrfawr Gwrfoddw Gwrgant_Fergus Gwrgeneu_Gwrgeneu Gwrgi_Gwrgi Gwriad_Viriathius Guillermo_William
+			Herewallt_Hereweald Huw_Hugh Hywel_Hywel
+			Jacobo_Jacob Ivor_Ivar Idnerth_Idnerth Idwal_Idwal Idwallon_Idwallon Iestyn_Justin Ifor_Ivar Io Iolo Iorwerth Ithel_Ithel
+			Juan_John Julien_Julius
+			Lles_Lucius Leon_Leon Llyr Llywarch_Llywarch Llywelyn Lewis Love Luis_Louis
+			Macsen_Maximos Madog_Matad Mael_Mael Maelcwn_Malcolm Maelgwn_Melgwn Maenyrch March_Mark Maredudd_Murdoch Mateo_Matthew Mawgan_Mawgan Meilyr Meirchion_Marcianus Meiriadog_Meriadoc Meirion_Marianus Merfyn_Merfyn Meurig_Maurice Mihangel_Michael Morfarch_Morfarch Morgan_Morgan Morien_Morgen Morydd Mwyn_Mungo Myrddin_Martin Miguel_Michael
+			Neithon_Nathan Nowy_Nowy Nynniaw
+			Oswallt_Oswald Owain_Eugene Oucydd_Eochaid
+			Padern Padrig_Patrick Pandoff Pasgen_Pascentius Padarn_Paternus Pawl_Paul Pedro_Peter Peredyr Publig Pyr
+			Rheinallt_Reginald Rhicert_Richard Rhigeneu_Ricenus Rhirid Rhiwal_Riwal Rhiwallon_Rhiwallon Roberto_Robert Rodrigo_Roderick Rhufon_Roman Rhun_Rucenus Rhydderch_Roderick Rhydog Rhys Riaged_Riacet Richwin_Richwin Ricardo_Richard
+			Sandde_Sanctus Sawyl_Samuel Seferus_Severin Seisyll_Cecil Selyf_Solomon Senyllt Serigi_Sergius Sieffre_Godfrey Sion Sior_George Siwauna Steffen_Stephen Stinian_Justinanius Sulien_Julius
+			Taliesin_Telesinus Tegonwy Tegwyd_Tadg Teilo Teithfalch Teudebur Tewdos_Theodosius Tewdrig_Theodoric Tewdwr_Theodore Tomos_Thomas Trahaearn Tudur Tudwal_Tuathal Tudwallon_Tudwallon Tydy Tyfoedd Tysilio
+			Urien_Urbgenius Uthyr_Victor
+			Victorio_Victor
+			Ynyr_Honorius Ysfael
+		}
+		
+		female_names = {
+			Addiena_Addiena Aelwyd_Aelwyd Aeronwen Aeronwy Afrella_Abrelda Alicia_Alice Angharad Ana_Anna Annest_Agnes Annwyl Anowed Arddyn Arianrhod
+			Blodwen Bronwen_Bronwen
+			Catrin_Catherine Ceindrych_Cagintria Ceridwen Cerie Cerys Cicely_Cecilia Clarisant Creirwy_Creirwy Christina_Christina Claudia_Claudia Clara_Clara
+			Danhadlwen Delyth Denis_Denise Dwynwen Dwywai Dyddgu
+			Efa_Eva Effros_Euphrasia Efrddyl_Aurelia Efyrddyl_Aurelia Eiliwedd Elaine_Elaine Helena_Helen Eleri_Hilaria Elinion Elinor_Eleanor Eleanora_Eleanor Ellyn Enid Essyllt_Hersilia Euronwy
+			Ffelis Ffion Fflur_Flora Ffraid_Brigit
+			Glynys Gwen_Gwen Gwenasedd Gwenfrewi_Winifred Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn Gwerfyl_Gwerfyl Gwladys_Claudia
+			Haer Hawys_Hawise Heledd Hellawes Heulwen Hunydd Hywela
+			Ilud Isabel_Elizabeth
+			Llear_Clara Llecci Lleigy Lleuca_Lucia Lowry
+			Mabyn Maches Madrun_Matrona Maelrys Mair_Mary Maria_Mary Mali Mallt Marared_Margaret Marchell_Marcella Margred_Margaret Margarita_Margaret Marwenna Mawd_Matilda Matilde_Matilda Melisant_Melisende Morganna_Morganna Morien_Murron Myfanwy
+			Nest_Agnes Nesta_Agnes Newlyna_Neulenna Non_Nonna Olwen_Olwen Onbrawst Owena_Eugenia
+			Prawst
+			Ragnell_Ragnhild Rhiaindrech_Rioantdrec Rhiainfelt_Regina Rhiannon_Rhiannon Rhonwen
+			Sannant Sara_Sarah Senena Sibyl_Sibylla Sioned_Joan Siwan Siân_Joan Susanna_Susan
+			Tangwystl_Tancostyla Tegla_Thecla
+			Ysbail_Elizabeth Ystradwel
+		}
+		
+		dukes_called_kings = yes
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "ap "
+		female_patronym = "ferch "
+		prefix = yes
+
+		modifier = default_culture_modifier
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+	}
+	
+	chileno = {
+		graphical_cultures = { southerngfx }
+		
+		color = { 0.68 0.16 0.01 }
+		
+		male_names = {
+			Agustin_Augustine Alberto_Albert Alexis_Alexis Alfredo_Alfred Alonso Andres_Andrew Anibal_Hannibal Arturo_Arthur Augusto_Augustus
+			Benjamin_Benjamin Bernardo_Bernard Byron
+			Camilo_Camille Carlos_Charles Charles_Charles Cristian_Christian Cristobal_Christopher
+			Daniel_Daniel Danilo_Daniel David_David Diego_James Domingo_Dominic
+			Eduardo_Edward Elias_Elijah Emilio_Aemilius Emiliano Enrique_Henry Ernesto_Ernest Esteban_Stephen
+			Federico_Frederick Felipe_Philip Fernando_Ferdinand Francisco_Francis
+			Gabriel_Gabriel Gary German_Germanus Gonzalo Gustavo_Gustav
+			Hector_Hector Hernan Humberto_Humbert Hugo_Hugh
+			Ignacio_Ignatius Ivan_John
+			Jaime_James Javier_Xavier Joaquin_Joachim Jorge_George Jose_Joseph Juan_John "Juan Carlos" Juanin Julio_Julius
+			Leonardo_Leonard Leonel Lucas_Luke Luis_Louis
+			Manuel_Emmanuel Marcelo_Marcellus Mario_Marius "Mario Hugo" Marmaduque_Marmaduke Martin_Martin Mateo_Matthew Matias_Matthew Mauricio_Maurice Miguel_Michael
+			Nahuel Neftali Nicolas_Nicholas
+			Oscar_Oscar Osvaldo_Oswald
+			Pablo_Paul Patricio_Patrick Pedro_Peter "Pedro Pablo" Policarpo
+			Rafael_Raphael Ramon_Raymond Raul_Ralph Ricardo_Richard Roberto_Robert Rodrigo_Roderick
+			Salvador Sebastian Sergio_Sergius Simon
+			Teodoro_Theodore Timoteo_Timothy Tomas_Thomas Tulio
+			Vicente_Vincent Victor_Victor
+			Zacarias_Zachary
+		}
+		female_names = {
+			Ana_Anne Andrea Antonia Antonieta_Antoinette Aracely
+			Barbara Beatriz_Beatrice Belen Blanca
+			Camila_Camilla Carina Carla_Charlotte Catalina Cecilia Claudia Cristina_Christina Constanza_Constance
+			Daniela_Danielle Denise
+			Elizabeth_Elizabeth Emilia_Amelia Erica Esmeralda Estefania_Stephanie
+			Fernanda Francisca_Frances Florencia
+			Gabriela_Gabriele Gladys Gloria
+			Helen 
+			Ignacia Ines_Agnes Isabel_Isabelle
+			Javiera Joanna_Joan Josefa_Josephine Julieta_Juliet
+			Karina Karla_Charlotte
+			Lorena_Lauren Loreto Lucila Luisa_Louise
+			Mabel Magdalena_Magdalene Marcela Maria_Mary "Maria Constanza" "Maria Jose" "Maria Luisa" Mariana_Marianne Martina Maya Michelle Miriam Monica
+			Naomia Natalia_Natalie Nicole
+			Olivia Oriana
+			Pamela Patricia Paula Paulina Pilar
+			Raquel Renata Rocio Rosa_Rose
+			Sandra_Alexandra Silvia Sofia_Sophia Susana_Susan
+			Tamara Teresa_Theresa Trinidad
+			Valentina Valeria Veronica Violeta_Violet Vivian_Vivien
+			Ximena
+		}
+		
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "hijo de "
+		female_patronym = "hija de "
+		prefix = yes
+		
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		modifier = default_culture_modifier
+	
+	}
+}
+
+maghreb = {
+	graphical_cultures = { arabicgfx muslimgfx }
+	
+	moroccan = {
+		graphical_cultures = { berbergfx arabicgfx muslimgfx }
+		#secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.4 0.9 0.5 }
+		
+		male_names = {
+			Abdallah Abdel Abdelaziz Abdelhalim Abdelkader Abdelkarim Abdellah Abderrahim Abderrahman Abderrahmane Abdeslam Abdessamad Abdo Abdou Aboubacar Achraf Adam_Adam Adil Ahmed Akram Aladdin Alae Alaeddine Amaniyy Amine Amrane Anas Anass Anouar Attiq Awadah Ayman Aymane Ayoub
+			Badr Bahaeeddine Baz Ben_Benjamin Bilal Boutaje Brahim Bruss Bushr
+			Chadi Chakir Charif
+			Dirar Driss
+			"El Bachir" "El Houari" "El Wahab" Elfaroui
+			Fahd Faqih Fayaaz Fayçal_Faisal Fouad_Fuad
+			Hakem Hakim Hamza Hassan Hicham_Hisham
+			Ibrahim_Abraham Ilias Ilyass Imad Isma'il_Ishmael Issam
+			Jabalah Jalal Jamal Jamaldine Jaul
+			Kadeen Kamal Karim Khalid Khalil
+			Lahcen
+			Mamoun Marzuq Med Mehdi Moad Mohammad_Muhammad Moosa_Moses Mostafa_Mustafa Mouad Mouhcine Mourad_Murad Mujahid
+			Nabil Nizar Nour
+			Omar Othmane Otmane Ouahid Oualid_Walid Oussama
+			Rachid Raki Rasil Rayane Reda Rida Ridouane Riyad Ruhul
+			Saad Safwah Said Salah "Salah Eddine" Salim Samir Shihab Simo Sofian Soufiane Souhail Suhaim
+			Tarek Thawab
+			Walid Waliedine Waqqas Wasif Wasim
+			Yacine Yassin Yassine Younes_Jonah Youness_Jonah Youssef_Joseph
+			Zak_Zachary Zakaria_Zachary Zakwan Zamen Ziaul-Haq Zouhair Zouhir 
+		}
+		
+		female_names = {
+			Abir Abla Achoura Ahlam Aicha Alzahra Amal Amina Aminah Amira Amurra Anaan Aqilah Areebah Arifa Asmaâ Asmae Assia Aya Ayat Aysha Azhar Aziza Azza
+			Badria Basma Baysan Buhjah
+			Chafika Chahrazad Chaimaa Chaimae Chaymae Chifa
+			Daouia Doha Douaa Douae Dounia
+			Fadeelah Fadwa Farah Fati Fatima Fatine Fayha Fikriyah Firdoos
+			Ghaada Ghazal Ghita Gohar
+			Hafsa Hajar Halima Hanaa Hanane Hasbia Hasna Hiba Houda
+			Ibtihal Ikram Iman Imane Inès Isra
+			Jade Jamila Jasmin Jawaher Jihan Jumina
+			Kaoutar Karima Kawtar Kenza Khadija Khadra Khalila Khatija Khawla
+			Laila Lamia Lamiaa Lamiae Latifa Lina
+			Maha Mahdia Malak Mariam Marwa Meriem Meryam Meryem Mouna Mounia
+			Nabila Nada Nadia Naima Nasra Nesma Nezha Nody Noha Nouha Nouhaila Nour Nurhayat
+			Ouarda Oumaima Oumayma Oumnia
+			Qadr
+			Rabia Rachida Raghad Raisa Rania Riham Rim Rita
+			Sabreen Sabrina Sabriye Safàà Safae Safiya Safiyah Salma Samia Samima Samira Sanaa Sara Sarah Selma Siham Sofia Souad Soukaina Summayyah Sylvie
+			Tahani Tamou Thorya
+			Wadia Wafa Wafae Wala Wedad Wiam
+			Yasmine Yassmine Yousra
+			Zahidah Zayna Zina Zineb Zuleika
+		}
+
+		from_dynasty_prefix = "mn "
+		
+		male_patronym = "ibn "
+		female_patronym = "bint "
+		prefix = yes
+		
+		used_for_random = no
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+}
+
+guinean = {
+	graphical_cultures = { africangfx muslimgfx }
+	
+	nigerian = {
+		graphical_cultures = { westafricangfx }
+		#secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.1 0.8 0.3 }
+		
+		male_names = {
+			Abidemi Abimbola Abiodun Abioye Ade Adebayo Adebola Adebowale Adedayo Adegoke Adetokunbo Adisa Afolabi Akachi Akuchi Amadi Ayo Ayodele Ayokunle Ayomide Ayotunde Azubuike Babajide Babangida Babatunde Badamasi Balarabe Bamidele Buba Buhari Chi Chibueze Chibuike Chibuzo Chidi Chidiebere Chidiebube Chidiegwu Chidike Chidubem Chiemeka Chijindum Chike Chikelu Chikere Chima Chindo Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chioma Chizoba Chuks Chukwudi Chukwuemeka Chukwuma Danjuma Danladi Danlami Daran Dare Daren Dayo Ekene Ekenedilichukwu Ekundayo Ekwueme Emeka Eniola Enitan Enyinnaya Femi Folami Gaddo Gambo Goggo Gowon Hasan Hindatu Idowu Ikenna Jamila Kande Kayin Kayode Kubura Lamido Lanre Larai Lekan Maimuna Monsura Ndidi Ngozi Nkemdilim Nnamdi Obi Olabode Olamilekan Olanrewaju Oluchi Olufemi Olufunke Olufunmilayo Olufunmilola Olujimi Olukayode Olumide Oluwafemi Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Onyekachi Onyekachukwu Opeyemi Rago Rashidi Shibu Tanimu Temitope Turai Turaki Udo Uwani Uzochi Uzoma Yasira Yelwa Yohance 
+		}
+		
+		female_names = {
+			Abeni Abimbola Abiodun Adaeze Adanna Adannaya Ade Adebola Adebowale Adedayo Adetokunbo Akachi Akuchi Alaba Albarka Alheri Amaka Amara Amarachi Anaca Anaka Anecky Anika Anikee Annaka Anneka Anneke Añuli Assibi Aunika Ayo Ayodele Ayomide Ayotunde Bolanle Bosede Cara Casia Casiah Casina Cassa Cassia Chi Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ciah Cof Coffee Coffi Coffie Colee Coley Colie Dada Dalma Darah Darrah Dayo Deloo Delu Delue Dena Dessa Dibby Dilla Dona Donae Donah Donalda Donaldina Donelda Doni Donnah Doshi Dura Durah Durrah Ebele Ekene Ekenedilichukwu Ekundayo Eniola Enitan Fa'idah Fa'iqah Fa'izah Fara Fari Farih Farra Farry Folami Fumnanya Funanya Gaddo Gambo Gbemisola Gesina Gibby Hanna Hasana Hira Ibby Idowu Ife Ige Izara Jummai Kayin Kia Ladi Lami Mansurah Mojisola Monifa Ndidi Ngozi Niesha Nis Nisa Nissa Nissah Nissanit Nisse Nissi Nissie Nissnana Nissy Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna Nnenne Nona Nonah Nonee Noney Noni Nonia Nonie Nonita Nonna Nonnah Nonni Nonnie Nony Nonya Numa Nuna Nunna Nwanneka Nysa Nyssa Nysse Ogechi Ogechukwukama Olamide Olayinka Olubunmi Oluchi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Onyeka Onyekachi Onyekachukwu Opeyemi Ova Ovah Ove Ovea Ovia Rama Reen Reena Reenah Reene Reenie Reeny Rena Renah Renna Rennah Resha Rina Rinah Rinna Rinnah Sakinah Simisola Talatu Tanea Tanee Taney Tani Tanie Tannea Tannee Tanney Tanni Tannie Tanny Tany Tanye Temitope Titilayo Udo Uzoma Yejide Yewande Yola Zora Zorra 
+		}
+
+		from_dynasty_prefix = ""
+		
+		used_for_random = no
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+		
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+	
+	liberian = {
+		graphical_cultures = { tuskegeangfx }
+		unit_graphical_cultures = { westafricangfx africangfx }
+
+		#secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.6 0.35 0.3 }
+		
+		male_names = {
+			Alfred Ansa Anthony_Anthony Arthur_Arthur
+			Baimba Benjamin Benoni Bonokai Buyamah
+			Charles_Charles Ciata
+			Daniel_Daniel Didwho
+			Edward_Edward Elijah_Elijah
+			Filibuster
+			Garretson Gbessi Gbotoe George_George
+			Hilary
+			Jallah James_James John_John Joseph_Joseph
+			Kaijaah Kanneh Karmo Kayme Kemokai Kengbe Konowa Kpanna
+			Lamie Louis_Louis Luma
+			Martin_Martin Momolu Monroe
+			Payne Pese
+			Samuel_Samuel Seh Sekou Solomon_Solomon Stephen_Stephen
+			Tarweh Thomas_Thomas
+			Varney
+			William Wilmot Winston
+			Zolu
+		}
+		
+		female_names = {
+			Bendu Betsy_Elizabeth
+			Carolina Catharine_Catherine Cianna Ciata Cyvette
+			Dido
+			Ellen Emancipata
+			Fatu Fatumatta
+			Gbessay Gloriana
+			Hawa Helene
+			Jabateh Jandi Jartu Jebbeh Jenneh Julia Jumah Justice
+			Kemah Kula Kpanna
+			Libertas Lorpu
+			Mabasi Maima Martha Mary Miata Miranda Musu
+			Nullabona Nyanae
+			Respublia Rhoda
+			Siah Somah Somo
+			Tatu Tenneh
+			Virginia
+			Weyatta
+			Yassa
+			Zoe
+		}
+
+		from_dynasty_prefix = ""
+		
+		used_for_random = no
+
+		pat_grf_name_chance = 20
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+
+		modifier = default_culture_modifier
+	}
+}
+
+macaronesian = {
+	graphical_cultures = { africangfx muslimgfx }
+	
+	verdiano = {
+		graphical_cultures = { africangfx muslimgfx }
+		
+		color = { 0.4 0.6 0.1 }
+		
+		male_names = {
+			Abílio_Abel Afonso_Alphonse Aguinaldo Aires Alexandre_Alexander Albertino_Albert Alfredo_Alfred Álvaro_Alvaro Amílcar_Hamilcar André_Andrew António_Anthony Aristides Arménio_Herman Augusto_Augustus
+			Baltasar_Balthazar Bartolomeu_Bartholomew Basílio_Basil Bermudo
+			Caetano_Cajetan Carlos_Charles César_Caesar Cleófas_Cleophas Corsino
+			Damião_Damian Dinis Diogo_James Domingos_Dominic Donaldo_Donald Duarte
+			Eduardo_Edward Egas Estêvão_Stephen Euclides_Euclid Eugénio_Eugene Evandro_Evander
+			Fernão_Ferdinand Filipe_Philip Flávio_Flavius Françisco_Francis
+			Gabriel Garcia Gaspar_Casper Germano_Germanus Gil_Egidius Gomes_Gomez Gonçalo_Gonzalo Gualberto Guilherme_William Guterre_Walter
+			Hélder Helespóntico Henrique_Henry Hermígio Honório_Honorius
+			Ilídio Inácio_Ignatius
+			Jaime_James João_John Joaquim_Joachim José_Joseph Jorge_George
+			Lopo_Wolf Lourenço_Laurence Luís_Louis
+			Manuel_Emmanuel Marco_Mark Martim_Martin Maurício_Maurice Mendo Miguel_Michael Monio_Munio
+			Nélson_Nelson Nicolau_Nicholas Nuno
+			Octávio_Octavius Odaïr Óscar_Oscar Osvaldo_Oswald Ovídio_Ovid
+			Paio_Pelagius Paulo_Paul Pedro_Peter Pôncio_Ponce
+			Rafael_Raphael Raimundo_Raymond Renato Ricardo_Richard Rogério_Roger Ruben Rui_Roderick
+			Sancho Sérgio_Sergius Soeiro_Suero Sebastião_Sebastian Silvino Simão_Simon
+			Teodósio_Theodosius Theodorico_Theodoric Tito_Titus
+			Ulisses_Ulysses Uriel
+			Vasco Vicente_Vincent Viriato
+			Xavier
+		}
+		
+		female_names = {
+			Aldara_Alduara Aldonça_Aldonza Beatriz_Beatrice Berengária_Berengaria Branca_Blanche Constança_Constance Dórdia Elvira_Elvira Estevainha_Stephania Fruilhe_Fronilde
+			Carlina Crispina
+			Gontinha Gontroda_Gotruda Guiomar Inês_Agnes Joana_Joan Leonor_Eleanor Mafalda_Matilda Margarida_Margaret Maria_Maria Marinha_Marine
+			Mor_Mayor Ouroana Sancha_Sancha Teresa_Teresa Urraca_Urraca
+			Amélia Ana_Anna Andréa Antía Antónia Assunção 
+			Bárbara Benedita_Benedicta Branca
+			Candelária Carme Carmo Catarina Catina Cecília Célia Chica Cíntia Constancia Carlota
+			Débora Desidéria Diamantina Domitila Dores Dorotéia_Dorothea Dulce
+			Edite Efigênia Elisabete_Elizabeth Eufémia Eugênia Eulália 
+			Fatimá_Fatima Feliciana Felicidade Flávia Francisca_Frances Frederica 
+			Gabriela_Gabriele Gardénia Gertrudes Glaucia Glória_Gloria Graça_Grace
+			Henriqueta Hermínia 
+			Imaculada Isabel_Isabelle
+			Jacinta Joana Joaquima Josefa Januária Judite_Judith
+			Leocádia Leonor Leticia Lía Lídia Lígia Lílian Lúcia Luisa Lurdes Leopoldina Lygia Louisa_Louise
+			Madalena Márcia Margarida María_Mary Matilde_Matilda Micaela Mônica_Monica
+			Nathália Neves Noela
+			Ofélia Olalla Olívia 
+			Priscila Paula
+			Rafaela Raquel_Rachel Rebeca_Rebecca Renata Roberta Rosângela Rute 
+			Sabela Sara_Sarah Sofia_Sofia Sonia Susana_Susan 
+			Tatiana Telma Teresa_Theresa
+			Úrsula_Ursula Uxía 
+			Verônica_Veronica Vitória_Victoria 
+			Yara Yolanda
+		}
+		
+		from_dynasty_prefix = "de "
+		grammar_transform = spanish
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
+	}
+	basque = { 
+		graphical_cultures = { southerngfx italiangfx trueoccitangfx occitangfx }
+		
+		color = { 0.55 0.42 0.04 }
+		
+		male_names = { 
+			Abain Abar_Ramos Abas Adam Adei Adiran_Adrian Adur Ager Agis Aimar Aitor Aiur Alain_Alan Alberto_Albert Alejandro_Alexander Alesander_Alexander Alexo_Alexis Alfontso_Alfonso Altzibar Amets Amir Ander_Andrew Andoni_Anthony Aner Angelu Anko Antxon_Anthony Antxoritz Aralar Arano Aratz Argi Arin Aritz Artibai Artur_Arthur Asier Atarrabi Atxuri Auritz Axel Axular Aznar
+			Bakar Baltasar_Balthazar Barnabe_Barnaby Bartolome_Bartholomew Batista_Baptist Baztan Belako Benedikto_Benedict Beñat_Bernard Beraun Bertiz Bitaño Bizente_Vincent Bladi_Blaise Bolibar Bruno
+			Damen_Damian Dabid_David David Danel_Daniel Dari Demetrio_Demetrius Denis Diego_James Diogenes Dion Domingo_Dominic Donato Drakon Durruma Dylan
+			Eate Eder Eduardo_Edward Edur Einar Egoitz Eguen Ekai Ekain Ekaitz Ekhi Elo Emilio_Emil Enaitz Eñaut_Arnold Endika Eneko_Inigo Enzo Erato Ereño Erraimun_Raymond Errando_Ferdinand Erro Errolan_Roland Erroman_Roman Estepan_Stephen Etxahun Eztebe_Stephen
+			Fabian_Fabien Fabrizio_Fabrice Filipe_Philip Floriano_Florian Frantses_Francis Frantzisko_Francis Frederiko_Frederick
+			Gabriel Gael Galeno Gamiz Gari Gaston Gauargi Gaueko Gentzen Gerion German Gilen_William Gometz_Gomez Gorka Grat Gregorio_Gregory
+			Haran Hartz Hegoi Henrike_Henry Hodei Herakles_Hercules Hugo_Hugh
+			Ian Ibai Iban_John Ibar Ibon Ieltxu Igantzi Igeldo Igon Iker Imanol_Emmanuel Iñaki_Ignatius Inar Inhar Inko Ion Irai Iratzeder Irrintzi Isaak_Isaac Ituren Itzaltzu Ixion Izan Izei
+			Jaizkibel Jakue_James Jeremi_Jeremy Jeronimo_Hieronymus Joakim_Joachim Jon_John Jon-Batista_John-Baptist Jon-Klaudio_John-Claudius Jon-Jakue_John-James Jon-Lukas_John-Luke Jon-Mikel_John-Michael Jon-Paulo_John-Paul Jon-Petri_John-Peter Jordan Josef_Joseph Josu_Joshua Julen_Julian Julio_Jules Julian Jurgi_George
+			Kai Kamil_Camille Karlos_Charles Klaudio_Claudius Klemente_Clemens Koldo_Louis Konon Kripan Kristian_Christian Kristobal_Christopher Kutun
+			Lander Lantz Larrain Lastarri Laurentzi_Lawrence Legazpi Leon_Leo Leonidas Lezo Liam_William Liher Lope_Lupo Luis_Louis Luc_Luke Luka_Lucas Lukas_Lucas Luken_Lucien Lur
+			Madari Maidi Mairu Manex Markel_Marcel Marko_Mark Mario_Marius Martin Mateo_Matthew Maurizio_Maurice Mendaur Mikel_Michael Mikelats Moisis_Moses
+			Nabar Neizan Nestor Nicolás_Nicholas Niko_Nicholas Nikolas_Nicholas Noah Numitor
+			Odon_Otto Oier Oihan Oinatz Oker Orestes Orion Ortzi Ostadar Otxoa
+			Pablo_Paul Paskoal_Pascal Patrik_Patrick Patxi_Francis Paulo_Paul Pertinax Peru Peruski Petri_Peter Pio_Pius Platon
+			Rafael_Raphael Raimundo_Raymond Raul_Rudolf Rayan Remigio_Rémy Rikardo_Richard Roberto_Robert Romulo
+			Sabat Salbatore_Salvator Sebastian Sein Sergio_Sergius Sigismundo_Sigismund Silvestre_Sylvester Simon Sugaar Sugoi
+			Telmo Teodoro_Theodore Teseo_Theseus Tibalt_Theobald Tomas_Thomas Toribio Tristan
+			Udalatx Unai Unax Ur Urko Urtats Urtzi
+			Valentin Vianney Viktor_Victor
+			Xabier_Xavier Xalbador Xerxes Xuban
+			Yeray
+			Zain Zakari_Zachary Zipiro_Cyprian Zirilo_Cyril Ziti
+		}
+		female_names = {
+			Abeliñe Adele_Adela Adriana Agata_Agatha Agirre Aiala Ainara Ainhize Ainhoa Aiora Aitana Akorda Alaia Alañe Alazne Alba Albira_Elvira Alexandra Alize_Alice Alma Amaia Amira Ana_Anne Ane_Anne Anne Arane_Ariane Arbeitza Arene Argia_Claire Ariane Arkaia Armintza Aroa Arraba Arrieta Asteria Atalanta Aurora Aya
+			Baia Balene_Valeria Barbara Barda Basalgo Bazkoara Beatriz_Beatrice Begoña Belem Beñate_Bernarda Benedikta Berbixe Betiñe Bikarregi Bikuña Brigita_Brigid
+			Carla Carmen Chloe Clara Claudia
+			Dafne Danae Daniela Dare Delika Diana Dione Domeka_Domenica Doris Dulantzi Durruma
+			Eba_Eve Edurne Egeria Eider Eitzaga Ekora Elaia Elena_Helen Elene_Helen Elgea Elorriaga Emma Enara Engrazia Erdotza Erga Ermua Erregina Erroeta Eskarne Eskolunbe Estebania_Stephanie Ester_Esther Etxahun Etxaurren Ezkurra
+			Fabiola Fedea Felizia_Felicia Fernanda Filipa_Philippa Flora Frantzesa_Françoise
+			Gabiria Gaia Galartza Gamarra Garai Garazi_Grace Gasteiz Gaztelu Gereña Gertrudis_Getrude Gisela Goikiria Goiuria Gorane Goto Gurenda_Victoria Gurutze
+			Haizea Haizene Haurramari_Mary Hebe Hermione Hiazinta_Jacinta Hirune Hua
+			Ibabe Ibarruri Igai Igoa Ilargi Ilazki Inés_Agnes Inguma Intza Iparla Ira Iraia Irati Iratxe Iratzagorria Irene Iria Iris Iruña Isabel_Elizabeth Iturrieta Itxaro Itxaso Itziar Izadi Izar Izaro
+			Jare Jenara Joana_Joan Jone Josebiñe_Josepha Jule_Julia Julia June Justa
+			Kalipso Kara Karla_Clara Karolina_Carolina Katalin_Catherine Kexaa Kima Kizkitza Klaudia_Claudia Kleopatra Koikile_Cecilia Kornelia_Cornelia Kristina_Christina
+			Labraza Laia Laida Lamia Laño Lara Larrauri Lasarte Latsari Lea Leire Lemoiz Leonor_Eleanor Leto Lezaeta Lia Libe Lidia_Lydia Lier Likoa Loinatz Lorea Lucía_Lucia Luisa_Louise Luna Lur Luz
+			Madari Maddi Maia_Mary Maialen_Magdalene Maider Maite Malen Mamariga Mara Marauri Maren Margarita_Margaret Maria_Mary Mariaestebania_Mary-Stephanie Marina Maritza Marta Martina Martioda Martzela_Marcelle Matilde_Matilda Maxima Meñaka Mendeika Mezkia Mia Minerva Miren_Mary Munain Muntsaratz Muxika
+			Nahia Naia Naiara Naroa Natxitua Nekane Nemesis Nerea Nikole_Nicole Nile Niobe Noa Nora
+			Oibar Oihane Oka Okaritz Okina Okondo Olaia_Eulalia Olatz Oleta Olivia Ona Ondiz Opakua Ordizia Oreka Oria Orose Orreaga Osteritz Ozana
+			Patirke_Patricia Paula Paule_Paula Pele Penelope Perpetua Petra Pia Pietate Pisana Plentzia Pobeña Pomona Pui
+			Rakel_Rachel Rea Roxane
+			Sabina Sandora Sara_Sarah Sare Sarria Sebastiana Selene Semele Semera Señe Silbe_Sylvia Silvia_Sylvia Simona Sonia Soraluze Sorne Sua Susana_Susan
+			Tala Tarpeia Temis Teresa_Theresa Tetxa Tirtsa Tomasi Tome Torkazarra Tota Tutera Txabarri Txirrita
+			Uda Udane Urabain Urarte Urbe Urduña_Ordona Uribarri Urizaharra Urrea Urrexola Urrotz Urtsula_Ursula Usune Uxue Uztaritze
+			Valentina Valeria Vega Venus Vera Vesta Viktoria_Victoria Virgina
+			Xabadin_Sabina Xabierra Xare Xelina_Celina Ximena_Jimena Xixili Xurdana
+			Yasmin Yera
+			Zabaleta Zaloa Zañe Zeberiogana Zelia_Celia Zenobia Zikuñaga Zilia Zita Zoe Zuberoa Zuhatza Zuia Zumaia Zuzene_Justa
+		}
+		
+		from_dynasty_prefix = "de "
+		male_patronym = "itz"
+		female_patronym = "itz"
+		grammar_transform = spanish
+		
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 5
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 55
+		mat_grm_name_chance = 15
+		mother_name_chance = 20
+
+		modifier = default_culture_modifier
+	}
+}
+
+levantine = {
+	graphical_cultures = { arabicgfx muslimgfx }
+	
+	shami = {
+		graphical_cultures = { arabicgfx muslimgfx }
+		
+		color = { 0.0 1.0 0.0 }
+		
+		male_names = {
+			Alaeddine Abdelhalim Amnon Ariel Aviv Adil Alon Aryeh Ahmed_Ahmad Akram Ayoub_Ayyub Avi Avner Abdessamad Awadah Abdeslam Abdelkader Avihu Arik Ageze Anouar_Anwar Avraham_Abraham Avraham_Ibrahim Azriel Amit Abderrahim Amos Asi Aviram Adam Aharon Akiva Abdelkarim Abdo Abdellah Amram Avishai Amine Amrane Anas Arnon Adam_Adam Avigdor Ayman Abdelaziz Aymane Amitai Amiram Attiq Ari Asher Asaf Arad Abderrahman Aladdin Amir Achraf Adisu Abdallah_Abdullah
+			Ben_Benjamin Barack Badr Bassim Bezalel Bahauddine Boaz Bilal Bruss Boris Ben Bushr Barukh_Baruch Ben-Tzion
+			Chaimke_Haim
+			Doron Dov David_Dawood Danny Dudu Dror Dudi Dirar Driss Dan Dover Dor
+			Elroi Erez Eliyahu_Elijah Erel Elam Elazar Eldad Elfaroui Eyal Eli Elias_Ilyas Eliezer Elchanan Eitan Effie Etgar Eliran Erran Ehud
+			Fahd Faqih Fayaaz Fay?al_Faisal Fouad_Fuad
+			Gabi Gabriel_Gabriel Gad Gadi Gershom Gershon Gezachw Gidon Gil Gilad Goel Golan Guy
+			Hicham_Hisham Hillel Hakim Haviv Haggai Hassan Haim Harel Herzl Hamza Hakem
+			Itamar Ilay Idan Ibrahim_Abraham Ivri Ilak Itzik_Yitzhak Itai Issam Ishai Iftach Imad Ilan Ishmael Israel Ilyass Isma'il_Ishmael Imri Ilias
+			Jabalah Jalal Jamal Jamaldine Jaul
+			Karim Kamal Kobi Khalid Kadeen Khalil
+			Lahcen Lahav Lior Lev Leonid Levi
+			Mati Matan Mourad_Murad Mordechai Maoz Mori Mujahid Mostafa_Mustafa Muhsin Murad Mustafa Mamoun Mahdi Mohammad_Muhammad Moosa_Moses Moses Musa Medad Mouad Moad Menachem Meir Moshe_Moses Moshe_Musa Maayan Marhu Maor Mischa
+			Nachman Nabil Naftali Naor Nizar Nachum Netanel Nissim Nir Nadav Nitzan Nimi Natan Nehorai
+			Oualid_Walid Or Omri Ovadia Othman Osher Ori Ofer Omer_Omar Omar Oussama_Usama Oz Oren
+			Pe'er Peleg Pesach Pinhas
+			Ridwan Ridha Rehavam Raphael Reuven_Ruben Rubi Ruhul Ron Reda Roie Raviv Ran Rayane Ronen Rasil Rami Raki Rashid
+			Shimon Sasha Shuki Sharon Shachar Salah Shihab Shlomo Samir Sagi Sofian Suhaim Simcha Saad Said Safwah Shmuel Shmaryahu Shalom Simhon Sasson Soufiane Salim "Salah Eddine" Shabtai Simo Shai Sagiv Souhail Sami Shahaf Sintayehu
+			Tamir Tzvi Tarek Tuvia Tzachi Thawab Tomer Tal Teres
+			Usama Uri Uriel Uzi Uziel
+			Walid Wasim
+			Yohai Yehoshua Yeruham Yigal Yogev Yissachar Yitzhak Yoel Yehuda_Judah Yahav Yossi Yaron Yassin Yishai Yoav Yehiam Yihye Yair Yehonatan_Jonathan Yassine Youssef_Joseph Yeshayahu Yanai Yotam Yehezkel Yosef_Joseph Ya'akov Youness_Jonah Yuval Yacine Yoni_Jonathan Younes_Jonah Yona_Jonah
+			Zouhir Zvi Zakwan Zion Zouhair Zamen Zohar Zalman Zadik Zakaria_Zachary Ziaul-Haq Ziv Zak_Zachary Ze'ev
+		}
+
+		female_names = {
+			Asma Ada Azhar Avital Ayala Aliya Avivit Azza Assia Aziza Ahlam Adina Avigayil Abir Amurra Anaan Aura Aya Aminah Alona Asma? Achoura Arifa Ayat Alma Anael Amal Aicha Amit Aqilah Amira Ariel Aviva Ayelet Amina Adi Almog Areebah Abla Anastasia Aysha Adva Agam Alzahra Achinoam
+			Bar Basma Batsheba Buhjah Batya Badria Bat Bala
+			Chaimaa Chava Chaymae Chafika Chana Chen Carmel Chaya Chifa Chahrazad Chaimae
+			Daouia Dina Dekel Danielle Darya Daphna Dani Dorit Dora Daniela Dounia_Dunya Dua Dunya Dvora Doha Douae_Dua Dana Danit Douaa_Dua Dalya
+			Eden Efrat Elah Elana Eliana Elisheva_Elishibat Elishibat Elinor Eilat Einat Esther Esti Etti_Esther
+			Fadeelah Farah Fati Fatima Fayha Fakhriyah Firdous
+			Ghazal Ghaada Geula Ghita Gila Gefen Gohar Galit Golda Gal Gili Galya Gali
+			Hanaa_Hannah Hannah Hadar Hiba Hodaya Hanane Hajar Houda Hadassa Hadas Hasbia Hafsa Hasna Halleli Halima Hili Hagar
+			Ilanit In?s Inbar Ikram Iman Irina Isra Imane_Iman Ilana Inbal Iris
+			Jade Jamila Jasmin_Jasmine Jasmine Jawaher Jihan Jumana
+			Kawthar Karima Kenza Khadija Khadra Khalila Khawla Keren Kochava
+			Linor Liat Lital Leah_Lea Lea Liv Latifa Lina Lia_Lea Liel Lamia Laila_Layla Layla Lior Liraz Linoy Liri Lamiaa Lian Lipaz Lamiae Lilach Liron
+			Marwa Moriah Meirav Mai Meshi Mahdia Malak Mor Margalit Meskie Miriam_Maryam Maryam Maya Marina Maayan Moran Mouna_Muna Muna Malka Mariam_Mary Mary Maha Mounia Miri Meitar
+			Neta Nada Nofar Nouhaila Nody Naima Noya Netsanet Naama Naomi Nechama Nabila Natali Nurhayat Noga Nasra Nini Nurit Nitzan Nesma Nouha Nour_Nur Nur Nadia Noa Nezha Noam Noha_Nuha Nuha
+			Oshra Orly Odeya Ofira Osnat Ofri Oumaima Ouarda Oumnia Orit Orna Oumayma Ophir Ori Ofek Or Oria Ofra
+			Paz Peleg Pnina
+			Qadr Qamara Qamaria
+			Raghad Reut Raz Rima Reem Rona Rivka Raisa Rakel Rachel Rita Riham Ruti Rachida Ronit Rotem Roni Rania Rabia
+			Sofia Safae Safiyah Smadar Souad Sarah Sarit Samima Shapir Safiya Sapirit Shachar Sharon Soukaina Selma Sapir Sabreen Sivan Sanaa Summayyah Sabriye Shira Shulamit Siham Samia Saf?? Sara Sigal Shalev Shoshana Shiran Salma Sabrina Shaked Shiri Sigalit Samira Shir Sylvie Shlomit Shelly Shani Stav
+			Tziporah Tova Tahani Tali Tzipi Thorya Tatiana Tamou Tzvia Tsega Tzlil Talia Tamar Tehila Tahounia Tal
+			Vered
+			Wadia Wafa
+			Yael Yafit Yasmin_Jasmine Yuval Yaheli Yemima Yasmine_Jasmine Yardena Yifat Yousra Yassmine_Jasmine Yarden
+			Zeruya Zahidah Ze'eva Zohar Zaynab Zuleikha Zehava Ziva Zahara
+		}
+
+	from_dynasty_prefix = "mn "
+	
+	male_patronym = "bin "
+	female_patronym = "bint "
+	prefix = yes
+	
+	used_for_random = no
+	
+	dynasty_title_names = yes
+	founder_named_dynasties = no
+
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 10
+	father_name_chance = 20
+
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 20
+	mother_name_chance = 10
+
+	modifier = default_culture_modifier
+ }
+}

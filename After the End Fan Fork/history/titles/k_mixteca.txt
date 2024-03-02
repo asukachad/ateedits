@@ -1,0 +1,7 @@
+2609.11.2={
+	holder=6900004
+	law=succ_eldership
+}
+2639.1.12={
+	holder=6900005
+}
