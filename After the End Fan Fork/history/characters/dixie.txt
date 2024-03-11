@@ -2696,8 +2696,8 @@
 	name="Winfield"
 	dynasty=1787073
 	dna="lmifmnhjpnb"
-	culture=confederalist
-	religion=evangelical
+	culture=southron
+	religion=confederalist
 	martial=4
 	diplomacy=6
 	stewardship=5

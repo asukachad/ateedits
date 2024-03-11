@@ -4739,6 +4739,121 @@ wonder_temple_square = {
 	}
 }
 
+#Pyramid of Bass
+wonder_pyramid_bass = {
+	picture = GFX_wonder_strip_pyramid
+	model = wonder_pyramid
+	allow_construction = no
+	potential = {
+	}
+	active = {
+		ROOT = {
+			OR = {
+				culture = riverlander
+				religion = misrist
+				religion = orientalist
+				trait = lunatic
+				has_religion_feature = religion_feature_pyramids
+			}
+		}
+	}
+	flags = {
+		is_historical
+		burial_ground
+		is_destructible
+		cost_low
+	}
+	background_overrides = {
+		desert = snow
+	}
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_extra_pyramids
+		upgrade_mythological_beast
+		upgrade_hidden_room
+		upgrade_sacrificial_altar
+		upgrade_necropolis
+		upgrade_lime_stone_casing
+		upgrade_traps
+		upgrade_overseer_of_rites
+
+		# OTHER:
+		upgrade_roads
+		upgrade_spikes
+		upgrade_retinue
+		upgrade_road_tolls
+		upgrade_tavern
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 3000
+		gold_cost_ticking = 3
+		restore_time = 150
+		loot_time = 200
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 3000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 200
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+}
+
 wonder_alamo = {
 	allow_coastal = yes
 	allow_construction = no
@@ -5130,4 +5245,225 @@ wonder_palace_chapultepec = {
 		}
 	}
 }
+
+#Pyramid of Bass
+wonder_pyramid_bass = {
+	picture = GFX_wonder_strip_pyramid
+	model = wonder_pyramid
+	allow_construction = no
+	potential = {
+	}
+	active = {
+		ROOT = {
+			OR = {
+				religion = revelationist
+				religion = revelationist_reformed
+				religion = misrist
+				religion = orientalist
+				trait = lunatic
+				has_religion_feature = religion_feature_pyramids
+			}
+		}
+	}
+	flags = {
+		is_historical
+		burial_ground
+		is_destructible
+		cost_low
+	}
+	background_overrides = {
+		desert = snow
+	}
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_extra_pyramids
+		upgrade_mythological_beast
+		upgrade_hidden_room
+		upgrade_sacrificial_altar
+		upgrade_necropolis
+		upgrade_lime_stone_casing
+		upgrade_traps
+		upgrade_overseer_of_rites
+
+		# OTHER:
+		upgrade_roads
+		upgrade_spikes
+		upgrade_retinue
+		upgrade_road_tolls
+		upgrade_tavern
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 3000
+		gold_cost_ticking = 3
+		restore_time = 150
+		loot_time = 200
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 3000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 200
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+}
+
+# Georgia Guidestones #Deposed edit
+wonder_pagan_georgia_guidestones = {
+	picture = GFX_wonder_strip_pagan_stones
+	allow_construction = no
+	potential = {
+	}
+	active = {
+		ROOT = {
+			OR = {
+				religion_group = pagan_group
+				religion_group = oldworld
+			}
+		}
+	}
+	flags = {
+		is_historical
+		is_destructible
+		cost_low
+	}
+	available_upgrades = {
+		# UNIQUE:
+		upgrade_runestones
+		upgrade_stone_custodian
+		upgrade_more_stones
+		upgrade_sacrificial_altar
+		upgrade_sacred_grove
+
+		# OTHER:
+		upgrade_roads
+		upgrade_spikes
+		upgrade_retinue
+		upgrade_road_tolls
+		upgrade_tavern
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 150
+		loot_time = 20
+		restore_cost_flat = 400
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 20
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 6
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+	stage = {
+		allow = {
+		}
+		build_time = 300
+		gold_cost_flat = 1000
+		gold_cost_ticking = 3
+		restore_time = 200
+		loot_time = 2
+		restore_cost_flat = 500
+		restore_cost_ticking = 2
+		upgrade_slots = 2
+		local_modifier = {
+		}
+		owner_modifier = {
+			monthly_character_prestige = 0.1
+		}
+	}
+}
+
 

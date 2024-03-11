@@ -14,3 +14,8 @@ culture=dixie
 religion=evangelical
 
 #History
+1980.3.22 = { #Deposed edit
+	build_wonder = wonder_pagan_georgia_guidestones
+	set_wonder_stage = 3
+	set_wonder_damaged = yes
+}

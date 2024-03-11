@@ -2910,7 +2910,7 @@
 	name="José"
 	dynasty=1815021
 	culture=tejano
-	religion=woolleyite
+	religion=mormon
 	trait=scholarly_theologian
 	trait=wroth
 	trait=cruel
@@ -2926,7 +2926,7 @@
 	name="Lucinda"
 	female=yes
 	culture=tejano
-	religion=woolleyite
+	religion=mormon
 	trait=skilled_tactician
 	trait=patient
 	trait=kind
@@ -2940,7 +2940,7 @@
 	name="Amalia"
 	female=yes
 	culture=tejano
-	religion=woolleyite
+	religion=mormon
 	trait=charismatic_negotiator
 	trait=slothful
 	trait=temperate
@@ -2956,7 +2956,7 @@
 	dynasty=1815021
 	culture=tejano
 	religion=atomicist
-	secret_religion=woolleyite
+	secret_religion=mormon
 	trait=indulgent_wastrel
 	trait=atom_deny
 	trait=slothful

@@ -4842,8 +4842,8 @@ d_winnipeg;Winnipeg;Winnipeg;Winnipeg;;Winnipeg;;;;;;;;;x
 d_winnipeg_adj;Winnipegger;Winnipegger;Winnipegger;;Winnipegger;;;;;;;;;x
 d_wiregrass;Wiregrass;Wiregrass;Wiregrass;;Wiregrass;;;;;;;;;x
 d_wiregrass_adj;Wiregrasser;Wiregrasser;Wiregrasser;;Wiregrasser;;;;;;;;;x
-d_woolleyite;Woolleyite Presidency;Woolleyite Presidency;Woolleyite Presidency;;Woolleyite Presidency;;;;;;;;;x
-d_woolleyite_adj;Woolleyite;Woolleyite;Woolleyite;;Woolleyite;;;;;;;;;x
+#d_woolleyite;Woolleyite Presidency;Woolleyite Presidency;Woolleyite Presidency;;Woolleyite Presidency;;;;;;;;;x #MyEdit
+#d_woolleyite_adj;Woolleyite;Woolleyite;Woolleyite;;Woolleyite;;;;;;;;;x
 d_wyoming;Wyoming;Wyoming;Wyoming;;Wyoming;;;;;;;;;x
 d_wyoming_adj;Wyomingite;Wyomingite;Wyomingite;;Wyomingite;;;;;;;;;x
 d_yankton;Yankton;Yankton;Yankton;;Yankton;;;;;;;;;x

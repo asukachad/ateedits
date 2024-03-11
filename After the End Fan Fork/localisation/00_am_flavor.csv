@@ -2525,7 +2525,7 @@ crown_hcc;Dixie Crown;;;;;;;;;;;;;x
 crown_hcc_desc;The Imperial Crown of the Holy Columbian Confederacy, an octagonal hoop showered with precious stones, representing dominion over all Southrons.;;;;;;;;;;;;;x
 key_real_hcc_crown_desc;The Imperial Crown of the Holy Columbian Confederacy, an octagonal hoop showered with precious stones, representing dominion over all Southrons.;;;;;;;;;;;;;x
 crown_california;Crown of Los Angeles;;;;;;;;;;;;;x
-crown_california_desc;Once the crown of the Emir of Socal, it has now become a symbol of the Emperor's authority over all of California.;;;;;;;;;;;;;x
+crown_california_desc;Once the crown of the King of Socal, it has now become a symbol of the Emperor's authority over all of California.;;;;;;;;;;;;;x #MyEdit, replaced "Emir" with "King"
 crown_fylkir;Forsetian Crown;Couronne fylkirienne;Fylkirianische Krone;;Corona filkiria;;;;;;;;x
 #crown_thelemic_fylkir;Great Duke's Crown;;;;;;;;;;;;;x
 #crown_thelemic_fylkir_desc;The sacred feathered headdress worn by [thelemic_reformed.GetHighGodName]'s representative in America.;;;;;;;;;;;;;x
@@ -2680,8 +2680,8 @@ ALT_NEOGODBEITE;The [neogodbeite.GetName] Temple;Temple [neogodbeite.GetName];Di
 ALT_NEOGOBEITE_ADJ;[neogodbeite.GetName] Temple;Temple [neogodbeite.GetName];[neogodbeite.GetName]e Tempel;;temple[neogodbeite.GetName];;;;;;;;;x
 ALT_STRANGITE;The [strangite.GetName] Caliphate;Califat [strangite.GetName];Das [strangite.GetName]e Kalifat;;El califato [strangite.GetName];;;;;;;;;x
 ALT_STRANGITE_ADJ;[strangite.GetName] Caliphate;Califat [strangite.GetName];[strangite.GetName]es Kalifat;;califal [strangite.GetName];;;;;;;;;x
-ALT_WOOLLEYITE;The [woolleyite.GetName] Caliphate;Califat [woolleyite.GetName];Das [woolleyite.GetName]e Kalifat;;El califato [woolleyite.GetName];;;;;;;;;x
-ALT_WOOLLEYITE_ADJ;[woolleyite.GetName] Caliphate;Califat [woolleyite.GetName];[woolleyite.GetName]es Kalifat;;califal [woolleyite.GetName];;;;;;;;;x
+#ALT_WOOLLEYITE;The [woolleyite.GetName] Caliphate;Califat [woolleyite.GetName];Das [woolleyite.GetName]e Kalifat;;El califato [woolleyite.GetName];;;;;;;;;x #MyEdit
+#ALT_WOOLLEYITE_ADJ;[woolleyite.GetName] Caliphate;Califat [woolleyite.GetName];[woolleyite.GetName]es Kalifat;;califal [woolleyite.GetName];;;;;;;;;x
 ALT_CONSUMERIST;The [consumerist.GetName] Caliphate;Califat [consumerist.GetName];Das [consumerist.GetName]e Kalifat;;El califato [consumerist.GetName];;;;;;;;;x
 ALT_CONSUMERIST_ADJ;[consumerist.GetName] Caliphate;Califat [consumerist.GetName];[consumerist.GetName]es Kalifat;;califal [consumerist.GetName];;;;;;;;;x
 ALT_MONETARIST;The [monetarist.GetName] Caliphate;Califat [monetarist.GetName];Das [monetarist.GetName]e Kalifat;;El califato [monetarist.GetName];;;;;;;;;x

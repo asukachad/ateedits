@@ -12909,7 +12909,7 @@ coat_of_arms = {
 1867199 = { name="Kellock" culture=ontarian }
 1867200 = { name="Macphail" culture=ontarian }
 1867201 = { name="McGowan-Nemetz" culture=ontarian used_for_random = no }
-
+1867202 = { name="Thornburn" culture=ontarian }
 
 1869000 = { name="Riel" culture=metis }
 1869001 = { name="Lépine" culture=metis }
@@ -18427,3 +18427,20 @@ coat_of_arms = {
 2057060 = { name="Copperhead" culture=oklahoman used_for_random = no }
 2057061 = { name="Broken-Arrow" culture=oklahoman used_for_random = no }
 2057062 = { name="Reed" culture=oklahoman used_for_random = no }
+
+7770000 = {
+	name = "Tarsus"
+	culture = battleborn
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 11
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

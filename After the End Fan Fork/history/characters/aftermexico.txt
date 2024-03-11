@@ -113,16 +113,16 @@
 	2623.1.17={birth=yes}
 	2700.1.1={death=yes}
 }
-6900006={ #Menonite Governor Chihuahua - pre Luis
-	name="Jeremías"
-	dynasty=2029091 # Insbern
-	trait=craven
-	trait=humble
-	culture=plautdietsch
-	religion=anabaptist
-	2567.1.1={birth=yes}
-	2620.1.1={death=yes}
-}
+#6900006={ #Menonite Governor Chihuahua - pre Luis ###wtf even is this, they changed the fate zero reference (and broke the daughter's dynasty for some reason) to give the insbern dynasty to a titleless guy that is dead at game start. Was there any QA in 1.2???
+#	name="Jeremías"
+#	dynasty=2029091 # Insbern
+#	trait=craven
+#	trait=humble
+#	culture=plautdietsch
+#	religion=anabaptist
+#	2567.1.1={birth=yes}
+#	2620.1.1={death=yes}
+#}
 
 6900007={ #Menomex Governor Durango - pre Luis
 	name="Daniel"

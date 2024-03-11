@@ -3594,6 +3594,7 @@ crusade = {
 					has_global_flag = christian_crusades_unlocked
 					has_global_flag = rust_cultist_industrial_actions_unlocked
 					has_global_flag = patria_grande_liberation_wars_unlocked
+					has_global_flag = lamanita_reformed
 				}
 			}
 			conditional_tooltip = {
@@ -3667,6 +3668,13 @@ crusade = {
 							has_global_flag = mormon_expeditions_unlocked
 						}
 					}
+					AND = {
+						religion = lamanita
+						custom_tooltip = {
+							text = CTT_MORMON_EXPEDITIONS_UNLOCKED
+							has_global_flag = lamanita_reformed
+						}
+					}					
 					AND = {
 						religion = imamite
 						custom_tooltip = {

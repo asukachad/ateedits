@@ -15317,28 +15317,6 @@ character_event = {
 	}
 }
 
-narrative_event = {
-	id = misc.10
-	title = EVTNAME_WRONG_CHECKSUM
-	desc = EVTDESC_WRONG_CHECKSUM
-	is_triggered_only = yes
-	major = yes
-	ai = no
-	
-	trigger = {
-		supported_checksum = no
-		NOT = { has_global_flag = bad_checksum }
-	}
-	
-	immediate = {
-		set_global_flag = bad_checksum
-	}
-	
-	option = {
-		name = OK
-	}
-}
-
 character_event = {
 	id = misc.11
 	desc = "Replace Leader of the Labrys Band"

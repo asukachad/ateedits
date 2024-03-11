@@ -13,3 +13,10 @@ b_cordova_TN=temple
 culture=tuskegean
 religion=revelationist
 terrain=marsh
+
+#History
+1991.11.9={
+	build_wonder= wonder_pyramid_bass
+	set_wonder_stage= 3
+	set_wonder_damaged= yes	
+}

@@ -26,10 +26,6 @@ zealot = {
 		#NOT = { trait = cynical }
 		NOT = { trait = horse }
 		NOT = { trait = cat }
-		OR = {
-			NOT = { liege = { government = open_range_feudalism_government } }
-			trait = party_theocratic
-		}
 	}
 	
 	default_selection = {

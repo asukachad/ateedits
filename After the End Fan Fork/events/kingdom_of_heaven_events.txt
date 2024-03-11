@@ -1,5 +1,6 @@
 namespace = heavenlykingdom
 
+# Stephen Ananias' mission into California
 character_event = {
 	id = heavenlykingdom.1
 	desc = EVTDESC_heavenlykingdom_mission
@@ -12,8 +13,8 @@ character_event = {
 		is_landed = yes
 		is_tribal = no
 		NOT = { has_global_flag = heavenlykingdom_mormon_mission }
-		capital_scope = { region = custom_greater_deseret }
-		higher_tier_than = COUNT
+		capital_scope = { region = custom_california } #Deposed edit, previously "custom_greater_deseret"
+		higher_tier_than = BARON #Deposed edit, previously "COUNT"
 		NOT = {
 			has_alternate_start_parameter = { key = religion_names value = random }
 		}
@@ -106,6 +107,7 @@ character_event = {
 	}
 }
 
+# Successful Nazarene/True Cross missionaries
 province_event = {
 	id = heavenlykingdom.2
 	desc = EVTDESC_heavenlykingdom_mormons
@@ -113,9 +115,9 @@ province_event = {
 	border = GFX_event_normal_frame_religion
 	
 	trigger = {
-		NOT = { religion = neogodbeite }
+		NOT = { religion = true_cross } #Deposed edit, previously "neogodbeite"
 		holder_scope = {
-			NOT = { religion = neogodbeite }
+			NOT = { religion = true_cross } #Deposed edit, previously "neogodbeite"
 		}
 		has_global_flag = heavenlykingdom_mormon_mission
 		NOT = { has_global_flag = heavenlykingdom_mormon_mission_successful }
@@ -137,7 +139,7 @@ province_event = {
 	}
 		
 	immediate = {
-		religion = neogodbeite
+		religion = true_cross #Deposed edit, previously "neogodbeite"
 		set_province_flag = heavenlykingdom_epicenter
 		set_global_flag = heavenlykingdom_mormon_mission_successful
 	}
@@ -150,7 +152,7 @@ province_event = {
 			prestige = -50
 		}
 		random_neighbor_province = {
-			religion = neogodbeite
+			religion = true_cross #Deposed edit, previously "neogodbeite"
 		}
 	}
 		
@@ -164,6 +166,7 @@ province_event = {
 	}
 }
 
+# Stephen Ananias repays his debt for sponsoring his successful mission
 character_event = {
 	id = heavenlykingdom.3
 	desc = EVTDESC_heavenlykingdom_debt
@@ -193,6 +196,7 @@ character_event = {
 
 }
 
+# Nazarene/True Cross unrest as Saul Tarsus first appears
 province_event = {
 	id = heavenlykingdom.4
 	desc = EVTDESC_heavenlykingdom_mormons_strikeback
@@ -221,15 +225,15 @@ province_event = {
 		name = EVTOPT_heavenlykingdom_ignoredmormons
 		trigger = { has_global_flag = heavenlykingdom_mormon_mission_ignored }
 
-		religion = neogodbeite
+		religion = true_cross #Deposed edit, previously "neogodbeite"
 		remove_province_modifier = true_cross_unrest
 		add_province_modifier = { name = true_cross_revolt duration = 912 }
 		random_neighbor_province = {
-			religion = neogodbeite
+			religion = true_cross #Deposed edit, previously "neogodbeite"
 		}
 		
 		any_neighbor_province = {
-			limit = { religion = neogodbeite }
+			limit = { religion = true_cross } #Deposed edit, previously "neogodbeite"
 			add_province_modifier = { name = true_cross_revolt duration = 912 }
 		}
 	}
@@ -240,6 +244,7 @@ province_event = {
 	}
 }
 
+# Saul Tarsus approaches the Abbot of Saint Herman's Brotherhood for assistance in his divine mission
 narrative_event = {
 	id = heavenlykingdom.5
 	title = EVTNAME_heavenlykingdom_mormonhead
@@ -250,7 +255,7 @@ narrative_event = {
 	only_playable = yes
 
 	trigger = {
-		religion = mormon
+		religion = nazarene #Deposed edit, previously "mormon"
 		NOT = { has_global_flag = heavenlykingdom_karen_deseret }
 		OR = {
 			AND = { #if mormon pope is independent, send it to him
@@ -260,7 +265,7 @@ narrative_event = {
 			AND = {#if mormon pope is vassalized, send it to his liege
 				controls_religion = no
 				any_vassal = {
-					religion = mormon
+					religion = nazarene #Deposed edit, previously "mormon"
 					controls_religion = yes
 				}
 			}	
@@ -280,7 +285,7 @@ narrative_event = {
 	
 	option = {
 		name = EVTOPT_heavenlykingdom_mormonheadaccepts
-		wealth = -500
+		wealth = -250 #Deposed edit, previously "500"
 		prestige = -100
 		piety = -250
 		add_character_modifier = { name = heavenly_heresy duration = 3650 }
@@ -291,10 +296,10 @@ narrative_event = {
 			modifier = { factor = 1.2 trait = cynical }
 			modifier = { factor = 1.2 trait = arbitrary }
 			modifier = { factor = 1.2 trait = trusting }
-			modifier = { factor = 1.2 trait = bad_priest_mormon }
+			modifier = { factor = 1.2 trait = bad_priest_christian } #Deposed edit, previously "bad_priest_mormon"
 			modifier = { factor = 1.2 NOT = { piety = 100 } }
 			modifier = { factor = 1.2 NOT = { piety = 0 } }
-			modifier = { factor = 0 NOT = { wealth = 500 } }
+			modifier = { factor = 0 NOT = { wealth = 250 } } #Deposed edit, previously "500"
 		}
 
 	}
@@ -308,13 +313,14 @@ narrative_event = {
 			modifier = { factor = 2 trait = zealous }
 			modifier = { factor = 1.5 trait = just }
 			modifier = { factor = 1.5 trait = paranoid }
-			modifier = { factor = 1.2 NOT = { trait = bad_priest_mormon } }
+			modifier = { factor = 1.2 NOT = { trait = bad_priest_christian } } #Deposed edit, previously "bad_priest_mormon"
 			modifier = { factor = 1.2 piety = 750 }
 			modifier = { factor = 1.2 piety = 1250 }
 		}
 	}
 }
 
+# Saul Tarsus stirs unrest in province
 province_event = {
 	id = heavenlykingdom.6
 	desc = EVTDESC_heavenlykingdom_karen_returns
@@ -347,6 +353,7 @@ province_event = {
 	}
 }
 
+# Saul Tarsus declares war, and the option to play as him if the player is Nazarene/True Cross
 narrative_event = {
 	id = heavenlykingdom.7
 	title = EVTNAME_heavenlykingdom_war
@@ -374,13 +381,14 @@ narrative_event = {
 			}
 			ROOT = {
 				create_character = {
-					name="Karen"
-					dynasty = 1830091
-					culture = utahn
-					female = yes
+					name="Saul" #Deposed edit, previously "Karen" lol
+					dynasty = 7770000 #Deposed edit, previously "1830091" # Tarsus
+					culture = battleborn #Deposed edit, previously "utahn" #MyNote: another option is "valleyan", as they both border the Sierra Nevadas
+					#female = yes #Deposed edit
 					age = 37
 					health = 6.5
 					fertility = 0.6
+					random_traits = no #MyAddition
 					trait = shrewd
 					trait = detached_priest
 					trait = failed_exam
@@ -391,40 +399,41 @@ narrative_event = {
 					trait = gregarious
 					trait = erudite
 					trait = poet
-					trait = danite
+					trait = crusader #Deposed edit, previously "danite"
 					trait = holy_warrior
 					trait = inspiring_leader
 					trait = brave
-					trait = reincarnation_mormon
+					trait = brother_of_jesus
 					attributes = {
-						learning = 8
 						diplomacy = 6
 						martial = 8
 						stewardship = 6
 						intrigue = 6
+						learning = 8
 					}
 				}
 	
 				new_character = { #rejigger troop counts so its not just consumerist uprising 2
-					set_dynasty_name = "Morris"
+					set_dynasty_name = "Tarsus" #Deposed edit, previously "Morris"
 					set_character_flag = heavenly_kingdom_cb
-					set_character_flag = moroni_incarnate
-					#save_global_event_target_as = karen_moroni_incarnate
-					character_event = { id = misc.3 }
+					set_character_flag = brother_of_jesus #Deposed edit, previously "moroni_incarnate"
+					save_global_event_target_as = saul_tarsus_brother_of_jesus #Deposed edit, previously "karen_moroni_incarnate"
+					set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+					set_character_flag = physique #MyAddition
 					add_character_modifier = { name = voice_of_jesus duration = -1 }
 					if = {
 						limit = { has_global_flag = heavenlykingdom_mormonsupports_karen}
 							wealth = 5000
 							prestige = 1000
-							give_nickname = nick_moroni_reborn
-							religion = mormon
+							give_nickname = nick_brother_of_jesus #Deposed edit, previously "nick_moroni_reborn"
+							religion = nazarene #Deposed edit, previously "mormon"
 							add_trait = peasant_leader
 					}
 					else = {
 						wealth = 2500
 						prestige = 500
 						give_nickname = nick_the_heresiarch
-						religion = neogodbeite
+						religion = true_cross #Deposed edit, previously "neogodbeite"
 						add_trait = heresiarch
 					}
 					create_title = {
@@ -450,40 +459,51 @@ narrative_event = {
 						maintenance_multiplier = 0.15
 						cannot_inherit = yes
 					}
-					create_random_steward = {
-						random_traits = yes
-						female = no
+					create_character = { #Deposed edit, previously "create_random_steward"
+						random_traits = no #Deposed edit, previously "yes"
+						name = "Cilicia" #MyAddition
+						female = yes #Deposed edit, previously "no"
 						dynasty = random
 						religion = THIS
 						culture = THIS
-						age = 40
+						age = 18 #Deposed edit, previously "40"
+						trait = midas_touched #MyAddition
+						trait = groomed #MyAddition
+						trait = temperate #MyAddition
 						trait = zealous
-						trait = greedy
+						trait = diligent #Deposed edit, previously "greedy"
+						attributes = { #MyAddition
+							diplomacy = 7
+							martial = 5
+							stewardship = 7
+							intrigue = 6
+							learning = 5
+						}
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
-						character_event = { id = misc.4 } # Physique
-						add_spouse_matrilineal = PREV
+						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
+						add_spouse = PREV #Deposed edit, previously "add_spouse_matrilineal"
 
 						create_character = {
-							name = "Ziona"
-							female = yes
+							name = "Paul" #Deposed edit, previously "Ziona"
+							female = no #Deposed edit, previously "yes"
 							dynasty = PREV
 							religion = THIS
 							culture = THIS
 							age = 2
-							trait = timid
-							trait = affectionate
-							genetic_father = THIS
-							genetic_mother = PREVPREV
+							#trait = timid #Deposed edit
+							#trait = affectionate #Deposed edit
+							genetic_father = PREVPREV #Deposed edit, previously "THIS"
+							genetic_mother = PREV #Deposed edit, previously "PREVPREV"
 						}
 						new_character = {
-							set_mother = PREVPREV
-							set_father = THIS
+							set_mother = PREV #Deposed edit, previously "PREVPREV"
+							set_father = PREVPREV #Deposed edit, previously "THIS"
 						}
 					}
 					create_character = {
-						name="Judah"
+						name="Barnabas" #Deposed edit, previously "Judah"
 						female = no
 						random_traits = yes
 						dynasty = random
@@ -513,8 +533,8 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
-						character_event = { id = misc.4 } # Physique
+						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
 							female = yes
@@ -524,15 +544,15 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
-							character_event = { id = misc.4 } # Physique
+							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
 						}
 					}
 					create_character = {
-						name="Brighamena"
-						female = yes
+						name="Aristarchus" #Deposed edit, previously "Brighamena"
+						female = no #Deposed edit, previously "yes"
 						random_traits = yes
 						dynasty = random
 						religion = THIS
@@ -556,8 +576,8 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
-						character_event = { id = misc.4 } # Physique
+						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
 							female = yes
@@ -567,14 +587,14 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
-							character_event = { id = misc.4 } # Physique
-							add_spouse_matrilineal = PREV
+							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
+							add_spouse = PREV #Deposed edit, previously "add_spouse_matrilineal = PREV"
 							impregnate = PREV
 						}
 					}
 					create_character = {
-						name="Ammon"
+						name="Gaius" #Deposed edit, previously "Ammon" #MyNote: Gaius and Aristarchus were travelling companions of Paul
 						female = no
 						random_traits = yes
 						dynasty = random
@@ -599,8 +619,8 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
-						character_event = { id = misc.4 } # Physique
+						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
 							female = yes
@@ -610,14 +630,14 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
-							character_event = { id = misc.4 } # Physique
+							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
 						}
 					}
 					create_character = {
-						name="Ishmael"
+						name="Mark" #Deposed edit, previously "Ishmael"
 						female = no
 						random_traits = yes
 						dynasty = random
@@ -643,8 +663,8 @@ narrative_event = {
 							cannot_inherit = yes
 							disband_on_peace = yes
 						}
-						character_event = { id = misc.3 } # Diversity
-						character_event = { id = misc.4 } # Physique
+						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
 							female = yes
@@ -654,14 +674,14 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
-							character_event = { id = misc.4 } # Physique
+							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
 						}
 					}
 					create_character = {
-						name="Gus"
+						name="Silas" #Deposed edit, previously "Gus"
 						female = no
 						random_traits = yes
 						dynasty = random
@@ -687,8 +707,8 @@ narrative_event = {
 							cannot_inherit = yes
 							disband_on_peace = yes
 						}
-						character_event = { id = misc.3 } # Diversity
-						character_event = { id = misc.4 } # Physique
+						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
 							female = yes
@@ -698,14 +718,14 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
-							character_event = { id = misc.4 } # Physique
+							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
 						}
 					}
 					create_character = {
-						name="Zeb"
+						name="Aquila" #Deposed edit, previously "Zeb"
 						female = no
 						random_traits = yes
 						dynasty = random
@@ -730,10 +750,11 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
-						character_event = { id = misc.4 } # Physique
+						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
+							name="Priscilla" #MyAddition #MyNote: Priscilla and Aquila were a first century missionary married couple
 							female = yes
 							dynasty = random
 							religion = PREV
@@ -741,8 +762,8 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
-							character_event = { id = misc.4 } # Physique
+							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
 						}
@@ -750,12 +771,12 @@ narrative_event = {
 					if = {
 						limit = { has_global_flag = heavenlykingdom_mormonsupports_karen }
 						create_character = {
-							name="Gilbert"
+							name="Timothy" #Deposed edit, previously "Gilbert"
 							female = no
 							random_traits = yes
 							dynasty = none
 							religion = THIS
-							culture = utahn
+							culture = valleyan #Deposed edit, previously "utahn"
 							age = 32
 							trait = brilliant_strategist
 						}
@@ -776,30 +797,30 @@ narrative_event = {
 								cannot_inherit = yes
 								disband_on_peace = yes
 							}
-							character_event = { id = misc.3 } # Diversity
-							character_event = { id = misc.4 } # Physique
+							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							create_random_steward = {
 								random_traits = yes
 								female = yes
 								dynasty = random
 								religion = PREV
-								culture = PREV
+								culture = valleyan #Deposed edit, previously "PREV"
 								age = 16
 							}
 							new_character = {
-								character_event = { id = misc.3 } # Diversity
-								character_event = { id = misc.4 } # Physique
+								set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+								set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 								add_spouse = PREV
 								impregnate = PREV
 							}
 						}
 						create_character = {
-							name="Abraham"
+							name="Clement" #Deposed edit, previously "Abraham"
 							female = no
 							random_traits = yes
 							dynasty = none
 							religion = THIS
-							culture = utahn
+							culture = valleyan #Deposed edit, previously "utahn"
 							age = 25
 							trait = skilled_tactician
 						}
@@ -820,30 +841,30 @@ narrative_event = {
 								cannot_inherit = yes
 								disband_on_peace = yes
 							}
-							character_event = { id = misc.3 } # Diversity
-							character_event = { id = misc.4 } # Physique
+							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							create_random_steward = {
 								random_traits = yes
 								female = yes
 								dynasty = random
 								religion = PREV
-								culture = PREV
+								culture = valleyan #Deposed edit, previously "PREV"
 								age = 16
 							}
 							new_character = {
-								character_event = { id = misc.3 } # Diversity
-								character_event = { id = misc.4 } # Physique
+								set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+								set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 								add_spouse = PREV
 								impregnate = PREV
 							}
 						}
 						create_character = {
-							name="Moses"
+							name="Publius" #Deposed edit, previously "Moses"
 							female = no
 							random_traits = yes
 							dynasty = none
 							religion = THIS
-							culture = utahn
+							culture = valleyan #Deposed edit, previously "utahn"
 							age = 28
 							trait = skilled_tactician
 						}
@@ -864,19 +885,19 @@ narrative_event = {
 								cannot_inherit = yes
 								disband_on_peace = yes
 							}
-							character_event = { id = misc.3 } # Diversity
-							character_event = { id = misc.4 } # Physique
+							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							create_random_steward = {
 								random_traits = yes
 								female = yes
 								dynasty = random
 								religion = PREV
-								culture = PREV
+								culture = valleyan #Deposed edit, previously "PREV"
 								age = 16
 							}
 							new_character = {
-								character_event = { id = misc.3 } # Diversity
-								character_event = { id = misc.4 } # Physique
+								set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+								set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 								add_spouse = PREV
 								impregnate = PREV
 							}
@@ -917,7 +938,7 @@ narrative_event = {
 			trigger = { NOT = { has_global_flag = heavenlykingdom_mormonsupports_karen } }
 		}
 		trigger = {
-			religion = neogodbeite
+			religion = true_cross #Deposed edit, previously "neogodbeite"
 			NOT = { has_character_flag = broke_california_again }
 		}
 	}
@@ -932,7 +953,7 @@ narrative_event = {
 		}
 		trigger = {
 			NOR = {
-				religion = neogodbeite
+				religion = true_cross #Deposed edit, previously "neogodbeite"
 				religion = cetic
 				has_character_flag = broke_california_again
 			}
@@ -952,8 +973,32 @@ narrative_event = {
 		}
 		clr_character_flag = broke_california_again
 	}
+	option = { #MyAddition, copied my addition from "heavenlykingdom.8" below
+		name = EVTOPTD_heavenlykingdom_success
+		tooltip_info = yes
+		trigger = {
+			OR = {
+				religion = nazarene
+				religion = true_cross
+			}
+		}
+		custom_tooltip = {
+    		text = player_character_gf_TT
+    		if = {
+    			limit = {
+    				event_target:saul_tarsus_brother_of_jesus = {
+    					is_alive = yes
+    					ai = yes
+						higher_tier_than = DUKE
+    				}
+    			}
+    			set_player_character = event_target:saul_tarsus_brother_of_jesus
+    		}
+    	}
+	}
 }
 
+#Saul Tarsus succeeds and creates the Heavenly Kingdom of Eden, and the option to play as him if the player is Nazarene/True Cross
 narrative_event = {
 	id = heavenlykingdom.8
 	title = EVTNAME_heavenlykingdom_success
@@ -964,13 +1009,13 @@ narrative_event = {
 	is_triggered_only = yes
 	major = yes
 	
-	immediate = {
-		e_heaven = {
-			holder_scope = {
-				narrative_event = { id = hanovers.14 }
-			}
-		}
-	}
+	# immediate = { #Deposed edit, why is this here?
+		# e_heaven = {
+			# holder_scope = {
+				# narrative_event = { id = hanovers.14 }
+			# }
+		# }
+	# }
 
 	option = {
 		name = EVTOPTA_heavenlykingdom_success
@@ -981,20 +1026,47 @@ narrative_event = {
 	option = {
 		name = EVTOPTB_heavenlykingdom_success
 		trigger = {
-			religion_group = latter_day_saints
+			religion_group = christian #Deposed edit, previously "latter_day_saints"
 		}
 	}
 	option = {
 		name = EVTOPTC_heavenlykingdom_success
 		trigger = {
 			NOR = {
-				religion_group = latter_day_saints
+				religion_group = christian #Deposed edit, previously "latter_day_saints"
 				religion = cetic
 			}
 		}
 	}
+	option = { #MyAddition, localisation was already present but this option was missing, so I added it in
+		name = EVTOPTD_heavenlykingdom_success
+		tooltip_info = yes
+		trigger = {
+			OR = {
+				religion = nazarene
+				religion = true_cross
+			}
+			NOT = {
+				has_character_flag = brother_of_jesus # To ensure that if you chose to play as Saul in the previous event, that you don't get this option again
+			}
+		}
+		custom_tooltip = {
+    		text = player_character_gf_TT
+    		if = {
+    			limit = {
+    				event_target:saul_tarsus_brother_of_jesus = {
+    					is_alive = yes
+    					ai = yes
+						higher_tier_than = DUKE
+    				}
+    			}
+    			set_player_character = event_target:saul_tarsus_brother_of_jesus
+    		}
+    	}
+	}
 }
 
+# Saul Tarsus fails and his Heavenly Kingdom of Eden dies with him
 narrative_event = {
 	id = heavenlykingdom.9
 	title = EVTNAME_heavenlykingdom_fail
@@ -1014,21 +1086,21 @@ narrative_event = {
 	option = {
 		name = EVTOPTB_heavenlykingdom_fail
 		trigger = {
-			religion_group = latter_day_saints
+			religion_group = christian #Deposed edit, previously "latter_day_saints"
 		}
 	}
 	option = {
 		name = EVTOPTC_heavenlykingdom_fail
 		trigger = {
 			NOR = {
-				religion_group = latter_day_saints
+				religion_group = christian #Deposed edit, previously "latter_day_saints"
 				religion = cetic
 			}
 		}
 	}
 }
 
-# Karen converts province
+# Saul Tarsus converts a province
 province_event = {
 	id = heavenlykingdom.10
 	desc = EVTDESC_heavenlykingdom_conversion
@@ -1039,20 +1111,20 @@ province_event = {
 		OR = {
 			AND = {
 				has_global_flag = heavenlykingdom_mormonsupports_karen
-				NOT = { religion = mormon }
+				NOT = { religion = nazarene } #Deposed edit, previously "mormon"
 			}
 			AND = {
 				NOT = { has_global_flag = heavenlykingdom_mormonsupports_karen }
-				NOT = { religion = neogodbeite }
+				NOT = { religion = true_cross } #Deposed edit, previously "neogodbeite"
 			}
 		}
 		e_heaven = { has_holder = yes }		
 		holder_scope = {
 			OR = {
 				any_liege = {
-					has_character_flag = moroni_incarnate
+					has_character_flag = brother_of_jesus #Deposed edit, previously "moroni_incarnate"
 				}
-				has_character_flag = moroni_incarnate
+				has_character_flag = brother_of_jesus #Deposed edit, previously "moroni_incarnate"
 			}
 		}
 	}
@@ -1064,25 +1136,14 @@ province_event = {
 	immediate = {
 		if = {
 			limit = { has_global_flag = heavenlykingdom_mormonsupports_karen }
-			religion = mormon
+			religion = nazarene #Deposed edit, previously "mormon"
 		}
 		else = {
-			religion = neogodbeite
+			religion = true_cross #Deposed edit, previously "neogodbeite"
 		}
 	}
 	
 	option = {
 		name = EVTOPT_heavenlykingdom_conversion
-	}
-}
-
-narrative_event = {
-	id = heavenlykingdom.11
-	hide_window = yes
-	
-	immediate = {
-            save_event_target_as = mormon_gf
-			set_character_flag = mormon_gf
-			narrative_event = { id = heavenlykingdom.12 }
 	}
 }

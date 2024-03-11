@@ -10,7 +10,7 @@ b_langlade_NL=temple
 
 # Misc
 culture=acadien
-religion=pelagic
+religion=brethren
 terrain=arctic
 #History
 2600.1.1={ 

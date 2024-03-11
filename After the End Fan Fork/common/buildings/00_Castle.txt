@@ -322,13 +322,7 @@ castle = {
 	
 	# Barracks, gives heavy infantry and pikemen
 	ca_barracks_1 = {
-		desc = ca_barracks_1_desc
-		potential = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		}
-		is_active_trigger = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		} 
+		desc = ca_barracks_1_desc 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0 
 		}
@@ -342,12 +336,6 @@ castle = {
 	}
 	ca_barracks_2 = {
 		desc = ca_barracks_1_desc
-		potential = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		}
-		is_active_trigger = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0 
 		}
@@ -363,12 +351,6 @@ castle = {
 	}
 	ca_barracks_3 = {
 		desc = ca_barracks_1_desc
-		potential = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		}
-		is_active_trigger = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 1
 		}
@@ -384,12 +366,6 @@ castle = {
 	}
 	ca_barracks_4 = {
 		desc = ca_barracks_1_desc
-		potential = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		}
-		is_active_trigger = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 3
 		}
@@ -404,12 +380,6 @@ castle = {
 	}
 	ca_barracks_5 = {
 		desc = ca_barracks_1_desc
-		potential = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		}
-		is_active_trigger = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 5
 		}
@@ -423,13 +393,7 @@ castle = {
 		extra_tech_building_start = 2.0
 	}
 	ca_barracks_6 = {
-		desc = ca_barracks_1_desc
-		potential = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		}
-		is_active_trigger = {
-			FROM = { NOT = { government = open_range_feudalism_government } }
-		} 
+		desc = ca_barracks_1_desc 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 7
 		}

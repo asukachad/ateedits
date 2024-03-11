@@ -709,7 +709,6 @@ laws = {
 			NOT = { holder_scope = { is_republic = yes } }
 			NOT = { holder_scope = { is_theocracy = yes } }
 			NOT = { holder_scope = { government = theocratic_feudal_government } }
-			NOT = { holder_scope = { government = open_range_feudalism_government } }
 		}
 		ai_will_do = { factor = 0 }
 		ai_will_revoke = { factor = 0 }
@@ -754,7 +753,6 @@ laws = {
 			NOT = { holder_scope = { is_republic = yes } }
 			NOT = { holder_scope = { is_theocracy = yes } }
 			NOT = { holder_scope = { government = theocratic_feudal_government } }
-			NOT = { holder_scope = { government = open_range_feudalism_government } }
 		}
 		ai_will_do = {
 			factor = 1
@@ -830,7 +828,6 @@ laws = {
 			NOT = { holder_scope = { is_republic = yes } }
 			NOT = { holder_scope = { is_theocracy = yes } }
 			NOT = { holder_scope = { government = theocratic_feudal_government } }
-			NOT = { holder_scope = { government = open_range_feudalism_government } }
 		}
 		ai_will_do = {
 			factor = 10

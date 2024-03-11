@@ -614,7 +614,7 @@
 }
 2200051={
 	name="Friedrich" 
-	dynasty=2029081
+	dynasty=2029091
 	female=no
 	martial=7
 	diplomacy=4
@@ -664,7 +664,9 @@
 }
 2200053={
 	name="Sigfried" 
-	dynasty=0
+	dynasty=2029091
+	father=2200051
+	mother=2200052
 	female=no
 	martial=9
 	diplomacy=4
@@ -685,7 +687,7 @@
 }
 2200054={
 	name="Irasvel"
-	dynasty=0
+	dynasty=2029091
 	dna="ccbjdjbdibg"
 	father=2200051
 	mother=2200052
@@ -695,19 +697,45 @@
  	stewardship=5
 	intrigue=8
 	learning=7
-	trait=intricate_webweaver
+	trait=charismatic_negotiator
 	trait=fair
-	trait=shrewd
 	trait=gregarious
-	trait=deceitful 
+	trait=trusting 
 	trait=arbitrary 
 	trait=diligent
-	trait=ambitious
 	disallow_random_traits=yes
 	culture=plautdietsch
 	religion=atomicist
 	secret_religion="anabaptist"
 	2629.12.15={birth=yes}
+	2665.1.1={effect={add_lover=2200055}}
+	2665.3.1={add_matrilineal_spouse=2200055}	
+	2680.3.24={death=yes}
+}
+2200055={
+	name="Kerry" #why not, his wifey is already here
+	female=no
+	martial=8
+	diplomacy=3
+ 	stewardship=2
+	intrigue=12
+	learning=3
+	trait=skilled_tactician
+	trait=shrewd
+	trait=deceitful 
+	trait=diligent
+	trait=ambitious
+	trait=cynical
+	trait=stubborn
+	trait=paranoid
+	disallow_random_traits=yes
+	culture=chino
+	religion=atomicist
+	secret_religion="batenburger"
+	2625.12.15={birth=yes}
+	2665.1.1={ employer=2200051 }
+	2665.1.1={effect={add_lover=2200054}}
+	2665.3.1={add_matrilineal_spouse=2200054}
 	2680.3.24={death=yes}
 }
 2200041={

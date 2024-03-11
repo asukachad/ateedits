@@ -2609,7 +2609,7 @@ latter_day_saints = {
 		priests_can_inherit = no
 		priests_can_marry = yes
 		allow_rivermovement = yes
-		max_wives = 1
+		max_wives = 3
 		
 		religious_clothing_head = 13
 		religious_clothing_priest = 13
@@ -4376,9 +4376,8 @@ nautical = {
 		religious_clothing_priest = 17
 		
 		intermarry = voodoo
-		intermarry = navegante
 	}
-	pelagic = { # whalers!
+	pelagic = { # whalers! Now actually peaceful instead of being diet pirates, thing with freely converting between the two incoming
 		graphical_culture = norsegfx
 
 		icon = 82
@@ -4397,18 +4396,19 @@ nautical = {
 		
 		scripture_name = THE_ETCHINGS
 		priest_title = PRIEST
+		pacifist = yes # Makes the AI less likely to start wars, plots and factions		
 		priests_can_marry = yes
 		allow_rivermovement = yes
-		allow_viking_invasion = yes
-		allow_looting = yes
 		female_temple_holders = yes
 		max_consorts = 3
 		seafarer = yes
-		raised_vassal_opinion_loss = no
-		peace_prestige_loss = yes
 		defensive_attrition = yes
-		aggression = 2.0 # AI aggression factor
-		has_heir_designation = yes
+		peace_piety_gain = 1.0 #Gains 1 extra piety per month while at peace		
+		aggression = 0.5 # AI aggression factor
+		has_heir_designation = yes		
+		can_retire_to_monastery = yes
+		can_demand_religious_conversion = no
+		
 		
 		unit_home_modifier = {
 			land_morale = 0.8
@@ -4976,7 +4976,8 @@ muslim = {
 		intermarry = misrist
 		intermarry = occultist
 		intermarry = occultist_reformed
-
+		intermarry = revelationist
+		intermarry = revelationist_reformed
 
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
@@ -5024,6 +5025,8 @@ muslim = {
 		intermarry = orientalist
 		intermarry = occultist
 		intermarry = occultist_reformed
+		intermarry = revelationist
+		intermarry = revelationist_reformed
 
 		religious_clothing_head = 5
 		religious_clothing_priest = 5

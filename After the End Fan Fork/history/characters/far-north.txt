@@ -142,8 +142,8 @@
 	learning=9
 	trait=misguided_warrior
 	trait=chaste
-	trait=wroth
-	trait=slothful
+	trait=charitable
+	trait=patient
 	trait=brave
 	2639.4.22={birth=yes}
 	2680.10.9={death=yes}
@@ -162,7 +162,7 @@
 	trait=fortune_builder
 	trait=shy
 	trait=charitable
-	trait=cruel
+	trait=kind
 	trait=deceitful
 	2632.2.12={birth=yes}
 	2683.4.2={death=yes}

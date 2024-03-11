@@ -1867,7 +1867,7 @@
 	name="Emil"
 	dynasty=1842069 # Young
 	culture=chicagoan
-	religion=woolleyite #apparently this guy is a reference to the musical Chicago, this is why he is woolleyite
+	religion=mormon #apparently this guy is a reference to the musical Chicago, this is why he is mormon
 	trait=lustful
 	2515.6.30={birth=yes}
 	2535.2.13={
@@ -1926,7 +1926,7 @@
 1967114={
 	name="Veronica"
 	culture=chicagoan
-	religion=woolleyite
+	religion=mormon
 	female=yes
 	2518.10.1={birth=yes}
 	2579.1.31={death=yes}

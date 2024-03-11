@@ -6993,15 +6993,15 @@ defined_text = {
 		localisation_key = secret_religious_society_REAL_mormon
 	}
 }
-defined_text = {
-	name = GetReligiousCommunityName_woolleyite
-	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
-		localisation_key = alt_start_community_name_woolleyite
-	}
-	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
-		localisation_key = secret_religious_society_REAL_woolleyite
-	}
-}
+# defined_text = { #MyEdit
+	# name = GetReligiousCommunityName_woolleyite
+	# text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		# localisation_key = alt_start_community_name_woolleyite
+	# }
+	# text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		# localisation_key = secret_religious_society_REAL_woolleyite
+	# }
+# }
 defined_text = {
 	name = GetReligiousCommunityName_neogodbeite
 	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
@@ -8339,17 +8339,17 @@ defined_text = {
 	}
 }
 
-defined_text = {
-	name = GetReligiousSocietyDesc_woolleyite
-	text = {
-		trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
-		localisation_key = alt_start_community_desc
-	}
-	text = {
-		trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
-		localisation_key = secret_religious_society_woolleyite_desc_REAL
-	}
-}
+# defined_text = { #MyEdit
+	# name = GetReligiousSocietyDesc_woolleyite
+	# text = {
+		# trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		# localisation_key = alt_start_community_desc
+	# }
+	# text = {
+		# trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		# localisation_key = secret_religious_society_woolleyite_desc_REAL
+	# }
+# }
 
 defined_text = {
 	name = GetReligiousSocietyDesc_strangite
@@ -10907,6 +10907,10 @@ defined_text = {
 		}
 		localisation_key = String_Pyramid
 	}
+	text = { #MyEdit
+		trigger = { has_wonder = wonder_pagan_georgia_guidestones }
+		localisation_key = String_Stonehenge
+	}
 	text = {
 		trigger = { has_wonder = wonder_crimson_library }
 		localisation_key = String_Library
@@ -10926,6 +10930,10 @@ defined_text = {
 	text = {
 		trigger = { has_wonder = wonder_crimson_library }
 		localisation_key = wonder_crimson_library
+	}
+	text = { #MyEdit
+		trigger = { has_wonder = wonder_pagan_georgia_guidestones }
+		localisation_key = String_stone_formation
 	}
 	text = {
 		trigger = { has_wonder = wonder_anasazi_cliff_palace }
@@ -11228,6 +11236,10 @@ defined_text = {
 			}
 		}
 		localisation_key = String_impressive_feat_of_architecture
+	}
+	text = { #MyEdit
+		trigger = { has_wonder = wonder_pagan_georgia_guidestones }
+		localisation_key = String_inspired_imagination
 	}
 	text = {
 		trigger = {

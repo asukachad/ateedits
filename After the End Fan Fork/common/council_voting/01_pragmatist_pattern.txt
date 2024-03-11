@@ -125,11 +125,6 @@ pragmatist_pattern_for = {
 	centralization_1 = {
 		OR = {
 			AND = {
-				liege = { government = open_range_feudalism_government }
-				liege = { has_law = centralization_2 }
-			}
-			AND = {
-				NOT = { liege = { government = open_range_feudalism_government }} 
 				OR = {
 					liege = {
 						primary_title = {
@@ -147,11 +142,6 @@ pragmatist_pattern_for = {
 	centralization_2 = {
 		OR = {
 			AND = {
-				liege = { government = open_range_feudalism_government }
-				liege = { has_law = centralization_3 }
-			}
-			AND = {
-				NOT = { liege = { government = open_range_feudalism_government }} 
 				OR = {
 					liege = {
 						primary_title = {
@@ -169,11 +159,6 @@ pragmatist_pattern_for = {
 	centralization_3 = {
 		OR = {
 			AND = {
-				liege = { government = open_range_feudalism_government }
-				liege = { has_law = centralization_4 }
-			}
-			AND = {
-				NOT = { liege = { government = open_range_feudalism_government }} 
 				OR = {
 					liege = {
 						primary_title = {
@@ -190,7 +175,6 @@ pragmatist_pattern_for = {
 	}
 	centralization_4 = {
 		AND = {
-			NOT = { liege = { government = open_range_feudalism_government }} 
 			opinion = {
 				who = liege
 				value = 20
@@ -456,22 +440,6 @@ pragmatist_pattern_for = {
 	}
 	status_of_women_4 = { 
 		is_female = yes
-	}
-	
-	range_senate_size_0 = { 
-		always = yes
-	}
-	range_senate_size_1 = { 
-		NOT = { has_law = range_senate_size_0 }
-	}
-	range_senate_size_2 = { 
-		NOT = { has_law = range_senate_size_1 }
-	}
-	range_senate_size_3 = { 
-		NOT = { has_law = range_senate_size_2 }
-	}
-	range_senate_size_4 = { 
-		always = no
 	}
 	
 	revoke_title_law_0 = {

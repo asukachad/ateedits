@@ -179,7 +179,7 @@
 	name="Wilfred"
 	dynasty=1520002
 	culture=mikmaq
-	religion=pelagic
+	religion=brethren
 	diplomacy=3
 	martial=7
 	stewardship=10
@@ -325,7 +325,7 @@
 	name="Laurent"
 	dynasty=1755020 #de Graff
 	culture=acadien
-	religion=pelagic
+	religion=brethren
 	martial=7
 	diplomacy=4
 	stewardship=6
@@ -349,7 +349,7 @@
 	female=yes
 	dynasty=1755021 #I swear this is her actual name
 	culture=acadien
-	religion=pelagic
+	religion=brethren
 	martial=6
 	diplomacy=4
 	stewardship=5
