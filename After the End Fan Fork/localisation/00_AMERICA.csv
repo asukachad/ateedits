@@ -937,6 +937,10 @@ usa_emperor_female;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;;x
 bloodline_desc_usa;The glorious restorer of the United States, who united the East Coast in the name of the ancient empire.;;;;;;;;;;;;;x
 grand_louisiana_emperor_male;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;;x
 grand_louisiana_emperor_female;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;;x
+true_cross_bloodline;Blessed blood of [Root.GetFirstName];;;;;;;;;;;;;x
+true_cross_bloodline_desc;The heresiarch that carved the Holy Kingdom of Eden out of decadent California.;;;;;;;;;;;;;x
+super_true_cross_bloodline;Blessed blood of [Root.GetFirstName];;;;;;;;;;;;;x
+super_true_cross_bloodline_desc;The heresiarch that united the Christians of California against the decadent emperor and his antiquated educational system.;;;;;;;;;;;;;x
 bloodline_desc_grand_louisiana;The glorious restorer of Grande Louisiane, who united the Mississippi Basin in the name of the ancient empire.;;;;;;;;;;;;;x
 pendragon;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;;x
 pendragon_desc;The uniter of the North Atlantic, rumored to be the reincarnation of a legendary Druidic king of yore.;;;;;;;;;;;;;x
@@ -944,7 +948,7 @@ boudica;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;;x
 boudica_desc;The uniter of the North Atlantic, rumored to be the reincarnation of a legendary Druidic queen of yore.;;;;;;;;;;;;;x
 libertador_male;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;;x
 libertador_female;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;;x
-bloodline_desc_libertador;The glorious second Libertador of Gran Colombia, who united the Great Fatherland under a single banner..;;;;;;;;;;;;;x
+bloodline_desc_libertador;The glorious second Libertador of Gran Colombia, who united the Great Fatherland under a single banner.;;;;;;;;;;;;;x
 lord_of_zion;Blood of [This.GetTitledFirstName];;;;;;;;;;;;;x
 lord_of_zion_desc;[This.GetSheHeCap] is legendary among the Mormons for conquering all of Greater Deseret and establishing a Kingdom of Heaven on Earth.;;;;;;;;;;;;;x
 macarthur_bloodline_01;Immortal Blood of MacArthur;;;;;;;;;;;;;x

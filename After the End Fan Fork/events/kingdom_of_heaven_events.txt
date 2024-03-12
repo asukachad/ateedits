@@ -257,26 +257,15 @@ narrative_event = {
 	trigger = {
 		religion = nazarene #Deposed edit, previously "mormon"
 		NOT = { has_global_flag = heavenlykingdom_karen_deseret }
-		OR = {
-			AND = { #if mormon pope is independent, send it to him
-				controls_religion = yes
-				independent = yes
-			}
-			AND = {#if mormon pope is vassalized, send it to his liege
-				controls_religion = no
-				any_vassal = {
-					religion = nazarene #Deposed edit, previously "mormon"
-					controls_religion = yes
-				}
-			}	
-		}
+		has_global_flag = heavenlykingdom_karen_flees
+		controls_religion = yes
 		e_california = {
 			has_holder = yes
 		}
 	}
 	
 	mean_time_to_happen = {
-		days = 180
+		days = 5
 	}
 	
 	immediate = {
@@ -292,14 +281,14 @@ narrative_event = {
 		set_global_flag = heavenlykingdom_mormonsupports_karen
 		
 		ai_chance = {
-			factor = 10
+			factor = 90
 			modifier = { factor = 1.2 trait = cynical }
 			modifier = { factor = 1.2 trait = arbitrary }
 			modifier = { factor = 1.2 trait = trusting }
 			modifier = { factor = 1.2 trait = bad_priest_christian } #Deposed edit, previously "bad_priest_mormon"
 			modifier = { factor = 1.2 NOT = { piety = 100 } }
 			modifier = { factor = 1.2 NOT = { piety = 0 } }
-			modifier = { factor = 0 NOT = { wealth = 250 } } #Deposed edit, previously "500"
+			modifier = { factor = 0 NOT = { wealth = 100 } } #Deposed edit, previously "500"
 		}
 
 	}
@@ -309,7 +298,7 @@ narrative_event = {
 		piety = 50
 		
 		ai_chance = {
-			factor = 90
+			factor = 10
 			modifier = { factor = 2 trait = zealous }
 			modifier = { factor = 1.5 trait = just }
 			modifier = { factor = 1.5 trait = paranoid }

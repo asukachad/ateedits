@@ -1540,6 +1540,10 @@ EVTOPT_playerwayne;I will listen to my blood and travel west.;;;;;;;;;;;;;;x
 
 convert_to_neomoor;Embrace Neomoors Culture;;;;;;;;;x
 convert_to_neomoor_desc;Our very way of life is being shaped by the word of the Alcoran. We are something new — the others call us 'Neomoors'.;;;;;;;;;x
+nautical_convert_to_brethren;Embrace the Pirate Life;;;;;;;;;x
+nautical_convert_to_brethren_desc;The Pelagic life is not suited for me, the code of the Brethren seems far more appealing...;;;;;;;;;x
+nautical_convert_to_pelagic;Embrace the Whaler Life;;;;;;;;;x
+nautical_convert_to_pelagic_desc;The Brethren life is not suited for me, the code of the Pelagics seems far more appealing...;;;;;;;;;x
 EVTDESC_melting_pot_19;After their embrace of Islam, the people of [Root.GetName] began to incorporate more and more aspects of it into their culture, to a point where they may now be considered part of a distinct branch of South Anglo. They have begun to refer to themselves as Neomoors.;;;;;;;;;x
 EVTOPTA_melting_pot_19;What will they think of next, I wonder?;;;;;;;;;x
 EVTOPTB_melting_pot_19;Welcome into the fold, my Neomoor brothers and sisters!;;;;;;;;;x

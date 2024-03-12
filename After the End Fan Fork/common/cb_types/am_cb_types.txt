@@ -4972,14 +4972,14 @@ heavenly_uprising = {
 				if = {
 					limit = { has_global_flag = heavenlykingdom_mormonsupports_karen}
 					create_bloodline = {
-						type = super_moroni_bloodline
+						type = super_true_cross_bloodline
 						inheritance = all_descendents
 						religion = mormon
 					}
 				}
 				else = {
 					create_bloodline = {
-						type = moroni_bloodline
+						type = true_cross_bloodline
 						inheritance = matrilineal_descendents
 						religion = neogodbeite
 					}

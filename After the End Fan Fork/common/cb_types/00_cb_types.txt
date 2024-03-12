@@ -12123,7 +12123,7 @@ pagan_county_conquest = {
 							religion_group = oldworld
 							is_tribal = yes
 						}
-						religion_group = nautical
+						religion = brethren
 						religion = espiritista
 						AND = {
 							religion = exovedate

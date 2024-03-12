@@ -813,7 +813,7 @@
 	female=yes
 	dynasty=1755006
 	culture=acadien
-	religion=pelagic
+	religion=brethren
 	diplomacy=5
 	martial=3
 	stewardship=5

@@ -2472,7 +2472,7 @@ latter_day_saints = {
 		
 		intermarry = neogodbeite
 		intermarry = strangite
-		intermarry = woolleyite
+
 		intermarry = lamanita
 		intermarry = furiegi
 	}
@@ -2505,7 +2505,7 @@ latter_day_saints = {
 		
 		intermarry = mormon
 		intermarry = strangite
-		intermarry = woolleyite
+
 		intermarry = lamanita
 		intermarry = furiegi
 	}
@@ -2572,7 +2572,7 @@ latter_day_saints = {
 		
 		intermarry = neogodbeite
 		intermarry = mormon
-		intermarry = woolleyite
+
 		intermarry = lamanita
 		intermarry = furiegi
 	}
@@ -2609,14 +2609,14 @@ latter_day_saints = {
 		priests_can_inherit = no
 		priests_can_marry = yes
 		allow_rivermovement = yes
-		max_wives = 3
+		max_wives = 4
 		
 		religious_clothing_head = 13
 		religious_clothing_priest = 13
 		
 		intermarry = neogodbeite
 		intermarry = strangite
-		intermarry = woolleyite
+
 		intermarry = qabantajik
 		intermarry = furiegi
 		intermarry = mormon
@@ -2659,7 +2659,7 @@ latter_day_saints = {
 		
 		intermarry = neogodbeite
 		intermarry = strangite
-		intermarry = woolleyite
+
 		intermarry = qabantajik
 		intermarry = lamanita
 		intermarry = moravian

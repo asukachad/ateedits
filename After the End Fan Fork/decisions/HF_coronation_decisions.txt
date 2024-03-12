@@ -19,6 +19,8 @@ decisions = {
 				religion = mormon
 				religion = high_church
 				religion = cristo_rey
+				
+				
 			}
 			NOT = { trait = crowned_by_priest }
 			NOT = { trait = crowned_by_bishop }
@@ -44,7 +46,13 @@ decisions = {
 					NOT = { trait = excommunicated }
 					has_law = investiture_law_1
 					hidden_tooltip = { lower_real_tier_than = EMPEROR }
-				} 
+				}
+				OR = { 
+					
+					religion = sol_invicta
+					
+					religion = cristo_rey
+				}
 			} 
 			custom_tooltip = {
 				text = inaccessible_tooltip
@@ -141,6 +149,13 @@ decisions = {
 							has_landed_title = k_ursuline
 							has_landed_title = d_quorum_of_the_twelve
 							has_landed_title = k_high_church
+							has_landed_title = d_cristo_rey
+							has_landed_title = k_hijo_del_sol
+							has_landed_title = d_montanist
+								AND = {
+									has_landed_title = d_quorum_of_the_lamanites
+									has_global_flag = lamanita_reformed
+									}
 						}
 						NOT = { block_general_event_trigger = yes }
 					}
@@ -159,7 +174,15 @@ decisions = {
 				}
 				AND = { 
 					tier = EMPEROR
+					OR = {
 					primary_title = { has_law = investiture_law_1 }
+							OR = { 
+								
+								religion = sol_invicta
+								
+								religion = cristo_rey
+							}
+						}
 					custom_tooltip = { 
 						text = TT_CORONATION_VASSAL_PRIEST 
 						any_realm_character = { 

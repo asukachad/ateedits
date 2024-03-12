@@ -46,6 +46,7 @@ character_event = {
 						has_landed_title = d_quorum_of_the_twelve
 						has_landed_title = k_high_church
 						has_landed_title = d_cristo_rey
+						
 					}
 					NOT = { 
 						opinion = { 
@@ -64,6 +65,7 @@ character_event = {
 						has_landed_title = d_quorum_of_the_twelve
 						has_landed_title = k_high_church
 						has_landed_title = d_cristo_rey
+						
 					}
 					NOT = { 
 						opinion = { 
@@ -100,6 +102,7 @@ character_event = {
 						has_landed_title = d_quorum_of_the_twelve
 						has_landed_title = k_high_church
 						has_landed_title = d_cristo_rey
+						
 					}
 					NOT = { 
 						opinion = { 
@@ -297,7 +300,7 @@ character_event = {
 				NOT = { has_landed_title = k_ursuline }
 				NOT = { has_landed_title = d_quorum_of_the_twelve }
 				NOT = { has_landed_title = k_high_church }
-				not = { has_landed_title = d_cristo_rey }
+				NOT = { has_landed_title = d_cristo_rey }
 			}
 			preferred_limit = { #First search for a possible antipopes.
 				any_claim = { title = k_papal_state } 
@@ -347,6 +350,7 @@ character_event = {
 					has_landed_title = k_ursuline
 					has_landed_title = d_quorum_of_the_twelve
 					has_landed_title = k_high_church
+					has_landed_title = d_cristo_rey
 					higher_real_tier_than = BARON 
 					has_minor_title = title_cardinal
 					has_minor_title = title_ursuline_cardinal
@@ -463,6 +467,7 @@ character_event = {
 					has_landed_title = k_ursuline
 					has_landed_title = d_quorum_of_the_twelve
 					has_landed_title = k_high_church
+					has_landed_title = d_cristo_rey
 					higher_real_tier_than = BARON 
 					has_minor_title = title_cardinal
 					has_minor_title = title_ursuline_cardinal
@@ -1818,6 +1823,7 @@ letter_event = {
 			religion = ursuline
 			religion = mormon
 			religion = high_church
+			religion = cristo_rey
 		}
 	}
 
@@ -1863,6 +1869,7 @@ letter_event = {
 			religion = ursuline
 			religion = mormon
 			religion = high_church
+			religion = cristo_rey
 		}
 	}
 	is_triggered_only = yes
@@ -1909,6 +1916,7 @@ letter_event = {
 			religion = ursuline
 			religion = mormon
 			religion = high_church
+			religion = cristo_rey
 		}
 	}
 
@@ -1956,6 +1964,7 @@ letter_event = {
 			religion = ursuline
 			religion = mormon
 			religion = high_church
+			religion = cristo_rey
 		}
 	}
 	is_triggered_only = yes
@@ -2002,6 +2011,7 @@ letter_event = {
 			religion = ursuline
 			religion = mormon
 			religion = high_church
+			religion = cristo_rey
 		}
 	}
 	is_triggered_only = yes
@@ -2079,6 +2089,7 @@ letter_event = {
 			religion = ursuline
 			religion = mormon
 			religion = high_church
+			religion = cristo_rey
 		}
 	}
 	is_triggered_only = yes
@@ -3395,6 +3406,7 @@ letter_event = {
 			religion = ursuline
 			religion = mormon
 			religion = high_church
+			religion = cristo_rey
 		}
 	}
 	is_triggered_only = yes
@@ -3410,6 +3422,7 @@ letter_event = {
 					religion = ursuline
 					religion = mormon
 					religion = high_church
+					religion = cristo_rey
 				}
 				rightful_religious_head_scope = {
 					is_liege_or_above = PREV
@@ -5053,6 +5066,7 @@ character_event = {
 					has_landed_title = d_quorum_of_the_twelve
 					has_landed_title = k_high_church
 					has_landed_title = d_cristo_rey
+					
 				}
 			}
 		}
@@ -10094,6 +10108,7 @@ character_event = {
 				religion = ursuline
 				religion = mormon
 				religion = high_church
+				religion = cristo_rey
 			}
 			OR = {
 				has_character_flag = flag_crowned_by_priest
@@ -11041,23 +11056,23 @@ character_event = {
 	immediate = { 
 		random_realm_character = { 
 			limit = { 
-			is_theocracy = yes 
-			religion = ROOT
-			OR = { 
-				higher_real_tier_than = BARON 
-				has_minor_title = title_cardinal
-				has_minor_title = title_ursuline_cardinal
-				has_minor_title = title_mormon_cardinal
-				any_claim = { title = k_papal_state } #Antipope
-				any_claim = { title = k_ursuline } #Antipope
-				any_claim = { title = d_quorum_of_the_twelve } #Antipope
-				any_claim = { title = k_high_church } #Antipope
+				is_theocracy = yes 
+				religion = ROOT
+				OR = { 
+					higher_real_tier_than = BARON 
+					has_minor_title = title_cardinal
+					has_minor_title = title_ursuline_cardinal
+					has_minor_title = title_mormon_cardinal
+					any_claim = { title = k_papal_state } #Antipope
+					any_claim = { title = k_ursuline } #Antipope
+					any_claim = { title = d_quorum_of_the_twelve } #Antipope
+					any_claim = { title = k_high_church } #Antipope
 				}
-			NOT = { has_landed_title = k_papal_state }
-			NOT = { has_landed_title = k_ursuline }
-			NOT = { has_landed_title = d_quorum_of_the_twelve }
-			NOT = { has_landed_title = k_high_church }
-			NOT = { has_landed_title = d_cristo_rey }
+				NOT = { has_landed_title = k_papal_state }
+				NOT = { has_landed_title = k_ursuline }
+				NOT = { has_landed_title = d_quorum_of_the_twelve }
+				NOT = { has_landed_title = k_high_church }
+				NOT = { has_landed_title = d_cristo_rey }
 			}
 			ROOT = { save_persistent_event_target = { name = coronation_priest_per scope = PREV } }
 		}
@@ -11455,7 +11470,8 @@ character_event = {
 				religion = ursuline
 				religion = mormon
 				religion = high_church
-				religion = cristo_rey
+			religion = cristo_rey
+				
 			}
 			higher_real_tier_than = DUKE
 		}
@@ -12935,6 +12951,7 @@ character_event = {
 			religion = ursuline
 			religion = mormon
 			religion = high_church
+			religion = cristo_rey
 		}
 		NOT = { check_variable = { which = uncrowned_count value = 30 } } #Stop at minus thirty.
 		NOR = { 

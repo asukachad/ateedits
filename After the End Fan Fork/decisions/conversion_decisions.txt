@@ -2261,6 +2261,119 @@ targetted_decisions = {
 			factor = 0
 		}
 	}
+	nautical_convert_to_brethren = {
+		only_playable = yes
+		filter = self
+		ai_target_filter = self
+		ai_check_interval = 60
+
+		potential = {
+			religion = pelagic
+			#NOT = { government = chinese_imperial_government }
+			NOT = {
+				has_alternate_start_parameter = { key = culture_names value = random }
+			}
+		}
+		allow = {
+			NOT = { 
+				trait = zealous 
+				trait = kind
+				trait = charitable 
+				trait = content				
+			}
+			OR = {
+				trait = cruel
+				trait = greedy
+				trait = ambitious
+			}
+		}
+		effect = {
+			religion = brethren
+			any_courtier = {
+				limit = {
+					NOT = {
+						trait = zealous
+						trait = kind
+					}
+					religion = pelagic
+					employer = { character = ROOT }
+					dynasty = ROOT
+				}
+				religion = brethren
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0.5 # Slow it down a bit
+			}
+			
+			modifier = {
+				factor = 2.0
+				liege = { religion = brethren }
+			}
+		}
+	}
+	nautical_convert_to_pelagic = {
+		only_playable = yes
+		filter = self
+		ai_target_filter = self
+		ai_check_interval = 60
+
+		potential = {
+			religion = brethren
+			#NOT = { government = chinese_imperial_government }
+			NOT = {
+				has_alternate_start_parameter = { key = culture_names value = random }
+			}
+		}
+		allow = {
+			NOT = { 
+				trait = zealous 
+				trait = cruel
+				trait = greedy 
+			}
+			OR = {
+				trait = kind
+				trait = charitable
+				trait = content
+			}
+		}
+		effect = {
+			religion = pelagic
+			any_courtier = {
+				limit = {
+					NOT = {
+						trait = zealous
+						trait = cruel
+					}
+					religion = brethren
+					employer = { character = ROOT }
+					dynasty = ROOT
+				}
+				religion = pelagic
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0.5 # Slow it down a bit
+			}
+			
+			modifier = {
+				factor = 2.0
+				liege = { religion = pelagic }
+			}
+		}
+	}	
 }
 
 decisions = {

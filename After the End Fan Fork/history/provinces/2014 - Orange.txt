@@ -15,7 +15,7 @@ b_dana_point_CA=castle
 
 # Misc
 culture=angeleno
-religion=cetic
+religion=nazarene
 terrain=farmlands
 
 #History
