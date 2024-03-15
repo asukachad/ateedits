@@ -1,0 +1,110 @@
+#event to set castes for evangelicals
+namespace = confedcastes
+
+character_event = {
+	id = castesetup
+	hide_window = yes
+	trigger = { 
+		is_save_game = no
+		is_alternate_start = no
+		has_landed_title = k_papal_state
+		NOT = { has_global_flag = castesetup }
+	}
+	
+	is_triggered_only = yes
+
+	immediate = { 
+		set_global_flag = castesetup
+        any_character = {
+            limit = {
+                OR = {
+					religion = evangelical
+					religion = confederalist
+						}
+				OR = {
+						dynasty = 1782000
+						dynasty = 1782060
+						dynasty = 1782001
+						dynasty = 1782046
+						dynasty = 1782044
+						dynasty = 1787043
+						dynasty = 1787008
+						dynasty = 1785019
+						#dynasty = 1782002
+						dynasty = 1785032
+						dynasty = 1787064
+						dynasty = 1787013
+						dynasty = 1785000
+						dynasty = 1792012
+						dynasty = 1782165
+						dynasty = 1787070
+						dynasty = 1787073
+						dynasty = 1787074
+						dynasty = 1787072
+						dynasty = 1787071
+						dynasty = 1782038
+						}
+            }
+            add_trait = brahmin #planter
+        }
+		
+        any_character = {
+            limit = {
+                OR = {
+					religion = evangelical
+					religion = confederalist
+						}
+				OR = {
+						dynasty = 1782002
+						dynasty = 1787014
+						dynasty = 1782057
+						dynasty = 1787078
+						dynasty = 1782049
+						dynasty = 1787017
+						dynasty = 1787062
+						dynasty = 1782058
+						}
+            }
+            add_trait = kshatriya #yeoman
+        }
+        any_character = {
+            limit = {
+                OR = {
+					religion = evangelical
+					religion = confederalist
+						}
+				NOR = {
+						dynasty = 1782000
+						dynasty = 1782060
+						dynasty = 1782001
+						dynasty = 1782046
+						dynasty = 1782044
+						dynasty = 1787043
+						dynasty = 1787008
+						dynasty = 1785019
+						dynasty = 1785032
+						dynasty = 1787064
+						dynasty = 1787013
+						dynasty = 1785000
+						dynasty = 1792012				
+						dynasty = 1782002
+						dynasty = 1787014
+						dynasty = 1782057
+						dynasty = 1787078
+						dynasty = 1782049
+						dynasty = 1787017
+						dynasty = 1787062
+						dynasty = 1782058
+						dynasty = 1782165
+						dynasty = 1787070
+						dynasty = 1787073
+						dynasty = 1787074
+						dynasty = 1787072
+						dynasty = 1787071
+						dynasty = 1782038
+						}
+            }
+            add_trait = vaishya #freeman
+        }		
+	}
+}

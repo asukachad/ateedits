@@ -391,7 +391,7 @@ d_shaolin_company = {
 	color = { 255 201 14 }
 	capital = 4 # Palisades
 	
-	culture = motowner
+	culture = afrikan
 	religion = orientalist
 	
 	allow = {
@@ -1021,7 +1021,7 @@ d_dorados = {
 
 	capital = 799 # Chihuahua
 	
-	religion = fidencista
+	religion = sacred_heart
 	culture = bravo
 
 	title = "CAPTAIN"

@@ -17,7 +17,7 @@ adelita = {
 }
 
 cajita = {
-	potential = { religion = fidencista }
+	potential = { religion = sacred_heart }
 	command_modifier = {
 		morale_defence = 0.1
 	}

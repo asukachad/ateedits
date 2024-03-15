@@ -1282,57 +1282,57 @@ character_event = {
 }
 
 # Son returns home as a Fidencista Mystic (Son)
-character_event = {
-	id = dorado.135
-	hide_window = yes
-	
-	has_dlc = "The Old Gods"
-	has_character_flag = serving_dorado
-	
-	trigger = {
-		NOT = { religion = fidencista }
-		father = {
-			NOT = { religion = fidencista }
-		}
-		NOT = { trait = zealous }
-	}
-	
-	mean_time_to_happen = {
-		months = 160
-		
-		modifier = {
-			factor = 2.0
-			trait = cynical
-		}
-	}
-	
-	immediate = {
-		father = { character_event = { id = dorado.136 } }
-		clr_character_flag = serving_dorado
-	}
-	
-	option = {
-		name = OK
-	}
-}
+#character_event = {
+#	id = dorado.135
+#	hide_window = yes
+#	
+#	has_dlc = "The Old Gods"
+#	has_character_flag = serving_dorado
+#	
+#	trigger = {
+#		NOT = { religion = fidencista }
+#		father = {
+#			NOT = { religion = fidencista }
+#		}
+#		NOT = { trait = zealous }
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 160
+#		
+#		modifier = {
+#			factor = 2.0
+#			trait = cynical
+#		}
+#	}
+#	
+#	immediate = {
+#		father = { character_event = { id = dorado.136 } }
+#		clr_character_flag = serving_dorado
+#	}
+#	
+#	option = {
+#		name = OK
+#	}
+#}
 # Son returns home as Fidencista Mystic
-character_event = {
-	id = dorado.136
-	desc = EVTDESCDORA.136
-	picture = GFX_evt_viking_throneroom_oldgods
-	border = GFX_event_normal_frame_war
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = EVTOPTADORA.136
-		FROM = {
-			move_character = ROOT
-			add_trait = zealous
-			add_trait = dorado
-			add_trait = mystic
-			add_trait = possessed
-			religion = fidencista
-		}
-	}
-}
+#character_event = {
+#	id = dorado.136
+#	desc = EVTDESCDORA.136
+#	picture = GFX_evt_viking_throneroom_oldgods
+#	border = GFX_event_normal_frame_war
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTADORA.136
+#		FROM = {
+#			move_character = ROOT
+#			add_trait = zealous
+#			add_trait = dorado
+#			add_trait = mystic
+#			add_trait = possessed
+#			religion = fidencista
+#		}
+#	}
+#}

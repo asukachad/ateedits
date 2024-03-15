@@ -9,6 +9,7 @@ e_the_guyanas = {
 	baiano = "As Guianas"
 	gaucho = "As Guianas"
 	ribeirinho = "As Guianas"
+	neomoor = "Al-Hind"
 	
 	capital = 1970 # Georgetown
 	
@@ -45,6 +46,7 @@ e_the_guyanas = {
 		gaucho = "Guiana"
 		ribeirinho = "Guiana"
 		cayennais = "Guiana"
+		neomoor = "Al-Hind"
 	
 		capital = 1970 # c_georgetown
 	

@@ -7,6 +7,7 @@ e_yucatan = {
 	capital = 1825 # c_nojpeten
 	
 	nahua = "Yocatlán"
+	neomoor = "Qatar"
 	
 	k_yucatan = {
 		color={ 103 225 253 }
@@ -18,6 +19,7 @@ e_yucatan = {
 		capital = 1816 # c_merida
 		
 		nahua = "Yocatlán"
+		neomoor = "Qatar"
 		
 		d_quintana_roo = {
 			color={ 72 179 177 }
@@ -361,6 +363,7 @@ e_yucatan = {
 			lacandon = "Mayab"
 			quichean = "Mayab"
 			cholano = "Mayab"
+			neomoor = "Qatar"
 
 			c_chichen_itza = { # 1813
 				color={ 82 124 185 }

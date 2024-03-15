@@ -172,6 +172,15 @@ decisions = {
 							}
 						}
 					}
+					if = {
+						limit = {
+							OR = { 
+								religion = evangelical
+								religion = confederalist
+								}
+						}
+						add_trait = vaishya #freeman
+					}					
 				}
 				save_event_target_as = invited_character
 			}
@@ -428,6 +437,15 @@ decisions = {
 							}
 						}
 					}
+					if = {
+						limit = {
+							OR = { 
+								religion = evangelical
+								religion = confederalist
+								}
+						}
+						add_trait = vaishya #freeman
+					}					
 				}
 				save_event_target_as = invited_character
 			}
@@ -644,6 +662,15 @@ decisions = {
 							}
 						}
 					}
+					if = {
+						limit = {
+							OR = { 
+								religion = evangelical
+								religion = confederalist
+								}
+						}
+						add_trait = vaishya #freeman
+					}					
 				}
 				set_character_flag = debutante
 				save_event_target_as = invited_character

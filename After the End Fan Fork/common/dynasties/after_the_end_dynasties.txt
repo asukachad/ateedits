@@ -6976,7 +6976,7 @@ coat_of_arms = {
 			color = 0
 		}
 	}}
-1782001 = { name="Bagley" culture=southron
+1782001 = { name="Venable" culture=southron
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -7882,7 +7882,7 @@ coat_of_arms = {
 		}
 	}
 }
-1787018 = { name="Cockrell-South" culture=dixie 
+1787018 = { name="Rootes" culture=dixie 
 	coat_of_arms = {
 		template = 0
 		layer = {
@@ -18444,3 +18444,6 @@ coat_of_arms = {
 		}
 	}
 }
+
+7770001 = { name="Whitman" culture=grangelander used_for_random = no }
+7770002 = { name="Draper" culture=gothamite used_for_random = no }

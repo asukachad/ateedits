@@ -1493,7 +1493,7 @@
 	trait=shrewd
 	disallow_random_traits=yes
 	2638.2.14={birth=yes
-		culture=gulfard
+		culture=neomoor
 	}
 	2650.1.1={employer=2200017}
 	2660.1.1={
@@ -1553,7 +1553,7 @@
 3000211={
 	name="Aravis"
 	dynasty=1792201
-	culture=gulfard
+	culture=neomoor
 	female=yes
 	religion=orientalist
 	trait=tough_soldier

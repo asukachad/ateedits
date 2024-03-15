@@ -45,7 +45,6 @@ cucaracha = { # Rey Luis 'la Cucaracha'
 centaur_male = {
 	norteno_opinion = 10
 	mexicano_opinion = 10
-	fidencista_opinion = 5
 	command_modifier = {
 		religious_enemy = 0.3
 		speed = 0.15
@@ -58,7 +57,6 @@ centaur_male = {
 		OR = {
 			culture_group = norteno
 			culture_group = mexicano
-			religion = fidencista
 		}
 	}
 }
@@ -66,7 +64,6 @@ centaur_male = {
 centaur_female = {
 	norteno_opinion = 10
 	mexicano_opinion = 10
-	fidencista_opinion = 5
 	command_modifier = {
 		religious_enemy = 0.3
 		speed = 0.15
@@ -79,7 +76,6 @@ centaur_female = {
 		OR = {
 			culture_group = norteno
 			culture_group = mexicano
-			religion = fidencista
 		}
 	}
 }
@@ -102,7 +98,6 @@ restaurador_male = {
 			culture_group = norteno
 			religion = sacred_heart
 			religion = cristo_rey
-			religion = fidencista
 		}
 	}
 }
@@ -124,7 +119,6 @@ restaurador_female = {
 			culture_group = norteno
 			religion = sacred_heart
 			religion = cristo_rey
-			religion = fidencista
 		}
 	}
 }

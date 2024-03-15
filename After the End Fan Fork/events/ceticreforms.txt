@@ -1234,21 +1234,21 @@ character_event = {
 		trigger = {
 			trait = way_cowl
 		}
-		religion = woolleyite
+		religion = misrist
 		any_courtier = {
 			limit = {
 				religion = cetic
 				employer = { character = ROOT }
 				dynasty = ROOT
 			}
-			religion = woolleyite
+			religion = misrist
 		}
 		any_demesne_province = {
 			if = {
 				limit = {
 					religion = cetic
 				}
-				religion = woolleyite
+				religion = misrist
 			}
 		}
 

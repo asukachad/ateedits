@@ -411,7 +411,6 @@ e_mexico = {
 				color={ 158 43 169 }
 				color2={ 255 255 255 }
 	
-				holy_site = fidencista
 				holy_site = cristo_rey
 	
 				b_victor_rosales_ZA = {}
@@ -807,7 +806,6 @@ e_mexico = {
 				holy_site = sacred_heart
 				holy_site = cristo_rey
 				holy_site = sol_invicta
-				holy_site = fidencista
 	
 				b_chapultepec_MX = {
 					title_prefix = "DELEGACION"

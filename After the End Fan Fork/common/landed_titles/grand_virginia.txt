@@ -88,6 +88,8 @@ e_grand_virginia = {
 		color2={ 220 220 0 }
 
 		capital = 100 # ASheville
+		
+		neomoor = "Sinai"
 
 		# Crusade target weight
 		catholic = 20
@@ -853,6 +855,8 @@ e_grand_virginia = {
 		americanist = 100
 		revelationist_reformed = 5000
 		rust_cultist = 20
+		
+		neomoor = "Kemet"
 
 		capital = 1009
 		

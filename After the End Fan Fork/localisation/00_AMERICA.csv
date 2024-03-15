@@ -260,6 +260,8 @@ delawarean;Delawarean;;;;;;;;;;;;;x
 dellsman;Dellsman;;;;;;;;;;;;;x
 dene;Dené;;;;;;;;;;;;;x
 dixie;Dixie;;;;;;;;;;;;;x
+nilelander;Nilelander;;;;;;;;;;;;;x
+afrikan;Afrikan;;;;;;;;;;;;;x
 eastern_woodlands;Eastern Woodlands;;;;;;;;;;;;;x
 edokko;Edokko;;;;;;;;;;;;;x
 filipino;Filipino;;;;;;;;;;;;;x
@@ -388,6 +390,7 @@ sioux;Sioux;;;;;;;;;;;;;x
 siskiyouan;Siskiyouan;;;;;;;;;;;;;x
 sonorense;Sonorense;;;;;;;;;;;;;x
 south_anglo;South Anglo;;;;;;;;;;;;;x
+afroamerican;Afroamerican;;;;;;;;;;;;;x
 southron;Southron;;;;;;;;;;;;;x
 subarctic;Subarctic;;;;;;;;;;;;;x
 sranan;Sranan;;;;;;;;;;;;;x
@@ -485,8 +488,6 @@ aphite_DESC;Originating in the hazy time of the event, Aphites believe and pay r
 aphite_FEATURES;§Y*§! Aphite rulers are highly aggressive. \n§Y*§! Aphite soldiers ignore defensive attrition. \n§Y*§! Aphite characters educated in theology are medically trained.;;;;;;;;;;;;;x
 americanist;Americanist;;;;;;;;;;;;;x
 americanist_DESC;Americanists worship what must have been the true gods of the old world — the statues of Father Washington, Lincoln, Jefferson and others clearly indicates who the ancient Americans worshiped. Those Americans built a great empire, so why not follow their beliefs and restore America to its former glory, gods and all?;;;;;;;;;;;;;x 
-confederalist;Confederatist;;;;;;;;;;;;;x
-confederalist_DESC;Americanists worship what must have been the true gods of the old world — the statues of Father Washington, Lincoln, Jefferson and others clearly indicates who the ancient Americans worshiped. Those Americans built a great empire, so why not follow their beliefs and restore America to its former glory, gods and all?;;;;;;;;;;;;;x 
 confederalist;Confederatist;;;;;;;;;;;;;x
 confederalist_DESC;Unlike their brothers, Confederatists believe that the initial founders were not patriots at all, but rather tyrants and deceivers. It is the new founders, those of the south that stood against the tyranny of their bretheren, that the Confederatists pledge their allegince to.;;;;;;;;;;;;;x
 americanist_FEATURES;§Y*§! Are led by the President, who may be elected from any ruler of their faith above the age of 35. \n§Y*§! May undertake pilgrimages to their holy sites.;;;;;;;;;;;;;x
@@ -910,10 +911,10 @@ castel;Castelian Blood;;;;;;;;;;;;;x
 castel_desc;Queen Véronique of Castel united the Kingdom of Quebec in the 2500s. Although the kingdom did not survive her death, her descendants are numerous and influential.;;;;;;;;;;;;;x
 royall;Royall Blood;;;;;;;;;;;;;x
 royall_desc;Leonidas Royall united the entire Deep South and established the Holy Columbian Confederacy, which he claimed was a true successor state to the old Empire of America.;;;;;;;;;;;;;x #MAX LENGTH OF DESCRIPTIONS IS HERE
-bagley;Bagley Blood;;;;;;;;;;;;;x
-bagley_desc;The Bagley dynasty rose to prominence later in the history of the Holy Columbian Confederacy, producing over half a dozen Emperors.;;;;;;;;;;;;;x
+bagley;Venable Blood;;;;;;;;;;;;;x
+bagley_desc;The Venable dynasty rose to prominence later in the history of the Holy Columbian Confederacy, producing over half a dozen Emperors.;;;;;;;;;;;;;x
 littlepage;Littlepage Blood;;;;;;;;;;;;;x
-littlepage_desc;The Littlepage dynasty took control of the Holy Columbian Confederacy in the mid-2600s, displacing the noble Bagley dynasty.;;;;;;;;;;;;;x
+littlepage_desc;The Littlepage dynasty took control of the Holy Columbian Confederacy in the mid-2600s, displacing the noble Venable dynasty.;;;;;;;;;;;;;x
 bustamante;Nyabinghi Blood;;;;;;;;;;;;;x
 bustamante_desc;Portia Bustamante, uniter of the Caribbean, was said to be the reincarnation of the Zion Queen Nyabinghi who once held a great Mansion in Jamaica.;;;;;;;;;;;;;x
 sulley;Sulleyan Blood;;;;;;;;;;;;;x
@@ -1004,6 +1005,12 @@ ram_hcc_desc;In the many centuries of their co-existence within the Holy Columbi
 bulldog_hcc;Bulldog;;;;;;;;;;;;;x
 bulldog_hcc_desc;In the many centuries of their co-existence within the Holy Columbian Confederacy, the Ecumenical Council and the princes of the HCC have long disagreed on whether the Emperor or the Council President wields ultimate authority. As the church has always been the root of the community, many favor that the Emperor defers to the Council President as a peasant to his pastor — a position the church much approves of. Though their detractors in high society call them "Bulldogs", they have adopted the name as their own.;;;;;;;;;;;;;x
 EVTTITLE_eva.110;The Evangelical Split;;;;;;;;;;;;;x
+brahmin;Planter;;;;;;;;;;;;;x
+brahmin_desc;This character belongs to the Planter class, the most respected class in the Confederacy. Planters are expected to wield lofty titles and control vast tracts of land.;;;;;;;;;;;;;x
+kshatriya;Yeoman;;;;;;;;;;;;;x
+kshatriya_desc;This character belongs to the Yeoman class, the second most respected class in the Confederacy. Yeomen are expected to own moderate estates, and are often tasked with stewardly duties that are beneath the Planters.;;;;;;;;;;;;;x
+vaishya;Freeman;;;;;;;;;;;;;x
+vaishya_desc;This character belongs to the Freeman class, the least respected class in the Confederacy. Freemen are expected to control very little, if any, land. This low status pushes freemen toward martial pursuits, which is one of the few ways they can improve their standing.;;;;;;;;;;;;;x
 EVTDESC_eva.110;As a learned [This.GetTitle], you are well aware of the two major theological schools within the Evangelical faith, and have decided now is the time for you to pick a side. \n Calvinists believe that God, being all-knowing, has known since the beginning of time which humans deserves His mercy, while Arminians believe that God, being infinitely merciful, deliberately limits His own power in judging humanity and saves people based on their individual faith and actions.;;;;;;;;;;;;;x
 calvinist;Calvinist;;;;;;;;;;;;;x
 calvinist_desc;Calvinists believe that God, being all-knowing, made every person with His full knowledge of their ultimate fate. Humans are predestined to whatever fate awaits them, and no mortal action can change that course. Although Evangelical theologians of this school debate how many people are predestined to go to heaven, the general consensus is that rulers should work and act as though they knew they were among the Elect. Thus lords of this school are known to put in extra effort in their rulership, though the belief in a lack of free will and sometimes too much belief in their own salvation hampers their diplomatic efforts;;;;;;;;;;;;;x
@@ -1913,6 +1920,7 @@ coloradan_opinion;[coloradan.GetName] Opinion;;;;;;;;;;;;;x
 utahn_opinion;[utahn.GetName] Opinion;;;;;;;;;;;;;x
 prairielander_opinion;[prairielander.GetName] Opinion;;;;;;;;;;;;;x
 south_anglo_opinion;[south_anglo.GetGroupName] Opinion;;;;;;;;;;;;;x
+afroamerican_opinion;[south_anglo.GetGroupName] Opinion;;;;;;;;;;;;;x
 beltway_opinion;[beltway.GetName] Opinion;;;;;;;;;;;;;x
 southron_opinion;[southron.GetName] Opinion;;;;;;;;;;;;;x
 dixie_opinion;[dixie.GetName] Opinion;;;;;;;;;;;;;x

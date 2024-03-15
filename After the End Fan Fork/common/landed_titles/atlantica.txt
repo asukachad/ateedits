@@ -79,6 +79,7 @@ e_atlantica = {
 		quebecois = "Hudsonie"
 		acadien = "Hudsonie"
 		beltway = "Upstate"
+		neomoor = "Shammar"
 
 		d_adirondack = {
 
@@ -641,6 +642,7 @@ e_atlantica = {
 		quebecois = "Nouvelle-York"
 		acadien = "Nouvelle-York"
 		beltway = "Tri-State"
+		neomoor = "Hejaz"
 		
 		# Crusade target weight
 		catholic = 5
@@ -1045,6 +1047,7 @@ e_atlantica = {
 		
 		deitsch = "Kolumbi"
 		yiddish = "Amerika"
+		neomoor = "Andalusia"
 		
 		d_philadelphia = {
 			color={ 50 150 200 }
@@ -1292,6 +1295,7 @@ e_atlantica = {
 			deitsch = "Waschington"
 			yiddish = "Vashington"
 			beltway = "Columbia"
+			neomoor = "Andalusia"
 
 			dignity = 10
 
@@ -1302,6 +1306,7 @@ e_atlantica = {
 				color2={ 220 220 0 }
 				deitsch = "Waschington"
 				yiddish = "Vashington"
+				neomoor = "Corboda"
 				holy_site = catholic
 				holy_site = americanist
 				holy_site = libertarian
@@ -1314,6 +1319,7 @@ e_atlantica = {
 					pentarchy = evangelical
 					yiddish = "Vashington"
 					deitsch = "Waschington"
+					neomoor = "Corboda"
 				}
 				b_the_pentagon = {
 					used_for_dynasty_names = no
@@ -1351,6 +1357,7 @@ e_atlantica = {
 		
 		deitsch = "Deitscherei"
 		yiddish = "Pennsvald"
+		neomoor = "Dutchanya"
 
 		capital = 51 # Lancaster
 		
@@ -1747,6 +1754,7 @@ e_atlantica = {
 		deitsch = "Nei-England"
 		maritimer = "Sasainn Nuadh"
 		newfie = "Sasana Nua"
+		neomoor = "Inkiltira"
 		
 		pagan_coa = {
 			template = 0

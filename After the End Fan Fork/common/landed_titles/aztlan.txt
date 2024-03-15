@@ -97,6 +97,7 @@ e_aztlan = {
 		yaqui = "Cíbola"
 		navajo = "Nahata Dzil"
 		apache = "Abaachi"
+		neomoor = "Al-Khali"
 
 		capital = 439 # Phoenix
 		
@@ -629,7 +630,6 @@ e_aztlan = {
 				color={ 110 53 70 }
 				color2={ 255 255 255 }
 				holy_site = sol_invicta
-				holy_site = fidencista
 	
 				yaqui = "Na'avojowa"
 	
@@ -883,7 +883,6 @@ e_aztlan = {
 	
 				plautdietsch = "Der Turm"
 	
-				holy_site = fidencista
 	
 				b_torreon_COA = {}
 				b_gomez_palacio_DU = {}
@@ -1132,7 +1131,6 @@ e_aztlan = {
 				color2={ 255 255 255 }
 	
 				holy_site = sacred_heart
-				holy_site = fidencista
 	
 				b_monterrey_NL = {}
 				b_san_pedro_garza_garcia_NL = {}

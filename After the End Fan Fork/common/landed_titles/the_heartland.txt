@@ -338,6 +338,7 @@ e_heartland = {
 		acadien = "Arcansas"
 		cajun = "Arcansas"
 		ontarois = "Arcansas"
+		neomoor = "Jordan"
 		
 		capital = 236
 
@@ -1219,6 +1220,8 @@ e_heartland = {
 		mormon = 500
 		trailwalker_reformed = 50
 		
+		neomoor = "Najd"
+		
 		capital = 1050
 
 		d_gateway = {
@@ -1239,7 +1242,7 @@ e_heartland = {
 
 				holy_site = catholic
 
-				neomoor = "Saudi"
+				neomoor = "Riyadh"
 	
 				pagan_coa = {
 					template = 0
@@ -1255,7 +1258,7 @@ e_heartland = {
 				}
 
 				b_st_louis_MO = {
-					neomoor = "Saudi"
+					neomoor = "Riyadh"
 				}
 				b_florissant_MO = {}
 				b_mehlville_MO = {}

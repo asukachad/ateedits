@@ -2373,9 +2373,6 @@ true_religion_patria_grande_trigger = {
 true_religion_navegante_trigger = {
 	true_religion = navegante
 }
-true_religion_fidencista_trigger = {
-	true_religion = fidencista
-}
 true_religion_cetic_trigger = {
 	true_religion = cetic
 }
@@ -3675,10 +3672,6 @@ is_in_prevs_interesting_society_trigger = {
 			PREV = { interested_in_society = secret_religious_society_navegante }
 		}
 		AND = {
-			society_member_of = secret_religious_society_fidencista
-			PREV = { interested_in_society = secret_religious_society_fidencista }
-		}
-		AND = {
 			society_member_of = secret_religious_society_cetic
 			PREV = { interested_in_society = secret_religious_society_cetic }
 		}
@@ -4135,12 +4128,6 @@ has_any_char_old_religion = {
 			has_character_flag = character_was_navegante
 			any_character = {
 				religion = navegante
-			}
-		}
-		AND = { 
-			has_character_flag = character_was_fidencista
-			any_character = {
-				religion = fidencista
 			}
 		}
 		AND = {
@@ -4938,13 +4925,6 @@ looting_artifact_event_religious_artifacts_trigger = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = navegante
 				ROOT = { religion = navegante }
-			}
-		}
-		NAND = {
-			any_artifact = {
-				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = fidencista
-				ROOT = { religion = fidencista }
 			}
 		}
 		NAND = {
@@ -9508,7 +9488,6 @@ has_character_was_religion_flag_trigger = {
 		has_character_flag = character_was_sacred_heart
 		has_character_flag = character_was_patria_grande
 		has_character_flag = character_was_navegante
-		has_character_flag = character_was_fidencista
 		has_character_flag = character_was_cetic
 		has_character_flag = character_was_gaian
 		has_character_flag = character_was_shinto
@@ -9929,7 +9908,6 @@ is_accepting_of_homosexuality_trigger = {
 			religion = voodoo
 			religion = candomble
 			religion = neomayan
-			religion = fidencista
 			religion = edenite
 			trait = marian_santa_muerte
 			trait = way_branch

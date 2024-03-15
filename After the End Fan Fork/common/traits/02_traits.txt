@@ -671,12 +671,12 @@ narrow_flank_leader = {
 	}
 }
 
-brahmin = {
+brahmin = { #planter
 	potential = {
 		OR = {
 
-			religion = hindu
-
+			religion = evangelical
+			religion = confederalist
 		}
 	}
 	opposites = {
@@ -684,20 +684,21 @@ brahmin = {
 		vaishya
 	}
 	
-	caste_tier = 3
-
-	monthly_character_piety = 0.1
+	caste_tier = 2
+	diplomacy = 2
+	vassal_opinion = 5
+	monthly_character_prestige = 0.3
 
 	customizer = no
 	random = no
 }
 
-kshatriya = {
+kshatriya = { #yeoman
 	potential = {
 		OR = {
 
-			religion = hindu
-
+			religion = evangelical
+			religion = confederalist
 		}
 	}
 	opposites = {
@@ -706,19 +707,20 @@ kshatriya = {
 	}
 
 	caste_tier = 2
-
+	stewardship = 1
+	vassal_opinion = -5
 	monthly_character_prestige = 0.1
 
 	customizer = no
 	random = no
 }
 
-vaishya = {
+vaishya = { #freeman
 	potential = {
 		OR = {
 
-			religion = hindu
-
+			religion = evangelical
+			religion = confederalist
 		}
 	}
 	opposites = {
@@ -726,9 +728,10 @@ vaishya = {
 		kshatriya
 	}
 
-	caste_tier = 1
-
-	monthly_character_wealth = 0.03
+	caste_tier = 2
+	martial = 1
+	vassal_opinion = -10
+	monthly_character_prestige = -0.1
 	
 	customizer = no
 	random = no

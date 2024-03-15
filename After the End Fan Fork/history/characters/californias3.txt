@@ -2196,7 +2196,7 @@ martial=6
 	trait=deceitful
 	trait=cynical	
 	2658.1.1={birth=yes}
-	2660.1.1={
+	2650.1.1={
 		effect={
 			set_character_flag=no_historical_family
 			set_character_flag=diversity

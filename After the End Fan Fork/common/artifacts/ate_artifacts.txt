@@ -2384,7 +2384,7 @@ old_world_prayer_mat = {
 	picture = "GFX_prayermat"
 }
 oriental_lamp = {
-	monthly_character_prestige = 5
+	monthly_character_prestige = 1
 	learning = 2
 	orientalist_opinion = 5
 

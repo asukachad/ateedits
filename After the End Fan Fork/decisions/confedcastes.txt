@@ -1,0 +1,78 @@
+decisions = {
+
+	become_yeoman = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 120
+		
+		potential = {
+			trait = vaishya
+		}
+		
+		allow = {
+			prestige = 1000
+			primary_title = { higher_tier_than = COUNT }
+		}
+		
+		effect = {
+			prestige = -1000
+			remove_trait = vaishya
+			add_trait = kshatriya
+			hidden_tooltip = {
+				any_character = {
+					limit = {
+						dynasty = ROOT
+					}
+					remove_trait = vaishya
+					add_trait = kshatriya
+					}
+				}			
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	become_planter = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 120
+		
+		potential = {
+			trait = kshatriya
+		}
+		
+		allow = {
+			prestige = 5000
+			primary_title = { higher_tier_than = DUKE }
+		}
+		
+		effect = {
+			prestige = -5000
+			remove_trait = kshatriya
+			add_trait = brahmin
+			hidden_tooltip = {
+				any_character = {
+					limit = {
+						dynasty = ROOT
+					}
+					remove_trait = kshatriya
+					add_trait = brahmin
+					}
+				}						
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}	

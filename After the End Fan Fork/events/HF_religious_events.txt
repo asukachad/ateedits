@@ -4166,13 +4166,6 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { fidencista = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = fidencista }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
 			limit = { cetic = { has_religion_feature = religion_cosmopolitan } }
 			random_playable_ruler = {
 				limit = { religion = cetic }
@@ -4764,13 +4757,6 @@ character_event = {
 			limit = { navegante = { has_religion_feature = religion_dogmatic } }
 			random_playable_ruler = {
 				limit = { religion = navegante }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { fidencista = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = fidencista }
 				apply_dogmatic_on_start_effect = yes
 			}
 		}

@@ -40,6 +40,7 @@ e_great_lakes = {
 		color2={ 220 220 20 }
 
 		ojibwe = "Mishigamaa"
+		neomoor = "Dar al-Allah"
 
 		# Crusade target weight
 		catholic = 20
@@ -499,6 +500,8 @@ e_great_lakes = {
 	k_ohio = {
 		color={ 193 19 61 }
 		color2={ 220 220 20 }
+		
+		neomoor = "Syria"
 
 		capital = 111 # Columbus
 
@@ -535,6 +538,8 @@ e_great_lakes = {
 			c_columbus = {
 				color={ 220 65 70 }
 				color2={ 220 220 20 }
+				
+				neomoor = "Damascus"
 
 				b_columbus_OH = {}
 				b_gahanna_OH = {}
@@ -804,6 +809,7 @@ e_great_lakes = {
 		dellsman = "Vindgarðr"
 		yooper = "Vindgarðr"
 		yiddish = "Eretz Tshikago"
+		neomoor = "Chiraqland"
 
 		# Crusade target weight
 		catholic = 300
@@ -842,6 +848,7 @@ e_great_lakes = {
 			capital = 170
 
 			yiddish = "Tshikago"
+			neomoor = "Chiraqland"
 
 			c_chicago = {
 				color={ 105 170 70 }
@@ -2040,6 +2047,7 @@ e_great_lakes = {
 		
 		deitsch = "Allgeni"
 		yiddish = "Alegeni"
+		neomoor = "Asir"
 
 		# Crusade target weight
 		catholic = 5

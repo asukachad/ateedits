@@ -4614,7 +4614,6 @@ narrative_event = {
 					remove_intermarry = sacred_heart
 					remove_intermarry = patria_grande
 					remove_intermarry = navegante
-					remove_intermarry = fidencista
 					remove_intermarry = cetic
 					remove_intermarry = gaian
 					remove_intermarry = shinto

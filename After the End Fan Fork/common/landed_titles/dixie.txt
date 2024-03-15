@@ -520,6 +520,7 @@ e_dixie = {
 		dixie = "Alabama"
 		southron = "Alabama"
 		beltway = "Alabama"
+		neomoor = "Sudan"
 	
 		allow = {
 			war = no
@@ -788,6 +789,7 @@ e_dixie = {
 		capital = 164 # Charleston
 		
 		beltway = "South Carolina"
+		neomoor = "South Cresent"
 		
 		# Crusade target weight
 		catholic = 5
@@ -1009,6 +1011,7 @@ e_dixie = {
 		glorian = 50
 		
 		beltway = "North Carolina"
+		neomoor = "North Cresent"
 	
 		allow = {
 			war = no
