@@ -339,6 +339,8 @@ e_heartland = {
 		cajun = "Arcansas"
 		ontarois = "Arcansas"
 		neomoor = "Jordan"
+		nilelander = "Jordan"
+		afrikan = "Jordan"		
 		
 		capital = 236
 
@@ -1221,6 +1223,8 @@ e_heartland = {
 		trailwalker_reformed = 50
 		
 		neomoor = "Najd"
+		nilelander = "Najd"
+		afrikan = "Najd"		
 		
 		capital = 1050
 
@@ -1243,6 +1247,8 @@ e_heartland = {
 				holy_site = catholic
 
 				neomoor = "Riyadh"
+				nilelander = "Riyadh"
+				afrikan = "Riyadh"					
 	
 				pagan_coa = {
 					template = 0
@@ -1259,6 +1265,8 @@ e_heartland = {
 
 				b_st_louis_MO = {
 					neomoor = "Riyadh"
+					nilelander = "Riyadh"
+					afrikan = "Riyadh"					
 				}
 				b_florissant_MO = {}
 				b_mehlville_MO = {}

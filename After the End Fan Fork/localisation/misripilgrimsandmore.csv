@@ -1,0 +1,37 @@
+###ÄNSI
+EVTTITLE_misrist_pilgrims;Misrist pilgrims in [From.Province.GetName];;;;;;;;;;;;x
+EVTDESC_misrist_pilgrims;Ever since the fall of D-Mecca, Misrists have been an infrequent, but not uncommon, site across America. Over the past few years you have seen a slow trickle of Misrists into [From.Province.GetName], which appears to be some kind of holy site to them. This trickle has steadily increased over time, and now it seems that the Pharaoh worshipers have become a large part of the ecconomy of [From.Province.GetName]. What should you do with these peculier pilgrims?;;;;;;;;;;;;x
+EVTOPTA_misrist_pilgrims_1;Let them continue their pilgrimage, so long as they pay their dues;;;;;;;;;;;;x
+EVTOPTB_misrist_pilgrims.1;Bar the heretics from entering [From.Province.GetName];;;;;;;;;;;;x
+EVTTITLE_misrist_pilgrims.3;Misrist thrive in [From.Province.GetName];;;;;;;;;;;;x
+EVTDESC_misrist_pilgrims.3;It seems that [From.Province.GetName] has become not merely a destination for Misrists, it has now become the most popular pilgramage site in their strange religion. This has lead to an influx of wealth in [From.Province.GetName], but many locals are resentful that their home has become a desitination site for heretics.;;;;;;;;;;;;x
+EVTOPTA_misrist_pilgrims.3;More money is never a bad thing;;;;;;;;;;;;x
+EVTTITLE_misrist_pilgrims.4;[From.Province.GetName] embraces Misrism;;;;;;;;;;;;x
+EVTDESC_misrist_pilgrims.4;The Misrists, who have become a common site in [From.Province.GetName], are apparently not content with merely being allowed access into their holy site. They have begun a campaign to convert the locals to their bizarre religion, and after many years of trying, are on the cusp of succeding. How will you respond to this?;;;;;;;;;;;;x
+EVTOPTA_misrist_pilgrims.4;I don't care, so long as I keep getting paid;;;;;;;;;;;;x
+EVTOPTB_misrist_pilgrims.4;This has gone too far, banish the Misrists;;;;;;;;;;;;x
+EVTOPTC_misrist_pilgrims.4;The Misrists have the right idea, praise Amun-Allah!;;;;;;;;;;;;x
+TXT_EVT_misrist_pilgrims_banned;The Misrists will be barred from making their pilgramage to [From.Province.GetName], you will not be able to reverse this;;;;;;;;;;;;x
+misrist_pilgrims;Misrist Pilgrims;;;;;;;;;;;;x
+desc_misrist_pilgrims;This province is a popular destination for Misrist pilgrims;;;;;;;;;;;;x
+thriving_misrist_pilgrims;Thriving Misrist Pilgrims
+desc_thriving_misrist_pilgrims;This province is a major site for Misrist pilgrims, thanks to the local ruler turning a blind eye to them. This brings both great wealth and discord to this province.;;;;;;;;;;;;x
+banned_misrist_pilgrims;Banned Misrist Pilgrims;;;;;;;;;;;;x
+desc_banned_misrist_pilgrims;Misrist pilgrims have been banned from this province. This has lead to a short term decrease in wealth, and hopefully a long term increase in stability;;;;;;;;;;;;x
+EVTTITLE_misrist_pilgrims.5;Misrist Warrior Pilgrim;;;;;;;;;;;;x
+EVTDESC_misrist_pilgrims.5;A distinguished Misrist warrior has recently made his pilgrimage, and has decided to stick around. He is offering his services directly to you. He is highly decorated and no doubt skilled, but can you really trust a heretic?;;;;;;;;;;;;x
+EVTOPTA_misrist_pilgrims.5;I'd be a fool to turn down such an offer;;;;;;;;;;;;x
+EVTOPTB_misrist_pilgrims.5;I am not taking a heretic into my service;;;;;;;;;;;;x
+EVTTITLE_misrist_pilgrims.6;Misrist Steward Pilgrim;;;;;;;;;;;;x
+EVTDESC_misrist_pilgrims.6;A respected Misrist steward has recently made his pilgrimage, and has decided to stick around. He is offering his services directly to you. He is highly dedicated and no doubt skilled, but can you really trust a heretic?;;;;;;;;;;;;x
+EVTOPTA_misrist_pilgrims.6;I'd be a fool to turn down such an offer;;;;;;;;;;;;x
+EVTOPTB_misrist_pilgrims.6;I am not taking a heretic into my service;;;;;;;;;;;;x
+EVTTITLE_misrist_pilgrims.7;Violence Against Misrists;;;;;;;;;;;;x
+EVTDESC_misrist_pilgrims.7;The locals of [From.Province.GetName] are none too happy about the Misrist presence in their area. Just last night, a drunken brawl broke out between a local and a pilgrim, which escalated into a full scale riot. Many were injured and even killed in the chaos. How will you respond?;;;;;;;;;;;;x
+EVTOPTA_misrist_pilgrims.7;We will implore the locals to stop their violence against the Misrists;;;;;;;;;;;;x
+EVTOPTB_misrist_pilgrims.7;This has gone too far. for the sake of peace, and their own wellbeing, I must banish the Misrists;;;;;;;;;;;;x
+anti_misrist;Anti Misrist Sentiment;;;;;;;;;;;;x
+desc_anti_misrist;The locals of this province are fed up with both Misrist pilgrims, and the ruler that protects them;;;;;;;;;;;;x
+EVTTITLE_misrist_pilgrims.8;[From.Province.GetName] losses its importance;;;;;;;;;;;;x
+EVTDESC_misrist_pilgrims.8;With our conversion to Misrism, and our great ascension thereafter, it seems that [From.Province.GetName] has lost its special importance among the Misrist. No longer is it an island of tolerance in a sea of hatred, for now Misrist have great lands to prosper in.;;;;;;;;;;;;x
+EVTOPTA_misrist_pilgrims.8;Unfortunate;;;;;;;;;;;;x

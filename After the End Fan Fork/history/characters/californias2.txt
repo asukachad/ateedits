@@ -681,9 +681,10 @@
 	female=yes
 	dynasty=1851057
 	culture=calaotian
-	religion=cetic
+	religion=qingzhen
 	trait=wroth
 	trait=brave
+	trait=buddhism_qingzhen
 	trait=way_dove
 	2644.3.1={birth=yes}
 	2695.3.1={death=yes}

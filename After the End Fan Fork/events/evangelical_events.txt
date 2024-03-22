@@ -3997,6 +3997,7 @@ narrative_event = {
 			religion = evangelical
 			religion = antinomian
 			religion = charismatic
+			religion = confederalist
 		}
 		NOT = { has_global_flag = fall_hcc }
 	}

@@ -1266,9 +1266,7 @@ e_mexico = {
 			c_colima = { # 1749
 				color={ 55 121 191 }
 				color2={ 255 255 255 }
-	
-				holy_site = navegante
-	
+		
 				nahua = "Coliman"
 	
 				b_colima_CL = {
@@ -1846,7 +1844,6 @@ e_mexico = {
 				color={ 134 121 176 }
 				color2={ 255 255 255 }
 	
-				holy_site = navegante
 	
 				b_acapulco_GR = {}
 				b_coyuca_de_benitez_GR = {}

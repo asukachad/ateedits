@@ -1139,6 +1139,8 @@ christian = {
 		aggression = 2.0
 		can_excommunicate = yes
 		can_grant_claim = yes
+		caste_opinions = yes
+		castes = yes			
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 2
@@ -1190,6 +1192,8 @@ christian = {
 		can_retire_to_monastery = no
 		female_temple_holders = yes
 		allow_rivermovement = yes
+		caste_opinions = yes
+		castes = yes			
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 2
@@ -1239,6 +1243,8 @@ christian = {
 		can_excommunicate = yes
 		allow_looting = yes
 		defensive_attrition = yes
+		caste_opinions = yes
+		castes = yes			
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 2
@@ -1325,7 +1331,7 @@ christian = {
 		intermarry = lamanita
 		intermarry = furiegi
 		
-		intermarry = navegante
+		
 		
 		intermarry = sacred_heart
 		intermarry = patria_grande
@@ -1613,7 +1619,7 @@ christian = {
 		intermarry = cristo_rey
 		intermarry = reformista
 		
-		intermarry = navegante
+		
 		intermarry = sacred_heart
 		intermarry = patria_grande
 		intermarry = espiritista
@@ -1674,7 +1680,7 @@ christian = {
 		intermarry = nonconformist
 		intermarry = batenburger
 		intermarry = moravian
-		intermarry = navegante
+		
 		
 		# intermarry = celeste
 		intermarry = nazarene
@@ -1744,7 +1750,7 @@ christian = {
 		
 		intermarry = sacred_heart
 		intermarry = patria_grande
-		intermarry = navegante
+		
 
 		intermarry = cetic
 		intermarry = orthodox
@@ -1867,7 +1873,7 @@ christian = {
 		intermarry = nonconformist
 		intermarry = batenburger
 		
-		intermarry = navegante
+		
 		intermarry = celeste
 		intermarry = exovedate
 		intermarry = sacred_heart
@@ -1983,7 +1989,7 @@ christian = {
 		intermarry = moravian
 		intermarry = wormwoodist
 		intermarry = falling_star
-		intermarry = navegante
+		
 	}		
 
 }
@@ -2049,7 +2055,7 @@ cult_of_saints= {
 		intermarry = furiegi
 		intermarry = moravian
 		intermarry = wormwoodist
-		intermarry = navegante
+		
 				
 		intermarry = apostolic
 		intermarry = celeste
@@ -2107,69 +2113,9 @@ cult_of_saints= {
 		intermarry = furiegi
 		intermarry = moravian
 		intermarry = wormwoodist
-		intermarry = navegante
 		
 		
-		intermarry = qabantajik
-	}
-
-	navegante = { 
-		graphical_culture = norsegfx
-
-		icon = 97
-		heresy_icon = 97
 		
-		color = { 176 173 203 }
-
-		high_god_name = GOD_ICHTYS
-
-		god_names = {
-			GOD_ICHTYS GOD_JESUCRISTO GOD_JONAS GOD_LIVING_WATER GOD_SALVADOR_GAVIOTA GOD_APOSTLE_PETER
-		}
-		evil_god_names = {
-			GOD_THE_DEVIL GOD_TEMPEST GOD_EL_MECHUDO GOD_DAG_GADOL
-		}
-		
-		scripture_name = THE_GOSPEL
-		priest_title = PADRE
-		priests_can_marry = yes
-		priests_can_marry = yes
-		allow_rivermovement = yes
-		allow_viking_invasion = no
-		allow_looting = yes
-		female_temple_holders = yes
-		max_consorts = 3
-		seafarer = yes
-		defensive_attrition = yes
-		
-		unit_home_modifier = {
-			land_morale = 0.8
-			light_infantry_defensive = 0.8
-			heavy_infantry_defensive = 0.8
-			pikemen_defensive = 0.8
-			archers_defensive = 0.8
-			key = "DEF_RELIGION_HOME_TERRITORY"
-		}
-		
-		religious_clothing_head = 17
-		religious_clothing_priest = 17
-		
-		intermarry = sacred_heart
-		intermarry = patria_grande
-		
-		
-		intermarry = apostolic
-		intermarry = celeste
-		intermarry = brethren
-		intermarry = qingzhen
-		intermarry = lamanita
-		intermarry = nazarene
-		intermarry = reformista
-		intermarry = edenite
-		intermarry = furiegi
-		intermarry = mictlantec
-		intermarry = sol_invicta
-		intermarry = falling_star
 		intermarry = qabantajik
 	}	
 	
@@ -2232,7 +2178,7 @@ pacific = {
 		intermarry = qingzhen
 		intermarry = imamite
 		intermarry = nazarene
-		intermarry = navegante
+		
 	}
 	
 	gaian = {
@@ -2574,7 +2520,7 @@ latter_day_saints = {
 		intermarry = neomayan
 		intermarry = sacred_heart
 		intermarry = patria_grande
-		intermarry = navegante
+		
 	}
 	
 	furiegi = {
@@ -2734,7 +2680,7 @@ mesoamerican_gods = {
 		intermarry = sol_invicta
 		intermarry = neomayan
 		intermarry = qabantajik
-		intermarry = navegante
+		
 		
 		
 		intermarry = sacred_heart
@@ -2809,7 +2755,7 @@ mesoamerican_gods = {
 		intermarry = mictlantec
 		intermarry = neomayan
 		intermarry = qabantajik
-		intermarry = navegante
+		
 		
 		intermarry = sacred_heart
 		
@@ -2861,7 +2807,7 @@ mesoamerican_gods = {
 		intermarry = furiegi
 		intermarry = moravian
 		intermarry = wormwoodist
-		intermarry = navegante
+		
 		
 		intermarry = sacred_heart
 		intermarry = patria_grande
@@ -4744,6 +4690,55 @@ muslim = {
 		religious_clothing_head = 5
 		religious_clothing_priest = 5
 	}
+	
+ 	qingzhen = {
+		graphical_culture = muslimgfx
+		
+		icon = 77
+		heresy_icon = 80
+		
+		color = { 0 0.66 0.42 }
+		crusade_name = JIHAD
+		scripture_name = THE_REVEALED_PATHS
+		priest_title = IMAM
+	
+		high_god_name = GOD_ALLAH
+		character_modifier = {
+			stewardship = 2
+		}
+
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST GOD_TIAN GOD_ZHENZHU
+		}
+		evil_god_names = {
+			GOD_SHAYTAN GOD_IBLIS
+		}
+		
+		can_call_crusade = no #disabled for now
+		allow_rivermovement = yes
+		attacking_same_religion_piety_loss = yes
+		hard_to_convert = yes
+		uses_jizya_tax = yes
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		has_heir_designation = yes 
+		max_consorts = 3 #Im working on it...
+		defensive_attrition = yes
+	
+		intermarry = traditionalist
+		intermarry = revivalist
+		intermarry = transcendentalist
+		intermarry = alawiyya
+		intermarry = orientalist
+		intermarry = misrist
+		intermarry = imamite
+		intermarry = cetic
+		
+
+		religious_clothing_head = 5
+		religious_clothing_priest = 5
+	}
  
  	imamite = {
 		graphical_culture = muslimgfx
@@ -4751,6 +4746,7 @@ muslim = {
 		icon = 77
 		heresy_icon = 80
 
+		parent = qingzhen		
 		color = { 0 0.8 0 }
 		crusade_name = JIHAD
 		scripture_name = THE_QURAN
@@ -4789,62 +4785,13 @@ muslim = {
 		religious_clothing_priest = 5
 	}
 	
- 	qingzhen = {
-		graphical_culture = muslimgfx
-		
-		icon = 77
-		heresy_icon = 80
-		
-		parent = imamite
-		color = { 0 0.66 0.42 }
-		crusade_name = JIHAD
-		scripture_name = THE_REVEALED_PATHS
-		priest_title = IMAM
-	
-		high_god_name = GOD_ALLAH
-		character_modifier = {
-			stewardship = 2
-		}
-
-		god_names = {
-			GOD_ALLAH GOD_THE_GREATEST GOD_TIAN GOD_ZHENZHU
-		}
-		evil_god_names = {
-			GOD_SHAYTAN GOD_IBLIS
-		}
-		
-		can_call_crusade = no #disabled for now
-		allow_rivermovement = yes
-		attacking_same_religion_piety_loss = yes
-		hard_to_convert = yes
-		uses_jizya_tax = yes
-		priests_can_marry = yes
-		priests_can_inherit = yes
-		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
-		has_heir_designation = yes 
-		max_consorts = 3 #Im working on it...
-		defensive_attrition = yes
-	
-		intermarry = traditionalist
-		intermarry = revivalist
-		intermarry = transcendentalist
-		intermarry = alawiyya
-		intermarry = orientalist
-		intermarry = misrist
-		intermarry = imamite
-		intermarry = cetic
-		intermarry = navegante
-
-		religious_clothing_head = 5
-		religious_clothing_priest = 5
-	}
  	alawiyya = {
 		graphical_culture = muslimgfx
 		
 		icon = 77
 		heresy_icon = 80
 		
-		parent = imamite
+		parent = qingzhen
 		color = { 0 0.88 0.42 }
 		crusade_name = JIHAD
 		scripture_name = THE_QURAN

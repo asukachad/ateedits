@@ -85,7 +85,6 @@ born_in_the_caul = {
 	customizer = yes
 	birth = 25	
 	potential = {
-	religion = navegante
 	}	
 	
 	same_religion_opinion = 5

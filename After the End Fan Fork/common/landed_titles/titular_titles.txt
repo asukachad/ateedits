@@ -3804,6 +3804,32 @@ e_neomoor = {
 	creation_requires_capital = no	
 }
 
+e_nilelander = {
+	color={ 218 165 32 }
+	color2={ 0 0 0 }
+	capital = 1055 # Cairo
+	
+	culture = nilelander
+	allow = {
+		NOT = {
+			has_game_rule = {
+				name = cultural_empires
+				value = off
+			}
+		}
+		war = no
+		NOT = { tier = emperor }
+		culture = nilelander
+		OR = {
+			realm_size = 150
+			e_nilelander = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+	short_name = yes
+	
+	creation_requires_capital = no	
+}
+
 e_chiraqi = {
 	color={ 224 224 224 }
 	color2={ 255 255 255 }

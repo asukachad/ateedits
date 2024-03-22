@@ -6278,7 +6278,7 @@ coat_of_arms = {
 1777014 = { name="Gennart" culture=gothamite }
 1777015 = { name="Ianniell" culture=gothamite }
 1777016 = { name="Mirant" culture=gothamite }
-1777017 = { name="Hasan" culture=gothamite }
+1777017 = { name="Daverrazant" culture=gothamite }
 1777018 = { name="Averell" culture=gothamite }
 1777019 = { name="Kefeller" culture=gothamite }
 1777020 = { name="Mercuccio" culture=gothamite }
@@ -8096,7 +8096,7 @@ coat_of_arms = {
 1788009 = { name="Giddings" culture=lacustrine }
 1788010 = { name="Mackinac" culture=lacustrine }
 1788011 = { name="Bunyan" culture=lacustrine }
-1788012 = { name="Manistee" culture=lacustrine }
+1788012 = { name="Daverrazant" culture=gothamite }
 1788013 = { name="Barre" culture=lacustrine }
 1788014 = { name="Greysolon" culture=lacustrine }
 1788015 = { name="Durantaye" culture=lacustrine }
@@ -18427,6 +18427,52 @@ coat_of_arms = {
 2057060 = { name="Copperhead" culture=oklahoman used_for_random = no }
 2057061 = { name="Broken-Arrow" culture=oklahoman used_for_random = no }
 2057062 = { name="Reed" culture=oklahoman used_for_random = no }
+
+2057063 = { name="Narmer" culture=nilelander }
+2057064 = { name="Djoser" culture=nilelander }
+2057065 = { name="Teti" culture=nilelander }
+2057066 = { name="Allahhotep" culture=nilelander }
+2057067 = { name="Ptolemy" culture=nilelander }
+2057068 = { name="Pi" culture=nilelander }
+2057069 = { name="Amenemhat" culture=nilelander }
+2057070 = { name="Ali" culture=nilelander }
+2057071 = { name="Mohammedan" culture=nilelander }
+2057072 = { name="Heliopolis" culture=nilelander }
+2057073 = { name="Kane" culture=nilelander }
+2057074 = { name="Moslem" culture=nilelander }
+2057075 = { name="Carter" culture=nilelander }
+2057076 = { name="Aldred" culture=nilelander }
+2057077 = { name="Assmann" culture=nilelander }
+2057078 = { name="Dakin" culture=nilelander }
+2057079 = { name="Intef" culture=nilelander }
+2057080 = { name="Amunhotep" culture=nilelander }
+2057081 = { name="Ahmose" culture=nilelander }
+2057082 = { name="Erman" culture=nilelander }
+2057083 = { name="Grimal" culture=nilelander }
+2057084 = { name="Hassan" culture=nilelander }
+2057085 = { name="Jollois" culture=nilelander }
+2057086 = { name="Kemp" culture=nilelander }
+2057087 = { name="Alcorani" culture=nilelander }
+2057088 = { name="Anderson" culture=nilelander }
+2057089 = { name="Givens El" culture=nilelander }
+2057090 = { name="Bey" culture=nilelander }
+2057091 = { name="Mealy El" culture=nilelander }
+2057092 = { name="Muhammad" culture=nilelander }
+2057093 = { name="Ka'bah" culture=nilelander }
+2057094 = { name="Ockinga" culture=nilelander }
+2057095 = { name="Moslem" culture=nilelander }
+2057096 = { name="Rukn" culture=nilelander }
+2057097 = { name="Thebes" culture=nilelander }
+2057098 = { name="Alexandria" culture=nilelander }
+2057099 = { name="Memphis" culture=nilelander }
+2057100 = { name="Ramesses" culture=nilelander }
+2057101 = { name="Babylon" culture=nilelander }
+2057102 = { name="Kemeti" culture=nilelander }
+2057103 = { name="Horus" culture=nilelander }
+2057104 = { name="Sobeki" culture=nilelander }
+2057105 = { name="Nile" culture=nilelander }
+2057106 = { name="Sa" culture=nilelander }
+2057107 = { name="Ambatukam" culture=nilelander }
 
 7770000 = {
 	name = "Tarsus"

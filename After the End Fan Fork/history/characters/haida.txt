@@ -1406,7 +1406,7 @@
 	trait=bastard
 	father=1200081
 	mother=1200082
-	2642.4.3={birth=yes culture=dakelh effect={ set_character_flag=no_historical_family }}
+	2642.4.3={birth=yes culture=plautdietsch effect={ set_character_flag=no_historical_family }}
 	2660.1.1={effect={add_rival=1845069}}
 	2700.1.1={death=yes}
 }

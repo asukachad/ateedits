@@ -1769,7 +1769,7 @@
 	name="Hassan"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=diligent
 	trait=just
 	trait=kind
@@ -1783,7 +1783,7 @@
 	name="Ali"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=diligent
 	trait=just
 	trait=kind
@@ -1797,7 +1797,7 @@
 	name="Imad"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=diligent
 	trait=just
 	trait=kind
@@ -1811,7 +1811,7 @@
 	name="Amir"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=diligent
 	trait=just
 	trait=kind
@@ -1824,7 +1824,7 @@
 	name="Issam"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=diligent
 	trait=just
 	trait=kind
@@ -1837,7 +1837,7 @@
 	name="Hafez"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=diligent
 	trait=just
 	trait=kind
@@ -1849,7 +1849,7 @@
 	name="Maher"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=diligent
 	trait=just
 	trait=kind
@@ -1861,7 +1861,7 @@
 	name="Bashir"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=diligent
 	trait=just
 	trait=kind
@@ -1878,7 +1878,7 @@
 	name="Khalid"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=stubborn
 	trait=just
 	trait=kind
@@ -1890,7 +1890,7 @@
 	name="Khalil"
 	dynasty= "2030034"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=ambitious
 	trait=just
 	trait=duelist 
@@ -2168,8 +2168,7 @@ martial=6
 	occluded=yes
 	2025.7.2={birth=yes}
 	2055.10.31={death={
-			death_reason=death_execution
-			killer=2200000
+			death_reason=death_rabble
 		}
 	}
 }
@@ -2180,23 +2179,23 @@ martial=6
 	martial=1
 	diplomacy=1
 	stewardship=1
-	intrigue=12
+	intrigue=6
 	learning=1
 	culture=tehrangeleno
-	religion=nazarene
+	religion=alawiyya #zoroastrian
 	disallow_random_traits=yes
 	trait=misguided_warrior
 	trait=arbitrary
 	trait=slothful
 	trait=uncouth
-	trait=scarred_high
+	trait=scarred_high #mangled
 	trait=lustful
 	trait=envious	
 	trait=cruel
 	trait=deceitful
 	trait=cynical	
-	2658.1.1={birth=yes}
-	2650.1.1={
+	2648.1.1={birth=yes}
+	2660.1.1={
 		effect={
 			set_character_flag=no_historical_family
 			set_character_flag=diversity

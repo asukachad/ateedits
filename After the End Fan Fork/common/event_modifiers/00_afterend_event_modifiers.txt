@@ -119,7 +119,7 @@ anabaptist_revival = {
 	icon = 26
 }
 
-mormon_revival = {
+confederalist_revival = {
 	icon = 26
 }
 
@@ -850,12 +850,6 @@ secret_patria_grande_community = {
 		society_member_of = secret_religious_society_patria_grande
 	}
 }
-secret_navegante_community = {
-	icon = 18
-	is_visible = {
-		society_member_of = secret_religious_society_navegante
-	}
-}
 secret_cetic_community = {
 	icon = 18
 	is_visible = {
@@ -1360,6 +1354,25 @@ expelled_muslim_settlement = {
 	city_tax_modifier = -0.25
 	culture_techpoints = -0.03
 }
+
+misrist_pilgrims = {
+	icon = 9
+	local_tax_modifier = 0.25
+}
+thriving_misrist_pilgrims = {
+	icon = 9
+	local_tax_modifier = 0.4
+	local_revolt_risk = 0.1
+}
+banned_misrist_pilgrims = {
+	icon = 27
+	local_tax_modifier = -0.05
+}
+anti_misrist = {
+	local_revolt_risk = 0.1
+	icon = 27
+}
+
 held_agape_feast_timer = {
 	icon = 3
 }

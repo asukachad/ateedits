@@ -172,7 +172,7 @@
 	intrigue=4 
 	learning=6
 	culture=tehrangeleno
-	religion=imamite
+	religion=qingzhen
 	trait=ambitious
 	trait=thrifty_clerk
 	trait=shrewd
@@ -984,7 +984,7 @@
 1384009={
 	name="Rodger Dowler"
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=skilled_tactician
 	trait=diligent
 	trait=zealous
@@ -1155,7 +1155,7 @@
 1384024={
 	name="Malikah al-Aziziyyah"
 	culture=angeleno
-	religion=imamite
+	religion=qingzhen
 	occluded=yes
 	female=yes
 	trait=fair
@@ -1175,7 +1175,7 @@
 	name="Hakim"
 	dynasty=2030033 #al-Jadid
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=shrewd
 	trait=ambitious
 	trait=faqih
@@ -1189,7 +1189,7 @@
 	name="Farouk"
 	dynasty=2030033 #al-Jadid
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=shrewd
 	trait=lustful
 	trait=gluttonous
@@ -1247,7 +1247,7 @@
 	2360.11.2={death=yes}
 }
 
-1384038={ #duke of salton, count of imperial
+1384038={ #duke of salton, count of imperial, king of socal
 	name="Cheng"
 	dynasty=1913013 #ma
 	culture=chino
@@ -1255,12 +1255,13 @@
 	trait=confucianism_qingzhen
 	trait=diligent
 	trait=just
+	trait=imp_ex2
 	father=1384091
 	2380.1.22={birth=yes}
 	2460.11.2={death=yes}
 }
 
-1384039={ #duke of salton, count of imperial
+1384039={ #duke of salton, count of imperial, king of socal
 	name="Tianyu"
 	dynasty=1913013 #ma
 	culture=chino
@@ -1271,13 +1272,14 @@
 	trait=shrewd
 	trait=diligent
 	trait=brave
+	trait=imp_ex1
 	father=1384038
 	give_nickname=nick_the_soldier
 	2430.1.22={birth=yes}
 	2500.11.2={death=yes}
 }
 
-1384040={ #duke of salton, count of imperial
+1384040={ #duke of salton, count of imperial, king of socal
 	name="Bufang"
 	dynasty=1913013 #ma
 	culture=chino
@@ -1287,12 +1289,13 @@
 	trait=just
 	trait=diligent
 	trait=zealous
+	trait=imp_ex3
 	father=1384039
 	2460.1.22={birth=yes}
 	2550.11.2={death=yes}
 }
 
-1384041={ #duke of salton, count of imperial
+1384041={ #duke of salton, count of imperial, king of socal
 	name="Qixi"
 	dynasty=1913013 #ma
 	culture=chino
@@ -1302,13 +1305,14 @@
 	trait=mystic
 	trait=diligent
 	trait=just
+	trait=imp_ex2
 	father=1384040
 	give_nickname=nick_the_old
 	2530.2.11={birth=yes}
 	2600.2.1={death=yes}
 }
 
-1384042={ #duke of salton, count of imperial
+1384042={ #duke of salton, count of imperial, king of socal
 	name="Anliang"
 	dynasty=1913013 #ma
 	culture=chino
@@ -1316,6 +1320,7 @@
 	trait=confucianism_qingzhen
 	trait=brave
 	trait=duelist
+	trait=imp_ex1
 	trait=strong
 	trait=diligent
 	trait=ambitious
@@ -1334,13 +1339,10 @@
 	culture=chino
 	religion=qingzhen
 	trait=confucianism_qingzhen
-	trait=ambitious
-	trait=cruel
-	trait=zealous
-	trait=diligent
-	trait=schemer
+	trait=content
+	trait=slothful
+	trait=failed_exam
 	father=1384042
-	give_nickname=nick_the_fox
 	2600.1.10={birth=yes}
 	2650.2.21={death=yes}
 }
@@ -1349,7 +1351,7 @@
 	name="Imad"
 	dynasty=1850085 #irving
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	occluded=yes
 	trait=legendary
 	trait=tough_soldier
@@ -1367,7 +1369,7 @@
 	name="Suleyman"
 	dynasty=1850085 #irving
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	occluded=yes
 	trait=legendary
 	trait=thrifty_clerk
@@ -1388,7 +1390,7 @@
 	name="Musa"
 	dynasty=1850085 #irving
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	occluded=yes
 	trait=legendary
 	trait=flamboyant_schemer
@@ -1410,7 +1412,7 @@
 	name="Isa"
 	dynasty=1850085 #irving
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	occluded=yes
 	trait=legendary
 	trait=skilled_tactician
@@ -1432,7 +1434,7 @@
 	name="Muhammad"
 	dynasty=1850085 #irving
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	occluded=yes
 	trait=legendary
 	trait=mastermind_theologian
@@ -1454,7 +1456,7 @@
 	name="Zakariyya"
 	dynasty=1850085 #irving
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=charismatic_negotiator
 	trait=gregarious
 	trait=shrewd
@@ -1470,7 +1472,7 @@
 	name="Yusuf"
 	dynasty=1850085 #irving
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=tough_soldier
 	trait=brave
 	trait=cruel
@@ -1487,7 +1489,7 @@
 	name="Salim"
 	dynasty=1850085 #irving
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=martial_cleric
 	trait=charitable
 	trait=zealous
@@ -1503,7 +1505,7 @@
 	name="Karim"
 	dynasty=1850085 #irving
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=midas_touched
 	trait=lustful
 	trait=honest
@@ -1515,73 +1517,20 @@
 	2336.12.5={death=yes}
 }
 
-1384058={ #duke of mojave and count of blythe
-	name="Zackary"
-	dynasty=1864101 #Hall
-	culture=anjalusi
-	religion=imamite
-	trait=bastard
-	trait=skilled_tactician
-	trait=brave
-	trait=deceitful
-	trait=patient
-	trait=shrewd
-	trait=strategist
-	father=1384057
-	2310.6.5={birth=yes
-		culture=battleborn
-	}
-	2355.2.5={death=yes}
-}
-
-1384059={ #duke of mojave and count of blythe
-	name="William"
-	dynasty=1864101 #Hall
-	culture=anjalusi
-	religion=imamite
-	trait=tough_soldier
-	trait=content
-	trait=honest
-	trait=dull
-	trait=kind
-	trait=brave
-	trait=diligent
-	father=1384058
-	2334.11.15={birth=yes
-		culture=battleborn
-	}
-	2379.7.21={death=yes}
-}
-
-1384060={ #duke of mojave and count of blythe
-	name="Wendy"
-	dynasty=1864101 #Hall
-	female=yes
-	culture=battleborn
-	religion=imamite
-	trait=charismatic_negotiator
-	trait=ambitious
-	trait=fair
-	trait=kind
-	trait=gregarious
-	trait=chaste
-	father=1384059
-	2365.3.24={birth=yes}
-	2401.1.30={death=yes}
-}
-
 1384061={ #duke of mojave and count of blythe
 	name="Harry"
 	dynasty=1864101 #Hall
 	culture=battleborn
-	religion=imamite
+	religion=qingzhen
 	trait=skilled_tactician
 	trait=brave
 	trait=robust
 	trait=cruel
 	trait=envious
+	trait=bastard
 	trait=sympathy_pacific
-	mother=1384060
+	trait=sympathy_christendom
+	trait=cynical
 	2390.11.14={birth=yes}
 	2434.4.21={death=yes}
 }
@@ -1590,7 +1539,7 @@
 	name="Leonard"
 	dynasty=1864101 #Hall
 	culture=battleborn
-	religion=imamite
+	religion=qingzhen
 	trait=thrifty_clerk
 	trait=content
 	trait=diligent
@@ -1609,7 +1558,7 @@
 	name="Freddy"
 	dynasty=1864101 #Hall
 	culture=battleborn
-	religion=imamite
+	religion=qingzhen
 	trait=underhanded_rogue
 	trait=ambitious
 	trait=envious
@@ -1627,7 +1576,7 @@
 	name="John"
 	dynasty=1864101 #Hall
 	culture=battleborn
-	religion=imamite
+	religion=qingzhen
 	trait=martial_cleric
 	trait=zealous
 	trait=charitable
@@ -1644,7 +1593,7 @@
 	name="Aaron"
 	dynasty=1864101 #Hall
 	culture=battleborn
-	religion=imamite
+	religion=qingzhen
 	trait=tough_soldier
 	trait=hunter
 	trait=patient
@@ -1660,7 +1609,7 @@
 	name="Conner"
 	dynasty=1864101 #Hall
 	culture=battleborn
-	religion=imamite
+	religion=qingzhen
 	trait=thrifty_clerk
 	trait=administrator
 	trait=diligent
@@ -1678,7 +1627,7 @@
 	name="Joesph"
 	dynasty=1864101 #Hall
 	culture=battleborn
-	religion=imamite
+	religion=qingzhen
 	trait=intricate_webweaver
 	trait=patient
 	trait=diligent
@@ -1691,7 +1640,7 @@
 	2631.4.19={birth=yes}
 	2665.12.5={
 		add_claim=c_blythe
-		employer=1910142
+		employer=1910160
 	}
 	2700.1.1={death=yes}
 }
@@ -1715,13 +1664,13 @@
 	name="Sulayman" # d_los_padres, c_santa_barbara
 	dynasty=2030034 #Abdulfattah
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	occluded=yes
 	trait=legendary
 	trait=just
 	trait=diligent
 	trait=ambitious
-	trait=zealous
+	trait=cynical
 	trait=twin
 	father=1384072
 	mother=1384071
@@ -1734,7 +1683,7 @@
 	dynasty=2030034 #Abdulfattah
 	female=yes
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	occluded=yes
 	trait=legendary
 	trait=just
@@ -1753,7 +1702,7 @@
 	name="Usama" # d_los_padres, c_santa_barbara
 	dynasty=2030034 #Abdulfattah
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	occluded=yes
 	trait=legendary
 	trait=just
@@ -1769,7 +1718,7 @@
 	name="Bilal" # d_los_padres, c_santa_barbara
 	dynasty=2030034 #Abdulfattah
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=just
 	trait=diligent
 	trait=ambitious
@@ -1787,7 +1736,7 @@
 	name="Sulayman" # d_los_padres, c_santa_barbara
 	dynasty=2030034 #Abdulfattah
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=just
 	trait=diligent
 	trait=ambitious
@@ -1807,7 +1756,7 @@
 	name="Yusuf" # d_los_padres, c_santa_barbara
 	dynasty=2030034 #Abdulfattah
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=wroth
 	trait=just
 	trait=ambitious
@@ -1822,7 +1771,7 @@
 	name="Mahdi" # d_los_padres, c_santa_barbara
 	dynasty=2030034 #Abdulfattah
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=wroth
 	trait=just
 	trait=content
@@ -1838,7 +1787,7 @@
 	name="Majid" # d_los_padres, c_santa_barbara
 	dynasty=2030034 #Abdulfattah
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=just
 	trait=ambitious
 	trait=zealous
@@ -1852,7 +1801,7 @@
 	name="Amir" # d_los_padres, c_santa_barbara
 	dynasty=2030034 #Abdulfattah
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=just
 	trait=kind
 	trait=diligent
@@ -1866,7 +1815,7 @@
 	dynasty=2030034 #Abdulfattah
 	female=yes
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=just
 	trait=fair
 	trait=diligent
@@ -1883,7 +1832,7 @@
 	name="Ayyub"
 	dynasty=2030035 #Ayyubi
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=just
 	trait=fair
 	trait=diligent
@@ -1899,7 +1848,7 @@
 	name="Ahmad" # d_los_padres, c_santa_barbara
 	dynasty=2030035 #Ayyubi
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=strong
 	trait=duelist
 	trait=just
@@ -1916,7 +1865,7 @@
 	name="Ali" # d_los_padres, c_santa_barbara
 	dynasty=2030035 #Ayyubi
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=strong
 	trait=duelist
 	trait=just
@@ -1932,7 +1881,7 @@
 	name="Hassan" # d_los_padres, c_santa_barbara
 	dynasty=2030035 #Ayyubi
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=strong
 	trait=duelist
 	trait=just
@@ -1948,7 +1897,7 @@
 	name="Yunus" # d_los_padres, c_santa_barbara
 	dynasty=2030035 #Ayyubi
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=strong
 	trait=duelist
 	trait=just
@@ -1964,7 +1913,7 @@
 	name="Nasser" # d_los_padres, c_santa_barbara
 	dynasty=2030035 #Ayyubi
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=strong
 	trait=duelist
 	trait=just
@@ -1985,7 +1934,7 @@
 	name="Ahmad"
 	dynasty=2030035 #Ayyubi
 	culture=anjalusi
-	religion=imamite
+	religion=qingzhen
 	trait=strong
 	trait=duelist
 	trait=just
@@ -1997,38 +1946,20 @@
 	2654.11.30={death=yes}
 }
 
-1384090={
-	name="Yusuf"
-	dynasty=2030035 #Ayyubi
-	culture=anjalusi
-	religion=imamite
-	trait=strong
-	trait=duelist
-	trait=just
-	trait=diligent
-	trait=ambitious
-	trait=zealous
-	trait=ansari
-	father=1384089
-	2640.3.17={birth=yes}
-	2665.12.25={
-		employer=1910142
-		effect={
-			add_weak_claim=d_los_padres
-			add_weak_claim=c_santa_barbara
-		}
-	}
-	2704.2.13={death=yes}
-}
-
-1384091={ #duke of salton, count of imperial
+1384091={ #duke of salton, count of imperial, first king of socal
 	name="Teng"
 	dynasty=1913013 #ma
 	culture=chino
 	religion=qingzhen
 	trait=confucianism_qingzhen
+	trait=ambitious
 	trait=diligent
 	trait=just
+	trait=sympathy_pacific
+	trait=tough_soldier
+	trait=quick
+	trait=imp_ex3
+	give_nickname=nick_the_shrewd	
 	father=1384037
 	2310.1.22={birth=yes}
 	2390.11.2={death=yes}
@@ -2073,7 +2004,7 @@
 	name="Marcus"
 	culture=valleyan
 	dynasty=1851041 #Yudkow
-	religion=imamite
+	religion=qingzhen
 	trait=grey_eminence
 	trait=scholar
 	trait=kind
@@ -2120,7 +2051,7 @@
 	culture=greek
 	female=yes
 	dynasty=1851041 #Yudkow
-	religion=imamite
+	religion=qingzhen
 	trait=skilled_tactician
 	trait=content
 	trait=devout
@@ -2152,7 +2083,7 @@
 	name="Zane"
 	culture=greek
 	dynasty=1851041 #Yudkow
-	religion=imamite
+	religion=qingzhen
 	trait=skilled_tactician
 	trait=diligent
 	trait=zealous
@@ -2192,7 +2123,7 @@
 	culture=greek
 	female=yes
 	dynasty=1851041 #Yudkow
-	religion=imamite
+	religion=qingzhen
 	trait=grey_eminence
 	trait=ambitious
 	trait=sayyid2
@@ -2224,7 +2155,7 @@
 	female=yes
 	dynasty=1851041 #Yudkow
 	religion=gaian
-	secret_religion=imamite
+	secret_religion=qingzhen
 	trait=peasant_leader
 	trait=ambitious
 	trait=zodiac_leo
@@ -2247,7 +2178,7 @@
 	female=yes
 	dynasty=1851041 #Yudkow
 	religion=gaian
-	secret_religion=imamite
+	secret_religion=qingzhen
 	trait=kind
 	trait=ambitious
 	trait=zodiac_leo
@@ -2266,7 +2197,7 @@
 	female=yes
 	dynasty=1851041 #Yudkow
 	religion=gaian
-	secret_religion=imamite
+	secret_religion=qingzhen
 	trait=kind
 	trait=ambitious
 	trait=zodiac_leo

@@ -41,6 +41,8 @@ e_great_lakes = {
 
 		ojibwe = "Mishigamaa"
 		neomoor = "Dar al-Allah"
+		nilelander = "Dar al-Allah"
+		afrikan = "Dar al-Allah"			
 
 		# Crusade target weight
 		catholic = 20
@@ -107,6 +109,8 @@ e_great_lakes = {
 				color={ 123 141 155 }
 				color2={ 220 220 20 }
 				neomoor = "D-Mecca"
+				nilelander = "D-Mecca"
+				afrikan = "D-Mecca"					
 				motowner = "Motown"
 				northlander = "Krómgarðr" #Chrome City
 				dellsman = "Krómgarðr" #Chrome City
@@ -124,6 +128,8 @@ e_great_lakes = {
 
 				b_detroit_MI = {
 					neomoor = "D-Mecca"
+					nilelander = "D-Mecca"
+					afrikan = "D-Mecca"
 				}
 				b_dearborn_MI = {}
 				b_monroe_MI = {}
@@ -502,6 +508,8 @@ e_great_lakes = {
 		color2={ 220 220 20 }
 		
 		neomoor = "Syria"
+		nilelander = "Syria"
+		afrikan = "Syria"
 
 		capital = 111 # Columbus
 
@@ -540,6 +548,8 @@ e_great_lakes = {
 				color2={ 220 220 20 }
 				
 				neomoor = "Damascus"
+				nilelander = "Damascus"
+				afrikan = "Damascus"				
 
 				b_columbus_OH = {}
 				b_gahanna_OH = {}
@@ -810,6 +820,8 @@ e_great_lakes = {
 		yooper = "Vindgarðr"
 		yiddish = "Eretz Tshikago"
 		neomoor = "Chiraqland"
+		nilelander = "Chiraqland"
+		afrikan = "Chiraqland"		
 
 		# Crusade target weight
 		catholic = 300
@@ -849,6 +861,8 @@ e_great_lakes = {
 
 			yiddish = "Tshikago"
 			neomoor = "Chiraqland"
+			nilelander = "Chiraqland"
+			afrikan = "Chiraqland"				
 
 			c_chicago = {
 				color={ 105 170 70 }
@@ -858,6 +872,8 @@ e_great_lakes = {
 				yooper = "Vindgarðr"
 				yiddish = "Tshikago"
 				neomoor = "C-Medina"
+				nilelander = "C-Medina"
+				afrikan = "C-Medina"					
 				chiraqi = "Chiraq"
 
 				holy_site = norse_pagan
@@ -873,6 +889,8 @@ e_great_lakes = {
 					yiddish = "Tshikago"
 					chiraqi = "Chiraq"
 					neomoor = "C-Medina"
+					nilelander = "C-Medina"
+					afrikan = "C-Medina"	
 					pentarchy = evangelical
 				}
 				b_cicero_IL = {}
@@ -1268,9 +1286,13 @@ e_great_lakes = {
 				holy_site = strangite
 
 				neomoor = "Cream City"
+				nilelander = "Cream City"
+				afrikan = "Cream City"					
 	
 				b_milwaukee_WI = {
 					neomoor = "Cream City"
+					nilelander = "Cream City"
+					afrikan = "Cream City"					
 				}
 				b_waukesha_WI = {}
 				b_muskego_WI = {}
@@ -2048,6 +2070,8 @@ e_great_lakes = {
 		deitsch = "Allgeni"
 		yiddish = "Alegeni"
 		neomoor = "Asir"
+		nilelander = "Asir"
+		afrikan = "Asir"		
 
 		# Crusade target weight
 		catholic = 5
@@ -2233,11 +2257,15 @@ e_great_lakes = {
 				deitsch = "Yohogen"
 				yiddish = "Pitsberg"
 				neomoor = "Power Born"
+				nilelander = "Power Born"
+				afrikan = "Power Born"
 
 				b_pittsburgh_PA = {
 					deitsch = "Pittsbarig"
 					yiddish = "Pitsberg"
 					neomoor = "Power Born"
+					nilelander = "Power Born"
+					afrikan = "Power Born"
 				}
 				b_wexford_PA = {}
 				b_wilkinsburg_PA = {}

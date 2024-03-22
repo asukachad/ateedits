@@ -40,6 +40,8 @@ e_caribbean = {
 		color2={ 220 220 0 }
 
 		neomoor = "Baherayn"
+		nilelander = "Baherayn"
+		afrikan = "Baherayn"		
 		
 		capital = 1100 # Havana
 
@@ -329,6 +331,8 @@ e_caribbean = {
 		orientalist = 200
 		
 		neomoor = "Socotra"
+		nilelander = "Socotra"
+		afrikan = "Socotra"		
 
 		
 		d_jamaica = {
@@ -338,6 +342,8 @@ e_caribbean = {
 			capital = 1174 # Surrey (Kingston)
 			
 			neomoor = "Socotra"
+			nilelander = "Socotra"
+			afrikan = "Socotra"			
 
 			c_cornwall = {
 				color = { 50 155 78 }
@@ -767,6 +773,8 @@ e_caribbean = {
 		haitian = "Ayiti"
 		venteux = "Ayiti"
 		neomoor = "Alsuwmalia"
+		nilelander = "Alsuwmalia"
+		afrikan = "Alsuwmalia"			
 		
 		d_haiti = {
 			capital = 1187 # Port-au-Prince

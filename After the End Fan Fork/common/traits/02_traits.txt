@@ -674,9 +674,11 @@ narrow_flank_leader = {
 brahmin = { #planter
 	potential = {
 		OR = {
-
-			religion = evangelical
-			religion = confederalist
+					religion = evangelical
+					religion = confederalist
+					religion = antinomian
+					religion = postadventist
+					religion = charismatic
 		}
 	}
 	opposites = {
@@ -687,7 +689,8 @@ brahmin = { #planter
 	caste_tier = 2
 	diplomacy = 2
 	vassal_opinion = 5
-	monthly_character_prestige = 0.3
+	same_opinion = 5
+	monthly_character_prestige = 0.5
 
 	customizer = no
 	random = no
@@ -696,9 +699,11 @@ brahmin = { #planter
 kshatriya = { #yeoman
 	potential = {
 		OR = {
-
-			religion = evangelical
-			religion = confederalist
+					religion = evangelical
+					religion = confederalist
+					religion = antinomian
+					religion = postadventist
+					religion = charismatic
 		}
 	}
 	opposites = {
@@ -718,9 +723,11 @@ kshatriya = { #yeoman
 vaishya = { #freeman
 	potential = {
 		OR = {
-
-			religion = evangelical
-			religion = confederalist
+					religion = evangelical
+					religion = confederalist
+					religion = antinomian
+					religion = postadventist
+					religion = charismatic
 		}
 	}
 	opposites = {

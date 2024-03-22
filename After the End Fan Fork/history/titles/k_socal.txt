@@ -1,11 +1,33 @@
 2389.4.17={
 	liege=e_california
+	holder=1384091
 }
+
+2390.11.2={
+	holder=1384038
+}
+
+2460.11.2={
+	holder=1384039
+}
+
+2500.11.2={
+	holder=1384040
+}
+
+2550.11.2={
+	holder=1384041
+}
+
+2600.2.1={
+	holder=1384042
+	liege=0
+}
+
 
 2622.5.5={
 	law=succ_primogeniture
 	holder=1910150
-	liege=0
 }
 
 2650.12.1={

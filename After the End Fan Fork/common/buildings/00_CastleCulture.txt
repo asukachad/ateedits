@@ -9365,18 +9365,28 @@ castle = {
 		potential = {
 			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
 				has_building = ca_culture_neomoor_1
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
+			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
+				}
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0
 			ROOT = {
+			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
+				}
 			}
 		}
 		prerequisites = { ca_wall_2 }
@@ -9396,19 +9406,29 @@ castle = {
 		potential = {
 			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
 				has_building = ca_culture_neomoor_1
 				has_building = ca_culture_neomoor_2
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
+			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
+				}
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
+			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
+				}
 			}
 		}
 		upgrades_from = ca_culture_neomoor_1
@@ -9428,6 +9448,8 @@ castle = {
 		potential = {
 			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
 				has_building = ca_culture_neomoor_1
 				has_building = ca_culture_neomoor_2
 				has_building = ca_culture_neomoor_3
@@ -9435,13 +9457,21 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
+			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
+				}
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
+			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
+				}
 			}
 		}
 		upgrades_from = ca_culture_neomoor_2
@@ -9461,6 +9491,8 @@ castle = {
 		potential = {
 			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
 				has_building = ca_culture_neomoor_1
 				has_building = ca_culture_neomoor_2
 				has_building = ca_culture_neomoor_3
@@ -9469,13 +9501,21 @@ castle = {
 		}
 		is_active_trigger = {
 			ROOT = {
+			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
+				}
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
+			OR = {
 				culture = neomoor
+				culture = nilelander
+				culture = afrikan
+				}
 			}
 		}
 		upgrades_from = ca_culture_neomoor_3

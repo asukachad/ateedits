@@ -8,6 +8,8 @@ e_yucatan = {
 	
 	nahua = "Yocatlán"
 	neomoor = "Qatar"
+	nilelander = "Qatar"
+	afrikan = "Qatar"	
 	
 	k_yucatan = {
 		color={ 103 225 253 }
@@ -20,6 +22,8 @@ e_yucatan = {
 		
 		nahua = "Yocatlán"
 		neomoor = "Qatar"
+		nilelander = "Qatar"
+		afrikan = "Qatar"			
 		
 		d_quintana_roo = {
 			color={ 72 179 177 }
@@ -364,6 +368,8 @@ e_yucatan = {
 			quichean = "Mayab"
 			cholano = "Mayab"
 			neomoor = "Qatar"
+			nilelander = "Qatar"
+			afrikan = "Qatar"				
 
 			c_chichen_itza = { # 1813
 				color={ 82 124 185 }

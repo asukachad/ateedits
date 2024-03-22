@@ -12,7 +12,7 @@ b_brawley_CA=city
 
 # Misc
 culture=chino
-religion=cetic
+religion=qingzhen
 terrain=farmlands
 
 

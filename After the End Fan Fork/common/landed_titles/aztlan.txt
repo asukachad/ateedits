@@ -98,6 +98,8 @@ e_aztlan = {
 		navajo = "Nahata Dzil"
 		apache = "Abaachi"
 		neomoor = "Al-Khali"
+		nilelander = "Al-Khali"
+		afrikan = "Al-Khali"		
 
 		capital = 439 # Phoenix
 		
@@ -696,7 +698,6 @@ e_aztlan = {
 				color={ 146 128 106 }
 				color2={ 255 255 255 }
 	
-				holy_site = navegante
 	
 				nahua = "Colhuahcan"
 				b_culiacan_SI = {

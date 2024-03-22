@@ -90,6 +90,8 @@ e_grand_virginia = {
 		capital = 100 # ASheville
 		
 		neomoor = "Sinai"
+		nilelander = "Sinai"
+		afrikan = "Sinai"		
 
 		# Crusade target weight
 		catholic = 20
@@ -857,6 +859,8 @@ e_grand_virginia = {
 		rust_cultist = 20
 		
 		neomoor = "Kemet"
+		nilelander = "Kemet"
+		afrikan = "Kemet"			
 
 		capital = 1009
 		

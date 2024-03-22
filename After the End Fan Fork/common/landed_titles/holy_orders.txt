@@ -938,7 +938,7 @@ d_fruit_of_islam = {
 	capital = 1093 # Tampa
 		
 	religion = orientalist	
-	culture = neomoor
+	culture = afrikan
 
 	title = "CAPTAIN"
 	foa = "CAPTAIN_FOA"

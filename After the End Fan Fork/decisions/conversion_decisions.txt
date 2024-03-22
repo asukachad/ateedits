@@ -1528,50 +1528,149 @@ targetted_decisions = {
 			modifier = {
 				factor = 0.01
 				capital_scope = {
-					NOT = { culture = neomoor }
+					NOT = { culture = nilelander }
 				}
 			}
 			modifier = {
 				factor = 2.0
-				liege = { culture = neomoor }
+				liege = { culture = nilelander }
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
 					value = 2
-					culture = neomoor
+					culture = nilelander
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
 					value = 4
-					culture = neomoor
+					culture = nilelander
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
 					value = 6
-					culture = neomoor
+					culture = nilelander
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
 					value = 8
-					culture = neomoor
+					culture = nilelander
 				}
 			}
 			modifier = {
 				factor = 1.1
 				num_culture_realm_provs = {
 					value = 10
-					culture = neomoor
+					culture = nilelander
 				}
 			}
 		}
 	}
+	
+	convert_to_afrikan = {
+		only_playable = yes
+
+		filter = self
+		ai_target_filter = self
+		ai_check_interval = 60
+
+		potential = {
+			is_playable = yes
+			OR = {
+				religion = orientalist
+				religion = misrist
+			}
+			any_realm_province = {
+				culture = afrikan
+			}
+			#NOT = { government = chinese_imperial_government }
+			NOT = {
+				has_alternate_start_parameter = { key = culture_names value = random }
+			}
+		}
+		allow = {
+			OR = {
+				religion = orientalist
+				religion = misrist
+			}
+		}
+		effect = {
+			culture = afrikan
+			any_courtier = {
+				limit = {
+					OR = {
+						religion = orientalist
+						religion = misrist
+					}
+					employer = { character = ROOT }
+					dynasty = ROOT
+				}
+				culture = afrikan
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 0.5 # Slow it down a bit
+			}
+
+			modifier = {
+				factor = 0.01
+				capital_scope = {
+					NOT = { culture = afrikan }
+				}
+			}
+			modifier = {
+				factor = 2.0
+				liege = { culture = afrikan }
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					value = 2
+					culture = afrikan
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					value = 4
+					culture = afrikan
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					value = 6
+					culture = afrikan
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					value = 8
+					culture = afrikan
+				}
+			}
+			modifier = {
+				factor = 1.1
+				num_culture_realm_provs = {
+					value = 10
+					culture = afrikan
+				}
+			}
+		}
+	}	
 	
 	convert_to_cajun = {
 		only_playable = yes

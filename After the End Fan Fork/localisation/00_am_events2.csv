@@ -1497,8 +1497,8 @@ col.25.optArus;Welcome, comrades!;;;;;;;;;;;;;x
 col.31.text;The wealth of our homeland has blessed us all. Ships bearing great fortunes to kickstart colonial operations and set up trading networks have arrived, sure to bring great bounty into our land.;;;;;;;;;;;;;x
 col.31.optA;Not one step back!;;;;;;;;;;;;;x
 consumerism_reward_decision;Issue Dividend: [Root.GetFirstName];;;;;;;;;;;;x
-consumerism_reward_decision_desc;[Root.GetFirstName] supported the Prophet in his glorious uprising, or is descended from one such Investor. [Root.GetSubjectPronounCap] should be rewarded with a title.;;;;;;;;;;;;x
-EVTDESC_consumer_give_title;[Root.GetFirstName] supported the Prophet during the glorious uprising, or is descended from one such Investor. [Root.GetSubjectPronounCap] should be rewarded with a title.;;;;;;;;;;;;;x
+consumerism_reward_decision_desc;[Root.GetFirstName] supported the Profit in his glorious uprising, or is descended from one such Investor. [Root.GetSubjectPronounCap] should be rewarded with a title.;;;;;;;;;;;;x
+EVTDESC_consumer_give_title;[Root.GetFirstName] supported the Profit during the glorious uprising, or is descended from one such Investor. [Root.GetSubjectPronounCap] should be rewarded with a title.;;;;;;;;;;;;;x
 EVTOPT_consumer_give_county;Award a county.;;;;;;;;;;;;;x
 EVTOPT_consumer_give_barony;Award a feudal barony.;;;;;;;;;;;;;x
 EVTOPT_consumer_give_citytemp;Award a temple or city.;;;;;;;;;;;;;x
@@ -3042,7 +3042,7 @@ EVTOPT_ceticreformsagrado;The way of the Heart speaks to me, personally.;;;;;;;;
 EVTOPT_ceticreformsede;I will not fall to Protestant Propaganda... the Sedevacantists will have me.;;;;;;;;;;;;;x
 EVTOPT_ceticreformcatholic;The Pope in America is the true Vicar of Christ.;;;;;;;;;;;;;x
 EVTOPT_ceticreformnestorian;The Patriarch of the East will guide me.;;;;;;;;;;;;;x
-EVTOPT_ceticreformconsumerist;The Prophet had it right, the Spending must commence.;;;;;;;;;;;;;x
+EVTOPT_ceticreformconsumerist;The Profit had it right, the Spending must commence.;;;;;;;;;;;;;x
 EVTOPT_ceticreformmonetarist;The empire squandered its wealth — we must preserve it.;;;;;;;;;;;;;x
 EVTOPT_ceticreformhamiltonian;The Old World is where we will find salvation.;;;;;;;;;;;;;x
 EVTOPT_ceticreformaphite;This empire has ceased to be a place of honor.;;;;;;;;;;;;;x

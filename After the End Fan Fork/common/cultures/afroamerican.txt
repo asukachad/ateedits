@@ -11,18 +11,18 @@ afroamerican = {
 		color = { 0.45 0.31 0.59 }
 
 		male_names = {
-			Ali Almanzor Abderraman Abdul Abdullah Abubekar "Ali Baba" Alpharabius Algorithmi Averroes Avicenna Alhazen Alkindus Azophi Avenzoar Abulcasis
+			Ali Almanzor Abderraman Abdul Abdullah Abubekar Alpharabius Algorithmi Averroes Avicenna Alhazen Alkindus Azophi Avenzoar Abulcasis
 			Baker Bader Basher Baderaddine Bassem Barack Bilal
 			Casim
 			David Daniel Dodd Doddi Dean
 			Elias Elijah 
 			Fard Faakih Faaris Faarooq Fakhruddin Fakr ad-Dawlah Farajullah Farid Farrakhan
-			Habeel Harris Hadi Hafiz Hakim Haidar Haider Habib Hajj Haji Hamza Hamid Hani Haroun Hassan Hussayn Hashim Haytham Humayun Hussein Hajji
+			Habeel Harris Hadi Hafiz Hakim Haidar Haider Habib Hajj Haji Hamza Hamid Hani Haroun Hassan Hussayn Hashim Haytham Humayun Hussein Hajji Hotep
 			Islam Ishma'il Idris Ibrahim Ihsan Ilyas Imad Imran Ishaaq Issam Isa
 			Jabir Jafar Jalil_Jaleel Jamal Jawad Jibran James
 			Kamil Kabir_Kabeer Kamal Khadim Khalid_Khaled Khaleed Karl_Charles Keaton Kenneth Kevin Khosrau Kirk
 			Louis Layth Lot
-			Mahmoud_Mahmud Mirza Mammon Mahdi Malcom Mansur_Mansour Marwan Mika'il_Michael Muhammad_Mohammed Musa Muhsin Mustafa Murad Michael_Michael Mickey
+			Mahmoud_Mahmud Mirza Mammon Mahdi Malcom Mansur_Mansour Marwan Mika'il_Michael Muhammad_Mohammed Musa Muhsin Mustafa Murad Michael_Michael
 			Nabil Nadir_Nader Nazim Nazeer Nasser Nuraddin Nuh_Noah Nuwas
 			Obaid Osama 
 			Qadir
@@ -45,7 +45,7 @@ afroamerican = {
 			Gazala Ghania Ghayda Ghazal Georgianna Geraldine Gina Ginger Gladys Gloria Grace Greene Greer Greta
 			Habiba Haboos Hadiya Hafsa Haifa Halima Hala Hamida Hana Hannah Huda Hara Hazel Hedy 
 			Ilhan Ilham Iman Inan Izma
-			Jamila Jahan Jalila Jana Jasmin Jenna Jazira 
+			Jamila Jahan Jalila Jana Jenna Jazira 
 			Kalima Kulthoom_Kulthoom Kalsoom_Kulthoom Karima Khadija Khatira Khalisa Kamila
 			Lana Laila Lina Leia Luna Lu'lu La'iba Layla Lena
 			Madiha Maha Majida Malika Maria Maryam Masum'ahMona Munawwar Muneerah 

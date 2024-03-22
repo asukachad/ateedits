@@ -558,20 +558,20 @@ bm_gods_and_kings = {
 	}
 	
 	selectable_character = {
-		id = 2200016 # Zakariyya
-		age = 17
-		name = ERA_CHAR_NAME_ZAKARIYYA
-		title = d_imamite
-		title_name = IMAMITE
+		id = 1845060 # Queen Veronica of Lincoln
+		age = 48
+		name = ERA_CHAR_NAME_VERONICA
+		title = k_lincoln
+		title_name = k_lincoln
 		
 		character = {
-			female = no
-			dna="axzhowapume"
-			properties="we0dld"
-			religion="imamite"
-			culture="anjalusi"
-			government = bureaucratic_government
-			dynasty=2030000
+			female = yes
+			dna="snpjooxujdn"
+			properties="mju0cg"
+			religion="gaian"
+			culture="portlander"
+			government = tribal_government
+			dynasty=1845005
 		}
 	}
 }

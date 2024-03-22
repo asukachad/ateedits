@@ -20,6 +20,9 @@ character_event = {
                 OR = {
 					religion = evangelical
 					religion = confederalist
+					religion = antinomian
+					religion = postadventist
+					religion = charismatic
 						}
 				OR = {
 						dynasty = 1782000
@@ -53,6 +56,9 @@ character_event = {
                 OR = {
 					religion = evangelical
 					religion = confederalist
+					religion = antinomian
+					religion = postadventist
+					religion = charismatic
 						}
 				OR = {
 						dynasty = 1782002
@@ -63,6 +69,10 @@ character_event = {
 						dynasty = 1787017
 						dynasty = 1787062
 						dynasty = 1782058
+						dynasty = 1787027
+						dynasty = 1787018
+						dynasty = 1826020
+						dynasty = 1782056
 						}
             }
             add_trait = kshatriya #yeoman
@@ -72,6 +82,9 @@ character_event = {
                 OR = {
 					religion = evangelical
 					religion = confederalist
+					religion = antinomian
+					religion = postadventist
+					religion = charismatic
 						}
 				NOR = {
 						dynasty = 1782000
@@ -102,9 +115,43 @@ character_event = {
 						dynasty = 1787072
 						dynasty = 1787071
 						dynasty = 1782038
+						dynasty = 1787027
+						dynasty = 1787018
+						dynasty = 1826020
+						dynasty = 1782056
 						}
             }
             add_trait = vaishya #freeman
         }		
 	}
 }
+#character_event = {
+#	id = castefix
+#	desc = EVTDESC_bounce
+#	picture = cathedral_soa
+#
+#	trigger = {
+#		OR = { 
+#				religion = evangelical
+#				religion = confederalist
+#				religion = antinomian
+#				religion = postadventist
+#				religion = charismatic
+#				}
+#		NOR = {
+#					trait = brahmin
+#					trait = kshatriya
+#					trait = vaishya
+#				}
+#		}	
+#	
+#		mean_time_to_happen = {
+#			days = 1
+#		}
+#	
+#		option = {
+#			name = OK
+#			add_trait = vaishya
+#		}
+#	}
+#}

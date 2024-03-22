@@ -517,11 +517,9 @@ e_lone_star = {
 			c_dallas = {
 				color = { 140 37 29 }
 				color2= { 255 255 20 }
-				neomoor = "Sudan"
 				texan = "Dallas"
 	
 				b_dallas_TX = {
-					neomoor = "Sudan"
 				}
 				b_garland_TX = {}
 				b_eureka_TX = {}

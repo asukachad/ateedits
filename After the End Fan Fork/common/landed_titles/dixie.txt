@@ -129,6 +129,8 @@ e_dixie = {
 	
 		capital = 149 # Atlanta
 		neomoor = "Dar al-Yakub"
+		nilelander = "Dar al-Yakub"
+		afrikan = "Dar al-Yakub"		
 		
 		title_prefix = "GRAND_DUCHY_PREFIX"
 		title = "GRAND_DUCHY_RULER"
@@ -171,7 +173,9 @@ e_dixie = {
 
 		capital = 149 # Atlanta
 		neomoor = "Dar al-Yakub"
-
+		nilelander = "Dar al-Yakub"
+		afrikan = "Dar al-Yakub"
+		
 		allow = {
 			war = no
 			NOT = { has_landed_title = e_dixie }
@@ -208,11 +212,15 @@ e_dixie = {
 				holy_site = confederalist
 				muscogee = "Standing Peachtree"
 				neomoor = "Allah's Garden"
+				nilelander = "Allah's Garden"
+				afrikan = "Allah's Garden"				
 
 				b_atlanta_GA = {
 					pentarchy = evangelical
 					muscogee = "Standing Peachtree"
 					neomoor = "Allah's Garden"
+					nilelander = "Allah's Garden"
+					afrikan = "Allah's Garden"						
 
 				}
 				b_marietta_GA = {}
@@ -521,6 +529,8 @@ e_dixie = {
 		southron = "Alabama"
 		beltway = "Alabama"
 		neomoor = "Sudan"
+		nilelander = "Sudan"
+		afrikan = "Sudan"			
 	
 		allow = {
 			war = no
@@ -790,6 +800,8 @@ e_dixie = {
 		
 		beltway = "South Carolina"
 		neomoor = "South Cresent"
+		nilelander = "South Cresent"
+		afrikan = "South Cresent"			
 		
 		# Crusade target weight
 		catholic = 5
@@ -1012,6 +1024,8 @@ e_dixie = {
 		
 		beltway = "North Carolina"
 		neomoor = "North Cresent"
+		nilelander = "North Cresent"
+		afrikan = "North Cresent"		
 	
 		allow = {
 			war = no

@@ -1691,12 +1691,16 @@ e_cascadia = {
 				haida = "K'iida"	#store up
 				ktunaxa = "Siyatl"
 				neomoor = "Morocco"
+				nilelander = "Morocco"
+				afrikan = "Morocco"				
 
 				holy_site = nousthreskeia #Lenin statue
 				holy_site = orthodox 
 				b_seattle_WA = {
 					ktunaxa = "Siyatl"
 					neomoor = "Morocco"
+					nilelander = "Morocco"
+					afrikan = "Morocco"						
 
 				}
 				b_bellevue_WA = {}

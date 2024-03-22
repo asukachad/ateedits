@@ -213,4 +213,48 @@ portuguese = {
 		mat_grm_name_chance = 20
 		mother_name_chance = 10
 	}
+	
+	confederado = { #confederate descendents in brazil
+		graphical_cultures = { southerngfx trueoccitangfx occitangfx }
+		
+		color = { 0.2 0.8 0.07 }
+
+		male_names = {
+			Robert Thomas Braxton Nathan George Joeseph Jubal Kirby "John Bell" Barnard Lewis Alexander Daniel Henry James Alpheus
+			William Seth Cullen Hamilton Samuel Jefferson Theodore Ellison Philip "John Rogers" Alfred Junius Albert Daniel Basil
+			Jubilee Mathew Arnold Jesse Isham Martin
+		}
+		female_names = {
+			Alexandra April Alyssa Anastasia Antigone Antonia
+			Beatrice Belle Blanchet Bradamante
+			Carolina_Caroline Catherine Claudia Clover Clymene Cola Cornelia
+			Dahlia Daisy
+			Elaine Elisabeth_Elizabeth Eudoxia
+			Georgia Guinevere Gwendolyn
+			Harriet Helen Henrietta Hera
+			India Iseult
+			Jane Joanna_Joan Jocasta Josephine Juliet June
+			Lucia Lorena Lucilla_Lucille
+			Margaret Mary May Megara Melanie Melantha Melisende_Millicent Michelle Morgana Morgause
+			Pamilia Peach Primrose Primula
+			Rhea Roberta
+			Sarah Scarlett Silvana Susanna_Susan
+			Violet Virginia
+		}
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "filho de "
+		female_patronym = "filha de "
+		prefix = yes
+
+		modifier = default_culture_modifier
+
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 5
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 60
+		mat_grm_name_chance = 15
+		mother_name_chance = 15
+	}	
 }

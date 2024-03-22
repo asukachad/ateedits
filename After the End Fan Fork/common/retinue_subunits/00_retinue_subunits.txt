@@ -1470,7 +1470,11 @@ RETTYPE_CUL_NEOMOOR =
 
 	potential = {
 		is_nomadic = no
-		culture = neomoor
+		OR = {
+			culture = neomoor
+			culture = nilelander
+			culture = afrikan
+		}
 	}
 
 	modifier = {

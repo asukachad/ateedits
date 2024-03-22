@@ -15,9 +15,7 @@ decisions = {
 				religion = cristo_rey
 				religion = reformista
 			}
-			OR = {
-				has_landed_title = e_mexico
-			}
+			has_landed_title = e_mexico
 			is_heretic = no
 			NOT = { has_global_flag = orthodoxy_enforced }
 			d_prelate = {

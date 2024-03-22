@@ -332,12 +332,6 @@ religion_same_as_bloodline_founder_trigger = { #WHY PARADOX
 	}
 	trigger_if = {
 		limit = {
-			FROM = { has_bloodline_flag = requires_navegante_religion }
-		}
-		ROOT = { show_scope_change = no religion = navegante }
-	}
-	trigger_if = {
-		limit = {
 			FROM = { has_bloodline_flag = requires_cetic_religion }
 		}
 		ROOT = { show_scope_change = no religion = cetic }

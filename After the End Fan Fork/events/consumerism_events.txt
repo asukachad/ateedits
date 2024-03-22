@@ -181,7 +181,7 @@ narrative_event = {
 					set_character_flag = consumerist_prophet
 					set_character_flag = the_prophet # for conversion events
 					save_global_event_target_as = consumerist_prophet
-					give_nickname = nick_the_prophet
+					give_nickname = nick_the_profit
 					character_event = { id = misc.3 } # Diversity
 					#Prophet will always be in good shape
 					wealth = 5000

@@ -1,0 +1,648 @@
+namespace = misrist_pilgrims
+
+province_event = {
+	id = misrist_pilgrims.1
+	title = EVTTITLE_misrist_pilgrims
+	desc = EVTDESC_misrist_pilgrims
+	picture = GFX_evt_yashamal
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		OR = {
+			province_id = 2073
+			province_id = 1055
+			province_id = 1024
+			province_id = 992
+			}
+		owner = { war = no }
+		NOR = {
+			religion_group = muslim
+			has_province_flag = misrist_pilgrims
+			has_province_flag = thriving_misrist_pilgrims
+			has_province_flag = banned_misrist_pilgrims
+			owner = { has_character_flag = likes_misri_pilgrims }
+			owner = { has_character_flag = misrist_pilgrims_second_chance }
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 20
+		modifier = {
+			factor = 2.0
+			owner = { trait = zealous }
+		}		
+	}
+	
+	immediate = {
+		set_province_flag = misrist_pilgrims
+	}
+	
+	option = {
+		name = EVTOPTA_misrist_pilgrims_1
+		add_province_modifier = { name = misrist_pilgrims duration = -1 }
+		set_province_flag = misrist_pilgrims
+		holder_scope = { wealth = 50 }
+		holder_scope = { piety = -50 }
+		holder_scope = { set_character_flag = likes_misri_pilgrims }
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				owner = { trait = greedy }
+			}
+			modifier = {
+				factor = 2
+				owner = { trait = cynical }
+			}
+		}	
+	}
+	
+	option = {
+		name = EVTOPTB_misrist_pilgrims.1
+		holder_scope = { piety = 50 }
+		add_province_modifier = { name = banned_misrist_pilgrims years = 1 }
+		set_province_flag = banned_misrist_pilgrims	
+		custom_tooltip = { text = TXT_EVT_misrist_pilgrims_banned }
+		
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 0
+				owner = { trait = sympathy_islam }
+			}
+			modifier = {
+				factor = 2
+				owner = { trait = zealous }
+			}
+		}		
+	}	
+}
+
+character_event = {
+	id = misrist_pilgrims.2
+	desc = EVTDESC_misrist_pilgrims.2
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_diplomacy
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_misrist_pilgrims.2
+		piety = -15
+		wealth = 50
+		custom_tooltip = { text = TXT_EVTOPTA_misrist_pilgrims.2 }
+		hidden_tooltip = { set_character_flag = likes_misri_pilgrims }
+		
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = cynical
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_misrist_pilgrims.2
+		piety = 50
+		any_demesne_province = {
+			if = {
+				limit = {
+					has_province_flag = misrist_pilgrims
+				}
+				remove_province_modifier = misrist_pilgrims
+				clr_province_flag = misrist_pilgrims
+				add_province_modifier = { name = banned_misrist_pilgrims years = 3 }
+				set_province_flag = banned_misrist_pilgrims
+			}
+		}
+		
+		custom_tooltip = { text = TXT_EVTOPTC_misrist_pilgrims.2 }
+		hidden_tooltip = { set_character_flag = misrist_pilgrims_second_chance }
+		
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				trait = sympathy_islam
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+		}		
+	}
+}
+
+province_event = {
+	id = misrist_pilgrims.3 #pilgrim province starts thriving
+	title = EVTTITLE_misrist_pilgrims.3title = EVTTITLE_misrist_pilgrims.3
+	desc = EVTDESC_misrist_pilgrims.3
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_diplomacy
+
+	trigger = {
+		has_province_flag = misrist_pilgrims
+		owner = { has_character_flag = likes_misri_pilgrims }		
+		NOR = { 
+				has_province_flag = banned_misrist_pilgrims 
+				has_province_flag = thriving_misrist_pilgrims
+				}
+		owner = { war = no }		
+	}
+	
+	mean_time_to_happen = {
+		years = 30
+	}	
+	
+	option = {
+		name = EVTOPTA_misrist_pilgrims.3
+		wealth = 100
+		remove_province_modifier = misrist_pilgrims
+		add_province_modifier = { name = thriving_misrist_pilgrims duration = -1 }
+		clr_province_flag = misrist_pilgrims
+		set_province_flag = thriving_misrist_pilgrims
+	}
+}
+
+province_event = { #pilgrim province flips to misrist
+	id = misrist_pilgrims.4
+	title = EVTTITLE_misrist_pilgrims.4
+	desc = EVTDESC_misrist_pilgrims.4
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_diplomacy
+
+	trigger = {
+		has_province_flag = thriving_misrist_pilgrims 
+		NOR = { religion = misrist has_province_flag = misrist_pilgrims_flipped }
+		NOT = { owner = { religion_group = muslim } }
+		owner = { has_character_flag = likes_misri_pilgrims }
+		owner = { war = no }
+	}
+	
+	mean_time_to_happen = {
+		years = 60
+	}	
+	
+	option = {
+		name = EVTOPTA_misrist_pilgrims.4
+		holder_scope = { piety = -200 }
+		holder_scope = { wealth = 100 }
+		religion = misrist
+		set_province_flag = misrist_pilgrims_flipped		
+		
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				owner = { trait = zealous }
+			}			
+			modifier = {
+				factor = 2
+				owner = { trait = greedy }
+			}
+			modifier = {
+				factor = 2
+				owner = { trait = cynical }
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_misrist_pilgrims.4
+		holder_scope = { piety = 100 }
+		remove_province_modifier = thriving_misrist_pilgrims
+		clr_province_flag = thriving_misrist_pilgrims
+		add_province_modifier = { name = banned_misrist_pilgrims years = 3 }
+		set_province_flag = banned_misrist_pilgrims		
+		
+		custom_tooltip = { text = TXT_EVT_misrist_pilgrims_banned }
+		
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				owner = { trait = sympathy_islam }
+			}
+			modifier = {
+				factor = 2
+				owner = { trait = zealous }
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTC_misrist_pilgrims.4
+		trigger = {
+			has_dlc = "The Sword of Islam"
+			NOT = { owner = { trait = zealous } }
+		}
+		holder_scope = { piety = 50 }
+		holder_scope = { wealth = 100 }
+		holder_scope = { religion = misrist }
+		hidden_tooltip = {
+			holder_scope = { any_spouse = {
+				religion = misrist
+			} }
+			holder_scope = { any_child = {
+				religion = misrist
+			} }
+		}		
+		religion = misrist
+		
+		create_character = {
+			random_traits = yes
+			culture = afrikan
+			dynasty = actually_culture 
+			religion = misrist
+			female = no
+			age = 35
+			trait = mastermind_theologian
+			trait = theologian
+			trait = zealous
+			attributes = {
+				learning = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			character_event = { id = misc.3 } # Diversity
+			character_event = { id = misc.4 } # Physique
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = mystic
+		}
+		
+		any_demesne_province = {
+			if = {
+				limit = {
+					NOR = {
+						has_province_flag = thriving_misrist_pilgrims
+						religion_group = muslim
+					}
+				}
+				add_province_modifier = { name = religious_tension years = 3 }
+			}
+		}
+		
+		custom_tooltip = { text = TXT_EVTOPTD_muslim_mexico_2 }	
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 2
+				owner = { trait = sympathy_islam }
+			}
+			modifier = {
+				factor = 5
+				owner = { trait = lunatic }
+			}
+		}
+	}	
+}
+
+character_event = {
+	id = misrist_pilgrims.5 #misrist warrior pilgrim
+	title = EVTTITLE_misrist_pilgrims.5
+	desc = EVTDESC_misrist_pilgrims.5
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_diplomacy
+
+	trigger = {
+		any_demesne_province = { has_province_flag = thriving_misrist_pilgrims }
+		NOR = { trait = zealous religion_group = muslim }
+		has_character_flag = likes_misri_pilgrims
+	}
+	
+	mean_time_to_happen = {
+		years = 20
+	}	
+	
+	option = {
+		name = EVTOPTA_misrist_pilgrims.5
+		piety = -100
+				
+		custom_tooltip = { text = TXT_EVTOPTA_misrist_pilgrims.5 }
+		create_character = {
+			random_traits = yes
+			culture = afrikan
+			dynasty = actually_culture 
+			religion = misrist
+			female = no
+			age = 30
+			trait = brilliant_strategist
+			trait = strategist
+			trait = zair
+			attributes = {
+				martial = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			character_event = { id = misc.3 } # Diversity
+			character_event = { id = misc.4 } # Physique
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = mystic
+		}		
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_misrist_pilgrims.5
+		piety = 100
+		custom_tooltip = { text = TXT_EVTOPTC_misrist_pilgrims.5 }
+		
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				trait = content
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+		}
+	}
+}
+
+character_event = {
+	id = misrist_pilgrims.6 #misrist steward pilgrim
+	title = EVTTITLE_misrist_pilgrims.6
+	desc = EVTDESC_misrist_pilgrims.6
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_diplomacy
+
+	trigger = {
+		any_demesne_province = { has_province_flag = thriving_misrist_pilgrims }
+		NOR = { trait = zealous religion_group = muslim }
+		has_character_flag = likes_misri_pilgrims
+	}
+	
+	mean_time_to_happen = {
+		years = 20
+	}	
+	
+	option = {
+		name = EVTOPTA_misrist_pilgrims.6
+		piety = -100
+				
+		custom_tooltip = { text = TXT_EVTOPTA_misrist_pilgrims.6 }
+		create_character = {
+			random_traits = yes
+			culture = nilelander
+			dynasty = actually_culture 
+			religion = misrist
+			female = no
+			age = 30
+			trait = fortune_builder
+			trait = zair
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			character_event = { id = misc.3 } # Diversity
+			character_event = { id = misc.4 } # Physique
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = strategist
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = mystic
+		}		
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_misrist_pilgrims.6
+		piety = 100
+		custom_tooltip = { text = TXT_EVTOPTC_misrist_pilgrims.6 }
+		
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+				trait = content
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+		}
+	}
+}
+
+province_event = { #violence against misrists
+	id = misrist_pilgrims.7
+	title = EVTTITLE_misrist_pilgrims.7	
+	desc = EVTDESC_misrist_pilgrims.7
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_diplomacy
+
+	trigger = {
+		has_province_flag = thriving_misrist_pilgrims
+		NOT = { religion = misrist }
+		NOT = { religion_group = muslim }
+		owner = { has_character_flag = likes_misri_pilgrims }
+		NOT = { owner = { religion_group = muslim } }
+	}
+	
+	mean_time_to_happen = {
+		years = 15
+	}	
+	
+	option = {
+		name = EVTOPTA_misrist_pilgrims.7
+		holder_scope = { piety = -100 }
+		add_province_modifier = { name = anti_misrist years = 5 }		
+		
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				trait = zealous
+			}			
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = cynical
+			}
+			modifier = {
+				factor = 2
+				trait = kind
+			}			
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_misrist_pilgrims.7
+		holder_scope = { piety = 100 }
+		remove_province_modifier = thriving_misrist_pilgrims
+		clr_province_flag = thriving_misrist_pilgrims
+		add_province_modifier = { name = banned_misrist_pilgrims years = 3 }
+		set_province_flag = banned_misrist_pilgrims
+		
+		custom_tooltip = { text = TXT_EVT_misrist_pilgrims_banned }
+		
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 0
+				trait = sympathy_islam
+			}
+		}
+	}	
+}
+
+province_event = { #After becoming a misrist king pilgrims stop flocking to one spot in particular, lose modifier
+	id = misrist_pilgrims.8
+	title = EVTTITLE_misrist_pilgrims.8	
+	desc = EVTDESC_misrist_pilgrims.8
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_diplomacy
+
+	trigger = {
+		OR = {
+			has_province_flag = misrist_pilgrims 
+			has_province_flag = thriving_misrist_pilgrims
+			}
+		owner = { religion_group = muslim }
+		owner = { primary_title = { higher_tier_than = DUKE } }
+	}
+	
+	mean_time_to_happen = {
+		years = 1
+	}	
+	
+	option = {
+		name = EVTOPTA_misrist_pilgrims.8
+			remove_province_modifier = thriving_misrist_pilgrims	
+			clr_province_flag = thriving_misrist_pilgrims	
+			remove_province_modifier = misrist_pilgrims
+			clr_province_flag = misrist_pilgrims
+			set_province_flag = banned_misrist_pilgrims
+	}	
+}
+
+province_event = { #successor gets to decide what to do with pilgrims
+	id = misrist_pilgrims.9
+	desc = EVTDESC_misrist_pilgrims.9
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_diplomacy
+	
+	trigger = {
+		OR = {
+			has_province_flag = misrist_pilgrims
+			has_province_flag = thriving_misrist_pilgrims
+			}
+		NOT = { owner = { has_character_flag = likes_misri_pilgrims } }
+	}
+
+	mean_time_to_happen = {
+		years = 1
+	}	
+	
+	option = {
+		name = EVTOPTA_misrist_pilgrims.9
+		holder_scope = { piety = -25 }
+		holder_scope = { wealth = 25 }
+		custom_tooltip = { text = TXT_EVTOPTA_misrist_pilgrims.2 }
+		hidden_tooltip = { holder_scope = { set_character_flag = likes_misri_pilgrims } }
+		
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 2
+				owner = { trait = greedy }
+			}
+			modifier = {
+				factor = 2
+				owner = { trait = cynical }
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_misrist_pilgrims.9
+		holder_scope = { piety = 50 }
+				remove_province_modifier = misrist_pilgrims
+				clr_province_flag = misrist_pilgrims
+				remove_province_modifier = thriving_misrist_pilgrims
+				clr_province_flag = thriving_misrist_pilgrims				
+				add_province_modifier = { name = banned_misrist_pilgrims years = 3 }
+				set_province_flag = banned_misrist_pilgrims
+		}
+		
+		custom_tooltip = { text = TXT_EVTOPTC_misrist_pilgrims.9 }
+		
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				owner = { trait = sympathy_islam }
+			}
+			modifier = {
+				factor = 2
+				owner = { trait = zealous }
+			}
+		}		
+	}
+}

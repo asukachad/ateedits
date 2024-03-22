@@ -104,6 +104,8 @@ e_gulfcoast = {
 		haitian = "Louisiane"
 		ontarois = "Louisiane"
 		neomoor = "Genieland"
+		nilelander = "Genieland"
+		afrikan = "Genieland"			
 
 
 		capital = 1124 # New Orleans
@@ -129,6 +131,9 @@ e_gulfcoast = {
 				quebecois = "Nouvelle-Orléans"
 				acadien = "Nouvelle-Orléans"
 				ontarois = "Nouvelle-Orléans"
+				neomoor = "New Tours"
+				nilelander = "New Tours"
+				afrikan = "New Tours"				
 
 				holy_site = voodoo
 				holy_site = catholic
@@ -526,6 +531,8 @@ e_gulfcoast = {
 		yiddish = "Edom"
 		ontarois = "Floride"
 		neomoor = "Agrabah"
+		nilelander = "Agrabah"
+		afrikan = "Agrabah"			
 		
 		capital = 1097
 		
@@ -632,6 +639,8 @@ e_gulfcoast = {
 				color2={ 220 220 0 }
 				holy_site = orientalist
 				neomoor = "Agrabah"
+				nilelander = "Agrabah"
+				afrikan = "Agrabah"					
 
 				b_orlando_FL = {}
 				b_kissimmee_FL = {}
@@ -881,6 +890,8 @@ e_gulfcoast = {
 
 			yiddish = "Myami"
 			neomoor = "Bassarah"
+			nilelander = "Bassarah"
+			afrikan = "Bassarah"				
 
 
 			capital = 1097
@@ -915,10 +926,14 @@ e_gulfcoast = {
 
 				yiddish = "Myami"
 				neomoor = "Bassarah"
+				nilelander = "Bassarah"
+				afrikan = "Bassarah"					
 
 				b_miami_FL = {
 					yiddish = "Myami"
 					neomoor = "Bassarah"
+					nilelander = "Bassarah"
+					afrikan = "Bassarah"						
 				}
 				b_fort_lauderdale_FL = {
 					used_for_dynasty_names = no

@@ -2370,9 +2370,6 @@ true_religion_sacred_heart_trigger = {
 true_religion_patria_grande_trigger = {
 	true_religion = patria_grande
 }
-true_religion_navegante_trigger = {
-	true_religion = navegante
-}
 true_religion_cetic_trigger = {
 	true_religion = cetic
 }
@@ -3668,10 +3665,6 @@ is_in_prevs_interesting_society_trigger = {
 			PREV = { interested_in_society = secret_religious_society_patria_grande }
 		}
 		AND = {
-			society_member_of = secret_religious_society_navegante
-			PREV = { interested_in_society = secret_religious_society_navegante }
-		}
-		AND = {
 			society_member_of = secret_religious_society_cetic
 			PREV = { interested_in_society = secret_religious_society_cetic }
 		}
@@ -4122,12 +4115,6 @@ has_any_char_old_religion = {
 			has_character_flag = character_was_patria_grande
 			any_character = {
 				religion = patria_grande
-			}
-		}
-		AND = { 
-			has_character_flag = character_was_navegante
-			any_character = {
-				religion = navegante
 			}
 		}
 		AND = {
@@ -4918,13 +4905,6 @@ looting_artifact_event_religious_artifacts_trigger = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = patria_grande
 				ROOT = { religion = patria_grande }
-			}
-		}
-		NAND = {
-			any_artifact = {
-				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = navegante
-				ROOT = { religion = navegante }
 			}
 		}
 		NAND = {
@@ -9487,7 +9467,6 @@ has_character_was_religion_flag_trigger = {
 		has_character_flag = character_was_reformista
 		has_character_flag = character_was_sacred_heart
 		has_character_flag = character_was_patria_grande
-		has_character_flag = character_was_navegante
 		has_character_flag = character_was_cetic
 		has_character_flag = character_was_gaian
 		has_character_flag = character_was_shinto

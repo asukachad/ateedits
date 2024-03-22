@@ -4159,13 +4159,6 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { navegante = { has_religion_feature = religion_cosmopolitan } }
-			random_playable_ruler = {
-				limit = { religion = navegante }
-				apply_cosmopolian_on_start_effect = yes
-			}
-		}
-		if = {
 			limit = { cetic = { has_religion_feature = religion_cosmopolitan } }
 			random_playable_ruler = {
 				limit = { religion = cetic }
@@ -4750,13 +4743,6 @@ character_event = {
 			limit = { patria_grande = { has_religion_feature = religion_dogmatic } }
 			random_playable_ruler = {
 				limit = { religion = patria_grande }
-				apply_dogmatic_on_start_effect = yes
-			}
-		}
-		if = {
-			limit = { navegante = { has_religion_feature = religion_dogmatic } }
-			random_playable_ruler = {
-				limit = { religion = navegante }
 				apply_dogmatic_on_start_effect = yes
 			}
 		}

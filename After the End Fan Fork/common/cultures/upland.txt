@@ -279,24 +279,26 @@ upland = {
 		color = { 0.7 0.5 0.2 }
 
 		male_names = {
-			Ali Aladdin Almanzor Abderraman Abdul Abdullah Abubekar Ammon "Ali Baba" Alpharabius Algorithmi Averroes Avicenna Alhazen Alkindus Azophi Avenzoar Abulcasis
+			Akhenaten Almanzor Abderraman Abdul Abdullah Abubekar Anubis Ammon Amun Alpharabius Algorithmi Amenhotep Averroes Avicenna Alhazen Alkindus Azophi Avenzoar Abulcasis
 			Baker Bader Basher Baderaddine Bassem Barack Bilal
-			Casim
+			Casim Carter
 			David Daniel Dodd Doddi Dean
 			Elias Elijah 
 			Fard Faakih Faaris Faarooq Fakhruddin Fakr ad-Dawlah Farajullah Farid Farrakhan
-			Habeel Harris Hadi Hafiz Hakim Haidar Haider Habib Hajj Haji Hamza Hamid Hani Haroun Hassan Hussayn Hashim Haytham Humayun Hussein Hajji
+			Geb
+			Habeel Harris Hadi Hafiz Hakim Haidar Haider Habib Hajj Haji Hamza Hamid Hani Haroun Hassan Horus Hussayn Hashim Haytham Humayun Hussein Hajji
 			Islam Ishma'il Idris Ibrahim Ihsan Ilyas Imad Imran Ishaaq Issam Isa
 			Jabir Jafar Jalil_Jaleel Jamal Jawad Jibran James
-			Kamil Kabir_Kabeer Kamal Khadim Khalid_Khaled Khaleed Karl_Charles Keaton Kenneth Kevin Khosrau Kirk
+			Kamil Kabir_Kabeer Kamal Khadim Khalid_Khaled Khaleed Karl_Charles Keaton Kenneth Kevin Khosrau Kirk Khufu
 			Louis Layth Lot
-			Mahmoud_Mahmud Mirza Mammon Mahdi Malcom Mansur_Mansour Marwan Mika'il_Michael Muhammad_Mohammed Musa Muhsin Mustafa Murad Michael_Michael Mickey
+			Mahmoud_Mahmud Mirza Mammon Mahdi Malcom Mansur_Mansour Marwan Mika'il_Michael Muhammad_Mohammed Musa Muhsin Mustafa Murad Michael_Michael
 			Nabil Nadir_Nader Nazim Nazeer Nasser Nuraddin Nuh_Noah Nuwas
-			Obaid Osama 
-			Qadir
-			Ra'id Rashid Raheel Rhazes Rumi
-			Sa'ad Sa'id Sabur Saladin Salman Sadiq Sajjad Samir Sameer_Samir Siraj Shihab Sultan 
-			Taha Tahir Talhah Talib Tarik Taymur Tusi
+			Obaid Osama Osiris Orion
+			Pharaoh
+			Qadir 
+			Ra'id Ramesses Rashid Raheel Rhazes Rumi
+			Sa'ad Sa'id Sabur Saladin Salman Sadiq Sajjad Samir Sameer_Samir Siraj Shihab Sobek
+			Taha Tahir Talhah Talib Tarik Taymur Thutmose Tusi Tutankhamun Thoth
 			Ubayd Ubaydallah Usama Utbah
 			Wisam Walid Ward Wayne Wahhab Wallace
 			Yahya Yaqub Yasin Yassir Yunus Yusuf
@@ -306,15 +308,15 @@ upland = {
 
 		female_names = {
 			A'idah A'isha Adila Aala Aaliyah Amal Ajwa Aliza Amalia Ana_Anna Anna_Anna Asma
-			Badia Balqis Bahar Barakah Bette Betty Brigitte
-			Camila Catherine 
+			Badia Balqis Bahar Barakah Bastet Bette Betty Brigitte
+			Camila Catherine Cleopatra
 			Dalila Daliyah Daria Diyanah_Diana Deena Dua Durrah Dunya Diana_Diana 
 			Eman Eliza
 			Fadila Fairuza Farah Fari'ah Fatima Farideh 
 			Gazala Ghania Ghayda Ghazal Georgianna Geraldine Gina Ginger Gladys Gloria Grace Greene Greer Greta
-			Habiba Haboos Hadiya Hafsa Haifa Halima Hala Hamida Hana Hannah Huda Hara Hazel Hedy 
+			Habiba Haboos Hadiya Hafsa Haifa Halima Hala Hamida Hana Hannah Huda Hara Hazel Hedy Hatshepsut
 			Ilhan Ilham Iman Inan Izma
-			Jamila Jahan Jalila Jana Jasmin Jenna Jazira 
+			Jamila Jahan Jalila Jana Jenna Jazira 
 			Kalima Kulthoom_Kulthoom Kalsoom_Kulthoom Karima Khadija Khatira Khalisa Kamila
 			Lana Laila Lina Leia Luna Lu'lu La'iba Layla Lena
 			Madiha Maha Majida Malika Maria Maryam Masum'ahMona Munawwar Muneerah 

@@ -63,6 +63,20 @@ death_text_saoshyant = {
 		}
 	}
 }
+
+death_text_ya_shamal = {
+	weight_multiplier = {
+		factor = 80
+	
+		modifier = {
+			factor = 0
+			NOR = { 
+				trait = ya_shamal 
+			}
+		}
+	}
+}
+
 death_text_sponsor_king = {
 	weight_multiplier = {
 		factor = 60

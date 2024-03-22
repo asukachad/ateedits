@@ -11179,10 +11179,6 @@ add_religion_char_flag_effect = {
 		set_character_flag = character_was_patria_grande
 	}
 	if = {
-		limit = { religion = navegante }
-		set_character_flag = character_was_navegante
-	}
-	if = {
 		limit = { religion = cetic }
 		set_character_flag = character_was_cetic
 	}
@@ -11440,7 +11436,6 @@ clr_religion_char_flag_effect = {
 	clr_character_flag = character_was_reformista
 	clr_character_flag = character_was_sacred_heart
 	clr_character_flag = character_was_patria_grande
-	clr_character_flag = character_was_navegante
 	clr_character_flag = character_was_cetic
 	clr_character_flag = character_was_gaian
 	clr_character_flag = character_was_shinto
@@ -11755,13 +11750,6 @@ event_target_old_religion_from_flag_effect = {
 		limit = { has_character_flag = character_was_patria_grande }
 		random_character = {
 			limit = { religion = patria_grande }
-			save_event_target_as = old_religion
-		}
-	}
-	if = {
-		limit = { has_character_flag = character_was_navegante }
-		random_character = {
-			limit = { religion = navegante }
 			save_event_target_as = old_religion
 		}
 	}
@@ -14020,17 +14008,6 @@ flip_secret_religious_community_provinces = {
 					}
 					religion = patria_grande
 					remove_province_modifier = secret_patria_grande_community
-				}
-			}
-		}
-		secret_religious_society_navegante = {
-			ROOT = {
-				any_demesne_province = {
-					limit = {
-						has_province_modifier = secret_navegante_community
-					}
-					religion = navegante
-					remove_province_modifier = secret_navegante_community
 				}
 			}
 		}
@@ -18728,17 +18705,6 @@ root_secret_religion_provinces_convert_effect = {
 						}
 						religion = patria_grande
 						remove_province_modifier = secret_patria_grande_community
-					}
-				}
-			}
-			secret_religious_society_navegante = {
-				PREV = {
-					any_demesne_province = {
-						limit = {
-							has_province_modifier = secret_navegante_community
-						}
-						religion = navegante
-						remove_province_modifier = secret_navegante_community
 					}
 				}
 			}
@@ -24091,7 +24057,6 @@ fire_haruspicy_event_effect = { #Used for Mesoamerican Religions
 				attacker = { 
 					OR = { 
 						religion_group = mesoamerican_gods
-						religion = navegante
 						has_religion_feature = religion_haruspicy 
 						has_religion_feature = religion_feature_occultist
 					} 
@@ -24106,7 +24071,6 @@ fire_haruspicy_event_effect = { #Used for Mesoamerican Religions
 				defender = { 
 					OR = { 
 						religion_group = mesoamerican_gods
-						religion = navegante
 						has_religion_feature = religion_haruspicy 
 						has_religion_feature = religion_feature_occultist
 					} 

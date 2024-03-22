@@ -80,6 +80,8 @@ e_atlantica = {
 		acadien = "Hudsonie"
 		beltway = "Upstate"
 		neomoor = "Shammar"
+		nilelander = "Shammar"
+		afrikan = "Shammar"		
 
 		d_adirondack = {
 
@@ -643,6 +645,8 @@ e_atlantica = {
 		acadien = "Nouvelle-York"
 		beltway = "Tri-State"
 		neomoor = "Hejaz"
+		nilelander = "Hejaz"
+		afrikan = "Hejaz"
 		
 		# Crusade target weight
 		catholic = 5
@@ -690,7 +694,7 @@ e_atlantica = {
 				holy_site = jewish
 				holy_site = traditionalist
 				holy_site = orientalist
-				holy_site = misrist
+
 	
 				deitsch = "Mannatten"
 				yiddish = "Niu York"
@@ -698,6 +702,8 @@ e_atlantica = {
 				dellsman = "Nýr Jórvík"
 				yooper = "Nýr Jórvík"
 				neomoor = "Mecca"
+				nilelander = "Mecca"
+				afrikan = "Mecca"				
 	
 				b_manhattan_NY = {
 					deitsch = "Mannatten"
@@ -706,12 +712,16 @@ e_atlantica = {
 					dellsman = "Nýr Jórvík"
 					yooper = "Nýr Jórvík"
 					neomoor = "Mecca"
+					nilelander = "Mecca"
+					afrikan = "Mecca"		
 				}
 				b_bronx_NY = {
 					yiddish = "Bronks"
 				}
 				b_harlem_NY = {
 					neomoor = "Mecca"
+					nilelander = "Mecca"
+					afrikan = "Mecca"						
 				}
 				b_sleepy_hollow_NY = {}
 				b_yonkers_NY = {}
@@ -749,14 +759,20 @@ e_atlantica = {
 				deitsch = "Bruchlin"
 				yiddish = "Bruklen"
 				neomoor = "Medina"
+				nilelander = "Medina"
+				afrikan = "Medina"					
 	
 				b_brooklyn_NY = {
 					deitsch = "Bruchlin"
 					yiddish = "Bruklen"
 					neomoor = "Medina"
+					nilelander = "Medina"
+					afrikan = "Medina"					
 				}
 				b_queens_NY = {
 					neomoor = "The Desert"
+					nilelander = "The Desert"
+					afrikan = "The Desert"					
 				}
 				b_elmhurst_NY = {}
 				b_flushing_NY = {}
@@ -947,11 +963,15 @@ e_atlantica = {
 				color2={ 220 220 0 }
 
 				neomoor = "New Heaven"
+				nilelander = "New Heaven"
+				afrikan = "New Heaven"
 				deitsch = "Kwinpaken"
 				yiddish = "Kenepak"
 	
 				b_new_haven_CT = {
 					neomoor = "New Heaven"
+					nilelander = "New Heaven"
+					afrikan = "New Heaven"					
 				}
 				b_norwalk_CT = {}
 				b_bridgeport_CT = {}
@@ -1048,6 +1068,8 @@ e_atlantica = {
 		deitsch = "Kolumbi"
 		yiddish = "Amerika"
 		neomoor = "Andalusia"
+		nilelander = "Andalusia"
+		afrikan = "Andalusia"		
 		
 		d_philadelphia = {
 			color={ 50 150 200 }
@@ -1079,11 +1101,15 @@ e_atlantica = {
 				deitsch = "Filadelfi"
 				yiddish = "Filadelfyi"
 				neomoor = "Power Hill"
+				nilelander = "Power Hill"
+				afrikan = "Power Hill"				
 	
 				b_philadelphia_PA = {
 					deitsch = "Filadelfi"
 					yiddish = "Filadelfyi"
 					neomoor = "Power Hill"
+					nilelander = "Power Hill"
+					afrikan = "Power Hill"						
 				}
 				b_havertown_PA = {}
 				b_ardmore_PA = {}
@@ -1296,6 +1322,8 @@ e_atlantica = {
 			yiddish = "Vashington"
 			beltway = "Columbia"
 			neomoor = "Andalusia"
+			nilelander = "Andalusia"
+			afrikan = "Andalusia"				
 
 			dignity = 10
 
@@ -1307,6 +1335,8 @@ e_atlantica = {
 				deitsch = "Waschington"
 				yiddish = "Vashington"
 				neomoor = "Corboda"
+				nilelander = "Corboda"
+				afrikan = "Corboda"				
 				holy_site = catholic
 				holy_site = americanist
 				holy_site = libertarian
@@ -1320,6 +1350,8 @@ e_atlantica = {
 					yiddish = "Vashington"
 					deitsch = "Waschington"
 					neomoor = "Corboda"
+					nilelander = "Corboda"
+					afrikan = "Corboda"						
 				}
 				b_the_pentagon = {
 					used_for_dynasty_names = no
@@ -1358,6 +1390,8 @@ e_atlantica = {
 		deitsch = "Deitscherei"
 		yiddish = "Pennsvald"
 		neomoor = "Dutchanya"
+		nilelander = "Dutchanya"
+		afrikan = "Dutchanya"			
 
 		capital = 51 # Lancaster
 		
@@ -1754,7 +1788,9 @@ e_atlantica = {
 		deitsch = "Nei-England"
 		maritimer = "Sasainn Nuadh"
 		newfie = "Sasana Nua"
-		neomoor = "Inkiltira"
+		neomoor = "New Inkiltira"
+		nilelander = "New Inkiltira"
+		afrikan = "New Inkiltira"		
 		
 		pagan_coa = {
 			template = 0

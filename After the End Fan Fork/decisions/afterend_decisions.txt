@@ -4095,7 +4095,6 @@ decisions = {
 				religion = candomble
 				religion = voodoo
 				religion = espiritista
-				religion = navegante
 				has_religion_feature = religion_ritual_sacrifice
 			}
 			is_playable = yes
