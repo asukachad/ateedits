@@ -67,7 +67,7 @@ character_event = {
 			}
 			new_character = {
 				character_event = { id = salvage.140 } # Give random salvage
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				spawn_unit = {
 					province = PREV
@@ -90,7 +90,7 @@ character_event = {
 			}
 			new_character = {
 				character_event = { id = salvage.140 } # Give random salvage
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				spawn_unit = {
 					province = PREV
@@ -113,7 +113,7 @@ character_event = {
 			}
 			new_character = {
 				character_event = { id = salvage.140 } # Give random salvage
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				spawn_unit = {
 					province = PREV
@@ -204,7 +204,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -230,7 +230,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -256,7 +256,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -283,7 +283,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -309,7 +309,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -335,7 +335,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -361,7 +361,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -387,7 +387,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -413,7 +413,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -440,7 +440,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -467,7 +467,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -493,7 +493,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		new_character = {
@@ -507,7 +507,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -539,7 +539,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -566,7 +566,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -593,7 +593,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}
@@ -623,7 +623,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -650,7 +650,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -677,7 +677,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}
@@ -914,7 +914,7 @@ character_event = {
 			}
 			new_character = {
 				character_event = { id = salvage.140 } # Give random salvage
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				spawn_unit = {
 					province = PREV
@@ -937,7 +937,7 @@ character_event = {
 			}
 			new_character = {
 				character_event = { id = salvage.140 } # Give random salvage
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				spawn_unit = {
 					province = PREV
@@ -960,7 +960,7 @@ character_event = {
 			}
 			new_character = {
 				character_event = { id = salvage.140 } # Give random salvage
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				spawn_unit = {
 					province = PREV

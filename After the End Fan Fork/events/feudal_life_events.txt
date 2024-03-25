@@ -3457,7 +3457,7 @@ character_event = {
 			give_nickname = nick_the_clueless
 		}
 		new_character = { 
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique 
 		}
 	}

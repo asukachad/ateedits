@@ -356,7 +356,7 @@ character_event = { #Offer from land-wanting guy
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			remove_trait = content
 			remove_trait = dull
 			remove_trait = imbecile
@@ -476,7 +476,7 @@ character_event = { #Offer from land-wanting guy 2 (saboteur)
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			remove_trait = content
 			remove_trait = dull
 			remove_trait = imbecile

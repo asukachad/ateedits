@@ -391,7 +391,7 @@ character_event = { #Goat Roping (Good)
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = administrator
 			remove_trait = architect
@@ -508,7 +508,7 @@ character_event = { #Barrel Racing (Good)
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = administrator
 			remove_trait = architect
@@ -628,7 +628,7 @@ character_event = { #Steer Wrestling (Good)
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = administrator
 			remove_trait = architect
@@ -748,7 +748,7 @@ character_event = { #Livestock Judging (Good)
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = administrator
 			remove_trait = architect

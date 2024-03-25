@@ -3962,7 +3962,7 @@ province_event = {
 						employer = e_rebels
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						spawn_unit = {
 							province = PREV
@@ -3987,7 +3987,7 @@ province_event = {
 						employer = e_rebels
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						spawn_unit = {
 							province = PREV
@@ -4012,7 +4012,7 @@ province_event = {
 						employer = e_rebels
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						spawn_unit = {
 							province = PREV

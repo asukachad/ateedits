@@ -856,7 +856,7 @@ spawn_old_duelist_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		remove_trait = weak
 		remove_trait = slow
@@ -1164,7 +1164,7 @@ spawn_giant_duelist_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		remove_trait = weak
 		remove_trait = slow
@@ -1420,7 +1420,7 @@ spawn_creature_champion_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		set_graphical_culture = event_target:target_ruler
 		remove_trait = weak

@@ -27,7 +27,7 @@ decisions = {
 						5 = {
 							spawn_fantastic_commander_effect = yes
 							new_character = {
-								character_event = { id = misc.3 } # Diversity
+								#character_event = { id = misc.3 } # Diversity
 								character_event = { id = misc.4 } # Physique
 								opinion = {
 									modifier = opinion_legendary_commander
@@ -86,7 +86,7 @@ decisions = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = slow
 				remove_trait = imbecile
@@ -226,7 +226,7 @@ decisions = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = slow
 				remove_trait = imbecile
@@ -348,7 +348,7 @@ decisions = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = slow
 				remove_trait = imbecile
@@ -489,7 +489,7 @@ decisions = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = slow
 				remove_trait = imbecile
@@ -616,7 +616,7 @@ decisions = {
 				age = 17
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = slow
 				remove_trait = imbecile
@@ -710,7 +710,7 @@ decisions = {
 				age = 17
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = slow
 				remove_trait = imbecile

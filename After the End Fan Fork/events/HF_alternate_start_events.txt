@@ -412,7 +412,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = temperate
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = hassan_the_assassin
 			wealth = 500
@@ -439,7 +439,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = holy_warrior
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_followers_ram = {
@@ -464,7 +464,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = holy_warrior
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_golden_bears = {
@@ -489,7 +489,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = holy_warrior
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_judah_lions = {
@@ -505,7 +505,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			religion = catholic
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_knights_of_columbus = {
 				grant_title = PREV
@@ -520,7 +520,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			religion = catholic
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_knights_of_peter_claver = {
 				grant_title = PREV
@@ -558,7 +558,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = holy_warrior
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_lebanon_brethren = {
@@ -592,7 +592,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = temperate
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_oppenheimer = {
@@ -617,7 +617,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = holy_warrior
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_national_cathedral = {
@@ -642,7 +642,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = holy_warrior
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_saint_expedit = {
@@ -667,7 +667,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = holy_warrior
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_followers_ogun = {
@@ -692,7 +692,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = holy_warrior
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_shomrim = {
@@ -716,7 +716,7 @@ narrative_event = { # Activate GHW's and holy orders when running randomized rel
 			trait = holy_warrior
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_golden_archers = {

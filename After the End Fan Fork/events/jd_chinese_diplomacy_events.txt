@@ -1947,7 +1947,7 @@ character_event = {
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			save_event_target_as = new_found_lover
 			add_lover = ROOT
@@ -4399,7 +4399,7 @@ character_event = {
 		}
 	
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = originated_from_chinese_court
 			set_character_flag = no_court_invites
@@ -4895,7 +4895,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					#Education & other basic stuff
 					save_event_target_as = chinese_administrator
@@ -5128,7 +5128,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					#Education & other basic stuff
 					save_event_target_as = chinese_master_engineer
@@ -5359,7 +5359,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					#Education & other basic stuff
 					save_event_target_as = chinese_strategist
@@ -5644,7 +5644,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					#Education & other basic stuff
 					save_event_target_as = chinese_doctor
@@ -6221,7 +6221,7 @@ character_event = { # Traveling Teacher
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = slow
 			remove_trait = imbecile
@@ -6585,7 +6585,7 @@ character_event = { # Sokher Merchant
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = slow
 				remove_trait = imbecile

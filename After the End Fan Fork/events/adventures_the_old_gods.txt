@@ -627,7 +627,7 @@ character_event = {
 			age = 30
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_random_soldier = {
@@ -639,7 +639,7 @@ character_event = {
 			age = 25
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_random_soldier = {
@@ -651,7 +651,7 @@ character_event = {
 			age = 33
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_random_soldier = {
@@ -663,7 +663,7 @@ character_event = {
 			age = 29
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		

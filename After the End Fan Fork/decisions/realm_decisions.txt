@@ -786,7 +786,7 @@ decisions = {
 					age = 41
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					b_williamsburg_NY = { gain_title = PREV }
 					d_jewish = { grant_title = PREV }

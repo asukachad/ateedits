@@ -117,7 +117,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_uaw = {
 				grant_title = PREV
@@ -176,7 +176,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_iatse = {
 				grant_title = PREV
@@ -236,7 +236,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_teamsters = {
 				grant_title = PREV
@@ -296,7 +296,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_afl = {
 				grant_title = PREV

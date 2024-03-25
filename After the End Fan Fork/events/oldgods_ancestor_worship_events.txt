@@ -1263,7 +1263,7 @@ character_event = {
 					dynasty = none
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					save_event_target_as = ancestors_lover
 				}
@@ -1312,7 +1312,7 @@ character_event = {
 					dynasty = none
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					save_event_target_as = ancestors_lover
 				}
@@ -1415,7 +1415,7 @@ character_event = {
 				dynasty = random
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				save_event_target_as = ancestors_friend
 			}
@@ -1503,7 +1503,7 @@ character_event = {
 				dynasty = random
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				save_event_target_as = ancestors_rival
 			}
@@ -1609,7 +1609,7 @@ character_event = {
 				trait = holy_warrior
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = feeble
 				remove_trait = weak
@@ -1648,7 +1648,7 @@ character_event = {
 				trait = holy_warrior
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = feeble
 				remove_trait = weak
@@ -2027,7 +2027,7 @@ character_event = {
 			trait = mastermind_theologian
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = dull
 			remove_trait = imbecile

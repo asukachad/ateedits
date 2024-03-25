@@ -407,7 +407,7 @@ narrative_event = {
 					set_character_flag = heavenly_kingdom_cb
 					set_character_flag = brother_of_jesus #Deposed edit, previously "moroni_incarnate"
 					save_global_event_target_as = saul_tarsus_brother_of_jesus #Deposed edit, previously "karen_moroni_incarnate"
-					set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+					set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 					set_character_flag = physique #MyAddition
 					add_character_modifier = { name = voice_of_jesus duration = -1 }
 					if = {
@@ -470,7 +470,7 @@ narrative_event = {
 						}
 					}
 					new_character = {
-						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						add_spouse = PREV #Deposed edit, previously "add_spouse_matrilineal"
 
@@ -522,7 +522,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
@@ -533,7 +533,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
@@ -565,7 +565,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
@@ -576,7 +576,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV #Deposed edit, previously "add_spouse_matrilineal = PREV"
 							impregnate = PREV
@@ -608,7 +608,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
@@ -619,7 +619,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
@@ -652,7 +652,7 @@ narrative_event = {
 							cannot_inherit = yes
 							disband_on_peace = yes
 						}
-						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
@@ -663,7 +663,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
@@ -696,7 +696,7 @@ narrative_event = {
 							cannot_inherit = yes
 							disband_on_peace = yes
 						}
-						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
@@ -707,7 +707,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
@@ -739,7 +739,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+						set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 						set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 						create_random_steward = {
 							random_traits = yes
@@ -751,7 +751,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							add_spouse = PREV
 							impregnate = PREV
@@ -786,7 +786,7 @@ narrative_event = {
 								cannot_inherit = yes
 								disband_on_peace = yes
 							}
-							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							create_random_steward = {
 								random_traits = yes
@@ -797,7 +797,7 @@ narrative_event = {
 								age = 16
 							}
 							new_character = {
-								set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+								set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 								set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 								add_spouse = PREV
 								impregnate = PREV
@@ -830,7 +830,7 @@ narrative_event = {
 								cannot_inherit = yes
 								disband_on_peace = yes
 							}
-							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							create_random_steward = {
 								random_traits = yes
@@ -841,7 +841,7 @@ narrative_event = {
 								age = 16
 							}
 							new_character = {
-								set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+								set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 								set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 								add_spouse = PREV
 								impregnate = PREV
@@ -874,7 +874,7 @@ narrative_event = {
 								cannot_inherit = yes
 								disband_on_peace = yes
 							}
-							set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+							set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 							set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 							create_random_steward = {
 								random_traits = yes
@@ -885,7 +885,7 @@ narrative_event = {
 								age = 16
 							}
 							new_character = {
-								set_character_flag = diversity #Deposed edit, previously "character_event = { id = misc.3 } # Diversity"
+								set_character_flag = diversity #Deposed edit, previously "#character_event = { id = misc.3 } # Diversity"
 								set_character_flag = physique #Deposed edit, previously "character_event = { id = misc.4 } # Physique"
 								add_spouse = PREV
 								impregnate = PREV

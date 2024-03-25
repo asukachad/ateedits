@@ -53,7 +53,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_knights_of_columbus = {
 				grant_title = PREV
@@ -129,7 +129,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_knights_of_peter_claver = {
 				grant_title = PREV
@@ -208,7 +208,7 @@ narrative_event = {
 			culture=riverlander
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_flaming_sword = {
 				grant_title = PREV
@@ -285,7 +285,7 @@ narrative_event = {
 			culture=yankee
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_fm = {
 				grant_title = PREV
@@ -370,7 +370,7 @@ narrative_event = {
 			culture=northlander
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_fh = {
 				grant_title = PREV
@@ -447,7 +447,7 @@ narrative_event = {
 			culture = anglish
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_oto = {
 				grant_title = PREV
@@ -530,7 +530,7 @@ narrative_event = {
 			female = no
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_shomrim = {
@@ -667,7 +667,7 @@ narrative_event = {
 			culture=wayuu
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_warriors_guaicaipuro = {
 				grant_title = PREV
@@ -742,7 +742,7 @@ narrative_event = {
 			culture=bayfolk
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_golden_bears = {
 				grant_title = PREV
@@ -814,7 +814,7 @@ narrative_event = {
 			culture=creole
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_saint_expedit = {
 				grant_title = PREV
@@ -915,7 +915,7 @@ narrative_event = {
 			culture=west_indian
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_judah_lions = {
 				grant_title = PREV
@@ -987,7 +987,7 @@ narrative_event = {
 			culture=afrocubano
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_followers_ogun = {
 				grant_title = PREV
@@ -1059,7 +1059,7 @@ narrative_event = {
 			culture = chicagoan
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_golden_archers = {
 				grant_title = PREV
@@ -1127,7 +1127,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_nauvoo_legion = {
 				grant_title = PREV
@@ -1215,7 +1215,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_st_ursulas_chosen = {
 				grant_title = PREV
@@ -1296,7 +1296,7 @@ narrative_event = {
 			female = no
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_oppenheimer = {
@@ -1372,7 +1372,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_masked_knights = {
 				grant_title = PREV
@@ -1448,7 +1448,7 @@ narrative_event = {
 			unsafe_religion = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_salvation_army = {
 				grant_title = PREV
@@ -1540,7 +1540,7 @@ narrative_event = {
 			culture= ojibwe
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_three_fires = {
 				grant_title = PREV
@@ -1617,7 +1617,7 @@ narrative_event = {
 			culture= haida
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_taxet_warriors = {
 				grant_title = PREV
@@ -1694,7 +1694,7 @@ narrative_event = {
 			culture= grangelander
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_pony_express = {
 				grant_title = PREV
@@ -1808,7 +1808,7 @@ narrative_event = {
 			culture= tuskegean
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_pentecostal_oathsworn = {
 				grant_title = PREV
@@ -1825,7 +1825,7 @@ narrative_event = {
 			culture= dixie
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_order_of_baptists = {
 				grant_title = PREV
@@ -1842,7 +1842,7 @@ narrative_event = {
 			culture= southron
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			d_chrismon_tree = {
 				grant_title = PREV

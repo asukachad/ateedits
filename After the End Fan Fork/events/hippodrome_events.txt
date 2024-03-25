@@ -432,7 +432,7 @@ narrative_event = {
 			trait = flamboyant_schemer
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			prisoner = yes
 		}
@@ -466,7 +466,7 @@ narrative_event = {
 						employer = e_rebels
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						spawn_unit = {
 							province = prev

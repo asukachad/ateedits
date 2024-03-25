@@ -1965,41 +1965,6 @@
 	2390.11.2={death=yes}
 }
 
-1911153={
-	name="Trini"
-	female=yes
-	dynasty=1851165
-	martial=12
-	diplomacy=6
-	stewardship=6
-	intrigue=4
-	learning=8
-	culture=calaotian
-	religion=qingzhen
-	trait=tough_soldier
-	trait=strong
-	trait=duelist
-	trait=charitable
-	trait=ambitious
-	trait=shy
-	trait=brave
-	trait=buddhism_qingzhen
-	trait=just
-	trait=devout
-	2645.8.6={birth=yes}
-	2660.1.1={
-	effect={
-			set_character_flag=no_historical_family
-			set_character_flag=diversity
-			set_character_flag=physique
-			add_friend=1384010
-			add_friend=1384011
-		}
-	}
-	2665.12.19={add_spouse=1384010}
-	2666.1.1={employer=1910142}
-	2740.12.1={death=yes}
-}
 2500099={
 	name="Marcus"
 	culture=valleyan

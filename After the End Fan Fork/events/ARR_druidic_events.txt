@@ -8566,7 +8566,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8586,7 +8586,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8606,7 +8606,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8626,7 +8626,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8646,7 +8646,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8675,7 +8675,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8696,7 +8696,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8717,7 +8717,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8738,7 +8738,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8759,7 +8759,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8877,7 +8877,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}		
@@ -8897,7 +8897,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8917,7 +8917,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8937,7 +8937,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8957,7 +8957,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -8988,7 +8988,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}		
@@ -9009,7 +9009,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -9030,7 +9030,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -9051,7 +9051,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -9072,7 +9072,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.0158 }
 				}
@@ -9407,7 +9407,7 @@ character_event = {
 					trait = gregarious
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 				}
 			}
@@ -10012,7 +10012,7 @@ character_event = {
 			culture = FROM
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			if = {
 				limit = {
@@ -11017,7 +11017,7 @@ character_event = {
 			culture = FROM
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			add_spouse = FROM
 		}
@@ -11860,7 +11860,7 @@ character_event = {
 				age = 24
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				impregnate = PREV
 				add_lover = PREV
@@ -11903,7 +11903,7 @@ character_event = {
 				age = 24
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				impregnate = PREV
 				add_lover = PREV
@@ -12084,7 +12084,7 @@ narrative_event = {
 			age = 28
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			wealth = 500
 			d_red_dragons = {
@@ -13149,7 +13149,7 @@ character_event = {
 			culture = FROM
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			add_spouse = FROM
 		}

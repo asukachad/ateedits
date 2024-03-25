@@ -2194,7 +2194,7 @@ liberate_religion = { # New6
 									flag = is_religious_liberation_ruler
 								}
 								new_character = {
-									character_event = { id = misc.3 } # Diversity
+									#character_event = { id = misc.3 } # Diversity
 									character_event = { id = misc.4 } # Physique
 									remove_trait = cynical
 									add_trait = zealous
@@ -2243,7 +2243,7 @@ liberate_religion = { # New6
 									flag = is_religious_liberation_ruler
 								}
 								new_character = {
-									character_event = { id = misc.3 } # Diversity
+									#character_event = { id = misc.3 } # Diversity
 									character_event = { id = misc.4 } # Physique
 									remove_trait = cynical
 									add_trait = zealous

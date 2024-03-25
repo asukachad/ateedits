@@ -14954,7 +14954,7 @@ spawn_good_commander_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		remove_trait = weak
 		remove_trait = slow
@@ -15110,7 +15110,7 @@ spawn_great_commander_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		remove_trait = weak
 		remove_trait = slow
@@ -15319,7 +15319,7 @@ spawn_fantastic_commander_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		remove_trait = weak
 		remove_trait = slow
@@ -15628,7 +15628,7 @@ spawn_fantastic_diplomat_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		remove_trait = weak
 		remove_trait = slow
@@ -15769,7 +15769,7 @@ spawn_fantastic_scholar_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		remove_trait = weak
 		remove_trait = slow
@@ -15929,7 +15929,7 @@ spawn_elder_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		remove_trait = weak
 		remove_trait = slow
@@ -24702,7 +24702,7 @@ spawn_debutante_effect = {
 		}
 	}
 	new_character = {
-		character_event = { id = misc.3 } # Diversity
+		#character_event = { id = misc.3 } # Diversity
 		character_event = { id = misc.4 } # Physique
 		hidden_tooltip = {
 			#if = {

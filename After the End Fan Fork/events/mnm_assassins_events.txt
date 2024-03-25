@@ -891,7 +891,7 @@ character_event = {
 					trait = temperate
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					join_society = the_assassins
 					society_rank_up = {
@@ -1186,7 +1186,7 @@ character_event = {
 						trait = temperate
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						join_society = the_assassins
 						society_rank_up = {
@@ -6249,7 +6249,7 @@ character_event = {
 				random_traits = yes
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				remove_trait = trusting
 				remove_trait = temperate
@@ -6359,7 +6359,7 @@ character_event = {
 							female = no
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = drug_new_lover
 						}
@@ -6378,7 +6378,7 @@ character_event = {
 							female = yes
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = drug_new_lover
 						}
@@ -7079,7 +7079,7 @@ character_event = {
 							culture = ROOT
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							save_event_target_as = assassin_protege
 						}
 					}
@@ -7095,7 +7095,7 @@ character_event = {
 							culture = ROOT
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							save_event_target_as = assassin_protege
 						}
 					}
@@ -8890,7 +8890,7 @@ character_event = {
 								age = 30
 							}
 							new_character = {
-								character_event = { id = misc.3 } # Diversity
+								#character_event = { id = misc.3 } # Diversity
 								character_event = { id = misc.4 } # Physique
 								add_lover = event_target:assassin_blackmail_target
 								save_event_target_as = lover_of_target
@@ -8905,7 +8905,7 @@ character_event = {
 								age = 30
 							}
 							new_character = {
-								character_event = { id = misc.3 } # Diversity
+								#character_event = { id = misc.3 } # Diversity
 								character_event = { id = misc.4 } # Physique
 								add_lover = event_target:assassin_blackmail_target
 								save_event_target_as = lover_of_target

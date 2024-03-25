@@ -111,6 +111,7 @@
 
 1875010={
 	name="Hialeah"
+	dna="bkfaxybatga"
 	dynasty=1491003
 	father=1875013
 	mother=1875024

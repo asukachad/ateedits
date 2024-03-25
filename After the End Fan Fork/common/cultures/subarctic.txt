@@ -4,7 +4,7 @@ subarctic = {
 	graphical_cultures = { metisgfx northernnativegfx muslimgfx }
 	
 	mikmaq = {
-		graphical_cultures = { metisgfx northernnativegfx }
+		graphical_cultures = { northernnativegfx metisgfx }
 
 		color = { 0.2 0.5 0.8 }
 
@@ -125,7 +125,7 @@ subarctic = {
 	}
 	
 	innu = {
-		graphical_cultures = { metisgfx northernnativegfx }
+		graphical_cultures = { northernnativegfx metisgfx }
 
 		color = { 0.4 0.7 0.5 }
 

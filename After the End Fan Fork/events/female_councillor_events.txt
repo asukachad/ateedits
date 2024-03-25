@@ -64,7 +64,7 @@ character_event = {
 				}
 				new_character = {
 					set_character_flag = female_councillor_chancellor
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = 77778 }
 
@@ -151,7 +151,7 @@ character_event = {
 				}
 				new_character = {
 					set_character_flag = female_councillor_marshal
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = 77778 }
 
@@ -240,7 +240,7 @@ character_event = {
 				}
 				new_character = {
 					set_character_flag = female_councillor_treasurer
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = 77778 }
 
@@ -323,7 +323,7 @@ character_event = {
 				}
 				new_character = {
 					set_character_flag = female_councillor_spymaster
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = 77778 }
 

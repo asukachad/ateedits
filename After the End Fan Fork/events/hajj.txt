@@ -1248,7 +1248,7 @@ character_event = {
 			flag = ai_flag_refuse_conversion
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			add_friend = ROOT
 			save_event_target_as = muslim_courtier
 		}
@@ -1788,7 +1788,7 @@ character_event = {
 			flag = ai_flag_refuse_conversion
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			add_friend = ROOT
 			save_event_target_as = muslim_courtier
 		}
@@ -1854,7 +1854,7 @@ character_event = {
 			flag = ai_flag_refuse_conversion
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			add_friend = ROOT
 			save_event_target_as = muslim_courtier
 		}

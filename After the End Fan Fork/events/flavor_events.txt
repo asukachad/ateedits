@@ -1452,7 +1452,7 @@ character_event = {
 					trait = gluttonous
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					add_friend = ROOT
 				}
 			}
@@ -1692,7 +1692,7 @@ character_event = { # Invite the Scooby Gang to your court
 			}
 			new_character = {
 				prestige = 15
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				add_friend = ROOT
 			}
 			create_character = {
@@ -1717,7 +1717,7 @@ character_event = { # Invite the Scooby Gang to your court
 			}
 			new_character = {
 				prestige = 15
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				add_friend = ROOT
 			}
 			create_character = {
@@ -1743,7 +1743,7 @@ character_event = { # Invite the Scooby Gang to your court
 			}
 			new_character = {
 				prestige = 15
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				add_friend = ROOT
 			}
 		}

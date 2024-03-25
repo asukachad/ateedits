@@ -3466,7 +3466,7 @@ character_event = {
 							health = 6
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = ascetic
 						}
@@ -3481,7 +3481,7 @@ character_event = {
 							health = 6
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = ascetic
 						}
@@ -3496,7 +3496,7 @@ character_event = {
 							health = 6
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = ascetic
 						}
@@ -3516,7 +3516,7 @@ character_event = {
 							health = 6
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = ascetic
 						}
@@ -3531,7 +3531,7 @@ character_event = {
 							health = 6
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = ascetic
 						}
@@ -3546,7 +3546,7 @@ character_event = {
 							health = 6
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = ascetic
 						}

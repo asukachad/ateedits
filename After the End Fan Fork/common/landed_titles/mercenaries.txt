@@ -1,6 +1,6 @@
 ###ÄNSI
 
-d_freedom_riders = {
+d_knights_golden_circle = { #changed back from "freedom riders" 
 	color={ 180 180 180 }
 	color2={ 255 255 255 }
 	
@@ -16,11 +16,12 @@ d_freedom_riders = {
 			has_landed_title = e_dixie
 			culture_group = south_anglo
 			culture_group = upland
+			culture = tuskegean
 		}
 	}
 	
-	title = "CAPTAIN"
-	foa = "CAPTAIN_FOA"
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
 
 	mercenary = yes
 	landless = yes
@@ -28,7 +29,7 @@ d_freedom_riders = {
 	independent = yes
 	strength_growth_per_century = 0.10
 	
-	mercenary_type = d_freedom_riders_composition
+	mercenary_type = d_knights_golden_circle_composition
 }
 
 

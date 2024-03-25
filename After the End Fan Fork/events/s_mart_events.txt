@@ -622,7 +622,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -634,7 +634,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -646,7 +646,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -676,7 +676,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -706,7 +706,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -736,7 +736,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -766,7 +766,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -778,7 +778,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -790,7 +790,7 @@ character_event = {
 				age = 17
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -802,7 +802,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -814,7 +814,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -826,7 +826,7 @@ character_event = {
 				age = 20
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}
@@ -886,7 +886,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -898,7 +898,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -910,7 +910,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -940,7 +940,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -970,7 +970,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1000,7 +1000,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1030,7 +1030,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1042,7 +1042,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1054,7 +1054,7 @@ character_event = {
 				age = 17
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1066,7 +1066,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1078,7 +1078,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1090,7 +1090,7 @@ character_event = {
 				age = 20
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}
@@ -1150,7 +1150,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1162,7 +1162,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1174,7 +1174,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1204,7 +1204,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1234,7 +1234,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1264,7 +1264,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1294,7 +1294,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1306,7 +1306,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1318,7 +1318,7 @@ character_event = {
 				age = 17
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1330,7 +1330,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1342,7 +1342,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1354,7 +1354,7 @@ character_event = {
 				age = 20
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}
@@ -1414,7 +1414,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1426,7 +1426,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1438,7 +1438,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1468,7 +1468,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1498,7 +1498,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1528,7 +1528,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1558,7 +1558,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1570,7 +1570,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1582,7 +1582,7 @@ character_event = {
 				age = 17
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1594,7 +1594,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1606,7 +1606,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1618,7 +1618,7 @@ character_event = {
 				age = 20
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}
@@ -1678,7 +1678,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1690,7 +1690,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1702,7 +1702,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1732,7 +1732,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1762,7 +1762,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1792,7 +1792,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1822,7 +1822,7 @@ character_event = {
 					maintenance_multiplier = 0.3
 					cannot_inherit = yes
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1834,7 +1834,7 @@ character_event = {
 				age = 16
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1846,7 +1846,7 @@ character_event = {
 				age = 17
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1858,7 +1858,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1870,7 +1870,7 @@ character_event = {
 				age = 18
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1882,7 +1882,7 @@ character_event = {
 				age = 20
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}

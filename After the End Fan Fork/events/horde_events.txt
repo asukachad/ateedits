@@ -116,7 +116,7 @@ narrative_event = {
 			military_techpoints = 1000
 			economy_techpoints = 1000
 			culture_techpoints = 1000
-			#character_event = { id = misc.3 } # Diversity
+			##character_event = { id = misc.3 } # Diversity
 		}
 		
 	}
@@ -200,7 +200,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -226,7 +226,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -252,7 +252,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -279,7 +279,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -305,7 +305,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -331,7 +331,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -357,7 +357,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -383,7 +383,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -409,7 +409,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -436,7 +436,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -463,7 +463,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -489,7 +489,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		new_character = {
@@ -503,7 +503,7 @@ narrative_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -535,7 +535,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -562,7 +562,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -589,7 +589,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}
@@ -619,7 +619,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -646,7 +646,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -673,7 +673,7 @@ narrative_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}
@@ -929,7 +929,7 @@ character_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -956,7 +956,7 @@ character_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -983,7 +983,7 @@ character_event = {
 				}
 				attrition = 0.25
 			}
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -1013,7 +1013,7 @@ character_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1040,7 +1040,7 @@ character_event = {
 					}
 					attrition = 0.25
 				}
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}

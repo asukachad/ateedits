@@ -269,7 +269,7 @@ province_event = { #pilgrim province flips to misrist
 			flag = ai_flag_refuse_conversion
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = socializer
 			remove_trait = gamer
@@ -353,7 +353,7 @@ character_event = {
 			flag = ai_flag_refuse_conversion
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = socializer
 			remove_trait = gamer
@@ -438,7 +438,7 @@ character_event = {
 			flag = ai_flag_refuse_conversion
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = socializer
 			remove_trait = gamer

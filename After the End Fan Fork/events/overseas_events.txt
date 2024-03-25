@@ -277,7 +277,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -318,7 +318,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -359,7 +359,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -400,7 +400,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -441,7 +441,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -482,7 +482,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -523,7 +523,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -564,7 +564,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -605,7 +605,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -646,7 +646,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -1459,7 +1459,7 @@ narrative_event = {
 				trait = bastard
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity (takes after the other parent)
+				#character_event = { id = misc.3 } # Diversity (takes after the other parent)
 				if = {
 					limit = { FROM = { is_female = yes } }
 					set_mother = FROM
@@ -1556,7 +1556,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -1597,7 +1597,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -1638,7 +1638,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -1679,7 +1679,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -1720,7 +1720,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10
@@ -1761,7 +1761,7 @@ character_event = {
 			trait = brave
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = foreign_merchant
 			wealth = 10

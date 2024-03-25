@@ -295,7 +295,7 @@ decisions = {
 					trait = skilled_tactician
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					wealth = 100
 					prestige = 100
@@ -469,7 +469,7 @@ decisions = {
 					trait = fian
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = ancrel.1186 } # Reformation
 					d_round_table = {
@@ -966,7 +966,7 @@ decisions = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				opinion = {
 					modifier = opinion_patron

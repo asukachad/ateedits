@@ -79,7 +79,7 @@ character_event = {
 			flag = ai_flag_refuse_conversion
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			set_character_flag = wahhab_himself
 			save_event_target_as = wahhab_himself
@@ -314,7 +314,7 @@ character_event = {
 #			flag = ai_flag_refuse_conversion
 #		}
 #		new_character = {
-#			character_event = { id = misc.3 } # Diversity
+#			#character_event = { id = misc.3 } # Diversity
 #			character_event = { id = misc.4 } # Physique
 #			save_event_target_as = wahhab_himself
 #			set_character_flag = wahhab_himself #used for on_death event which cancels all future events
@@ -592,7 +592,7 @@ character_event = {
 			employer = event_target:wahhab_himself
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -606,7 +606,7 @@ character_event = {
 			employer = event_target:wahhab_himself
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -620,7 +620,7 @@ character_event = {
 			employer = event_target:wahhab_himself
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -633,7 +633,7 @@ character_event = {
 			employer = event_target:wahhab_himself
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		
@@ -647,7 +647,7 @@ character_event = {
 			employer = event_target:wahhab_himself
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_character = {
@@ -660,7 +660,7 @@ character_event = {
 			employer = event_target:wahhab_himself
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 		}
 		create_random_steward = {
@@ -672,7 +672,7 @@ character_event = {
 			age = 16
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			add_spouse = event_target:wahhab_himself
 		}

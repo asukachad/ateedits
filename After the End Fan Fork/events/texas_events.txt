@@ -347,7 +347,7 @@ narrative_event = {
 		name = EVTOPTA_texas_4_secular
 		activate_title = { title = d_texas_royal_guard status = yes }
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			opinion = {
 				modifier = opinion_legendary_commander
@@ -373,7 +373,7 @@ narrative_event = {
 		name = EVTOPTA_texas_4_red_raider
 		activate_title = { title = d_red_raider_royal_guard status = yes }
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			opinion = {
 				modifier = opinion_legendary_commander
@@ -409,7 +409,7 @@ narrative_event = {
 		name = EVTOPTA_texas_4_knights_outrider
 		activate_title = { title = d_knights_outrider_royal_guard status = yes }
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			opinion = {
 				modifier = opinion_legendary_commander
@@ -437,7 +437,7 @@ narrative_event = {
 		name = EVTOPTA_texas_4_airmen
 		activate_title = { title = d_airmen_royal_guard status = yes }
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			opinion = {
 				modifier = opinion_legendary_commander
@@ -472,7 +472,7 @@ narrative_event = {
 		name = EVTOPTA_texas_4_first_cav
 		activate_title = { title = d_first_cav_royal_guard status = yes }
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			opinion = {
 				modifier = opinion_legendary_commander

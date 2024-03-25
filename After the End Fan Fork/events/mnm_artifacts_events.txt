@@ -9763,7 +9763,7 @@ character_event = {
 						historical = yes
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						save_event_target_as = smith
 						set_character_flag = ai_flag_refuse_marriage
@@ -9785,7 +9785,7 @@ character_event = {
 						historical = yes
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						save_event_target_as = smith
 						set_character_flag = ai_flag_refuse_marriage
@@ -10831,7 +10831,7 @@ character_event = {
 						historical = yes
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						save_event_target_as = smith
 						set_character_flag = ai_flag_refuse_marriage
@@ -10853,7 +10853,7 @@ character_event = {
 						historical = yes
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						save_event_target_as = smith
 						set_character_flag = ai_flag_refuse_marriage

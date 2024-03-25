@@ -70,6 +70,7 @@
 	2611.1.1={birth=yes}
 	2630.1.1={add_spouse=1491005}
 	2633.1.1={effect={add_lover=1491006}}
+	2633.1.1={effect={add_spouse=1491006}}
 	2700.1.1={death=yes}
 }
 
@@ -80,6 +81,7 @@
 	religion=mormon
 	trait=fair
 	2614.1.1={birth=yes}
+	2633.1.1={effect={add_rival=1491006}}	
 	2700.1.1={death=yes}
 }
 
@@ -123,7 +125,6 @@
 	mother=1491006
 	culture=navajo
 	religion=mormon
-	trait=bastard
 	2635.1.1={birth=yes}
 	2700.1.1={death=yes}
 }
@@ -148,7 +149,6 @@
 	mother=1491006
 	culture=navajo
 	religion=mormon
-	trait=bastard
 	2639.1.1={birth=yes}
 	2660.1.1={
 		employer=1830006

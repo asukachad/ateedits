@@ -346,7 +346,7 @@ character_event = {
 			culture = ROOT
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			add_friend = ROOT
 		}

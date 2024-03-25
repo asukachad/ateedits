@@ -67,7 +67,7 @@ character_event = {
 							flag = physician_village_drunkard
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = temperate
 							remove_trait = scholar
@@ -129,7 +129,7 @@ character_event = {
 							flag = physician_village_drunkard
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = temperate
 							remove_trait = scholar
@@ -201,7 +201,7 @@ character_event = {
 							flag = physician_village_drunkard
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = temperate
 							remove_trait = scholar
@@ -270,7 +270,7 @@ character_event = {
 							flag = physician_village_drunkard
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = temperate
 							remove_trait = scholar
@@ -337,7 +337,7 @@ character_event = {
 					flag = physician_ships_physician
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					set_character_flag = ai_flag_refuse_conversion
 					remove_trait = charitable
@@ -426,7 +426,7 @@ character_event = {
 					flag = ai_flag_refuse_conversion
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					remove_trait = fair
 					remove_trait = gregarious
@@ -531,7 +531,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = charitable
 							remove_trait = mystic
@@ -623,7 +623,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = charitable
 							remove_trait = mystic
@@ -712,7 +712,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = charitable
 							remove_trait = mystic
@@ -804,7 +804,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = charitable
 							remove_trait = scholar
@@ -895,7 +895,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = charitable
 							remove_trait = scholar
@@ -983,7 +983,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							remove_trait = charitable
 							remove_trait = scholar
@@ -1089,7 +1089,7 @@ character_event = {
 							flag = physician_condemned_sorcerer
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -1165,7 +1165,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -1250,7 +1250,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -1335,7 +1335,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -1423,7 +1423,7 @@ character_event = {
 					flag = physician_cynical_clergyman
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					set_character_flag = no_court_invites
 					remove_trait = zealous
@@ -1566,7 +1566,7 @@ character_event = {
 						}
 					}
 					save_event_target_as = recruited_physician_target
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = RIP.11052 }
 				}
@@ -1646,7 +1646,7 @@ character_event = {
 						}
 					}
 					save_event_target_as = recruited_physician_target
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					character_event = { id = RIP.11052 }
 				}
@@ -1939,7 +1939,7 @@ character_event = {
 							flag = physician_beloved_wise_man
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = greedy
@@ -2009,7 +2009,7 @@ character_event = {
 							flag = physician_beloved_wise_man
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = greedy
@@ -2087,7 +2087,7 @@ character_event = {
 					flag = ai_flag_refuse_conversion
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					set_character_flag = no_court_invites
 					remove_trait = dull
@@ -2136,7 +2136,7 @@ character_event = {
 							flag = physician_erudite_herbalist
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = mystic
@@ -2184,7 +2184,7 @@ character_event = {
 							flag = physician_erudite_herbalist
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = mystic
@@ -2248,7 +2248,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = cynical
@@ -2298,7 +2298,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = cynical
@@ -2348,7 +2348,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = cynical
@@ -2398,7 +2398,7 @@ character_event = {
 							flag = ai_flag_refuse_conversion
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = cynical
@@ -2482,7 +2482,7 @@ character_event = {
 					flag = physician_insane_zealot
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					set_character_flag = no_court_invites
 					remove_trait = cynical
@@ -2556,7 +2556,7 @@ character_event = {
 					flag = physician_well_traveled_pilgrim
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					set_character_flag = no_court_invites
 					remove_trait = scholar
@@ -2649,7 +2649,7 @@ character_event = {
 					flag = physician_student_of_medicine
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					set_character_flag = no_court_invites
 					remove_trait = mystic
@@ -2735,7 +2735,7 @@ character_event = {
 							flag = physician_blind_miracle_worker
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -2811,7 +2811,7 @@ character_event = {
 							flag = physician_blind_miracle_worker
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -2897,7 +2897,7 @@ character_event = {
 							flag = physician_blind_miracle_worker
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -2980,7 +2980,7 @@ character_event = {
 							flag = physician_blind_miracle_worker
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -3050,7 +3050,7 @@ character_event = {
 					flag = physician_field_surgeon
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					set_character_flag = no_court_invites
 					remove_trait = mystic
@@ -3130,7 +3130,7 @@ character_event = {
 					flag = ai_flag_refuse_conversion
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					set_character_flag = no_court_invites
 					remove_trait = mystic
@@ -3223,7 +3223,7 @@ character_event = {
 					flag = immune_smallpox
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					set_character_flag = no_court_invites
 					remove_trait = mystic
@@ -3285,7 +3285,7 @@ character_event = {
 							flag = physician_witch
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -3344,7 +3344,7 @@ character_event = {
 							flag = physician_witch
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							set_character_flag = no_court_invites
 							remove_trait = scholar
@@ -3463,7 +3463,7 @@ character_event = {
 					flag = ai_flag_refuse_conversion
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					remove_trait = mystic
 					remove_trait = scholar
@@ -3531,7 +3531,7 @@ character_event = {
 					flag = ai_flag_refuse_conversion
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					remove_trait = dull
 					remove_trait = slow
@@ -3597,7 +3597,7 @@ character_event = {
 					flag = ai_flag_refuse_conversion
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					remove_trait = dull
 					remove_trait = slow
@@ -3649,7 +3649,7 @@ character_event = {
 					flag = ai_flag_refuse_conversion
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					remove_trait = just
 					remove_trait = charitable

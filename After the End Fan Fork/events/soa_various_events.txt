@@ -1890,7 +1890,7 @@ character_event = {
 					trait = flanker
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					spawn_unit = {
 						province = PREVPREV
@@ -1950,7 +1950,7 @@ character_event = {
 					trait = inspiring_leader
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					spawn_unit = {
 						province = PREVPREV
@@ -2119,7 +2119,7 @@ character_event = {
 		
 		hidden_tooltip = {
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				set_character_flag = special_treasurer
 				set_character_flag = special_chancellor
@@ -2192,7 +2192,7 @@ character_event = {
 		
 		hidden_tooltip = {
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				set_character_flag = special_treasurer
 				set_character_flag = special_chancellor

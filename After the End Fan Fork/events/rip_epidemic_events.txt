@@ -1194,7 +1194,7 @@ character_event = {
 					}
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					remove_trait = chaste
 					remove_trait = kind
@@ -2419,7 +2419,7 @@ character_event = {
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = slothful
 			remove_trait = idolizer
@@ -2645,7 +2645,7 @@ character_event = {
 			dynasty = NONE
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = slothful
 			remove_trait = idolizer
@@ -2668,7 +2668,7 @@ character_event = {
 			dynasty = NONE
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = slothful
 			remove_trait = idolizer

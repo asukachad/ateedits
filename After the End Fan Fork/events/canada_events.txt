@@ -146,7 +146,7 @@ character_event = {
 			} }
 		}
 		new_character = { 
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique 
 			ROOT = { 
 				any_demesne_title = { 
@@ -1426,7 +1426,7 @@ character_event = {
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			gain_weight_medium_effect = yes
 			add_lover = ROOT
 			remove_trait = genius
@@ -1475,7 +1475,7 @@ character_event = {
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			gain_weight_medium_effect = yes
 			add_lover = ROOT
 			remove_trait = genius
@@ -1524,7 +1524,7 @@ character_event = {
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			gain_weight_medium_effect = yes
 			add_lover = ROOT
 			remove_trait = genius
@@ -1571,7 +1571,7 @@ character_event = {
 			}
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			gain_weight_medium_effect = yes
 			add_lover = ROOT
 			remove_trait = genius

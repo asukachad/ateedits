@@ -182,7 +182,7 @@ narrative_event = {
 					set_character_flag = the_prophet # for conversion events
 					save_global_event_target_as = consumerist_prophet
 					give_nickname = nick_the_profit
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					#Prophet will always be in good shape
 					wealth = 5000
 					prestige = 500
@@ -206,7 +206,7 @@ narrative_event = {
 						trait = greedy
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						add_spouse = PREV
 						impregnate = PREV
@@ -241,7 +241,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						create_random_steward = {
 							random_traits = yes
@@ -252,7 +252,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							add_spouse = PREV
 							impregnate = PREV
@@ -288,7 +288,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						create_random_steward = {
 							random_traits = yes
@@ -299,7 +299,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							add_spouse = PREV
 							impregnate = PREV
@@ -335,7 +335,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						create_random_steward = {
 							random_traits = yes
@@ -346,7 +346,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							add_spouse = PREV
 							impregnate = PREV
@@ -382,7 +382,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						create_random_steward = {
 							random_traits = yes
@@ -393,7 +393,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							add_spouse = PREV
 							impregnate = PREV
@@ -429,7 +429,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						create_random_steward = {
 							random_traits = yes
@@ -440,7 +440,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							add_spouse = PREV
 							impregnate = PREV
@@ -476,7 +476,7 @@ narrative_event = {
 							maintenance_multiplier = 0.3
 							cannot_inherit = yes
 						}
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						create_random_steward = {
 							random_traits = yes
@@ -487,7 +487,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							add_spouse = PREV
 							impregnate = PREV
@@ -524,7 +524,7 @@ narrative_event = {
 							cannot_inherit = yes
 							disband_on_peace = yes
 						}
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						create_random_steward = {
 							random_traits = yes
@@ -535,7 +535,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							add_spouse = PREV
 							impregnate = PREV
@@ -572,7 +572,7 @@ narrative_event = {
 							cannot_inherit = yes
 							disband_on_peace = yes
 						}
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						create_random_steward = {
 							random_traits = yes
@@ -583,7 +583,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							add_spouse = PREV
 							impregnate = PREV
@@ -620,7 +620,7 @@ narrative_event = {
 							cannot_inherit = yes
 							disband_on_peace = yes
 						}
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						create_random_steward = {
 							random_traits = yes
@@ -631,7 +631,7 @@ narrative_event = {
 							age = 16
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							add_spouse = PREV
 							impregnate = PREV
@@ -1169,7 +1169,7 @@ narrative_event = {
 				trait = investor
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				spawn_unit = {
 					province = PREV
@@ -1196,7 +1196,7 @@ narrative_event = {
 				trait = investor
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1210,7 +1210,7 @@ narrative_event = {
 				trait = investor
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1224,7 +1224,7 @@ narrative_event = {
 				trait = investor
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1238,7 +1238,7 @@ narrative_event = {
 				trait = investor
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1252,7 +1252,7 @@ narrative_event = {
 				trait = investor
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1266,7 +1266,7 @@ narrative_event = {
 				trait = investor
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1280,7 +1280,7 @@ narrative_event = {
 				trait = investor
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 			create_character = {
@@ -1294,7 +1294,7 @@ narrative_event = {
 				trait = investor
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 			}
 		}

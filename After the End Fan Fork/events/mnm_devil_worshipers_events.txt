@@ -1693,7 +1693,7 @@ letter_event = {
 					historical = yes
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					remove_trait = ugly
 					remove_trait = hunchback
@@ -1736,7 +1736,7 @@ letter_event = {
 					historical = yes
 				}
 				new_character = {
-					character_event = { id = misc.3 } # Diversity
+					#character_event = { id = misc.3 } # Diversity
 					character_event = { id = misc.4 } # Physique
 					remove_trait = ugly
 					remove_trait = hunchback
@@ -6463,7 +6463,7 @@ character_event = {
 							health = 7
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = devil_disciple
 						}
@@ -6478,7 +6478,7 @@ character_event = {
 							health = 7
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = devil_disciple
 						}
@@ -6493,7 +6493,7 @@ character_event = {
 							health = 7
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = devil_disciple
 						}
@@ -6513,7 +6513,7 @@ character_event = {
 							health = 7
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = devil_disciple
 						}
@@ -6528,7 +6528,7 @@ character_event = {
 							health = 7
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = devil_disciple
 						}
@@ -6543,7 +6543,7 @@ character_event = {
 							health = 7
 						}
 						new_character = {
-							character_event = { id = misc.3 } # Diversity
+							#character_event = { id = misc.3 } # Diversity
 							character_event = { id = misc.4 } # Physique
 							save_event_target_as = devil_disciple
 						}
@@ -9021,7 +9021,7 @@ character_event = {
 				trait = gregarious
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				set_character_flag = sex_dwarf
 	

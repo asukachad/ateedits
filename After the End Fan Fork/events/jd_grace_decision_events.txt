@@ -238,7 +238,7 @@ character_event = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				#Education & other basic stuff
 				save_event_target_as = chinese_doctor
@@ -590,7 +590,7 @@ character_event = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				#Education & other basic stuff
 				save_event_target_as = chinese_administrator
@@ -943,7 +943,7 @@ character_event = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				#Education & other basic stuff
 				save_event_target_as = chinese_master_engineer
@@ -1535,7 +1535,7 @@ character_event = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				#Education & other basic stuff
 				save_event_target_as = chinese_strategist
@@ -1997,7 +1997,7 @@ character_event = {
 						}
 					}
 					new_character = {
-						character_event = { id = misc.3 } # Diversity
+						#character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						set_character_flag = always_show_in_marriage_selection
 						save_event_target_as = imperial_marriage_spouse_2
@@ -2627,7 +2627,7 @@ character_event = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				save_event_target_as = chinese_siege_engineer_1
 				set_character_flag = ai_flag_refuse_concubinage
@@ -2731,7 +2731,7 @@ character_event = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				save_event_target_as = chinese_siege_engineer_2
 				set_character_flag = ai_flag_refuse_concubinage
@@ -2835,7 +2835,7 @@ character_event = {
 				}
 			}
 			new_character = {
-				character_event = { id = misc.3 } # Diversity
+				#character_event = { id = misc.3 } # Diversity
 				character_event = { id = misc.4 } # Physique
 				save_event_target_as = chinese_siege_engineer_3
 				set_character_flag = ai_flag_refuse_concubinage

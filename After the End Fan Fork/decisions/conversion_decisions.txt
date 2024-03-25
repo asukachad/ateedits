@@ -1391,6 +1391,8 @@ targetted_decisions = {
 			any_realm_province = {
 				culture = neomoor
 			}
+			culture_group = south_anglo
+			NOT = { culture = neomoor }
 			#NOT = { government = chinese_imperial_government }
 			NOT = {
 				has_alternate_start_parameter = { key = culture_names value = random }
@@ -1488,12 +1490,14 @@ targetted_decisions = {
 				religion = misrist
 			}
 			any_realm_province = {
-				culture = neomoor
+				culture = nilelander
 			}
+			culture_group = upland
 			#NOT = { government = chinese_imperial_government }
 			NOT = {
 				has_alternate_start_parameter = { key = culture_names value = random }
 			}
+			NOT = { culture = nilelander }
 		}
 		allow = {
 			OR = {
@@ -1589,10 +1593,12 @@ targetted_decisions = {
 			any_realm_province = {
 				culture = afrikan
 			}
+			culture_group = afroamerican
 			#NOT = { government = chinese_imperial_government }
 			NOT = {
 				has_alternate_start_parameter = { key = culture_names value = random }
 			}
+			NOT = { culture = afrikan }
 		}
 		allow = {
 			OR = {

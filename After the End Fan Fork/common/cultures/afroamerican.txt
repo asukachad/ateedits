@@ -70,6 +70,7 @@ afroamerican = {
 		mat_grm_name_chance = 20
 		mother_name_chance = 10
 
+		seafarer = yes
 		modifier = default_culture_modifier
 	}
 

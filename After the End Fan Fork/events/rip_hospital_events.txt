@@ -79,7 +79,7 @@ character_event = {
 			trait = humble
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			remove_trait = scholar
 			remove_trait = proud
@@ -463,7 +463,7 @@ character_event = {
 			trait = disfigured
 		}
 		new_character = {
-			character_event = { id = misc.3 } # Diversity
+			#character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique
 			save_event_target_as = homeless_leper
 		}
