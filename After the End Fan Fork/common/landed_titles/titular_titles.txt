@@ -1981,9 +1981,7 @@ e_texas = {
 	
 	tejano = "Tejas"
 	comanche = "Texas"
-	czexan = "Teksas"
 	texan = "Texas"
-	texaner = "Texas"
 	
 	capital = 1235 # Travis
 	dignity = 200

@@ -34,9 +34,9 @@ character_event = {
 	immediate = {
 		create_character = {
 			random_traits = yes
-			culture = anjalusi
+			culture = chino
 			dynasty = actually_culture 
-			religion = imamite
+			religion = qingzhen
 			female = no
 			age = 30
 			trait = charismatic_negotiator
@@ -209,7 +209,7 @@ character_event = {
 			random_traits = yes
 			culture = tehrangeleno
 			dynasty = actually_culture 
-			religion = imamite
+			religion = qingzhen
 			female = no
 			age = 30
 			trait = fortune_builder
@@ -753,7 +753,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = { #start of ALI event chain
 	id = islamate.12
 	desc = "EVTDESC_ammondeath"
 	picture = GFX_evt_lunatic_arabic
@@ -800,9 +800,10 @@ character_event = {
 	only_independent = yes
 	has_character_flag = ali_ababwa
 	only_playable = yes
+	min_age = 16	
 
 	mean_time_to_happen = {
-		years = 2
+		years = 1
 	}	
 
 	option = {
@@ -2246,10 +2247,7 @@ character_event = {
 		}
 		is_landed = no
 		is_ruler = no
-		OR = {
-			culture_group = west_anglo
-			culture_group = starfolk
-		}
+		culture_group = west_anglo
 		NOT = { has_disease = yes }
 		OR = {
 			martial = 10

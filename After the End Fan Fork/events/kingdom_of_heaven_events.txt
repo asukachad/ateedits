@@ -281,14 +281,14 @@ narrative_event = {
 		set_global_flag = heavenlykingdom_mormonsupports_karen
 		
 		ai_chance = {
-			factor = 90
+			factor = 40
 			modifier = { factor = 1.2 trait = cynical }
 			modifier = { factor = 1.2 trait = arbitrary }
 			modifier = { factor = 1.2 trait = trusting }
 			modifier = { factor = 1.2 trait = bad_priest_christian } #Deposed edit, previously "bad_priest_mormon"
 			modifier = { factor = 1.2 NOT = { piety = 100 } }
 			modifier = { factor = 1.2 NOT = { piety = 0 } }
-			modifier = { factor = 0 NOT = { wealth = 100 } } #Deposed edit, previously "500"
+			modifier = { factor = 0 NOT = { wealth = 300 } } #Deposed edit, previously "500"
 		}
 
 	}
@@ -298,7 +298,7 @@ narrative_event = {
 		piety = 50
 		
 		ai_chance = {
-			factor = 10
+			factor = 60
 			modifier = { factor = 2 trait = zealous }
 			modifier = { factor = 1.5 trait = just }
 			modifier = { factor = 1.5 trait = paranoid }

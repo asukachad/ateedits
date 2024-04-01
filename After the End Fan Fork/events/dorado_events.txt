@@ -23,7 +23,7 @@ namespace = dorado
 				# limit = {
 					# ai = no
 					# OR = {
-						# culture_group = starfolk
+						# 
 						# culture_group = norteno
 						# culture_group = west_anglo
 						# culture_group = plains
@@ -120,7 +120,7 @@ character_event = {
 		in_command = no
 		OR = {
 			culture_group = norteno
-			culture_group = starfolk
+			
 			culture_group = plains
 			culture_group = west_anglo
 			culture_group = plateau
@@ -134,7 +134,7 @@ character_event = {
 			is_alive = yes
 			OR = {
 			culture_group = norteno
-			culture_group = starfolk
+			
 			culture_group = plains
 			culture_group = west_anglo
 			culture_group = plateau
@@ -1132,7 +1132,7 @@ character_event = {
 		in_command = no
 		OR = {
 			culture_group = norteno
-			culture_group = starfolk
+			
 			culture_group = plains
 			culture_group = west_anglo
 			culture_group = plateau
@@ -1146,7 +1146,7 @@ character_event = {
 			is_alive = yes
 			OR = {
 			culture_group = norteno
-			culture_group = starfolk
+			
 			culture_group = plains
 			culture_group = west_anglo
 			culture_group = plateau

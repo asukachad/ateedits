@@ -117,6 +117,9 @@ e_gulfcoast = {
 			quebecois = "Orléans"
 			acadien = "Orléans"
 			ontarois = "Orléans"
+			neomoor = "New Tours"
+			nilelander = "New Tours"
+			afrikan = "New Tours"				
 
 			capital = 1124 # New Orleans
 

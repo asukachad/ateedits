@@ -9,7 +9,7 @@ decisions = {
 			is_playable = yes
 			independent = yes
 			OR = { 
-				culture_group = starfolk
+				culture = texan
 				AND = { 
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -56,7 +56,7 @@ decisions = {
 			capital_scope = {
 				region = custom_texas
 			}
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 			AND = { culture = comanche
 					has_landed_title = k_comancheria
 				}
@@ -98,7 +98,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			independent = yes
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 			AND = { culture = comanche
 					has_landed_title = k_comancheria
 				}
@@ -142,7 +142,7 @@ decisions = {
 			is_playable = yes
 			independent = yes
 			OR = { 
-				culture_group = starfolk
+				culture = texan
 				AND = { 
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -186,7 +186,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			independent = yes
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 				AND = { 
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -230,7 +230,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			independent = yes
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 			AND = { culture = comanche
 					has_landed_title = k_comancheria
 				}
@@ -274,7 +274,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			independent = yes
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 			AND = { culture = comanche
 					has_landed_title = k_comancheria
 				}
@@ -405,7 +405,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			independent = yes
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 			AND = { culture = comanche
 			has_landed_title = k_comancheria
 				}
@@ -535,7 +535,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			independent = yes
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 			AND = { culture = comanche
 			has_landed_title = k_comancheria
 				}
@@ -668,7 +668,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			independent = yes
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 			AND = { culture = comanche
 			has_landed_title = k_comancheria
 				}
@@ -800,7 +800,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			independent = yes
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 			AND = { culture = comanche
 			has_landed_title = k_comancheria
 				}
@@ -928,7 +928,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			independent = yes
-			OR = { culture_group = starfolk
+			OR = { culture = texan
 			AND = { culture = comanche
 			has_landed_title = k_comancheria
 				}

@@ -85,7 +85,7 @@ bm_the_cowboy_conquerors = {
 			religion="falling_star"
 			#dna="agfab0i00e0"
 			#properties="0e0a0000000000"
-			culture="czexan"
+			culture="texan"
 		}
 	}
 	selectable_character = {

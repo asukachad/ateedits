@@ -3100,7 +3100,7 @@ d_texas_royal_guard = {
 	capital = 973 # Centrex
 	
 	mercenary = yes
-	culture = texaner
+	culture = texan
 	landless = yes	
 	primary = yes
 

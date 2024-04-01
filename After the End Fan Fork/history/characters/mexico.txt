@@ -3,7 +3,7 @@
 	name="Carbajal"
 	dynasty=1810000 # dos Santos
 	culture=tejano
-	religion=catholic
+	religion=sacred_heart
 	martial=5
 	diplomacy=6
 	stewardship=6

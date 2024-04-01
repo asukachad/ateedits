@@ -47,7 +47,7 @@ liberate_texas = {
 				has_landed_title = k_old_star
 				has_landed_title = k_comancheria
 			}
-			culture_group = starfolk
+			culture = texan
 			NOT = {
 				has_character_flag = used_texas_liberate_opportunity
 			}
@@ -57,7 +57,9 @@ liberate_texas = {
 			NOT = { same_realm = FROM }
 			FROM = {
 				NOT = {
-					culture_group = starfolk
+					OR = {
+						culture = texan
+						}
 				}
 			}
 			FROM = {
@@ -128,8 +130,6 @@ liberate_texas = {
 								OR = {
 									culture = texan
 									culture = tejano
-									culture = texaner
-									culture = czexan
 									AND = { 
 										culture = comanche
 										has_landed_title = k_comancheria

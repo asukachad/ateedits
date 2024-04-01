@@ -10,4 +10,4 @@ b_rock_springs_TX=city
 
 # Misc
 culture=tejano
-religion=catholic
+religion=sacred_heart

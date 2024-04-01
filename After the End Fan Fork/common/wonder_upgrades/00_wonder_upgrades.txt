@@ -4805,7 +4805,7 @@ upgrade_alamo_mission = {
 	}
 	allow = { }
 	active = {
-		culture_group = starfolk
+		culture = texan
 	}
 
 	flags = {
@@ -4820,7 +4820,7 @@ upgrade_alamo_mission = {
 	}
 	owner_modifier = {
 		diplomacy = 1
-		starfolk_opinion = 5
+		texan_opinion = 5
 	}
 }
 
@@ -4831,7 +4831,7 @@ upgrade_riverwalk = {
 	}
 	allow = { }
 	active = {
-		culture_group = starfolk
+		culture_group = west_anglo
 	}
 
 	flags = {

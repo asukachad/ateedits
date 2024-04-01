@@ -10,6 +10,9 @@ e_caribbean = {
 	anglish = "West Indian Empire"
 	northumbrian = "West Indian Empire"
 	scottish = "West Indian Empire"
+	neomoor = "Empire of Al-Carib"
+	nilelander = "Empire of Al-Carib"
+	afrikan = "Empire of Al-Carib"	
 	
 	k_grand_trinidad = {
 		color= { 106 140 80 }
@@ -780,6 +783,10 @@ e_caribbean = {
 			capital = 1187 # Port-au-Prince
 			color = { 10 50 140 }
 
+			neomoor = "Alsuwmalia"
+			nilelander = "Alsuwmalia"
+			afrikan = "Alsuwmalia"	
+
 			c_port_au_prince = {
 				color = { 10 0 140 }
 	
@@ -793,7 +800,9 @@ e_caribbean = {
 				boricua = "Puerto Principe"
 				haitian = "Pòtoprens"
 				venteux = "Pòtoprens"
-				neomoor = "Alsuwmalia"
+				neomoor = "Mogadishu"
+				nilelander = "Mogadishu"
+				afrikan = "Mogadishu"	
 	
 				holy_site = voodoo
 	

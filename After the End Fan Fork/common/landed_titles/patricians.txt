@@ -290,7 +290,7 @@ b_ervin = {
 }
 
 b_nohl = {
-	culture = texaner
+	culture = texan
 }
 
 b_gandara = {

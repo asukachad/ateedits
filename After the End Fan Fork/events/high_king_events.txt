@@ -23,7 +23,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = d_airmen } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -35,7 +35,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_1_foreign
 		trigger = { 
 			NOT = { has_landed_title = d_airmen } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -69,7 +69,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = d_miners } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -81,7 +81,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_2_foreign
 		trigger = { 
 			NOT = { has_landed_title = d_miners } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -115,7 +115,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = d_red_raider } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -127,7 +127,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_3_foreign
 		trigger = { 
 			NOT = { has_landed_title = d_red_raider } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -161,7 +161,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = d_longhorns } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -173,7 +173,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_4_foreign
 		trigger = { 
 			NOT = { has_landed_title = d_longhorns } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -207,7 +207,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = d_aggies } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -219,7 +219,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_5_foreign
 		trigger = { 
 			NOT = { has_landed_title = d_aggies } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -253,7 +253,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = d_first_cav } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -265,7 +265,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_6_foreign
 		trigger = { 
 			NOT = { has_landed_title = d_first_cav } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -300,7 +300,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = k_yellowrose } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -312,7 +312,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_7_foreign
 		trigger = { 
 			NOT = { has_landed_title = k_yellowrose } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -347,7 +347,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = k_silvercrown } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -359,7 +359,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_8_foreign
 		trigger = { 
 			NOT = { has_landed_title = k_silvercrown } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -394,7 +394,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = k_star_coast } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -406,7 +406,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_9_foreign
 		trigger = { 
 			NOT = { has_landed_title = k_star_coast } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -441,7 +441,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = k_texarkana } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -453,7 +453,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_10_foreign
 		trigger = { 
 			NOT = { has_landed_title = k_texarkana } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -488,7 +488,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = k_highlands } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -500,7 +500,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_11_foreign
 		trigger = { 
 			NOT = { has_landed_title = k_highlands } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -535,7 +535,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = k_westex } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -547,7 +547,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_12_foreign
 		trigger = { 
 			NOT = { has_landed_title = k_westex } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -598,7 +598,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = d_longhorns } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -610,7 +610,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_13_foreign
 		trigger = { 
 			NOT = { has_landed_title = d_longhorns } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -658,7 +658,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = d_longhorns } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -670,7 +670,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_14_foreign
 		trigger = { 
 			NOT = { has_landed_title = d_longhorns } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche
@@ -718,7 +718,7 @@ narrative_event = {
 		trigger = { 
 			NOT = { has_landed_title = d_longhorns } 
 			OR = {
-				culture_group = starfolk
+				culture = texan
 				AND = {
 					culture = comanche
 					has_landed_title = k_comancheria
@@ -730,7 +730,7 @@ narrative_event = {
 		name = EVTOPTA_tex_king_15_foreign
 		trigger = { 
 			NOT = { has_landed_title = d_longhorns } 
-			NOT = { culture_group = starfolk }
+			NOT = { culture = texan }
 			NOT = {
 				AND = {
 					culture = comanche

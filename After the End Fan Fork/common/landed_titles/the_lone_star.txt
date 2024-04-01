@@ -718,7 +718,7 @@ e_lone_star = {
 				color = { 135 170 101 }
 				color2= { 255 255 20 }
 	
-				texaner = "Friedrichsburg"
+				plautdietsch = "Friedrichsburg"
 				texan = "Hilluntry"
 	
 				b_fredericksburg_TX = {}
@@ -739,12 +739,11 @@ e_lone_star = {
 			c_comal = {
 				color = { 120 190 75 }
 				color2= { 255 255 20 }
-				texaner = "Neu-Braunfels"
+				plautdietsch = "Neu-Braunfels"
 
 				b_new_braunfels_TX = {
 					rostmann = "Neu-Braunfels"
 					dellsman = "Neu-Braunfels"
-					texaner = "Neu-Braunfels"
 					deitsch = "Nei Braunfels"
 					plautdietsch = "Nei Braunfels"
 
@@ -851,7 +850,6 @@ e_lone_star = {
 	
 				texan = "Wyld Wood"
 				tejano = "La Grange"
-				czexan = "Maticka Praha"
 	
 	
 				b_giddings_TX = {}

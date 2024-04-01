@@ -686,7 +686,7 @@ nick_the_kid = {
 			factor = 1.5
 			OR = {
 				culture_group = west_anglo
-				culture_group = starfolk
+				culture = texan
 			}
 		}
 	}
@@ -706,7 +706,7 @@ nick_appletree = {
 			factor = 1.5
 			OR = {
 				culture_group = west_anglo
-				culture_group = starfolk
+				culture = texan
 			}
 		}
 	}
@@ -725,7 +725,7 @@ nick_the_charger = {
 			factor = 1.5
 			OR = {
 				culture_group = west_anglo
-				culture_group = starfolk
+				culture = texan
 			}
 		}
 	}
@@ -938,7 +938,7 @@ nick_the_mysterious = {
 		is_adult = yes
 		OR = {
 			culture_group = west_anglo
-			culture_group = starfolk
+			culture = texan
 		}
 		trait = shy
 	}
@@ -956,7 +956,7 @@ nick_the_wild = {
 		is_adult = yes
 		OR = {
 			culture_group = west_anglo
-			culture_group = starfolk
+			culture = texan
 		}
 		is_female = no
 		trait = wroth
@@ -980,7 +980,7 @@ nick_the_buffalo = {
 		OR = {
 			culture_group = west_anglo
 			culture_group = plains
-			culture_group = starfolk
+			culture = texan
 		}
 		trait = strong
 		trait = brave
@@ -1003,7 +1003,7 @@ nick_the_calamity = {
 		is_adult = yes
 		OR = {
 			culture_group = west_anglo
-			culture_group = starfolk
+			culture = texan
 		}
 		is_female = yes
 		trait = wroth
@@ -1058,7 +1058,7 @@ nick_the_doctor = {
 			factor = 3
 			OR = {
 				culture_group = west_anglo
-				culture_group = starfolk
+				culture = texan
 			}
 		}
 		modifier = {

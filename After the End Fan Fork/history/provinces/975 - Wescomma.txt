@@ -8,6 +8,6 @@ max_settlements=3
 b_meridian_TX=castle
 b_hillsboro_TX=city
 # Misc
-culture=czexan
+culture=texan
 religion=catholic
 terrain=steppe

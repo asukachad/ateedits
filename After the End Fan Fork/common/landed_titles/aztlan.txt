@@ -768,8 +768,6 @@ e_aztlan = {
 		
 		plautdietsch = "Mutterberg"
 		texan = "Kingdom of the North"
-		czexan = "Kingdom of the North"
-		texaner = "Kingdom of the North"
 		arixan = "Kingdom of the North"
 		
 		short_name = yes
@@ -1057,8 +1055,6 @@ e_aztlan = {
 		
 		plautdietsch = "Bravenfluss"
 		texan = "Kingdom of the Rio Grande"
-		czexan = "Kingdom of the Rio Grande"
-		texaner = "Kingdom of the Rio Grande"
 		arixan = "Kingdom of the Rio Grande"
 
 		capital = 817 # c_monterrey

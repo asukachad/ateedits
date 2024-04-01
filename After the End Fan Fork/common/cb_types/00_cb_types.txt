@@ -11485,6 +11485,7 @@ pagan_holy_war = { #
 				religion = aria_de_machete_reformed
 				religion = midewiwin_reformed
 				religion = raven_tales_reformed
+				religion = trailwalker_reformed #never got fixed in the actual fork, I guess nobody found out because nobody plays trailwalker
 			}
 			NOT = { same_realm = FROM }
 			NOT = { religion = FROM }
@@ -14771,7 +14772,7 @@ indian_subjugation = {
 }
 
 
-# 52: This can be used for various special cases; the great conquerors
+# 52: This can be used for various special cases; the great conquerors ###For some reason the only conqueror that was able to use this cb was the renevator. Why would they do that? Was it intentional? Why would it be intentional? Was it an accident? How did they miss it?
 manifest_destiny_invasion = {
 	name = CB_NAME_INVASION
 	war_name = WAR_NAME_INVASION
@@ -14784,8 +14785,16 @@ manifest_destiny_invasion = {
 	check_de_jure_tier = KING # this scans all de jure kingdoms for the counties which are held by or vassals(or below) of selected character. Only valid if is_permanent = yes
 	
 	can_use = {
+		OR = { 
 		ROOT = {
 			has_character_flag = renovator_himself
+		}
+		ROOT = {
+			has_character_flag = wayne_himself
+		}
+		ROOT = {
+			has_character_flag = hijolly_himself
+		}		
 		}
 		
 		ROOT = {

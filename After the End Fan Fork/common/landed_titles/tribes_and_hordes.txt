@@ -30,7 +30,7 @@ d_renovator_host = {
 
 	capital = 440 # Boston
 
-	culture = czexan
+	culture = texan
 	religion = falling_star
 
 	title = "CAPTAIN"

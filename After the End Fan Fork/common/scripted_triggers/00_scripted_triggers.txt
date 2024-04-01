@@ -6613,7 +6613,7 @@ likes_cowboys = { #West Anglo and Rockland
 	OR = {
 		culture_group = west_anglo
 		culture_group = rockland
-		culture_group = starfolk
+		culture = tejano
 		culture = neomexicano
 	}
 }

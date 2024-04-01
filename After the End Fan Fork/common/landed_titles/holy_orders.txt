@@ -1399,7 +1399,7 @@ d_knights_outrider_royal_guard = {
 	foa = "CAPTAIN_FOA"
 	title_prefix = "TRIBE_OF"
 	
-	culture = czexan
+	culture = texan
 	religion = catholic
 	landless = yes	
 	holy_order = yes	

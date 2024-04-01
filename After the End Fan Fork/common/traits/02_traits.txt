@@ -678,7 +678,6 @@ brahmin = { #planter
 					religion = confederalist
 					religion = antinomian
 					religion = postadventist
-					religion = charismatic
 		}
 	}
 	opposites = {
@@ -703,7 +702,6 @@ kshatriya = { #yeoman
 					religion = confederalist
 					religion = antinomian
 					religion = postadventist
-					religion = charismatic
 		}
 	}
 	opposites = {
@@ -727,7 +725,6 @@ vaishya = { #freeman
 					religion = confederalist
 					religion = antinomian
 					religion = postadventist
-					religion = charismatic
 		}
 	}
 	opposites = {

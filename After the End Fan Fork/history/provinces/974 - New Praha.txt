@@ -7,6 +7,6 @@ b_bastrop_TX=castle
 b_flatonia_TX=temple
 
 # Misc
-culture=czexan
+culture=texan
 religion=catholic
 terrain=steppe

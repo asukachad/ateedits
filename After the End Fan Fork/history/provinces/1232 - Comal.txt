@@ -10,6 +10,6 @@ b_universal_city_TX=temple
 b_new_berlin_TX=city
 
 # Misc
-culture=texaner
+culture=texan
 religion=catholic
 terrain=steppe

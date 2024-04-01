@@ -2,7 +2,7 @@ decisions = {
 
 	form_tex_k_yellowrose = {
 		potential = {
-			culture_group = starfolk
+			culture = texan
 			is_playable = yes
 			independent = yes
 			capital_scope = {
@@ -46,7 +46,7 @@ decisions = {
 
 	form_tex_k_westex = {
 		potential = {
-			culture_group = starfolk
+			culture = texan
 			is_playable = yes
 			independent = yes
 			capital_scope = {
@@ -90,7 +90,7 @@ decisions = {
 
 	form_tex_k_highlands = {
 		potential = {
-			culture_group = starfolk
+			culture = texan
 			is_playable = yes
 			independent = yes
 			capital_scope = {
@@ -131,7 +131,7 @@ decisions = {
 
 	form_tex_k_texarkana = {
 		potential = {
-			culture_group = starfolk
+			culture = texan
 			is_playable = yes
 			independent = yes
 			capital_scope = {
@@ -172,7 +172,7 @@ decisions = {
 
 	form_tex_k_silvercrown = {
 		potential = {
-			culture_group = starfolk
+			culture = texan
 			is_playable = yes
 			independent = yes
 			capital_scope = {
@@ -214,7 +214,7 @@ decisions = {
 
 	form_tex_k_star_coast = {
 		potential = {
-			culture_group = starfolk
+			culture = texan
 			is_playable = yes
 			independent = yes
 			capital_scope = {
@@ -262,7 +262,7 @@ decisions = {
 	form_e_texas = {
 		is_high_prio = yes
 		potential = {
-			culture_group = starfolk
+			culture = texan
 			is_playable = yes
 			independent = yes
 			capital_scope = {
@@ -409,7 +409,7 @@ decisions = {
 				}
 	
 			}
-			culture_group = starfolk
+			culture = texan
 			is_adult = yes
 			prisoner = no
 			NOT = { trait = incapable }
