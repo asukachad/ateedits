@@ -1549,7 +1549,7 @@ province_event = {
 		NOT = { has_province_modifier = postadventist_revival }
 		NOT = { has_province_modifier = anabaptist_revival }
 		NOT = { has_province_modifier = mormon_revival }
-		NOT = { has_province_modifier = confederalist_revival }
+		NOT = { has_province_modifier = confederatist_revival }
 		NOT = { has_province_modifier = religious_unrest }
 		NOT = { has_province_modifier = resist_revival }
 		NOT = { has_province_modifier = burned_over }
@@ -2085,7 +2085,7 @@ province_event = {
 		NOT = { has_province_modifier = postadventist_revival }
 		NOT = { has_province_modifier = anabaptist_revival }
 		NOT = { has_province_modifier = mormon_revival }
-		NOT = { has_province_modifier = confederalist_revival }
+		NOT = { has_province_modifier = confederatist_revival }
 		NOT = { has_province_modifier = religious_unrest }
 		NOT = { has_province_modifier = resist_revival }
 		NOT = { has_province_modifier = burned_over }
@@ -2457,7 +2457,7 @@ province_event = {
 		NOT = { has_province_modifier = charismatic_revival }
 		NOT = { has_province_modifier = anabaptist_revival }
 		NOT = { has_province_modifier = mormon_revival }
-		NOT = { has_province_modifier = confederalist_revival }
+		NOT = { has_province_modifier = confederatist_revival }
 		NOT = { has_province_modifier = religious_unrest }
 		NOT = { has_province_modifier = resist_revival }
 		NOT = { has_province_modifier = burned_over }
@@ -2838,7 +2838,7 @@ province_event = {
 		NOT = { has_province_modifier = charismatic_revival }
 		NOT = { has_province_modifier = postadventist_revival }
 		NOT = { has_province_modifier = mormon_revival }
-		NOT = { has_province_modifier = confederalist_revival }
+		NOT = { has_province_modifier = confederatist_revival }
 		NOT = { has_province_modifier = religious_unrest }
 		NOT = { has_province_modifier = resist_revival }
 		NOT = { has_province_modifier = burned_over }
@@ -3219,7 +3219,7 @@ province_event = {
 		NOT = { has_province_modifier = charismatic_revival }
 		NOT = { has_province_modifier = postadventist_revival }
 		NOT = { has_province_modifier = anabaptist_revival }
-		NOT = { has_province_modifier = confederalist_revival }
+		NOT = { has_province_modifier = confederatist_revival }
 		NOT = { has_province_modifier = religious_unrest }
 		NOT = { has_province_modifier = resist_revival }
 		NOT = { has_province_modifier = burned_over }
@@ -3594,7 +3594,7 @@ province_event = {
 	has_global_flag = evangelical_reformation
 	
 	trigger = {
-		NOT = { has_province_modifier = confederalist_revival }
+		NOT = { has_province_modifier = confederatist_revival }
 		NOT = { has_province_modifier = antinomian_revival }
 		NOT = { has_province_modifier = charismatic_revival }
 		NOT = { has_province_modifier = postadventist_revival }
@@ -3625,7 +3625,7 @@ province_event = {
 	
 	immediate = {
 		add_province_modifier = {
-			name = confederalist_revival
+			name = confederatist_revival
 			duration = 1460
 		}
 		add_province_modifier = {
@@ -3656,7 +3656,7 @@ province_event = {
 	option = {
 		name = EVTOPTD_eva.701 #suppress the revival violently
 		remove_province_modifier = religious_tension
-		remove_province_modifier = confederalist_revival
+		remove_province_modifier = confederatist_revival
 		add_province_modifier = {
 			name = religious_unrest
 			duration = 60 
@@ -3673,12 +3673,12 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { religion = confederalist }
+		NOT = { religion = confederatist }
 	}
 		
 	option = { #convert
 		name = EVTOPTA_eva.702
-		FROM = { religion = confederalist }
+		FROM = { religion = confederatist }
 		FROM = { add_province_modifier = { name = burned_over duration = 912 } }
 		custom_tooltip = { text = TXT_high_church_convert }
 		hidden_tooltip = { character_event = { id = eva.706 } }
@@ -3778,7 +3778,7 @@ character_event = {
 	option = { 
 		name = EVTOPTA_eva.705 
 		FROMFROMFROM = { add_province_modifier = { name = burned_over duration = 720 } }
-		FROMFROMFROM = { religion = confederalist }
+		FROMFROMFROM = { religion = confederatist }
 		piety = -5
 		hidden_tooltip = {
 			if = {
@@ -3804,7 +3804,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_eva.706
 		trigger = { has_job_title = job_spiritual }
-		religion = confederalist
+		religion = confederatist
 		hidden_tooltip = {
 			if = {
 				limit = {
@@ -3821,7 +3821,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_eva.706
 		trigger = { NOT = { has_job_title = job_spiritual } }
-		religion = confederalist
+		religion = confederatist
 		hidden_tooltip = {
 			if = {
 				limit = {
@@ -3837,7 +3837,7 @@ character_event = {
 	option = {
 		name = EVTOPTC_eva.706
 		hidden_tooltip = {
-			set_secret_religion = confederalist
+			set_secret_religion = confederatist
 			if = {
 				limit = {
 					NOT = { has_landed_title = e_dixie }
@@ -3859,7 +3859,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_eva.707
-		religion = confederalist
+		religion = confederatist
 		FROM = { character_event = { id = eva.711 } }
 		ai_chance = {
 			factor = 50
@@ -3997,7 +3997,7 @@ narrative_event = {
 			religion = evangelical
 			religion = antinomian
 			religion = charismatic
-			religion = confederalist
+			religion = confederatist
 		}
 		NOT = { has_global_flag = fall_hcc }
 	}

@@ -119,7 +119,7 @@ anabaptist_revival = {
 	icon = 26
 }
 
-confederalist_revival = {
+confederatist_revival = {
 	icon = 26
 }
 

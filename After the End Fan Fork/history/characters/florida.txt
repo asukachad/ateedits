@@ -1338,7 +1338,7 @@
 	dynasty=1785025
 	dna="npphpikbdee"
 	culture=tuskegean
-	religion=confederalist
+	religion=confederatist
 	martial=5
 	diplomacy=0
 	stewardship=6

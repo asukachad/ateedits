@@ -13,6 +13,6 @@ b_chesapeake_VA=castle
 
 # Misc
 culture=southron
-religion=confederalist
+religion=confederatist
 terrain=farmlands
 

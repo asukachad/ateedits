@@ -574,7 +574,7 @@
 	learning=6
 	culture=southron
 	religion=evangelical
-	secret_religion=confederalist
+	secret_religion=confederatist
 	father=1861265
 	trait=unyielding_leader
 	trait=temperate
@@ -1717,7 +1717,7 @@
 	name="Jim"
 	dynasty=1787067
 	culture=dixie
-	religion=confederalist
+	religion=confederatist
 	martial=3
 	diplomacy=4
 	intrigue=1
@@ -2015,7 +2015,7 @@
 	dna="ckmnmbkakjk"
 	culture=dixie
 	religion=evangelical
-	secret_religion=confederalist
+	secret_religion=confederatist
 	father=1861325
 	martial=8
 	diplomacy=3
@@ -2654,7 +2654,7 @@
 	female=yes
 	dna="nmckaehjfnb"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=4
 	diplomacy=5
 	stewardship=3
@@ -2676,7 +2676,7 @@
 	dynasty=1787073 # Farragut
 	dna="lmiemnbomck"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=3
 	diplomacy=3
 	stewardship=3
@@ -2697,7 +2697,7 @@
 	dynasty=1787073
 	dna="lmifmnhjpnb"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=4
 	diplomacy=6
 	stewardship=5
@@ -2719,7 +2719,7 @@
 	dynasty=1787073
 	dna="lmieanbjmcb"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=6
 	diplomacy=3
 	stewardship=5
@@ -2766,7 +2766,7 @@
 	dynasty=1787080
 	dna="kaffedpffej"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=2
 	diplomacy=3
 	stewardship=4
@@ -2786,7 +2786,7 @@
 	dynasty=1787073
 	dna="afffmdhfpnj"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=4
 	diplomacy=3
 	stewardship=2
@@ -2806,7 +2806,7 @@
 	dynasty=1787073
 	dna="lmifedpdpnj"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=7
 	diplomacy=6
 	stewardship=4
@@ -2846,7 +2846,7 @@
 	dynasty=1787074
 	dna="obmgmhedpfm"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=5
 	diplomacy=4
 	stewardship=6
@@ -2866,7 +2866,7 @@
 	female=yes
 	dna="giffkblpihp"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=6
 	diplomacy=3
 	stewardship=3
@@ -2888,7 +2888,7 @@
 	dynasty=1787074
 	dna="jifgkblppfm"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=6
 	diplomacy=4
 	stewardship=4
@@ -2909,7 +2909,7 @@
 	dynasty=1787074
 	dna="gbffmbepphd"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=1
 	diplomacy=3
 	stewardship=3
@@ -2933,7 +2933,7 @@
 	dynasty=1787074
 	dna="obffkhedihf"
 	culture=southron
-	religion=confederalist
+	religion=confederatist
 	martial=4
 	diplomacy=4
 	stewardship=8
@@ -3717,6 +3717,7 @@
 	trait=cynical
 	trait=wroth
 	trait=stubborn
+	trait=sympathy_oldworld
 	2575.7.29={birth=yes}
 	2657.10.8={death=yes}
 }
@@ -3745,7 +3746,7 @@
 	name="Claudius"
 	dynasty=1785030
 	culture=tuskegean
-	religion=confederalist
+	religion=confederatist
 	martial=6
 	diplomacy=7
 	stewardship=8
@@ -4012,7 +4013,7 @@
 	name="Hardin"
 	dynasty=1787087 #Titus
 	culture=southron
-	religion=evangelical
+	religion=confederatist
 	trait=tough_soldier
 	trait=cruel
 	trait=impaler
@@ -5878,7 +5879,7 @@
 	name="Raymond"
 	dynasty=1787017 # Candler
 	culture=dixie
-	religion=evangelical
+	religion=confederatist
 	2580.1.1={birth=yes}
 	2641.1.1={death=yes}
 }
@@ -6886,7 +6887,7 @@
 	name="Ezzard"
 	dynasty=1787027 # Hillyer
 	culture=tuskegean 
-	religion=charismatic
+	religion=confederatist
 	trait=strong
 	trait=wroth	
 	trait=proud
@@ -6905,6 +6906,7 @@
 	dynasty=1787027 # Hillyer
 	culture=tuskegean 
 	religion=evangelical
+	trait=sympathy_oldworld
 	father=1861421
 	2351.1.1={birth=yes}
 	2404.1.1={death=yes}
@@ -6981,7 +6983,7 @@
 	female=yes
 	dynasty=1787005 #Dowdell
 	culture=dixie
-	religion=postadventist
+	religion=confederatist
 	trait=skilled_tactician
 	trait=quick
 	trait=proud
@@ -7013,7 +7015,7 @@
 	name="Henry"
 	dynasty=1787019 #Du Bose
 	culture=dixie
-	religion=postadventist
+	religion=confederatist
 	trait=cruel
 	trait=brave
 	trait=honest

@@ -1,0 +1,54 @@
+inaug_in_barn = {
+	castle_opinion = -5
+	town_opinion = -5
+	church_opinion = 5
+	monthly_character_prestige = -0.05
+	icon = 25
+}
+
+inaug_in_war = { 
+	church_opinion = -5
+	monthly_character_piety = -0.05
+	icon = 25
+}
+
+extravagant_inaug = { #Extravagant coronation 20 years bonus.
+	vassal_opinion = 10
+	monthly_character_prestige = 0.25
+	icon = 7
+}
+
+uninaug_modifier = { #On five years pulse
+	vassal_opinion = -2
+	icon = 25
+}
+
+mod_leg_mil = {
+	global_levy_size = 0.20
+	land_morale = 0.20
+	land_organisation = 0.20
+	global_tax_modifier = -0.1
+	icon = 13
+}
+
+mod_leg_inf = {
+	build_cost_modifier = -0.33
+	build_time_modifier = -0.33
+	global_tax_modifier = -0.1
+	icon = 4
+}
+
+mod_leg_cul = {
+	monthly_character_piety = 10
+	monthly_character_prestige = 10
+	global_tax_modifier = -0.1
+	icon = 3
+}
+
+mod_leg_esp = {
+	global_revolt_risk = -0.33
+	arrest_chance_modifier = 0.20
+	plot_discovery_chance = 0.20
+	global_tax_modifier = -0.1
+	icon = 14
+}

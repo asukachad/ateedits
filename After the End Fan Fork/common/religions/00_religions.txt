@@ -1118,7 +1118,7 @@ christian = {
 		intermarry = true_cross
 		intermarry = cristo_rey
 		intermarry = reformista
-		intermarry = confederalist
+		intermarry = confederatist
 	}
 
 	antinomian = {
@@ -1192,8 +1192,6 @@ christian = {
 		can_retire_to_monastery = no
 		female_temple_holders = yes
 		allow_rivermovement = yes
-		caste_opinions = yes
-		castes = yes			
 		
 		religious_clothing_head = 0
 		religious_clothing_priest = 2
@@ -2924,7 +2922,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = atomicist
 		intermarry = aphite
@@ -2934,7 +2932,7 @@ oldworld = {
 		intermarry = chrome_cultist
 	}
 
-	confederalist = {
+	confederatist = {
 		graphical_culture = hellenicgfx
 
 		parent = americanist
@@ -3021,7 +3019,7 @@ oldworld = {
 		intermarry = americanist
 		intermarry = jeffersonian
 		intermarry = libertarian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = atomicist
 		intermarry = aphite
@@ -3065,7 +3063,7 @@ oldworld = {
 		intermarry = americanist
 		intermarry = hamiltonian
 		intermarry = libertarian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = atomicist
 		intermarry = aphite
@@ -3115,7 +3113,7 @@ oldworld = {
 		intermarry = americanist
 		intermarry = hamiltonian
 		intermarry = jeffersonian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = atomicist
 		intermarry = aphite
@@ -3170,7 +3168,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = atomicist
 		intermarry = aphite
@@ -3216,7 +3214,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = atomicist
 		intermarry = aphite
@@ -3267,7 +3265,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = consumerist
 		intermarry = monetarist
@@ -3331,7 +3329,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = consumerist
 		intermarry = monetarist
@@ -3376,7 +3374,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = consumerist
 		intermarry = monetarist
@@ -3418,7 +3416,7 @@ oldworld = {
 		intermarry = hamiltonian
 		intermarry = jeffersonian
 		intermarry = libertarian
-		intermarry = confederalist
+		intermarry = confederatist
 		
 		intermarry = consumerist
 		intermarry = monetarist
@@ -3595,6 +3593,9 @@ pagan_group = {
 		intermarry = revelationist
 		intermarry = trailwalker
 		intermarry = trailwalker_reformed
+		intermarry = charismatic
+		intermarry = orientalist
+		intermarry = misrist
 	}
 
 	revelationist = { 
@@ -3636,6 +3637,9 @@ pagan_group = {
 		intermarry = revelationist_reformed
 		intermarry = trailwalker
 		intermarry = trailwalker_reformed
+		intermarry = charismatic
+		intermarry = orientalist
+		intermarry = misrist
 	}
 	
 	trailwalker_reformed = { 

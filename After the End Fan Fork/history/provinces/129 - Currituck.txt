@@ -10,5 +10,5 @@ b_kitty_hawk_NC=temple
 
 # Misc
 culture=southron
-religion=confederalist
+religion=confederatist
 terrain=marsh

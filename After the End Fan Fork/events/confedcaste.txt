@@ -19,7 +19,7 @@ character_event = {
             limit = {
                 OR = {
 					religion = evangelical
-					religion = confederalist
+					religion = confederatist
 					religion = antinomian
 					religion = postadventist
 						}
@@ -54,7 +54,7 @@ character_event = {
             limit = {
                 OR = {
 					religion = evangelical
-					religion = confederalist
+					religion = confederatist
 					religion = antinomian
 					religion = postadventist
 						}
@@ -79,7 +79,7 @@ character_event = {
             limit = {
                 OR = {
 					religion = evangelical
-					religion = confederalist
+					religion = confederatist
 					religion = antinomian
 					religion = postadventist
 						}
@@ -130,7 +130,7 @@ character_event = {
 #	trigger = {
 #		OR = { 
 #				religion = evangelical
-#				religion = confederalist
+#				religion = confederatist
 #				religion = antinomian
 #				religion = postadventist
 #				religion = charismatic

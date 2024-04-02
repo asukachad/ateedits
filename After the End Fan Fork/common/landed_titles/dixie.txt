@@ -209,7 +209,7 @@ e_dixie = {
 				holy_site = evangelical
 				holy_site = revelationist
 				holy_site = revelationist_reformed
-				holy_site = confederalist
+				holy_site = confederatist
 				muscogee = "Standing Peachtree"
 				neomoor = "Allah's Garden"
 				nilelander = "Allah's Garden"
@@ -674,7 +674,6 @@ e_dixie = {
 				color={ 97 164 127 }
 				color2={ 220 220 0 }
 				
-				holy_site = confederalist
 
 				b_birmingham_AL = {}
 				b_hoover_AL = {}
@@ -842,7 +841,7 @@ e_dixie = {
 				color2={ 220 220 0 }
 				holy_site = evangelical
 				holy_site = jewish
-				holy_site = confederalist
+				holy_site = confederatist
 
 				b_charleston_SC = {}
 				b_the_citadel_SC = {}

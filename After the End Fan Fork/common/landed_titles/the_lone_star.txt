@@ -412,6 +412,8 @@ e_lone_star = {
 				color = { 250 137 29 }
 				color2= { 255 255 20 }
 				texan = "Houston"
+				
+				holy_site = confederatist
 	
 	
 	

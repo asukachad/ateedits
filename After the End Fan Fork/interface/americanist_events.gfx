@@ -1,0 +1,38 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_manifestdestiny"
+		texturefile = "gfx\\event_pictures\\manifestdestiny.tga"
+	}
+	spriteType = {
+		name = "GFX_evt_patriot"
+		texturefile = "gfx\\event_pictures\\patriot.tga"
+	}
+	spriteType = {
+		name = "GFX_evt_notpatriot"
+		texturefile = "gfx\\event_pictures\\notpatriot.tga"
+	}
+	spriteType = {
+		name = "GFX_evt_unpatriot"
+		texturefile = "gfx\\event_pictures\\unpatriot.tga"
+	}
+	spriteType = {
+		name = "GFX_evt_capitol_building"
+		texturefile = "gfx\\event_pictures\\capitol_building.tga"
+	}
+	spriteType = {
+		name = "GFX_evt_house_room"
+		texturefile = "gfx\\event_pictures\\house_room.tga"
+	}
+	spriteType = {
+		name = "GFX_evt_house_rostrum"
+		texturefile = "gfx\\event_pictures\\house_rostrum.tga"
+	}
+	spriteType = {
+		name = "GFX_evt_inauguration"
+		texturefile = "gfx\\event_pictures\\inauguration.tga"
+	}
+	spriteType = {
+		name = "GFX_evt_judge"
+		texturefile = "gfx\\event_pictures\\judge.tga"
+	}
+}	

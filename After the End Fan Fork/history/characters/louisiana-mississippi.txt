@@ -102,19 +102,23 @@
 }
 
 1803010={
-	name="Jessie"
+	name="Clifford"
 	dynasty=1787024
 	dna="faheeikkakp"
 	culture=dixie
-	religion=confederalist
-	martial=3
+	religion=confederatist
+	martial=6
 	diplomacy=3
-	stewardship=6
+	stewardship=2
 	intrigue=3
 	learning=3
-	trait=grey_eminence
-	trait=craven
+	trait=tough_soldier
+	trait=zealous
 	trait=ambitious
+	trait=stubborn
+	trait=unyielding_leader
+	trait=proud
+	disallow_random_traits=yes
 	2617.1.1={birth=yes}
 	2636.3.29={add_spouse=1803011}
 	2673.9.13={death=yes}
@@ -126,7 +130,7 @@
 	dynasty=1787025
 	dna="bmmbngacjbd"
 	culture=dixie
-	religion=confederalist
+	religion=confederatist
 	martial=3
 	diplomacy=3
 	stewardship=2
@@ -148,7 +152,7 @@
 	dynasty=1787024
 	dna="fmhbeiacakd"
 	culture=dixie
-	religion=confederalist
+	religion=confederatist
 	martial=4
 	diplomacy=5
 	stewardship=4
@@ -169,7 +173,7 @@
 	dynasty=1787024
 	dna="cmhbegekakd"
 	culture=dixie
-	religion=confederalist
+	religion=confederatist
 	martial=4
 	diplomacy=3
 	stewardship=2
@@ -191,7 +195,7 @@
 	dynasty=1787024
 	dna="fmmbekkkakp"
 	culture=dixie
-	religion=confederalist
+	religion=confederatist
 	martial=3
 	diplomacy=4
 	stewardship=4
@@ -212,7 +216,7 @@
 	dynasty=1787024
 	dna="bmmbndkcakd"
 	culture=dixie
-	religion=confederalist
+	religion=confederatist
 	martial=1
 	diplomacy=3
 	stewardship=4
@@ -232,7 +236,7 @@
 	dynasty=1787024
 	dna="bmmbniacjbp"
 	culture=dixie
-	religion=confederalist
+	religion=confederatist
 	martial=7
 	diplomacy=1
 	stewardship=3
@@ -254,7 +258,7 @@
 	dynasty=1787024
 	dna="fmmeehkkjmd"
 	culture=dixie
-	religion=confederalist
+	religion=confederatist
 	martial=3
 	diplomacy=5
 	stewardship=4

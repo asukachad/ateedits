@@ -176,7 +176,7 @@ decisions = {
 						limit = {
 							OR = { 
 								religion = evangelical
-								religion = confederalist
+								religion = confederatist
 								}
 						}
 						add_trait = vaishya #freeman
@@ -441,7 +441,7 @@ decisions = {
 						limit = {
 							OR = { 
 								religion = evangelical
-								religion = confederalist
+								religion = confederatist
 								}
 						}
 						add_trait = vaishya #freeman
@@ -666,7 +666,7 @@ decisions = {
 						limit = {
 							OR = { 
 								religion = evangelical
-								religion = confederalist
+								religion = confederatist
 								}
 						}
 						add_trait = vaishya #freeman

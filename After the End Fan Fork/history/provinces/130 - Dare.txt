@@ -10,5 +10,5 @@ b_belhaven_NC=city
 
 # Misc
 culture=southron
-religion=confederalist
+religion=confederatist
 terrain=farmlands

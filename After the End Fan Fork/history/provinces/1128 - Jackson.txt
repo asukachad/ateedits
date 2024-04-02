@@ -11,4 +11,4 @@ b_pelahatchie_MS=city
 
 # Misc
 culture=tuskegean
-religion=confederalist
+religion=confederatist

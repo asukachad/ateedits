@@ -1,0 +1,27 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_inaug_by_judge"
+		texturefile = "gfx/traits/inaug_by_judge.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_inaug_by_cjudge"
+		texturefile = "gfx/traits/inaug_by_cjudge.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_inaug_prez"
+		texturefile = "gfx/traits/inaug_prez.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_prepare_inaug_ceremony_prez"
+		texturefile = "gfx/interface/restore_presidency.dds"
+	}	
+}

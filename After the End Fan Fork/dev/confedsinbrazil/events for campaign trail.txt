@@ -1,0 +1,21 @@
+NOT honest or kind: Event where you kill rival to presidency. Chance to kill without a trace, kill with a trace, fail to kill without a trace, or fail to kill with a trace
+
+Event where you have to kiss a baby, chance of disease if you do, general opinion malus if you don't
+
+Slothful or drunkard: Event where you give a speech that you didn't prepare enough for, can do it or not, chance it goes well or goes poorly
+
+Brigands on the road, can beat them up and gain some fame, or get beaten up and lose some fame (opinion malus, loss of prestige)
+
+Pickpocket in the city: can chase him down giving chance at positive outcome or negative one, or move on
+
+Angry letter from wife, wants you to come home, can end your campaign right there and your wife becomes your lover, can tell her to leave you alone giving a -30 opinion, or use high diplo to tell her to leave you alone which gives a slight opinion gain
+
+Lustful: Camp follower, lady follows you, can make her your lover or not
+
+debate an oponent: Outcome depends on diplo, and an intrigue cheat option
+
+duel with opponent: Regular ass duel, should prolly require wroth to initiate
+
+Donater meets with you: Get some gold, should be rare
+
+Get lost on trail: Event chain with animal attacks, highway robbers, peasents that you can seek help from

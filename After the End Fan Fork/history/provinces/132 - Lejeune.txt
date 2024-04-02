@@ -11,4 +11,4 @@ b_half_moon_NC=temple
 
 # Misc
 culture=southron
-religion=confederalist # camp lejeune
+religion=confederatist # camp lejeune

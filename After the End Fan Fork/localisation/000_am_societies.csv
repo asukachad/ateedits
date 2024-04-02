@@ -133,8 +133,8 @@ secret_religious_society_americanist_desc;[GetReligiousSocietyDesc_americanist];
 secret_religious_society_americanist_desc_REAL;Before Old America won its independence from the Redcoats, true patriots were forced to hide their devotion to the Founding Fathers or be sent to the gallows. Those dark days have descended once again, but true Americanist patriots will not be deterred. They will once again rise up and overthrow the tyrannical rule of their oppressors...;;;;;;;;x
 secretly_convert_to_americanist_holy_site;Secretly Convert to Americanist;;;;;;;;;;;;;x
 secretly_convert_to_americanist_holy_site_desc;The §YAmericanist§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
-secretly_convert_to_confederalist_holy_site;Secretly Convert to Confederatist;;;;;;;;;;;;;x
-secretly_convert_to_confederalist_holy_site_desc;The §YConfederatist§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secretly_convert_to_confederatist_holy_site;Secretly Convert to Confederatist;;;;;;;;;;;;;x
+secretly_convert_to_confederatist_holy_site_desc;The §YConfederatist§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
 secret_religious_society_americanist_currency;Devotion;Dévotion;Hingabe;;Devoción;;;;;;;;;x
 secret_religious_society_americanist_rank_1_female;Faithful;Fidèle;Getreue;;Fiel;;;;x
 secret_religious_society_americanist_rank_2_female;Adherent;Adhérente;Anhängerin;;Seguidora;;;;x

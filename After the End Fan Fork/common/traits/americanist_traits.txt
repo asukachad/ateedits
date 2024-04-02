@@ -1,0 +1,35 @@
+inaug_by_judge = {
+	opposites =  {
+		inaug_by_cjudge
+		inaug_prez
+	}
+	
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.1
+	
+	customizer = no
+	random = no
+}
+inaug_by_cjudge = {
+	opposites =  {
+		inaug_by_judge
+		inaug_prez
+	}
+	church_opinion = 5
+	
+	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.25
+	
+	customizer = no
+	random = no
+}
+
+inaug_prez = {
+	church_opinion = 10
+	
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	
+	customizer = no
+	random = no
+}

@@ -487,8 +487,9 @@ aphite_DESC;Originating in the hazy time of the event, Aphites believe and pay r
 aphite_FEATURES;§Y*§! Aphite rulers are highly aggressive. \n§Y*§! Aphite soldiers ignore defensive attrition. \n§Y*§! Aphite characters educated in theology are medically trained.;;;;;;;;;;;;;x
 americanist;Americanist;;;;;;;;;;;;;x
 americanist_DESC;Americanists worship what must have been the true gods of the old world — the statues of Father Washington, Lincoln, Jefferson and others clearly indicates who the ancient Americans worshiped. Those Americans built a great empire, so why not follow their beliefs and restore America to its former glory, gods and all?;;;;;;;;;;;;;x 
-confederalist;Confederatist;;;;;;;;;;;;;x
-confederalist_DESC;Unlike their brothers, Confederatists believe that the initial founders were not patriots at all, but rather tyrants and deceivers. It is the new founders, those of the south that stood against the tyranny of their bretheren, that the Confederatists pledge their allegince to.;;;;;;;;;;;;;x
+confederatist;Confederatist;;;;;;;;;;;;;x
+confederatist_DESC;Unlike their northern brothers, the Confederatists believe that the initial founders were not patriots at all, but rather tyrants and deceivers. It is the new founders, those of the south that stood against the tyranny of their bretheren, that the Confederatists pledge their allegince to. Needless to say, this position has not endeared them to the mainstream Americanist community.;;;;;;;;;;;;;x
+confederatist_FEATURES;§Y*§! Are led by the President, who may be elected from any ruler of their faith above the age of 35. \n§Y*§! May undertake pilgrimages to their holy sites. \n§Y*§! Can syncretize with Christianity by decision.;;;;;;;;;;;;;x
 americanist_FEATURES;§Y*§! Are led by the President, who may be elected from any ruler of their faith above the age of 35. \n§Y*§! May undertake pilgrimages to their holy sites.;;;;;;;;;;;;;x
 hamiltonian;Hamiltonian;;;;;;;;;;;;;x
 hamiltonian_DESC;Hamiltonians differ from mainstream Americanism in that they take their faith in the gods of the Old World to a higher level. Legends outline the gods' abilities and deeds, but Hamiltonians believe the gods had more powers beyond those explicitly stated. They hold, furthermore, that it is within the capabilities of all believers to attain these 'implied powers' for themselves.;;;;;;;;;;;;;x

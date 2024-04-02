@@ -26,15 +26,15 @@ province_event = {
 	option = {
 		name = EVTOPT_heavenlykingdom_ignoredmormons
 
-		religion = confederalist 
+		religion = confederatist 
 		remove_province_modifier = true_cross_unrest
 		add_province_modifier = { name = true_cross_revolt duration = 912 }
 		random_neighbor_province = {
-			religion = confederalist 
+			religion = confederatist 
 		}
 		
 		any_neighbor_province = {
-			limit = { religion = confederalist } 
+			limit = { religion = confederatist } 
 			add_province_modifier = { name = true_cross_revolt duration = 912 }
 		}
 	}

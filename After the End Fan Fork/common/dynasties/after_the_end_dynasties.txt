@@ -7899,7 +7899,7 @@ coat_of_arms = {
 1787020 = { name="Doles" culture=dixie }
 1787021 = { name="Ezzard" culture=dixie }
 1787023 = { name="Clanmoore" culture=dixie }
-1787024 = { name="Garlington" culture=dixie }
+1787024 = { name="Pember" culture=dixie }
 1787025 = { name="Hannon" culture=dixie }
 1787026 = { name="Hicks" culture=dixie }
 1787027 = { name="Hillyer" culture=dixie 
@@ -10271,7 +10271,19 @@ coat_of_arms = {
 1814031 = { name="Guinan" culture=texan }
 1814032 = { name="Kelleher" culture=texan }
 1814033 = { name="Bean" culture=texan }
-1814034 = { name="Stinson" culture=texan }
+1814034 = { name="Stinson" culture=texan 
+	coat_of_arms = {
+		religion = americanist
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 20
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+}}
 1814035 = { name="Murchison" culture=texan }
 1814036 = { name="Ewing" culture=texan }
 1814037 = { name="Southworth" culture=texan }

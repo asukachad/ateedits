@@ -666,7 +666,7 @@ e_grand_virginia = {
 				color={ 200 80 105 }
 				color2={ 220 220 20 }
 				
-				holy_site = confederalist
+				holy_site = confederatist
 
 				b_richmond_VA = {}
 				b_petersburg_VA = {}
@@ -687,7 +687,7 @@ e_grand_virginia = {
 				color={ 170 95 115 }
 				color2={ 220 220 20 }
 				
-				holy_site = confederalist
+				holy_site = confederatist
 
 				b_manassas_VA = {}
 				b_gainesville_VA = {}

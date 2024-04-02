@@ -675,7 +675,7 @@ brahmin = { #planter
 	potential = {
 		OR = {
 					religion = evangelical
-					religion = confederalist
+					religion = confederatist
 					religion = antinomian
 					religion = postadventist
 		}
@@ -699,7 +699,7 @@ kshatriya = { #yeoman
 	potential = {
 		OR = {
 					religion = evangelical
-					religion = confederalist
+					religion = confederatist
 					religion = antinomian
 					religion = postadventist
 		}
@@ -722,7 +722,7 @@ vaishya = { #freeman
 	potential = {
 		OR = {
 					religion = evangelical
-					religion = confederalist
+					religion = confederatist
 					religion = antinomian
 					religion = postadventist
 		}

@@ -10,5 +10,5 @@ b_port_gibson_MS=city
 
 # Misc
 culture=tuskegean
-religion=confederalist #occultist
+religion=confederatist #occultist
 terrain=marsh
