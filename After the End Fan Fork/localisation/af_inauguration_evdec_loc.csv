@@ -162,10 +162,10 @@ EVTDESCBAFI125;I am still thinking about [FromFrom.GetTitledFirstName]'s inaugur
 
 #Modifiers
 uninaug_modifier;Uninaugurated;;;;;;;;;;;;;x
-uninaug_modifier_desc;A [Root.Religion.GetName] ruler who has not been inaugurated by a judge of the faith will never be fully accepted by his vassals as legitimate.\nThe more years he wastes before being inaugurated, the more likely his vassals will be to doubt the validity of his divine right to rule.;;;;;;;;;;;;;x
+uninaug_modifier_desc;A President who has not been inaugurated by a judge of the faith will never be fully accepted by his vassals as legitimate.\nThe more years [From.GetSheHe] wastes before being inaugurated, the more likely his vassals will be to doubt the validity of [From.GetHerHis] divine right to rule.;;;;;;;;;;;;;x
 
 inaug_in_barn;Inaugurated in Seclusion;;;;;;;;;;;;;x
-inaug_in_barn_desc;This ruler was inaugurated in seclusion, without much celebration. While this is a clear sign of lack of wealth and influence, some members of the faith may also consider it a show of humility.;;;;;;;;;;;;;x
+inaug_in_barn_desc;This ruler was inaugurated in seclusion, without much celebration. While this is a clear sign of a lack of wealth and influence, some members of the faith may also consider it a show of humility.;;;;;;;;;;;;;x
 
 inaug_in_war;Battlefield Inauguration;;;;;;;;;;;;;x
 inaug_in_war_desc;After endless procrastination, this ruler was eventually forced to be inaugurated in a hurry at the worst of times, in the middle of a war.;;;;;;;;;;;;;x

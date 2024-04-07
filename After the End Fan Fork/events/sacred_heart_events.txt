@@ -1463,3 +1463,112 @@ narrative_event = {
 		}
 	}
 }
+
+narrative_event = { #integrate criso rey into sacred heart
+	id = sacredheart.205
+	title = TITLE_sacred_heart_cristo_rey
+	desc = EVTDESC_sacred_heart_cristo_rey
+	
+	picture = GFX_evt_china_invades
+	border = GFX_event_narrative_frame_religion	
+
+	only_rulers = yes
+	major = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		primary_title = { holy_order = no }
+		primary_title = { is_landless_type_title = no }
+		mercenary = no
+		primary_title = { higher_tier_than = BARON }	
+	}
+	
+	option = {
+		name = "cristo_rey_incorporation_emperor"
+		trigger = {
+			has_landed_title = e_mexico
+		}
+		set_global_flag = cristeros_absorbed_into_fold
+		any_realm_province = {
+			if = {
+				limit = { 
+					AND = {
+						religion = cristo_rey
+						region = custom_greater_mexico
+					}
+
+				}
+				random = { 
+					chance = 40
+					religion = ROOT
+				}
+
+			}
+		}
+
+		ai_chance = {
+			factor = 1000
+		}
+	}	
+	option = {
+		name = "cristo_rey_incorporation_elsewhere"
+		trigger = {
+			NOT = {	
+				has_landed_title = e_mexico
+				primary_title = { is_landless_type_title = yes }
+				mercenary = yes
+				religion = cristo_rey
+				capital_scope = {
+					region = custom_greater_mexico
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1000
+		}
+	}	
+	option = {
+		name = "cristo_rey_join_california"
+		trigger = {		
+			NOT = { has_landed_title = e_mexico }
+			religion = cristo_rey
+			capital_scope = {
+				region = custom_greater_mexico
+			}
+			NOT = {
+				primary_title = { higher_tier_than = KING }
+			}
+		}
+		religion = sacred_heart
+		add_trait = marian_cristo_rey
+		capital_scope = {
+			religion = sacred_heart
+		}
+		any_courtier = {
+			limit = { is_landed = no }
+			religion = sacred_heart
+			add_trait = marian_cristo_rey
+		}
+		ai_chance = {
+			factor = 10
+		}
+	
+	}	
+	option = {
+		name = "cristo_rey_refuse_mexico"
+		trigger = {
+			NOT = { has_landed_title = e_mexico }
+			religion = cristo_rey
+			capital_scope = {
+				region = custom_greater_mexico
+			}
+
+			NOT = {
+				primary_title = { higher_tier_than = KING }
+			}
+		}
+		ai_chance = {
+			factor = 10		
+		}
+	}	
+}

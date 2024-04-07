@@ -2938,10 +2938,9 @@ set_character_flag=no_diversity
 
 1788300={
 	name="Sylvester"
-	#dynasty= #Lambsbridge
 	culture=gothamite
 	religion=americanist
-	secret_religion= thelema
+	secret_religion=thelema
 	martial=1
 	diplomacy=5
 	stewardship=3
@@ -2950,15 +2949,14 @@ set_character_flag=no_diversity
 	disallow_random_traits=yes
 	trait=intricate_webweaver
 	trait=shrewd
-	trait=headache
 	trait=lunatic
 	trait=envious
 	trait=cynical
 	trait=paranoid
 	trait=lustful
 	2650.1.1={birth=yes}
-	2665.7.5={
+	2660.7.5={
 		employer=1788002
 	}	
-	2666.2.1={death=yes}
+	2680.2.1={death=yes}
 }

@@ -2374,3 +2374,31 @@
 	}
 	2688.8.14={death=yes}
 }
+
+1899163={
+	name="Artoria"
+	female=yes
+	culture=newfie
+	religion=celtic_pagan
+	dna="cccgb0bag00"
+	diplomacy=5
+	martial=8
+	stewardship=5
+	intrigue=3
+	learning=4
+	trait=skilled_tactician
+	trait=fair
+	trait=content
+	trait=strong
+	trait=just
+	trait=chaste
+	trait=shy
+	trait=fian
+	trait=diligent
+	trait=proud
+	2649.5.12={birth=yes}
+	2660.1.1={
+		employer=1899041
+	}
+	2720.4.11={death=yes}
+}

@@ -6468,6 +6468,7 @@ coat_of_arms = {
 1778081 = { name="Wilcox" culture=delawarean used_for_random=no }
 1778082 = { name="Kingmaker" culture=delawarean 
 	coat_of_arms = {
+		religion = americanist
 		template = 0
 		layer = {
 			texture = 8
@@ -16159,6 +16160,7 @@ coat_of_arms = {
 2017138 = { name="Fedoruk" culture=prairielander }
 2017139 = { name="Uhrich" culture=prairielander }
 2017140 = { name="Newlands" culture=prairielander }
+2017141 = { name="Makiri" culture=prairielander }
 
 2018000 = { name="Roberts" culture=liberian }
 2018001 = { name="Benson" culture=liberian }
@@ -16901,7 +16903,19 @@ coat_of_arms = {
 2031017 = { name="Saeed" culture=neomoor }
 2031018 = { name="Shar" culture=neomoor }
 2031019 = { name="Mirza" culture=neomoor }
-2031020 = { name="Jolly" culture=neomoor }
+2031020 = { name="Jolly" culture=neomoor used_for_random = no
+	coat_of_arms = {
+		religion = imamite
+		template = 0
+		layer = {
+			texture = 3
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}}
 2031021 = { name="al-Odin" culture=neomoor }
 2031022 = { name="El" culture=neomoor }
 2031023 = { name="Bey" culture=neomoor }
@@ -18485,6 +18499,110 @@ coat_of_arms = {
 2057105 = { name="Nile" culture=nilelander }
 2057106 = { name="Sa" culture=nilelander }
 2057107 = { name="Ambatukam" culture=nilelander }
+
+#signers of declaration
+2059101 = { name="Adams" culture=american }
+2059102 = { name="Franklin" culture=american }
+2059103 = { name="Hamilton" culture=american }
+2059104 = { name="Jay" culture=american }
+2059105 = { name="Jefferson" culture=american }
+2059106 = { name="Madison" culture=american }
+#2059107 = { name="Washington" culture=american } Maybe a little presumptuous for some random guy to use this name
+2059108 = { name="Quincy Adams" culture=american }
+2059109 = { name="Bartlet" culture=american }
+2059110 = { name="Broom" culture=american }
+2059111 = { name="Butler" culture=american }
+2059112 = { name="Chase" culture=american }
+2059113 = { name="Clark" culture=american }
+2059114 = { name="Clingan" culture=american }
+2059115 = { name="Clymer" culture=american }
+2059116 = { name="Collins" culture=american }
+2059117 = { name="Duane" culture=american }
+2059118 = { name="Duer" culture=american }
+2059119 = { name="Ellery" culture=american }
+2059120 = { name="Few" culture=american }
+2059121 = { name="Floyd" culture=american }
+2059122 = { name="Drayton" culture=american }
+2059123 = { name="Gerry" culture=american }
+2059124 = { name="Gilman" culture=american }
+2059125 = { name="Gwinnet" culture=american }
+2059126 = { name="Hanson" culture=american }
+2059127 = { name="Hart" culture=american }
+2059128 = { name="Harvie" culture=american }
+2059129 = { name="Hewes" culture=american }
+2059130 = { name="Holten" culture=american }
+2059131 = { name="Hopkinson" culture=american }
+2059132 = { name="Ingersoll" culture=american }
+2059133 = { name="Lovell" culture=american }
+2059134 = { name="Lynch" culture=american }
+2059135 = { name="McKean" culture=american }
+2059136 = { name="Marchant" culture=american }
+2059137 = { name="Morris" culture=american }
+2059138 = { name="Paine" culture=american }
+2059139 = { name="Penn" culture=american }
+2059140 = { name="Pinckney" culture=american }
+2059141 = { name="Stockton" culture=american }
+2059142 = { name="Rodney" culture=american }
+2059143 = { name="Rutledge" culture=american }
+2059144 = { name="Taylor" culture=american }
+2059145 = { name="Thornton" culture=american }
+2059146 = { name="Van Dyke" culture=american }
+2059147 = { name="Williams" culture=american }
+2059148 = { name="Witherspoon" culture=american }
+2059149 = { name="Wolcott" culture=american }
+2059150 = { name="Whythe" culture=american }
+
+#presidents and such, ordered from time period so more modern ones, mostly, not really lol
+2059151 = { name="Monroe" culture=american }
+2059152 = { name="Jackson" culture=american }
+2059153 = { name="Van Buren" culture=american }
+2059154 = { name="Harrison" culture=american }
+2059155 = { name="Tyler" culture=american }
+2059156 = { name="Polk" culture=american }
+2059157 = { name="Taylor" culture=american }
+2059158 = { name="Fillmore" culture=american }
+2059159 = { name="Pierce" culture=american }
+2059160 = { name="Buchanan" culture=american }
+2059161 = { name="Grant" culture=american }
+2059162 = { name="Hays" culture=american }
+2059163 = { name="Garfield" culture=american }
+2059164 = { name="Jennings Bryan" culture=american }
+2059165 = { name="Clay" culture=american }
+2059166 = { name="Arthur" culture=american }
+2059167 = { name="Cleveland" culture=american }
+2059168 = { name="McKinly" culture=american }
+2059169 = { name="Taft" culture=american }
+2059170 = { name="Wilson" culture=american }
+2059171 = { name="Harding" culture=american }
+2059172 = { name="Coolidge" culture=american }
+2059173 = { name="Hoover" culture=american }
+2059174 = { name="Eisenhoover" culture=american }
+2059175 = { name="Kennedy" culture=american }
+2059176 = { name="Nixon" culture=american }
+2059177 = { name="Ford" culture=american }
+2059178 = { name="Carter" culture=american }
+2059189 = { name="Reagan" culture=american }
+2059180 = { name="Bush" culture=american }
+2059181 = { name="Hildawg" culture=american }
+2059182 = { name="Dubya" culture=american }
+2059183 = { name="Obamna" culture=american }
+2059184 = { name="Triumph" culture=american }
+2059185 = { name="Jiden" culture=american }
+2059186 = { name="Landon" culture=american }
+2059187 = { name="Dukakis" culture=american }
+2059188 = { name="Burr" culture=american }
+2059189 = { name="Greeley" culture=american }
+2059190 = { name="Thurmond" culture=american }
+2059191 = { name="Rockefeller" culture=american }
+2059192 = { name="Goldwater" culture=american }
+2059193 = { name="Perot" culture=american }
+2059194 = { name="Gore" culture=american }
+2059194 = { name="McClellan" culture=american }
+2059195 = { name="Wallace" culture=american } 
+2059196 = { name="Milhous" culture=american }
+2059196 = { name="Kissinger" culture=american }
+2059197 = { name="Edwards" culture=american }
+
 
 7770000 = {
 	name = "Tarsus"

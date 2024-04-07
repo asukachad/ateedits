@@ -264,6 +264,8 @@ decisions = {
 				religion = nousthreskeia
 				religion = thelema
 				religion = peyotist
+				religion = falling_star
+				religion = xenoclast				
 			}
 		}
 		allow = {
@@ -315,6 +317,8 @@ decisions = {
 							religion = revelationist
 							religion = occultist_reformed
 							religion = occultist
+							religion = falling_star
+							religion = xenoclast							
 							religion = gaian
 							religion = nousthreskeia
 						}
@@ -1427,6 +1431,8 @@ decisions = {
 			NOT = {
 				has_alternate_start_parameter = { key = religion_names value = random }
 			}
+			learning = 10		
+			
 		}
 		allow = {
 			wealth = 100

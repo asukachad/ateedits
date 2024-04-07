@@ -57,6 +57,7 @@ afro_syncretic = {
 		intermarry = santeria
 		intermarry = candomble
 		intermarry = espiritista
+		intermarry = hindu		
 	}
 	voodoo = {
 		graphical_culture = africangfx
@@ -96,6 +97,7 @@ afro_syncretic = {
 		intermarry = espiritista		
 		intermarry = brethren
 		intermarry = furiegi
+		intermarry = hindu		
 	}
 	santeria = {
 		graphical_culture = africangfx
@@ -135,6 +137,7 @@ afro_syncretic = {
 		intermarry = candomble
 		intermarry = espiritista
 		intermarry = furiegi
+		intermarry = hindu		
 	}
 	candomble = { # Bahian religion
 		graphical_culture = africangfx
@@ -1344,7 +1347,7 @@ christian = {
 		heresy_icon = 96
 		
 		color = { 0.7 0.7 0.4 }
-		parent = falling_star
+		
 		
 		high_god_name = GOD_GOD
 		
@@ -1389,8 +1392,9 @@ christian = {
 	wormwoodist = { #offshoot of falling star
 		graphical_culture = westerngfx
 
-		icon = 39
-		heresy_icon = 75
+		icon = 95
+		heresy_icon = 96
+		parent = falling_star
 		
 		color = { 0.8 0.6 0.2 }
 		parent = falling_star
@@ -3507,6 +3511,100 @@ oldworld = {
 		intermarry = misrist
 		
 	}
+	
+	falling_star = {
+		graphical_culture = hellenicgfx
+
+		icon = 39
+		heresy_icon = 75
+		
+		color = { 0.9 0.8 0.3 }
+
+		interface_skin = { atomicist_interface oldworld_interface }
+
+		high_god_name = GOD_THE_PRECURSORS
+		
+		god_names = {
+			GOD_XENU GOD_ASHTAR GOD_THE_PRECURSORS GOD_THE_FALLEN_STAR 
+		}
+		
+		evil_god_names = {
+			THE_HUNGERING_STAR 
+		}
+		
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_call_crusade = yes
+		ignores_defensive_attrition = yes
+		priests_can_inherit = yes
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+
+		features = {
+			religion_astrology
+		}
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+
+		crusade_name = OUTER_INVASION
+		scripture_name = THE_CLASSIFIED_DOCUMENTS
+		priest_title = XENOLOGIST
+		
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = xenoclast
+	}
+	
+	xenoclast = { #offshoot of falling star
+		graphical_culture = hellenicgfx
+
+		icon = 39
+		heresy_icon = 75
+		
+		color = { 0.8 0.6 0.2 }
+		parent = falling_star
+
+		interface_skin = { atomicist_interface oldworld_interface }
+		
+		high_god_name = GOD_THE_PRECURSORS
+		
+		god_names = {
+			GOD_GOD GOD_THE_PRECURSORS
+		}
+		
+		evil_god_names = {
+			GOD_ASHTAR GOD_XENU GOD_THE_FALLEN_STAR
+		}
+		
+		priests_can_marry = yes
+		priests_can_inherit = yes
+		allow_rivermovement = yes
+		ignores_defensive_attrition = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		
+		religious_clothing_head = 14
+		religious_clothing_priest = 14
+
+		crusade_name = OUTER_INVASION
+		scripture_name = THE_CLASSIFIED_DOCUMENTS
+		priest_title = ASTRONOMER
+		
+		intermarry = americanist
+		intermarry = hamiltonian
+		intermarry = jeffersonian
+		intermarry = libertarian
+		intermarry = atomicist
+		intermarry = aphite
+		intermarry = falling_star
+	}
+	
 }
 
 pagan_group = {
@@ -4517,6 +4615,9 @@ indian_group = {
 		
 		intermarry = espiritista
 		intermarry = candomble
+		intermarry = rastafarian
+		intermarry = voodoo
+		intermarry = santeria		
 	}
 }
 

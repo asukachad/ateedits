@@ -15,6 +15,7 @@
 	2620.3.7={birth=yes}
 	2656.5.4={
 		trait=president
+		trait=inaug_prez
 		give_nickname=nick_lastname
 		effect={set_character_flag=current_president}
 	}

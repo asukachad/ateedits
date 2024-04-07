@@ -699,6 +699,7 @@
 	trait=trusting 
 	trait=arbitrary 
 	trait=diligent
+	trait=kind
 	disallow_random_traits=yes
 	culture=plautdietsch
 	religion=atomicist
@@ -709,12 +710,13 @@
 	2680.3.24={death=yes}
 }
 2200055={
-	name="Kerry" #why not, his wifey is already here
+	name="Kerry" 
+	dna="bgajd0kc000"
 	female=no
 	martial=8
 	diplomacy=3
  	stewardship=2
-	intrigue=12
+	intrigue=8
 	learning=3
 	trait=skilled_tactician
 	trait=shrewd
@@ -724,14 +726,81 @@
 	trait=cynical
 	trait=stubborn
 	trait=paranoid
+	trait=patient
+	#trait=stupid_af
 	disallow_random_traits=yes
 	culture=chino
 	religion=atomicist
 	secret_religion="batenburger"
 	2625.12.15={birth=yes}
+	2635.1.1={effect={add_artifact=ate_firearm}}	
 	2665.1.1={ employer=2200051 }
-	2665.1.1={effect={add_lover=2200054}}
-	2665.3.1={add_matrilineal_spouse=2200054}
+	2640.1.1={effect={add_lover=2200054}}
+	2642.3.1={add_matrilineal_spouse=2200054}
+	2642.3.1={effect={add_rival=2200051}}
+	2642.3.1={effect={add_rival=2200053}}
+	2680.3.24={death=yes}
+}
+
+2200056={
+	name="Illiasvel"
+	dna="bgdhd0fchf0"
+	dynasty=2029091	
+	father=2200055
+	mother=2200054	
+	female=yes
+	martial=4
+	diplomacy=5
+ 	stewardship=2
+	intrigue=6
+	learning=2
+	trait=flamboyant_schemer
+	trait=deceitful 
+	trait=ambitious
+	trait=fair
+	trait=cynical
+	trait=paranoid
+	trait=wroth
+	trait=proud
+	#trait=sexy_af
+	disallow_random_traits=yes
+	culture=plautdietsch
+	religion=atomicist
+	secret_religion="batenburger"
+	2645.12.15={birth=yes}
+	2660.1.1={ employer=2200051 }
+	2660.1.1={effect={add_friend=2200057}}
+	2690.3.24={death=yes}
+}
+
+2200057={
+	name="Sherro" 
+	dna="bgghb0fca00"	
+	father=2200055	
+	female=no
+	martial=6
+	diplomacy=3
+ 	stewardship=2
+	intrigue=2
+	learning=3
+	trait=tough_soldier
+	trait=adopted_child
+	trait=trusting 
+	trait=diligent
+	trait=stubborn
+	trait=strong
+	trait=honest
+	trait=brave
+	trait=humble
+	trait=kind
+	#trait=lunatic
+	disallow_random_traits=yes
+	culture=chino
+	religion=atomicist
+	secret_religion="anabaptist"
+	2640.12.15={birth=yes}
+	2660.1.1={ employer=2200051 }
+	2660.1.1={effect={add_friend=2200056}}
 	2680.3.24={death=yes}
 }
 2200041={
@@ -1216,7 +1285,6 @@
 	trait=ambitious
 	trait=shrewd
 	2210.1.22={birth=yes}
-	2226.1.22={add_spouse=1384034}
 	2280.11.21={death=yes}
 }
 
@@ -1229,7 +1297,6 @@
 	trait=diligent
 	trait=hafiz
 	father=1384035
-	mother=1384034
 	2240.1.22={birth=yes}
 	2300.11.2={death=yes}
 }
@@ -1361,7 +1428,6 @@
 	trait=honest
 	trait=zealous
 	2130.6.1={birth=yes}
-	2149.1.1={add_spouse=1384048}
 	2182.5.12={death=yes}
 }
 
@@ -1378,7 +1444,6 @@
 	trait=trusting
 	trait=kind
 	father=1384049
-	mother=1384048
 	2152.4.16={birth=yes}
 	2190.8.5={death={
 		death_reason=death_murder_poison
@@ -1400,7 +1465,6 @@
 	trait=temperate
 	trait=familial_kinslayer
 	father=1384049
-	mother=1384048
 	2154.2.9={birth=yes}
 	2190.8.10={death={
 		death_reason=death_duel
@@ -1423,7 +1487,6 @@
 	trait=familial_kinslayer
 	trait=wounded
 	father=1384049
-	mother=1384048
 	2160.2.9={birth=yes}
 	2190.8.23={death={
 		death_reason=death_trait
@@ -1447,7 +1510,6 @@
 	trait=honest
 	trait=ansari
 	father=1384049
-	mother=1384048
 	2162.4.16={birth=yes}
 	2222.3.24={death=yes}
 }
@@ -1982,7 +2044,6 @@
 	father=1910101
 	give_nickname=nick_the_unlucky
 	2437.7.2={birth=yes}
-	2485.6.21={add_spouse=2500098}
 	2490.2.14={death={
 			death_reason=death_execution
 			killer=2500100
@@ -2025,7 +2086,6 @@
 	trait=mystic
 	trait=twin
 	father=2500099
-	mother=2500098
 	2487.7.2={birth=yes
 		culture=valleyan
 	}
@@ -2058,7 +2118,6 @@
 	trait=twin
 	trait=strong
 	father=2500099
-	mother=2500098
 	give_nickname=nick_the_exiled
 	2487.7.2={birth=yes
 		culture=valleyan

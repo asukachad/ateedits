@@ -483,3 +483,7 @@ EVTDESCLoR40_HELLENIC;Even after the restoration of the Empire many years ago, m
 EVTDESCMXR40_GENERIC;EVTDESCMXR.40;Even after the restoration of the Empire many years ago, many still failed to believe that the Ancient Empire of México City had enough power to fully restore the borders they used to have before the Event, those who had doubted have been silenced for good. \n[Root.GetTitledFirstName] has succeeded where even Benemérito Julián de Jesús Jacaranda and all the other Beneméritos of the Jacaranda Dynasty had failed, [Root.GetSubjectPronounCap] has absorbed all realms within Old México back into the fold and brought to the land a new era of Union, Religion and Independence. \nLet us hope the eagle doesn’t not venture into our vicinity.;;;;;;;;;;;;;x
 EVTOPTAMXR.40;A new epoch is beginning;;;;;;;;;;;;;x
 
+decision_incorporate_cristo_rey;End the Mexican Schism;;;;;;;;;;;;;x
+decision_incorporate_cristo_rey_desc;Now that Mexico has been reunited, and we control the heartland of Cristo Rey, we may finally bring our wayword brothers back into the fold.;;;;;;;;;;;;;x
+
+TITLE_sacred_heart_cristo_rey;The Mexican Schism has Ended;;;;;;;;;;;;;x

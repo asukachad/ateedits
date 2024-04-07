@@ -81,7 +81,7 @@ province_event = {
 character_event = {
 	id = misrist_pilgrims.2
 	desc = EVTDESC_misrist_pilgrims.2
-	picture = GFX_evt_throne_room
+	picture = GFX_jasmine_5
 	border = GFX_event_normal_frame_diplomacy
 	is_triggered_only = yes
 	
@@ -139,9 +139,9 @@ character_event = {
 
 province_event = {
 	id = misrist_pilgrims.3 #pilgrim province starts thriving
-	title = EVTTITLE_misrist_pilgrims.3title = EVTTITLE_misrist_pilgrims.3
+	title = EVTTITLE_misrist_pilgrims.3title
 	desc = EVTDESC_misrist_pilgrims.3
-	picture = GFX_evt_throne_room
+	picture = GFX_jasmine_5
 	border = GFX_event_normal_frame_diplomacy
 
 	trigger = {
@@ -172,7 +172,7 @@ province_event = { #pilgrim province flips to misrist
 	id = misrist_pilgrims.4
 	title = EVTTITLE_misrist_pilgrims.4
 	desc = EVTDESC_misrist_pilgrims.4
-	picture = GFX_evt_throne_room
+	picture = jasmine_1
 	border = GFX_event_normal_frame_diplomacy
 
 	trigger = {
@@ -491,7 +491,7 @@ province_event = { #violence against misrists
 	id = misrist_pilgrims.7
 	title = EVTTITLE_misrist_pilgrims.7	
 	desc = EVTDESC_misrist_pilgrims.7
-	picture = GFX_evt_throne_room
+	picture = GFX_orientalist_victory
 	border = GFX_event_normal_frame_diplomacy
 
 	trigger = {
@@ -585,7 +585,7 @@ province_event = { #After becoming a misrist king pilgrims stop flocking to one 
 province_event = { #successor gets to decide what to do with pilgrims
 	id = misrist_pilgrims.9
 	desc = EVTDESC_misrist_pilgrims.9
-	picture = GFX_evt_throne_room
+	picture = GFX_jasmine_5
 	border = GFX_event_normal_frame_diplomacy
 	
 	trigger = {
@@ -629,8 +629,7 @@ province_event = { #successor gets to decide what to do with pilgrims
 				clr_province_flag = thriving_misrist_pilgrims				
 				add_province_modifier = { name = banned_misrist_pilgrims years = 3 }
 				set_province_flag = banned_misrist_pilgrims
-		}
-		
+				
 		custom_tooltip = { text = TXT_EVTOPTC_misrist_pilgrims.9 }
 		
 		ai_chance = {

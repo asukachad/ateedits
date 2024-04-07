@@ -819,10 +819,6 @@ spriteTypes = {
 		noOfFrames = 6
 		allwaystransparent = yes
 	}
-	spriteType = {
-		name = "GFX_icon_open_range_feudalism_government"
-		texturefile = "gfx\\interface\\government_icon_orf.dds"
-	}
 	
 	### BRAZILIAN VANITY GOVERNMENT
 	
