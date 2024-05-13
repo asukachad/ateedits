@@ -4,11 +4,12 @@ title=c_roswell
 # Settlements
 max_settlements=3
 b_roswell_NM=tribal
+b_vaughn_NM=temple
 
 
 # Misc
 culture=arixan
-religion=atomicist
+religion=falling_star
 terrain=steppe
 
 

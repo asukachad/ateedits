@@ -1647,6 +1647,8 @@ e_cascadia = {
 			c_rainier = { # LOCALIZE EVERYTHING HERE FULLY NEW COUNTY
 				color = { 20 20 255 }
 				color2 = { 0 0 100 }
+				holy_site = falling_star
+				holy_site = xenoclast
 	
 				b_centralia_WA = {}
 				b_onalaska_WA = {}
@@ -1691,16 +1693,12 @@ e_cascadia = {
 				haida = "K'iida"	#store up
 				ktunaxa = "Siyatl"
 				neomoor = "Morocco"
-				nilelander = "Morocco"
-				afrikan = "Morocco"				
 
 				holy_site = nousthreskeia #Lenin statue
 				holy_site = orthodox 
 				b_seattle_WA = {
 					ktunaxa = "Siyatl"
 					neomoor = "Morocco"
-					nilelander = "Morocco"
-					afrikan = "Morocco"						
 
 				}
 				b_bellevue_WA = {}

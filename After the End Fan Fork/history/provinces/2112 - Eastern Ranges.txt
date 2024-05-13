@@ -5,9 +5,10 @@ title=c_eastern_ranges
 max_settlements=2
 
 b_pioche_NV=tribal
+b_rachel_NV=temple
 
 # Misc
 culture=battleborn
-religion=atomicist
+religion=falling_star
 
 #History

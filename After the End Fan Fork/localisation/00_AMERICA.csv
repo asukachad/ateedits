@@ -570,7 +570,7 @@ espiritista;Tres Potencias;;;;;;;;;;;;;x
 espiritista_DESC;Tres Potencias, or "Three Powers", is a syncretic religion native to Venezuela. Followers of Tres Potencias believe that good and evil spirits inhabit our world, with the powers to affect health, luck, and other aspects of human life. There is a Supreme God, but under him are the "Three Powers" for which the religion is named. They are mortals who have ascended to the level of deities: María Lionza, Negro Felipe, and Guaicaipuro. Beneath the Three Powers are the spirits, powerful mortals who continue to influence the world long after their deaths. These spirits are organized into several "courts", and believers can petition these courts for aid through prayer.;;;;;;;;;;;;;x
 espiritista_FEATURES;§Y*§! Espiritista rulers may sacrifice animals to María Lionza.;;;;;;;;;;;;;x
 falling_star;Falling Star;;;;;;;;;;;;;x
-falling_star_DESC;Sometime either during or just after the Apocalypse, the Church of the Falling Star believes a star fell from the heavens and onto Earth. This star was a fallen Angel who had sacrificed themselves to save mankind from God's wrath, explaining humanity's survival. Practitioners of the Falling Star faith are generally viewed with suspicion by those with more traditional Christian beliefs, as the concept of Fallen Angels is generally thought of as evil and associated with Satan. However, the Falling Star faithful insist their angel has little in common with the fallen Angel Lucifer, and that their angel's compassion reawakened God's mercy in a moment of anger. Thus, members of the Fallen Star still fall under the Christian banner, albeit with a theology that features great devotion to their fallen 'star'.;;;;;;;;;;;;;x
+falling_star_DESC;Originating in the times before the event, adherents to the Falling Star reject the notion that humanity was created by Gods, the Founders, or Atomos, instead maintaining that humanity’s origin lies with powerful beings from the cosmos. According to adherents, these “Precursors” planted humanity on Earth and guided human civilization from the shadows for millenia, only ever directly interacting with humans through coded messages in crop circles or falling stars. It was because humanity was too foolish to see their messages that the Precursors struck down civilization, and have left it to its own devices ever since. True believers hope for their return, and insist that one can see signs that the Precursors are still watching, even if they no longer guide humanity;;;;;;;;;;;;;x
 american_native;American Native;;;;;;;;;;;;;x
 midewiwin;Midewiwin;;;;;;;;;;;;;x
 midewiwin_DESC;Midewiwin, or the "Spiritual Mystery", is the traditional religion of many Native American groups in the Great Lakes area and beyond. Followers of Midewiwin believe that the Event, or the "seventh fire", marked the start of a new era for Native Americans across North America, a time for reclamation of both land and spirituality. The center of Midewiwin practice is the "medicine lodge", where specially-initiated priests conduct rites of ceremony and passage for their people.;;;;;;;;;;;;;x
@@ -631,8 +631,6 @@ apostolic_DESC;The "Igreja Apostólica", or "Apostolic Church", split from mainst
 apostolic_FEATURES;§Y*§! Adherents can become followers of one of three specific saint-patrons.;;;;;;;;;;;;x
 celeste;Celeste;;;;;;;;;;;;x
 celeste_DESC;Far from the yoke of São Paulo, the gaúchos of the pampas have drifted away from the rigid dogma of the Empire. Emergent messianic practices are preached by mystical monks who claim to be reincarnations of previous figures, chief among them the "Christ-Woman" Jacobina. These mystical practices, combined with their egalitarianism and rejection of the material world has made them be seen as heretics by most Apostolics.;;;;;;;;;;;;x
-moravian;Moravian;;;;;;;;;;;;x
-moravian_DESC;Moravianism is one of the oldest branches of Protestant Christianity, and followers of the Church are noted for their intense dedication to missionary work. Following the Event, traditional Moravianism was subsumed beneath the newly-formed Cult of the Falling Star, although pockets of "old believers" still persist throughout the Americas.;;;;;;;;;;;;x
 wormwoodist;Wormwoodist;;;;;;;;;;;;x
 wormwoodist_DESC;The Wormwoodist faith emerged at around the same time as Falling Star did. Wormwoodists view the Falling Star not as a noble angel who sacrificed themselves to save humanity from God's wrath, but as an evil force whose violent arrival on Earth heralded the Event. For obvious reasons, Wormwoodists and Falling Star followers have had notoriously poor relations for their entire history.;;;;;;;;;;;;x
 edenite;Edenite;;;;;;;;;;;;x
@@ -2011,7 +2009,7 @@ quarantined_holy_site_aphite;Place of Dishonor Quarantined;;;;;;;;;;;;;x
 destroyed_quarantine;Holy Site Liberated;;;;;;;;;;;;;x
 destroyed_quarantine_aphite;Quarantine Broken;;;;;;;;;;;;;x
 ma_evangelical_fix;Evangelical Restoration;;;;;;;;;x
-
+GOD_THE_LORDS;The Lords;;;;;;;;;x
 coastal_republic_cooldown;Coastal Republic Cooldown;;;;;;;;;;;;;x
 small_loan;Small Loan;;;;;;;;;;;;;x
 medium_loan;Medium Loan;;;;;;;;;;;;;x

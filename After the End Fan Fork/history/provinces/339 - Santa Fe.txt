@@ -10,5 +10,5 @@ b_espanola_NM=temple
 
 # Misc
 culture=neomexicano
-religion=atomicist
+religion=falling_star
 terrain=hills

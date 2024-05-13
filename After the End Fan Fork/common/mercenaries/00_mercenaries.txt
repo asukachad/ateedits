@@ -1099,6 +1099,13 @@ d_lord_of_the_ringlings_composition = { #Here come the clowns!
 	light_infantry = 1000
 }
 
+d_foo_fighters_composition = {
+	levy_size = 2
+	light_infantry = 500
+	heavy_infantry = 300
+	archers = 500
+}
+
 texas_royal_guard_composition = {
 	levy_size = 1
 	cowboys = 600

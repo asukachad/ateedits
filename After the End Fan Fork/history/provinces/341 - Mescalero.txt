@@ -9,5 +9,5 @@ b_mescalero_NM=tribal
 
 # Misc
 culture=arixan
-religion=atomicist
+religion=falling_star
 terrain=steppe

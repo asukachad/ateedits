@@ -12,6 +12,6 @@ b_golfito_CSR=city
 
 # Misc
 culture=istmeno
-religion=falling_star
+religion=penitente
 
 #History

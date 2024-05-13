@@ -12,6 +12,6 @@ b_acoyapa_NIC=city
 
 # Misc
 culture=nicoyano
-religion=falling_star
+religion=moravian
 
 #History

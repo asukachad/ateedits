@@ -524,7 +524,7 @@ d_order_of_brotherhood = {
 	holy_order = yes
 	
 	# Parent Religion
-	religion = falling_star
+	religion = moravian
 	
 	culture = miskito
 	
@@ -1432,4 +1432,29 @@ d_first_cav_royal_guard = {
 	strength_growth_per_century = 1.00
 	
 	mercenary_type = texas_royal_guard_composition
+}
+
+d_foo_fighters = {
+
+	color = { 242 5 203 }
+	color2= { 255 255 255 }
+
+	capital = 1728 # Roswell
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+
+	landless = yes
+
+	holy_order = yes
+
+	religion = falling_star
+
+	culture = neomexicano
+
+	primary = yes
+
+	monthly_income = 1
+
+	mercenary_type = d_foo_fighters_composition
 }

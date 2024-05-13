@@ -637,7 +637,7 @@
 	name="Bint"
 	dynasty=1402051
 	culture=arixan
-	religion=atomicist
+	religion=falling_star
 	trait=shrewd
 	trait=lunatic
 	2625.1.1={birth=yes}

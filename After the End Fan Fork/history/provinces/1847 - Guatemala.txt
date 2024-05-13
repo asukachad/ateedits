@@ -13,6 +13,6 @@ b_amatitlan_GT=castle
 
 # Misc
 culture=trifinio
-religion=falling_star
+religion=penitente
 
 #History

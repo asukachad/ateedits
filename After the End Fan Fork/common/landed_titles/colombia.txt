@@ -230,9 +230,9 @@ e_colombia = {
 			c_panama = { # 1889
 				color={ 67 185 206 }
 				color2={ 255 255 255 }
-				holy_site = falling_star
 				holy_site = apostolic
 				holy_site = patria_grande
+				holy_site = moravian
 	
 				b_panama_PAN = {}
 				b_arraijan_PAN = {}

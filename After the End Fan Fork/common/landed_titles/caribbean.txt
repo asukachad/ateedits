@@ -10,9 +10,6 @@ e_caribbean = {
 	anglish = "West Indian Empire"
 	northumbrian = "West Indian Empire"
 	scottish = "West Indian Empire"
-	neomoor = "Empire of Al-Carib"
-	nilelander = "Empire of Al-Carib"
-	afrikan = "Empire of Al-Carib"	
 	
 	k_grand_trinidad = {
 		color= { 106 140 80 }
@@ -43,8 +40,6 @@ e_caribbean = {
 		color2={ 220 220 0 }
 
 		neomoor = "Baherayn"
-		nilelander = "Baherayn"
-		afrikan = "Baherayn"		
 		
 		capital = 1100 # Havana
 
@@ -332,10 +327,6 @@ e_caribbean = {
 		
 		#Crusade target weights
 		orientalist = 200
-		
-		neomoor = "Socotra"
-		nilelander = "Socotra"
-		afrikan = "Socotra"		
 
 		
 		d_jamaica = {
@@ -343,10 +334,6 @@ e_caribbean = {
 			color2 = { 220 220 0 }
 
 			capital = 1174 # Surrey (Kingston)
-			
-			neomoor = "Socotra"
-			nilelander = "Socotra"
-			afrikan = "Socotra"			
 
 			c_cornwall = {
 				color = { 50 155 78 }
@@ -664,7 +651,7 @@ e_caribbean = {
 
 			c_virgin_islands = {
 				color = { 205 103 0 }
-				holy_site = falling_star
+				holy_site = moravian
 
 				b_charlotte_amalie_VI = {}
 				b_jost_van_dyke_VI = {}
@@ -775,17 +762,10 @@ e_caribbean = {
 		cubano = "La Española"
 		haitian = "Ayiti"
 		venteux = "Ayiti"
-		neomoor = "Alsuwmalia"
-		nilelander = "Alsuwmalia"
-		afrikan = "Alsuwmalia"			
 		
 		d_haiti = {
 			capital = 1187 # Port-au-Prince
 			color = { 10 50 140 }
-
-			neomoor = "Alsuwmalia"
-			nilelander = "Alsuwmalia"
-			afrikan = "Alsuwmalia"	
 
 			c_port_au_prince = {
 				color = { 10 0 140 }
@@ -800,9 +780,6 @@ e_caribbean = {
 				boricua = "Puerto Principe"
 				haitian = "Pòtoprens"
 				venteux = "Pòtoprens"
-				neomoor = "Mogadishu"
-				nilelander = "Mogadishu"
-				afrikan = "Mogadishu"	
 	
 				holy_site = voodoo
 	

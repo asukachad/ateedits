@@ -13,7 +13,7 @@ b_choloma_HN=city
 
 # Misc
 culture=filastino
-religion=falling_star
+religion=moravian
 
 #History
 2632.9.19 ={ capital=b_omoa_HN }

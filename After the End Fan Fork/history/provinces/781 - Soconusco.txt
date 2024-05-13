@@ -11,7 +11,7 @@ b_escuintla_CP=city
 
 # Misc
 culture=trifinio
-religion=falling_star
+religion=purificador
 terrain=plains
 
 #History

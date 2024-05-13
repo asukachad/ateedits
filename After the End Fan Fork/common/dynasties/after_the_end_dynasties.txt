@@ -10315,7 +10315,19 @@ coat_of_arms = {
 			color = 0
 		}
 }}
-1814043 = { name="Grey" culture=texan }
+1814043 = { name="Grey" culture=texan 
+	coat_of_arms = {
+		religion = atomicist
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 5
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+}}
 1814044 = { name="Fountain" culture=texan }
 1814045 = { name="Bullock" culture=texan }
 1814046 = { name="Greer" culture=texan }

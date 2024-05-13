@@ -12,6 +12,6 @@ b_siquirres_CSR=city
 
 # Misc
 culture=mekatelyu
-religion=falling_star
+religion=moravian
 
 #History

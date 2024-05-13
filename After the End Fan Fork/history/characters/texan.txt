@@ -674,12 +674,24 @@
 1836042={
 	name="Allen"
 	dynasty=1814043
+	martial=6
+	diplomacy=2
+	stewardship=4
+	intrigue=6
 	learning=8
 	culture=arixan
-	religion=atomicist
+	religion=falling_star
+	disallow_random_traits=yes
 	trait=elusive_shadow
-	trait=atom_bless
+	trait=scholar
+	trait=brave	
+	trait=zealous	
+	trait=holy_warrior	
+	trait=heresiarch	
+	trait=diligent
 	2647.7.8={birth=yes}
+	2665.1.1={effect={add_rival=1836060}}
+	2665.1.1={effect={add_friend=1836055}}	
 	2700.1.1={death=yes}
 }
 
@@ -965,15 +977,16 @@
 	name="Alberto"
 	dynasty=1612019
 	culture=neomexicano
-	religion=atomicist
-	trait=atom_bless
+	religion=falling_star
 	trait=charitable
+	trait=atom_bless
 	trait=gregarious
 	trait=musician
 	trait=lunatic
 	2605.1.6={birth=yes}
 	2612.2.6={give_nickname=nick_the_weird}
 	2629.1.1={add_spouse=1836056}
+	2665.1.1={effect={add_friend=1836042}}	
 	2666.1.1={add_claim=c_raton}
 	2677.7.1={death=yes}
 }
@@ -983,8 +996,8 @@
 	female=yes
 	culture=neomexicano
 	religion=atomicist
-	trait=atom_bless
 	trait=quick
+	trait=atom_bless	
 	2608.1.1={birth=yes}
 	2677.7.1={death=yes}
 }
@@ -1010,6 +1023,7 @@
 	trait=arbitrary
 	trait=cynical
 	2613.4.7={birth=yes}
+	2665.1.1={effect={add_rival=1836042}}		
 	2643.10.26={add_spouse=1810203}
 	
 }
@@ -1865,8 +1879,7 @@
 	father=1836055
 	mother=1836056
 	culture=neomexicano
-	religion=atomicist
-	trait=atom_bless
+	religion=falling_star
 	trait=quick
 	trait=legit_bastard
 	2624.4.12={birth=yes}

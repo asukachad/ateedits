@@ -11,5 +11,5 @@ b_puero_san_jose_GT=city
 
 # Misc
 culture=trifinio
-religion=falling_star
+religion=purificador
 terrain=plains

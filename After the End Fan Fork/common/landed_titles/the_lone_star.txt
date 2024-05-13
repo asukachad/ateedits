@@ -414,6 +414,8 @@ e_lone_star = {
 				texan = "Houston"
 				
 				holy_site = confederatist
+				holy_site = falling_star
+				holy_site = xenoclast
 	
 	
 	
@@ -1126,6 +1128,8 @@ e_lone_star = {
 			c_lubbock = {
 				color = { 189 55 36 }
 				color2= { 255 255 255 }
+				holy_site = falling_star
+				holy_site = xenoclast
 
 				texan = "Hubtex"
 				b_lubbock_TX = {}
@@ -1419,7 +1423,9 @@ e_lone_star = {
 			c_roswell = {
 				color = { 101 54 24 }
 				color2= { 255 255 255 }
-	
+				holy_site = falling_star
+				holy_site = xenoclast
+				
 				b_roswell_NM = {}
 				b_fort_sumner_NM = {}
 				b_elida_NM = {}

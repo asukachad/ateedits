@@ -76,6 +76,7 @@ e_california = {
 	
 				paiute = "Tiwana"
 	
+				holy_site = navegante
 	
 				b_la_joya_BAJ = {}
 				b_tijuana_BAJ = {}
@@ -99,6 +100,7 @@ e_california = {
 				color={ 255 202 0 }
 				color2={ 255 255 255 }
 	
+				holy_site = navegante
 	
 				b_la_paz_BAJ = {}
 				b_el_pescadero_BAJ = {}
@@ -1154,6 +1156,8 @@ e_california = {
 			c_eastern_ranges = {
 				color = { 212 201 125 }
 				color2= { 255 255 255 }
+				holy_site = falling_star
+				holy_site = xenoclast
 
 				b_pioche_NV = {}
 				b_crystal_springs_NV = {}
@@ -1538,7 +1542,6 @@ e_california = {
 				holy_site = atomicist
 				holy_site = aphite
 				holy_site = consumerist
-				holy_site = misrist				
 	
 				paiute = "Begaas"
 	

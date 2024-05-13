@@ -9,4 +9,4 @@ b_tucumcari_NM=tribal
 
 # Misc
 culture=neomexicano
-religion=atomicist
+religion=falling_star

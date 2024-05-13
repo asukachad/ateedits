@@ -13,6 +13,5 @@ b_chinandega_NI=city
 
 # Misc
 culture=nicoyano
-religion=falling_star
-
+religion=purificador
 #History

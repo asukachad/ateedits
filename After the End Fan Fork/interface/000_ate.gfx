@@ -5487,4 +5487,16 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_celebrate_ufo_day"
+		texturefile = "gfx\\interface\\celebrate_ufo_day.dds"
+	}
+	spriteType = {
+		name = "GFX_alien_pilgrimage"
+		texturefile = "gfx\\interface\\alien_pilgrimage.dds"
+	}
+	spriteType = {
+		name = "GFX_cosmic_astral_projection"
+		texturefile = "gfx\\interface\\cosmic_astral_projection.dds"
+	}	
 }
